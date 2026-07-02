@@ -24,13 +24,19 @@ Final output kept:
 outputs/theredditstuff_mvp.mp4
 ```
 
-## Reddit API
+## Real Reddit Usernames
 
-Optional free credentials:
+For real post/comment usernames, use free Reddit API credentials:
 
 ```bash
 export REDDIT_CLIENT_ID="..."
 export REDDIT_CLIENT_SECRET="..."
 ```
 
-Without those, it uses sample content.
+Without those, the script tries public Reddit JSON. If Reddit blocks it, it uses sample content.
+
+Custom source pool:
+
+```bash
+SUBREDDITS=AskReddit,hypotheticalsituation,WouldYouRather ./scripts/render.sh
+```

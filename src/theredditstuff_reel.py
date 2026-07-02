@@ -42,22 +42,22 @@ SAMPLE_POST = {
     "body": "",
     "comments": [
         {
-            "author": "user_1",
+            "author": "speakerphone_truth",
             "score": 21400,
             "body": "Putting someone on speakerphone without telling the other people in the room. It instantly changes the whole conversation.",
         },
         {
-            "author": "user_2",
+            "author": "early_is_rude",
             "score": 18900,
             "body": "Showing up way too early to someone's house. Five minutes is fine. Thirty minutes early is just a surprise inspection.",
         },
         {
-            "author": "user_3",
+            "author": "dont_ask_that",
             "score": 15100,
             "body": "Asking couples when they are having kids. People treat it like small talk, but it can be a really loaded question.",
         },
         {
-            "author": "user_4",
+            "author": "public_not_content",
             "score": 12700,
             "body": "Recording strangers in public for content. Everyone acts like it is normal now, but most people did not agree to be part of your video.",
         },
@@ -80,6 +80,18 @@ def reddit_request(path, token):
         headers={
             "Authorization": f"Bearer {token}",
             "User-Agent": "reddit-reel-mvp/0.1 by local-codex",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=20) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def reddit_public_request(url):
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 theredditstuff/0.1",
+            "Accept": "application/json",
         },
     )
     with urllib.request.urlopen(req, timeout=20) as response:
@@ -115,7 +127,12 @@ def subreddit_pool():
 
 def fetch_subreddit_candidates(token, subreddit):
     try:
-        listing = reddit_request(f"/r/{subreddit}/top?t=day&limit=20", token)
+        if token:
+            listing = reddit_request(f"/r/{subreddit}/top?t=day&limit=20", token)
+        else:
+            listing = reddit_public_request(
+                f"https://www.reddit.com/r/{subreddit}/top.json?t=day&limit=20&raw_json=1"
+            )
     except Exception as exc:
         print(f"Skipping r/{subreddit}: {exc}")
         return []
@@ -133,8 +150,6 @@ def fetch_subreddit_candidates(token, subreddit):
 
 def fetch_reddit_post():
     token = reddit_token()
-    if not token:
-        return SAMPLE_POST
 
     candidates = []
     for subreddit in subreddit_pool():
@@ -144,7 +159,17 @@ def fetch_reddit_post():
 
     picked = max(candidates, key=shareable_score)
 
-    comments_data = reddit_request(f"/comments/{picked['id']}?limit=40&sort=top", token)
+    try:
+        if token:
+            comments_data = reddit_request(f"/comments/{picked['id']}?limit=40&sort=top", token)
+        else:
+            comments_data = reddit_public_request(
+                f"https://www.reddit.com/comments/{picked['id']}.json?limit=40&sort=top&raw_json=1"
+            )
+    except Exception as exc:
+        print(f"Falling back to sample comments: {exc}")
+        comments_data = [None, {"data": {"children": []}}]
+
     comments = []
     for child in comments_data[1]["data"]["children"]:
         if child.get("kind") != "t1":
