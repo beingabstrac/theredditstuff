@@ -260,25 +260,6 @@ def draw_upvote_icon(draw, x, y, size, color):
     draw.line(xy + [xy[0]], fill=color, width=max(2, int(size * 0.12)), joint="curve")
 
 
-def draw_downvote_icon(draw, x, y, size, color):
-    scale = size / 20
-    points = [
-        (10, 17.8),
-        (17.0, 10.8),
-        (12.2, 10.8),
-        (12.2, 5.0),
-        (11.8, 3.7),
-        (10.8, 2.9),
-        (9.8, 2.8),
-        (8.7, 3.1),
-        (7.8, 4.1),
-        (7.8, 10.8),
-        (3.0, 10.8),
-    ]
-    xy = [(x + px * scale, y + py * scale) for px, py in points]
-    draw.line(xy + [xy[0]], fill=color, width=max(2, int(size * 0.12)), joint="curve")
-
-
 def draw_comment_icon(draw, x, y, size, color):
     width = max(2, int(size * 0.11))
     draw.ellipse((x + size * 0.08, y + size * 0.08, x + size * 0.92, y + size * 0.82), outline=color, width=width)
@@ -296,11 +277,10 @@ def draw_vote_group(draw, x, y, score):
     text_font = font(28, True)
     text = compact_number(score)
     text_w = draw.textbbox((0, 0), text, font=text_font)[2]
-    chip_w = max(176, text_w + 116)
+    chip_w = max(126, text_w + 86)
     rounded_rect(draw, (x, y, x + chip_w, y + chip_h), chip_h // 2, "#eef1f3")
     draw_upvote_icon(draw, x + 18, y + 16, icon, "#3f454b")
-    draw.text((x + 56, y + 12), text, font=text_font, fill="#2f353b")
-    draw_downvote_icon(draw, x + chip_w - 40, y + 16, icon, "#3f454b")
+    draw.text((x + 54, y + 12), text, font=text_font, fill="#2f353b")
     return x + chip_w + 14
 
 
@@ -389,7 +369,7 @@ def draw_comment_component(draw, segment):
     y = y1 + 48
 
     draw.text((x, y), f"u/{segment.get('author', 'redditor')}", font=author_font, fill="#1a1a1b")
-    draw.text((x, y + 36), "top comment", font=weak_font, fill="#57606a")
+    draw.text((x, y + 36), "replied", font=weak_font, fill="#57606a")
 
     y += 100
     for line in body_lines:
@@ -562,30 +542,33 @@ def cta_for_title(title):
 
 def build_segments(post):
     title = post["title"].strip()
+    subreddit = post.get("subreddit", "AskReddit")
+    post_author = post.get("author", "redditor")
     segments = [
         {
             "kind": "post",
             "label": "Post",
             "text": title,
             "body": " ".join(post.get("body", "").split()),
-            "author": post.get("author", "redditor"),
-            "subreddit": post.get("subreddit", "AskReddit"),
+            "author": post_author,
+            "subreddit": subreddit,
             "score": post.get("score", 0),
             "num_comments": post.get("num_comments", len(post.get("comments", []))),
-            "voice": f"Reddit asked: {title}",
+            "voice": f"In {subreddit}, {post_author} asked: {title}",
         }
     ]
     for i, comment in enumerate(post["comments"][:4], start=1):
         body = " ".join(comment["body"].split())
         body = textwrap.shorten(body, width=230, placeholder="...")
+        author = comment.get("author", "redditor")
         segments.append(
             {
                 "kind": "comment",
                 "label": f"Top reply {i}",
                 "text": body,
-                "author": comment.get("author", "redditor"),
+                "author": author,
                 "score": comment.get("score", 0),
-                "voice": body,
+                "voice": f"{author} replied: {body}",
             }
         )
 
