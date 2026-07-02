@@ -237,65 +237,132 @@ def compact_number(value):
     if value >= 1_000_000:
         return f"{value / 1_000_000:.1f}M"
     if value >= 1_000:
-        return f"{value / 1_000:.1f}k"
+        return f"{value / 1_000:.1f}K"
     return str(value)
 
 
-def draw_pill(draw, x, y, label, value=None):
-    pill_font = font(29, True)
-    text = f"{label}: {compact_number(value)}" if value is not None else label
-    width = draw.textbbox((0, 0), text, font=pill_font)[2] + 56
-    rounded_rect(draw, (x, y, x + width, y + 58), 29, "#eef1f3")
-    draw.text((x + 28, y + 13), text, font=pill_font, fill="#394047")
-    return x + width + 22
+def draw_upvote_icon(draw, x, y, size, color):
+    scale = size / 20
+    points = [
+        (10, 2.2),
+        (17.0, 9.2),
+        (12.2, 9.2),
+        (12.2, 15.0),
+        (11.8, 16.3),
+        (10.8, 17.1),
+        (9.8, 17.2),
+        (8.7, 16.9),
+        (7.8, 15.9),
+        (7.8, 9.2),
+        (3.0, 9.2),
+    ]
+    xy = [(x + px * scale, y + py * scale) for px, py in points]
+    draw.line(xy + [xy[0]], fill=color, width=max(2, int(size * 0.12)), joint="curve")
 
 
-def draw_metrics(draw, x, y, score, comments=None):
-    next_x = draw_pill(draw, x, y, "upvotes", score)
+def draw_downvote_icon(draw, x, y, size, color):
+    scale = size / 20
+    points = [
+        (10, 17.8),
+        (17.0, 10.8),
+        (12.2, 10.8),
+        (12.2, 5.0),
+        (11.8, 3.7),
+        (10.8, 2.9),
+        (9.8, 2.8),
+        (8.7, 3.1),
+        (7.8, 4.1),
+        (7.8, 10.8),
+        (3.0, 10.8),
+    ]
+    xy = [(x + px * scale, y + py * scale) for px, py in points]
+    draw.line(xy + [xy[0]], fill=color, width=max(2, int(size * 0.12)), joint="curve")
+
+
+def draw_comment_icon(draw, x, y, size, color):
+    width = max(2, int(size * 0.11))
+    draw.ellipse((x + size * 0.08, y + size * 0.08, x + size * 0.92, y + size * 0.82), outline=color, width=width)
+    tail = [
+        (x + size * 0.30, y + size * 0.76),
+        (x + size * 0.16, y + size * 0.96),
+        (x + size * 0.50, y + size * 0.80),
+    ]
+    draw.line(tail, fill=color, width=width, joint="curve")
+
+
+def draw_vote_group(draw, x, y, score):
+    chip_h = 54
+    icon = 22
+    text_font = font(28, True)
+    text = compact_number(score)
+    text_w = draw.textbbox((0, 0), text, font=text_font)[2]
+    chip_w = max(176, text_w + 116)
+    rounded_rect(draw, (x, y, x + chip_w, y + chip_h), chip_h // 2, "#eef1f3")
+    draw_upvote_icon(draw, x + 18, y + 16, icon, "#3f454b")
+    draw.text((x + 56, y + 12), text, font=text_font, fill="#2f353b")
+    draw_downvote_icon(draw, x + chip_w - 40, y + 16, icon, "#3f454b")
+    return x + chip_w + 14
+
+
+def draw_comment_button(draw, x, y, comments):
+    chip_h = 54
+    icon = 22
+    text_font = font(28, True)
+    text = compact_number(comments)
+    text_w = draw.textbbox((0, 0), text, font=text_font)[2]
+    chip_w = max(126, text_w + 86)
+    rounded_rect(draw, (x, y, x + chip_w, y + chip_h), chip_h // 2, "#eef1f3")
+    draw_comment_icon(draw, x + 18, y + 16, icon, "#3f454b")
+    draw.text((x + 54, y + 12), text, font=text_font, fill="#2f353b")
+    return x + chip_w + 14
+
+
+def draw_action_row(draw, x, y, score, comments=None):
+    next_x = draw_vote_group(draw, x, y, score)
     if comments is not None:
-        draw_pill(draw, next_x, y, "comments", comments)
+        draw_comment_button(draw, next_x, y, comments)
 
 
-def draw_brand_header(draw):
-    overlay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    od = ImageDraw.Draw(overlay)
-    od.text((82, 112), "@theredditstuff", font=font(58, True), fill=(255, 255, 255, 128))
-    return overlay
+def draw_brand_below_card(draw, y2):
+    brand = "@theredditstuff"
+    brand_font = font(42, True)
+    bbox = draw.textbbox((0, 0), brand, font=brand_font)
+    draw.text(((W - (bbox[2] - bbox[0])) / 2, y2 + 34), brand, font=brand_font, fill=(255, 255, 255, 128))
 
 
 def card_bounds(content_h):
-    height = max(450, min(content_h, 960))
+    height = max(430, min(content_h, 940))
     y1 = (H - height) // 2
-    return 58, y1, W - 58, y1 + height
+    return 64, y1, W - 64, y1 + height
 
 
 def draw_post_component(draw, segment):
-    pad = 46
-    title_font = font(56, True)
+    pad = 50
+    title_font = font(54, False)
     body_font = font(39, False)
     meta_font = font(30, True)
     weak_font = font(28, False)
 
-    max_width = W - 58 * 2 - pad * 2
+    max_width = W - 64 * 2 - pad * 2
     title_lines = wrap(draw, segment["text"], max_width, title_font)[:7]
     body = segment.get("body", "").strip()
     body_lines = wrap(draw, body, max_width, body_font)[:4] if body else []
-    content_h = 58 + 58 + len(title_lines) * (title_font.size + 15) + 94 + 62
+    content_h = 60 + 58 + len(title_lines) * (title_font.size + 17) + 104 + 60
     if body_lines:
         content_h += 18 + len(body_lines) * (body_font.size + 12)
 
     x1, y1, x2, y2 = card_bounds(content_h)
     rounded_rect(draw, (x1, y1, x2, y2), 28, "#ffffff")
     x = x1 + pad
-    y = y1 + 42
+    y = y1 + 48
 
     draw.text((x, y), f"r/{segment.get('subreddit', 'AskReddit')}", font=meta_font, fill="#1a1a1b")
     draw.text((x, y + 36), f"u/{segment.get('author', 'redditor')}", font=weak_font, fill="#57606a")
 
-    y += 96
+    y += 102
     for line in title_lines:
         draw.text((x, y), line, font=title_font, fill="#111111")
-        y += title_font.size + 15
+        y += title_font.size + 17
 
     if body_lines:
         y += 16
@@ -303,32 +370,34 @@ def draw_post_component(draw, segment):
             draw.text((x, y), line, font=body_font, fill="#222222")
             y += body_font.size + 12
 
-    draw_metrics(draw, x, y2 - 100, segment.get("score", 0), segment.get("num_comments", 0))
+    draw_action_row(draw, x, y2 - 104, segment.get("score", 0), segment.get("num_comments", 0))
+    draw_brand_below_card(draw, y2)
 
 
 def draw_comment_component(draw, segment):
-    pad = 46
+    pad = 50
     body_font = font(54, False)
     author_font = font(31, True)
     weak_font = font(28, False)
-    max_width = W - 58 * 2 - pad * 2
+    max_width = W - 64 * 2 - pad * 2
     body_lines = wrap(draw, segment["text"], max_width, body_font)[:9]
-    content_h = 56 + 55 + len(body_lines) * (body_font.size + 16) + 92 + 62
+    content_h = 60 + 55 + len(body_lines) * (body_font.size + 17) + 104 + 60
 
     x1, y1, x2, y2 = card_bounds(content_h)
     rounded_rect(draw, (x1, y1, x2, y2), 28, "#ffffff")
     x = x1 + pad
-    y = y1 + 42
+    y = y1 + 48
 
     draw.text((x, y), f"u/{segment.get('author', 'redditor')}", font=author_font, fill="#1a1a1b")
     draw.text((x, y + 36), "top comment", font=weak_font, fill="#57606a")
 
-    y += 94
+    y += 100
     for line in body_lines:
         draw.text((x, y), line, font=body_font, fill="#111111")
-        y += body_font.size + 16
+        y += body_font.size + 17
 
-    draw_metrics(draw, x, y2 - 100, segment.get("score", 0))
+    draw_action_row(draw, x, y2 - 104, segment.get("score", 0))
+    draw_brand_below_card(draw, y2)
 
 
 def draw_cta_component(draw, segment):
@@ -341,13 +410,12 @@ def draw_cta_component(draw, segment):
     for line in lines:
         draw.text((x1 + 58, y), line, font=text_font, fill="#111111")
         y += text_font.size + 30
+    draw_brand_below_card(draw, y2)
 
 
 def make_card(segment, index, total):
     img = Image.new("RGB", (W, H), "#ff4500")
-    overlay = draw_brand_header(ImageDraw.Draw(img))
-    img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
-    draw = ImageDraw.Draw(img)
+    draw = ImageDraw.Draw(img, "RGBA")
 
     kind = segment.get("kind", "post")
     if kind == "comment":
