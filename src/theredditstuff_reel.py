@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import json
 import asyncio
-import math
 import os
 import shutil
 import sys
@@ -24,8 +23,6 @@ STORY_OUT = OUT / "theredditstuff_storyboard.json"
 ICON_DIR = ROOT / "assets" / "icons"
 
 W, H = 1080, 1920
-BG_FRAMES = 48
-BG_FPS = 24
 BRAND_GAP = 34
 BRAND_SPACE = 96
 
@@ -525,56 +522,8 @@ def draw_cta_component(draw, segment):
     draw_brand_below_card(draw, y2)
 
 
-BG_PALETTES = [
-    ((8, 13, 18), (18, 58, 72), (57, 42, 91), (13, 82, 64)),
-    ((10, 12, 24), (30, 52, 108), (20, 88, 82), (80, 48, 84)),
-    ((14, 14, 17), (74, 54, 38), (82, 36, 58), (28, 60, 76)),
-    ((7, 14, 22), (24, 82, 56), (50, 48, 100), (16, 64, 92)),
-    ((16, 12, 22), (76, 38, 82), (32, 72, 90), (86, 64, 30)),
-]
-
-
-def reel_seed(post):
-    raw = f"{post.get('subreddit', '')}:{post.get('author', '')}:{post.get('title', '')}"
-    return sum((i + 1) * ord(ch) for i, ch in enumerate(raw))
-
-
-def shader_background(seed, phase):
-    small_w, small_h = 144, 256
-    palette = BG_PALETTES[seed % len(BG_PALETTES)]
-    img = Image.new("RGB", (small_w, small_h))
-    pixels = img.load()
-    t = phase * math.tau
-    centers = [
-        (0.22 + 0.05 * math.cos(t + seed * 0.013), 0.24 + 0.06 * math.sin(t * 0.9)),
-        (0.78 + 0.06 * math.cos(t * 0.7 + 1.8), 0.30 + 0.05 * math.sin(t + seed * 0.021)),
-        (0.36 + 0.05 * math.sin(t * 0.8 + 2.4), 0.74 + 0.06 * math.cos(t * 0.6)),
-        (0.72 + 0.04 * math.sin(t * 0.6 + 4.0), 0.82 + 0.05 * math.cos(t * 0.8 + 1.3)),
-    ]
-    for y in range(small_h):
-        ny = y / (small_h - 1)
-        for x in range(small_w):
-            nx = x / (small_w - 1)
-            weights = []
-            for cx, cy in centers:
-                dist = (nx - cx) ** 2 + (ny - cy) ** 2
-                weights.append(math.exp(-dist * 7.5))
-            base_weight = 1.15
-            total = base_weight + sum(weights)
-            r = palette[0][0] * base_weight
-            g = palette[0][1] * base_weight
-            b = palette[0][2] * base_weight
-            for weight, color in zip(weights, palette[1:]):
-                r += color[0] * weight
-                g += color[1] * weight
-                b += color[2] * weight
-            vignette = 0.68 + 0.32 * (1 - min(1, ((nx - 0.5) ** 2 + (ny - 0.5) ** 2) * 2.0))
-            pixels[x, y] = (int((r / total) * vignette), int((g / total) * vignette), int((b / total) * vignette))
-    return img.resize((W, H), Image.Resampling.BICUBIC)
-
-
-def make_card(segment, index, total, bg_seed, phase=0):
-    img = shader_background(bg_seed, phase)
+def make_card(segment, index, total):
+    img = Image.new("RGB", (W, H), "#ff4500")
     draw = ImageDraw.Draw(img, "RGBA")
 
     kind = segment.get("kind", "post")
@@ -668,17 +617,15 @@ def audio_duration(audio_path):
     return float(result.stdout.strip())
 
 
-def segment_to_video(frame_pattern, audio_path, video_path, duration):
+def segment_to_video(image_path, audio_path, video_path, duration):
     run_ffmpeg(
         [
-            "-stream_loop",
-            "-1",
-            "-framerate",
-            str(BG_FPS),
-            "-i",
-            str(frame_pattern),
+            "-loop",
+            "1",
             "-t",
             f"{duration:.2f}",
+            "-i",
+            str(image_path),
             "-i",
             str(audio_path),
             "-vf",
@@ -687,6 +634,8 @@ def segment_to_video(frame_pattern, audio_path, video_path, duration):
             "libx264",
             "-preset",
             "ultrafast",
+            "-tune",
+            "stillimage",
             "-r",
             "24",
             "-c:a",
@@ -697,13 +646,6 @@ def segment_to_video(frame_pattern, audio_path, video_path, duration):
             str(video_path),
         ]
     )
-
-
-def render_segment_frames(segment, index, total, frames_dir, bg_seed):
-    frames_dir.mkdir(parents=True, exist_ok=True)
-    for frame in range(BG_FRAMES):
-        phase = frame / BG_FRAMES
-        make_card(segment, index, total, bg_seed, phase).save(frames_dir / f"frame_{frame:03}.png")
 
 
 CTA_OPTIONS = [
@@ -792,22 +734,21 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
 
     post = fetch_reddit_post()
-    bg_seed = reel_seed(post)
     segments = build_segments(post)
-    STORY_OUT.write_text(json.dumps({"post": post, "background_seed": bg_seed, "segments": segments}, indent=2), encoding="utf-8")
+    STORY_OUT.write_text(json.dumps({"post": post, "segments": segments}, indent=2), encoding="utf-8")
 
     with tempfile.TemporaryDirectory(prefix="theredditstuff_") as tmp:
         work = Path(tmp)
         part_paths = []
         for index, segment in enumerate(segments):
-            frames_dir = work / f"segment_{index:02}_frames"
+            image_path = work / f"segment_{index:02}.png"
             audio_path = work / f"segment_{index:02}.wav"
             video_path = work / f"segment_{index:02}.mp4"
 
-            render_segment_frames(segment, index, len(segments), frames_dir, bg_seed)
+            make_card(segment, index, len(segments)).save(image_path)
             make_voice(segment["voice"], audio_path, index)
             duration = audio_duration(audio_path) + 0.15
-            segment_to_video(frames_dir / "frame_%03d.png", audio_path, video_path, duration)
+            segment_to_video(image_path, audio_path, video_path, duration)
             part_paths.append(video_path)
 
         concat_file = work / "concat.txt"
