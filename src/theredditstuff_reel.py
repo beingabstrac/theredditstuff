@@ -22,6 +22,16 @@ STORY_OUT = OUT / "theredditstuff_storyboard.json"
 
 W, H = 1080, 1920
 
+DEFAULT_SUBREDDITS = [
+    "AskReddit",
+    "hypotheticalsituation",
+    "WouldYouRather",
+    "NoStupidQuestions",
+    "TooAfraidToAsk",
+    "DoesAnybodyElse",
+    "unpopularopinion",
+]
+
 
 SAMPLE_POST = {
     "subreddit": "AskReddit",
@@ -96,18 +106,42 @@ def reddit_token():
     return data["access_token"]
 
 
-def fetch_askreddit_post():
+def subreddit_pool():
+    raw = os.getenv("SUBREDDITS", "")
+    if not raw.strip():
+        return DEFAULT_SUBREDDITS
+    return [item.strip().strip("/").removeprefix("r/") for item in raw.split(",") if item.strip()]
+
+
+def fetch_subreddit_candidates(token, subreddit):
+    try:
+        listing = reddit_request(f"/r/{subreddit}/top?t=day&limit=20", token)
+    except Exception as exc:
+        print(f"Skipping r/{subreddit}: {exc}")
+        return []
+
+    candidates = []
+    for child in listing["data"]["children"]:
+        data = child["data"]
+        if data.get("stickied") or data.get("over_18"):
+            continue
+        if data.get("num_comments", 0) < 20:
+            continue
+        candidates.append(data)
+    return candidates
+
+
+def fetch_reddit_post():
     token = reddit_token()
     if not token:
         return SAMPLE_POST
 
-    listing = reddit_request("/r/top?t=day&limit=25", token)
-    posts = listing["data"]["children"]
-    candidates = [
-        child["data"]
-        for child in posts
-        if not child["data"].get("stickied") and not child["data"].get("over_18")
-    ]
+    candidates = []
+    for subreddit in subreddit_pool():
+        candidates.extend(fetch_subreddit_candidates(token, subreddit))
+    if not candidates:
+        return SAMPLE_POST
+
     picked = max(candidates, key=shareable_score)
 
     comments_data = reddit_request(f"/comments/{picked['id']}?limit=40&sort=top", token)
@@ -156,6 +190,10 @@ def shareable_score(post):
         "people",
         "parents",
         "kids",
+        "roommate",
+        "coworker",
+        "partner",
+        "strangers",
     ]
     debatable = [
         "acceptable",
@@ -169,13 +207,21 @@ def shareable_score(post):
         "normalize",
         "attractive",
         "unattractive",
+        "rather",
+        "would you",
+        "hypothetical",
+        "annoying",
+        "fair",
+        "unfair",
     ]
-    unsafe = ["politic", "religion", "war", "suicide", "murder", "abuse", "rape", "death"]
+    unsafe = ["politic", "religion", "war", "suicide", "murder", "abuse", "rape", "death", "nsfw"]
 
     score += sum(10 for word in relatable if word in title)
     score += sum(16 for word in debatable if word in title)
     score += min(post.get("num_comments", 0) / 150, 25)
     score += min(post.get("score", 0) / 2000, 20)
+    if post.get("subreddit") in DEFAULT_SUBREDDITS[:3]:
+        score += 8
 
     if 6 <= len(words) <= 18:
         score += 18
@@ -587,7 +633,7 @@ def build_segments(post):
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
 
-    post = fetch_askreddit_post()
+    post = fetch_reddit_post()
     segments = build_segments(post)
     STORY_OUT.write_text(json.dumps({"post": post, "segments": segments}, indent=2), encoding="utf-8")
 
