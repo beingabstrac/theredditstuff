@@ -381,15 +381,15 @@ def draw_comment_component(draw, segment):
 
 
 def draw_cta_component(draw, segment):
-    text_font = font(70, True)
+    text_font = font(54, False)
     lines = segment["text"].split("\n")
-    content_h = 120 + len(lines) * (text_font.size + 30) + 70
+    content_h = 106 + len(lines) * (text_font.size + 17) + 82
     x1, y1, x2, y2 = card_bounds(content_h)
     rounded_rect(draw, (x1, y1, x2, y2), 28, "#ffffff")
-    y = y1 + 105
+    y = y1 + 92
     for line in lines:
-        draw.text((x1 + 58, y), line, font=text_font, fill="#111111")
-        y += text_font.size + 30
+        draw.text((x1 + 50, y), line, font=text_font, fill="#111111")
+        y += text_font.size + 17
     draw_brand_below_card(draw, y2)
 
 
