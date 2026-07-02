@@ -241,139 +241,113 @@ def compact_number(value):
     return str(value)
 
 
-def draw_reddit_mark(draw, x, y, size, bg="#ff4500", fg="white"):
-    draw.ellipse((x, y, x + size, y + size), fill=fg)
-    eye = max(4, size // 9)
-    draw.ellipse((x + size * 0.32, y + size * 0.38, x + size * 0.32 + eye, y + size * 0.38 + eye), fill=bg)
-    draw.ellipse((x + size * 0.58, y + size * 0.38, x + size * 0.58 + eye, y + size * 0.38 + eye), fill=bg)
-    draw.arc((x + size * 0.32, y + size * 0.42, x + size * 0.72, y + size * 0.78), 20, 160, fill=bg, width=max(3, size // 18))
-    draw.line((x + size * 0.82, y + size * 0.15, x + size * 1.14, y - size * 0.18), fill=fg, width=max(4, size // 12))
-    draw.ellipse((x + size * 1.08, y - size * 0.26, x + size * 1.28, y - size * 0.06), fill=fg)
+def draw_pill(draw, x, y, label, value=None):
+    pill_font = font(29, True)
+    text = f"{label}: {compact_number(value)}" if value is not None else label
+    width = draw.textbbox((0, 0), text, font=pill_font)[2] + 56
+    rounded_rect(draw, (x, y, x + width, y + 58), 29, "#eef1f3")
+    draw.text((x + 28, y + 13), text, font=pill_font, fill="#394047")
+    return x + width + 22
 
 
-def draw_avatar(draw, x, y, size, seed_text):
-    colors = ["#ff4500", "#46a6ff", "#7c5cff", "#00a368", "#f2a900"]
-    fill = colors[sum(ord(c) for c in seed_text) % len(colors)]
-    draw.ellipse((x, y, x + size, y + size), fill=fill)
-    draw.ellipse((x + size * 0.29, y + size * 0.35, x + size * 0.41, y + size * 0.47), fill="white")
-    draw.ellipse((x + size * 0.59, y + size * 0.35, x + size * 0.71, y + size * 0.47), fill="white")
-    draw.arc((x + size * 0.30, y + size * 0.42, x + size * 0.72, y + size * 0.78), 20, 160, fill="white", width=3)
-
-
-def draw_action_row(draw, x, y, score, comments=None):
-    small = font(28, True)
-    muted = "#5c6670"
-    chip = "#f2f4f5"
-    rounded_rect(draw, (x, y, x + 205, y + 58), 29, chip)
-    draw.text((x + 22, y + 12), "^", font=small, fill="#1a1a1b")
-    draw.text((x + 66, y + 13), compact_number(score), font=small, fill="#1a1a1b")
-    draw.text((x + 150, y + 12), "v", font=small, fill="#1a1a1b")
-
-    cx = x + 230
-    label = compact_number(comments) if comments is not None else "Reply"
-    rounded_rect(draw, (cx, y, cx + 180, y + 58), 29, chip)
-    draw.text((cx + 24, y + 13), label, font=small, fill=muted)
-
-    sx = cx + 205
-    rounded_rect(draw, (sx, y, sx + 150, y + 58), 29, chip)
-    draw.text((sx + 24, y + 13), "Share", font=small, fill=muted)
+def draw_metrics(draw, x, y, score, comments=None):
+    next_x = draw_pill(draw, x, y, "upvotes", score)
+    if comments is not None:
+        draw_pill(draw, next_x, y, "comments", comments)
 
 
 def draw_brand_header(draw):
-    brand_font = font(58, True)
-    draw.text((82, 108), "@theredditstuff", font=brand_font, fill="white")
+    overlay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    od = ImageDraw.Draw(overlay)
+    od.text((82, 112), "@theredditstuff", font=font(58, True), fill=(255, 255, 255, 128))
+    return overlay
+
+
+def card_bounds(content_h):
+    height = max(450, min(content_h, 960))
+    y1 = (H - height) // 2
+    return 58, y1, W - 58, y1 + height
 
 
 def draw_post_component(draw, segment):
-    pad = 44
-    x1, y1, x2 = 58, 390, W - 58
-    x = x1 + pad
-    header_h = 105
-    title_font = font(50, True)
-    body_font = font(36, False)
-    title_lines = wrap(draw, segment["text"], x2 - x - pad, title_font)[:7]
+    pad = 46
+    title_font = font(56, True)
+    body_font = font(39, False)
+    meta_font = font(30, True)
+    weak_font = font(28, False)
+
+    max_width = W - 58 * 2 - pad * 2
+    title_lines = wrap(draw, segment["text"], max_width, title_font)[:7]
     body = segment.get("body", "").strip()
-    body_lines = wrap(draw, body, x2 - x - pad, body_font)[:5] if body else []
-    content_h = header_h + len(title_lines) * (title_font.size + 16) + 95
+    body_lines = wrap(draw, body, max_width, body_font)[:4] if body else []
+    content_h = 58 + 58 + len(title_lines) * (title_font.size + 15) + 94 + 62
     if body_lines:
-        content_h += 22 + len(body_lines) * (body_font.size + 12)
-    y2 = min(y1 + max(430, content_h), 1390)
+        content_h += 18 + len(body_lines) * (body_font.size + 12)
 
+    x1, y1, x2, y2 = card_bounds(content_h)
     rounded_rect(draw, (x1, y1, x2, y2), 28, "#ffffff")
+    x = x1 + pad
+    y = y1 + 42
 
-    y = y1 + 38
-    draw_avatar(draw, x, y, 58, segment.get("author", "op"))
+    draw.text((x, y), f"r/{segment.get('subreddit', 'AskReddit')}", font=meta_font, fill="#1a1a1b")
+    draw.text((x, y + 36), f"u/{segment.get('author', 'redditor')}", font=weak_font, fill="#57606a")
 
-    sub_font = font(30, True)
-    meta_font = font(26, False)
-
-    draw.text((x + 74, y + 1), f"r/{segment.get('subreddit', 'AskReddit')}", font=sub_font, fill="#1a1a1b")
-    draw.text((x + 74, y + 36), f"u/{segment.get('author', 'redditor')} · 4h", font=meta_font, fill="#57606a")
-    rounded_rect(draw, (x2 - 150, y + 4, x2 - 46, y + 52), 24, "#dbeafe")
-    draw.text((x2 - 124, y + 13), "Join", font=font(25, True), fill="#0b57d0")
-
-    y += 105
+    y += 96
     for line in title_lines:
-        draw.text((x, y), line, font=title_font, fill="#1a1a1b")
-        y += title_font.size + 16
+        draw.text((x, y), line, font=title_font, fill="#111111")
+        y += title_font.size + 15
 
     if body_lines:
-        y += 20
+        y += 16
         for line in body_lines:
-            draw.text((x, y), line, font=body_font, fill="#1a1a1b")
+            draw.text((x, y), line, font=body_font, fill="#222222")
             y += body_font.size + 12
 
-    draw_action_row(draw, x, y2 - 82, segment.get("score", 0), segment.get("num_comments", 0))
+    draw_metrics(draw, x, y2 - 100, segment.get("score", 0), segment.get("num_comments", 0))
 
 
 def draw_comment_component(draw, segment):
-    pad = 44
-    x1, y1, x2 = 58, 420, W - 58
-    x = x1 + pad
-    body_font = font(46, False)
-    body_lines = wrap(draw, segment["text"], x2 - x - pad - 40, body_font)[:11]
-    content_h = 112 + len(body_lines) * (body_font.size + 18) + 100
-    y2 = min(y1 + max(430, content_h), 1430)
+    pad = 46
+    body_font = font(54, False)
+    author_font = font(31, True)
+    weak_font = font(28, False)
+    max_width = W - 58 * 2 - pad * 2
+    body_lines = wrap(draw, segment["text"], max_width, body_font)[:9]
+    content_h = 56 + 55 + len(body_lines) * (body_font.size + 16) + 92 + 62
 
+    x1, y1, x2, y2 = card_bounds(content_h)
     rounded_rect(draw, (x1, y1, x2, y2), 28, "#ffffff")
+    x = x1 + pad
+    y = y1 + 42
 
-    y = y1 + 40
-    line_x = x + 23
-    draw.line((line_x, y + 58, line_x, y2 - 110), fill="#d7dadc", width=5)
-    draw_avatar(draw, x, y, 54, segment.get("author", "redditor"))
+    draw.text((x, y), f"u/{segment.get('author', 'redditor')}", font=author_font, fill="#1a1a1b")
+    draw.text((x, y + 36), "top comment", font=weak_font, fill="#57606a")
 
-    author_font = font(30, True)
-    meta_font = font(26, False)
-    draw.text((x + 72, y), f"u/{segment.get('author', 'redditor')}", font=author_font, fill="#1a1a1b")
-    draw.text((x + 72, y + 36), "4h", font=meta_font, fill="#57606a")
-
-    y += 100
+    y += 94
     for line in body_lines:
-        draw.text((x + 62, y), line, font=body_font, fill="#1a1a1b")
-        y += body_font.size + 18
-    draw_action_row(draw, x + 62, y2 - 82, segment.get("score", 0))
+        draw.text((x, y), line, font=body_font, fill="#111111")
+        y += body_font.size + 16
+
+    draw_metrics(draw, x, y2 - 100, segment.get("score", 0))
 
 
 def draw_cta_component(draw, segment):
-    x1, y1, x2, y2 = 78, 470, W - 78, 1335
+    text_font = font(70, True)
+    lines = segment["text"].split("\n")
+    content_h = 120 + len(lines) * (text_font.size + 30) + 70
+    x1, y1, x2, y2 = card_bounds(content_h)
     rounded_rect(draw, (x1, y1, x2, y2), 28, "#ffffff")
-    draw_multiline(
-        draw,
-        segment["text"],
-        (x1 + 58, y1 + 105),
-        x2 - x1 - 116,
-        font(68, True),
-        "#1a1a1b",
-        line_gap=30,
-        max_lines=6,
-    )
-    draw.text((x1 + 58, y2 - 116), "@theredditstuff", font=font(34, True), fill="#ff4500")
+    y = y1 + 105
+    for line in lines:
+        draw.text((x1 + 58, y), line, font=text_font, fill="#111111")
+        y += text_font.size + 30
 
 
 def make_card(segment, index, total):
     img = Image.new("RGB", (W, H), "#ff4500")
+    overlay = draw_brand_header(ImageDraw.Draw(img))
+    img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
     draw = ImageDraw.Draw(img)
-    draw_brand_header(draw)
 
     kind = segment.get("kind", "post")
     if kind == "comment":
@@ -413,7 +387,7 @@ def edge_voice(text, audio_path, index):
         voice = EDGE_VOICES[index % len(EDGE_VOICES)]
 
         async def synthesize():
-            communicate = edge_tts.Communicate(text, voice=voice, rate="+8%", pitch="+0Hz")
+            communicate = edge_tts.Communicate(text, voice=voice, rate="+16%", pitch="+0Hz")
             await communicate.save(str(audio_path))
 
         asyncio.run(synthesize())
@@ -576,7 +550,7 @@ def main():
 
             make_card(segment, index, len(segments)).save(image_path)
             make_voice(segment["voice"], audio_path, index)
-            duration = audio_duration(audio_path) + 0.3
+            duration = audio_duration(audio_path) + 0.15
             segment_to_video(image_path, audio_path, video_path, duration)
             part_paths.append(video_path)
 
