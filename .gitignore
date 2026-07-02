@@ -17,3 +17,6 @@ work/vendor/
 tmp/
 *.aiff
 *.wav
+
+# Small local Python dependency folder for free online TTS
+.deps/

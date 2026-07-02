@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 import json
+import asyncio
 import os
 import shutil
+import sys
 import subprocess
 import tempfile
 import textwrap
@@ -13,6 +15,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 ROOT = Path(__file__).resolve().parents[1]
+DEPS = ROOT / ".deps"
 OUT = ROOT / "outputs"
 VIDEO_OUT = OUT / "theredditstuff_mvp.mp4"
 STORY_OUT = OUT / "theredditstuff_storyboard.json"
@@ -53,6 +56,12 @@ SAMPLE_POST = {
 
 KOKORO_PIPELINE = None
 KOKORO_VOICES = ["af_heart", "am_adam", "af_bella", "am_michael"]
+EDGE_VOICES = [
+    "en-US-AndrewMultilingualNeural",
+    "en-US-AvaMultilingualNeural",
+    "en-US-BrianMultilingualNeural",
+    "en-US-EmmaMultilingualNeural",
+]
 
 
 def reddit_request(path, token):
@@ -381,14 +390,37 @@ def run_ffmpeg(args):
 
 
 def make_voice(text, audio_path, index):
+    if edge_voice(text, audio_path, index):
+        return
     if kokoro_voice(text, audio_path, index):
         return
 
     tts = shutil.which("espeak-ng")
     if not tts:
-        raise RuntimeError("No local TTS found. Install Kokoro or espeak-ng.")
+        raise RuntimeError("No local TTS found. Install edge-tts or espeak-ng.")
     voice = "en-us+m3" if index % 2 else "en-us+f3"
     subprocess.run([tts, "-v", voice, "-s", "155", "-w", str(audio_path), text], check=True)
+
+
+def edge_voice(text, audio_path, index):
+    if not DEPS.exists():
+        return False
+
+    try:
+        sys.path.insert(0, str(DEPS))
+        import edge_tts
+
+        voice = EDGE_VOICES[index % len(EDGE_VOICES)]
+
+        async def synthesize():
+            communicate = edge_tts.Communicate(text, voice=voice, rate="+8%", pitch="+0Hz")
+            await communicate.save(str(audio_path))
+
+        asyncio.run(synthesize())
+        return audio_path.exists() and audio_path.stat().st_size > 0
+    except Exception as exc:
+        print(f"edge-tts failed, falling back: {exc}")
+        return False
 
 
 def kokoro_voice(text, audio_path, index):
