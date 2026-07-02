@@ -189,9 +189,10 @@ def shareable_score(post):
 
 def font(size, bold=False):
     candidates = [
-        "/System/Library/Fonts/Supplemental/Arial Bold.ttf" if bold else "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "/Library/Fonts/SF-Pro-Text-Bold.otf" if bold else "/Library/Fonts/SF-Pro-Text-Regular.otf",
+        "/Library/Fonts/SF-Pro-Display-Bold.otf" if bold else "/Library/Fonts/SF-Pro-Display-Regular.otf",
         "/System/Library/Fonts/SFNS.ttf",
-        "/Library/Fonts/Arial.ttf",
+        "/System/Library/Fonts/Supplemental/Arial Bold.ttf" if bold else "/System/Library/Fonts/Supplemental/Arial.ttf",
     ]
     for candidate in candidates:
         if Path(candidate).exists():
@@ -260,7 +261,7 @@ def draw_avatar(draw, x, y, size, seed_text):
 
 
 def draw_action_row(draw, x, y, score, comments=None):
-    small = font(30, True)
+    small = font(28, True)
     muted = "#5c6670"
     chip = "#f2f4f5"
     rounded_rect(draw, (x, y, x + 205, y + 58), 29, chip)
@@ -279,9 +280,8 @@ def draw_action_row(draw, x, y, score, comments=None):
 
 
 def draw_brand_header(draw):
-    brand_font = font(54, True)
-    draw_reddit_mark(draw, 82, 93, 88)
-    draw.text((222, 106), "@theredditstuff", font=brand_font, fill="white")
+    brand_font = font(58, True)
+    draw.text((82, 108), "@theredditstuff", font=brand_font, fill="white")
 
 
 def draw_post_component(draw, segment):
@@ -289,8 +289,8 @@ def draw_post_component(draw, segment):
     x1, y1, x2 = 58, 390, W - 58
     x = x1 + pad
     header_h = 105
-    title_font = font(52, True)
-    body_font = font(38, False)
+    title_font = font(50, True)
+    body_font = font(36, False)
     title_lines = wrap(draw, segment["text"], x2 - x - pad, title_font)[:7]
     body = segment.get("body", "").strip()
     body_lines = wrap(draw, body, x2 - x - pad, body_font)[:5] if body else []
@@ -304,8 +304,8 @@ def draw_post_component(draw, segment):
     y = y1 + 38
     draw_avatar(draw, x, y, 58, segment.get("author", "op"))
 
-    sub_font = font(31, True)
-    meta_font = font(28, False)
+    sub_font = font(30, True)
+    meta_font = font(26, False)
 
     draw.text((x + 74, y + 1), f"r/{segment.get('subreddit', 'AskReddit')}", font=sub_font, fill="#1a1a1b")
     draw.text((x + 74, y + 36), f"u/{segment.get('author', 'redditor')} · 4h", font=meta_font, fill="#57606a")
@@ -330,7 +330,7 @@ def draw_comment_component(draw, segment):
     pad = 44
     x1, y1, x2 = 58, 420, W - 58
     x = x1 + pad
-    body_font = font(48, False)
+    body_font = font(46, False)
     body_lines = wrap(draw, segment["text"], x2 - x - pad - 40, body_font)[:11]
     content_h = 112 + len(body_lines) * (body_font.size + 18) + 100
     y2 = min(y1 + max(430, content_h), 1430)
@@ -342,8 +342,8 @@ def draw_comment_component(draw, segment):
     draw.line((line_x, y + 58, line_x, y2 - 110), fill="#d7dadc", width=5)
     draw_avatar(draw, x, y, 54, segment.get("author", "redditor"))
 
-    author_font = font(31, True)
-    meta_font = font(27, False)
+    author_font = font(30, True)
+    meta_font = font(26, False)
     draw.text((x + 72, y), f"u/{segment.get('author', 'redditor')}", font=author_font, fill="#1a1a1b")
     draw.text((x + 72, y + 36), "4h", font=meta_font, fill="#57606a")
 
@@ -362,12 +362,12 @@ def draw_cta_component(draw, segment):
         segment["text"],
         (x1 + 58, y1 + 105),
         x2 - x1 - 116,
-        font(70, True),
+        font(68, True),
         "#1a1a1b",
         line_gap=30,
         max_lines=6,
     )
-    draw.text((x1 + 58, y2 - 116), "@theredditstuff", font=font(36, True), fill="#ff4500")
+    draw.text((x1 + 58, y2 - 116), "@theredditstuff", font=font(34, True), fill="#ff4500")
 
 
 def make_card(segment, index, total):
