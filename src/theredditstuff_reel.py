@@ -24,8 +24,8 @@ STORY_OUT = OUT / "theredditstuff_storyboard.json"
 ICON_DIR = ROOT / "assets" / "icons"
 
 W, H = 1080, 1920
-BG_FRAMES = 18
-BG_FPS = 12
+BG_FRAMES = 48
+BG_FPS = 24
 BRAND_GAP = 34
 BRAND_SPACE = 96
 
@@ -499,7 +499,7 @@ def draw_comment_component(draw, segment):
     y = y1 + 48
 
     draw.text((x, y), f"u/{segment.get('author', 'redditor')}", font=author_font, fill="#1a1a1b")
-    draw.text((x, y + 36), "replied", font=weak_font, fill="#57606a")
+    draw.text((x, y + 36), segment.get("intro", "says"), font=weak_font, fill="#57606a")
 
     y += 100
     for line in body_lines:
@@ -526,44 +526,55 @@ def draw_cta_component(draw, segment):
 
 
 BG_PALETTES = [
-    ((10, 18, 24), (20, 56, 66), (74, 42, 86)),
-    ((13, 16, 28), (38, 54, 96), (20, 78, 72)),
-    ((16, 18, 18), (58, 48, 36), (76, 28, 48)),
-    ((8, 16, 24), (24, 74, 54), (44, 44, 92)),
-    ((18, 14, 23), (72, 36, 76), (30, 62, 82)),
+    ((8, 13, 18), (18, 58, 72), (57, 42, 91), (13, 82, 64)),
+    ((10, 12, 24), (30, 52, 108), (20, 88, 82), (80, 48, 84)),
+    ((14, 14, 17), (74, 54, 38), (82, 36, 58), (28, 60, 76)),
+    ((7, 14, 22), (24, 82, 56), (50, 48, 100), (16, 64, 92)),
+    ((16, 12, 22), (76, 38, 82), (32, 72, 90), (86, 64, 30)),
 ]
 
 
-def shader_background(index, phase):
-    small_w, small_h = 180, 320
-    palette = BG_PALETTES[index % len(BG_PALETTES)]
+def reel_seed(post):
+    raw = f"{post.get('subreddit', '')}:{post.get('author', '')}:{post.get('title', '')}"
+    return sum((i + 1) * ord(ch) for i, ch in enumerate(raw))
+
+
+def shader_background(seed, phase):
+    small_w, small_h = 144, 256
+    palette = BG_PALETTES[seed % len(BG_PALETTES)]
     img = Image.new("RGB", (small_w, small_h))
     pixels = img.load()
-    drift = phase * math.tau
+    t = phase * math.tau
+    centers = [
+        (0.22 + 0.05 * math.cos(t + seed * 0.013), 0.24 + 0.06 * math.sin(t * 0.9)),
+        (0.78 + 0.06 * math.cos(t * 0.7 + 1.8), 0.30 + 0.05 * math.sin(t + seed * 0.021)),
+        (0.36 + 0.05 * math.sin(t * 0.8 + 2.4), 0.74 + 0.06 * math.cos(t * 0.6)),
+        (0.72 + 0.04 * math.sin(t * 0.6 + 4.0), 0.82 + 0.05 * math.cos(t * 0.8 + 1.3)),
+    ]
     for y in range(small_h):
         ny = y / (small_h - 1)
         for x in range(small_w):
             nx = x / (small_w - 1)
-            wave = (
-                math.sin((nx * 2.4 + ny * 1.2) * math.pi + drift) * 0.5
-                + math.sin((nx * -1.1 + ny * 2.8) * math.pi - drift * 0.7) * 0.5
-            )
-            mix_a = max(0, min(1, 0.42 + 0.24 * wave + 0.14 * ny))
-            mix_b = max(0, min(1, 0.24 + 0.18 * math.sin((nx + phase) * math.tau)))
-            base, a, b = palette
-            r = int(base[0] * (1 - mix_a) + a[0] * mix_a + b[0] * mix_b * 0.35)
-            g = int(base[1] * (1 - mix_a) + a[1] * mix_a + b[1] * mix_b * 0.35)
-            bl = int(base[2] * (1 - mix_a) + a[2] * mix_a + b[2] * mix_b * 0.35)
-            vignette = 0.80 + 0.20 * (1 - min(1, ((nx - 0.5) ** 2 + (ny - 0.5) ** 2) * 2.2))
-            pixels[x, y] = (int(r * vignette), int(g * vignette), int(bl * vignette))
-    img = img.resize((W, H), Image.Resampling.BICUBIC)
-    noise = Image.effect_noise((W, H), 8).convert("L")
-    noise_layer = Image.merge("RGB", (noise, noise, noise))
-    return Image.blend(img, noise_layer, 0.035)
+            weights = []
+            for cx, cy in centers:
+                dist = (nx - cx) ** 2 + (ny - cy) ** 2
+                weights.append(math.exp(-dist * 7.5))
+            base_weight = 1.15
+            total = base_weight + sum(weights)
+            r = palette[0][0] * base_weight
+            g = palette[0][1] * base_weight
+            b = palette[0][2] * base_weight
+            for weight, color in zip(weights, palette[1:]):
+                r += color[0] * weight
+                g += color[1] * weight
+                b += color[2] * weight
+            vignette = 0.68 + 0.32 * (1 - min(1, ((nx - 0.5) ** 2 + (ny - 0.5) ** 2) * 2.0))
+            pixels[x, y] = (int((r / total) * vignette), int((g / total) * vignette), int((b / total) * vignette))
+    return img.resize((W, H), Image.Resampling.BICUBIC)
 
 
-def make_card(segment, index, total, phase=0):
-    img = shader_background(index, phase)
+def make_card(segment, index, total, bg_seed, phase=0):
+    img = shader_background(bg_seed, phase)
     draw = ImageDraw.Draw(img, "RGBA")
 
     kind = segment.get("kind", "post")
@@ -688,11 +699,11 @@ def segment_to_video(frame_pattern, audio_path, video_path, duration):
     )
 
 
-def render_segment_frames(segment, index, total, frames_dir):
+def render_segment_frames(segment, index, total, frames_dir, bg_seed):
     frames_dir.mkdir(parents=True, exist_ok=True)
     for frame in range(BG_FRAMES):
         phase = frame / BG_FRAMES
-        make_card(segment, index, total, phase).save(frames_dir / f"frame_{frame:03}.png")
+        make_card(segment, index, total, bg_seed, phase).save(frames_dir / f"frame_{frame:03}.png")
 
 
 CTA_OPTIONS = [
@@ -759,6 +770,7 @@ def build_segments(post):
                 "label": f"Top reply {i}",
                 "text": body,
                 "author": author,
+                "intro": intro,
                 "score": comment.get("score", 0),
                 "voice": f"{spoken_username(author)} {intro}: {body}",
             }
@@ -780,8 +792,9 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
 
     post = fetch_reddit_post()
+    bg_seed = reel_seed(post)
     segments = build_segments(post)
-    STORY_OUT.write_text(json.dumps({"post": post, "segments": segments}, indent=2), encoding="utf-8")
+    STORY_OUT.write_text(json.dumps({"post": post, "background_seed": bg_seed, "segments": segments}, indent=2), encoding="utf-8")
 
     with tempfile.TemporaryDirectory(prefix="theredditstuff_") as tmp:
         work = Path(tmp)
@@ -791,7 +804,7 @@ def main():
             audio_path = work / f"segment_{index:02}.wav"
             video_path = work / f"segment_{index:02}.mp4"
 
-            render_segment_frames(segment, index, len(segments), frames_dir)
+            render_segment_frames(segment, index, len(segments), frames_dir, bg_seed)
             make_voice(segment["voice"], audio_path, index)
             duration = audio_duration(audio_path) + 0.15
             segment_to_video(frames_dir / "frame_%03d.png", audio_path, video_path, duration)
