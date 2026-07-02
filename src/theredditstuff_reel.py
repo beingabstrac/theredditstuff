@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import asyncio
+import math
 import os
 import shutil
 import sys
@@ -9,6 +10,7 @@ import tempfile
 import textwrap
 import urllib.parse
 import urllib.request
+from functools import lru_cache
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -19,8 +21,13 @@ DEPS = ROOT / ".deps"
 OUT = ROOT / "outputs"
 VIDEO_OUT = OUT / "theredditstuff_mvp.mp4"
 STORY_OUT = OUT / "theredditstuff_storyboard.json"
+ICON_DIR = ROOT / "assets" / "icons"
 
 W, H = 1080, 1920
+BG_FRAMES = 18
+BG_FPS = 12
+BRAND_GAP = 34
+BRAND_SPACE = 96
 
 DEFAULT_SUBREDDITS = [
     "AskReddit",
@@ -72,6 +79,49 @@ EDGE_VOICES = [
     "en-US-BrianMultilingualNeural",
     "en-US-EmmaMultilingualNeural",
 ]
+
+UNSAFE_TERMS = [
+    "nsfw",
+    "porn",
+    "nude",
+    "nudes",
+    "sex",
+    "sexual",
+    "onlyfans",
+    "rape",
+    "raped",
+    "suicide",
+    "self harm",
+    "murder",
+    "kill myself",
+    "child abuse",
+    "child abse",
+    "underage",
+    "minor",
+    "minors",
+    "molest",
+    "grooming",
+    "pedophile",
+    "politic",
+    "trump",
+    "biden",
+    "election",
+    "democrat",
+    "republican",
+    "liberal",
+    "conservative",
+    "israel",
+    "palestine",
+    "ukraine",
+    "russia",
+    "war",
+    "religion",
+]
+
+
+def is_safe_text(*parts):
+    text = " ".join(part or "" for part in parts).lower()
+    return not any(term in text for term in UNSAFE_TERMS)
 
 
 def reddit_request(path, token):
@@ -142,6 +192,8 @@ def fetch_subreddit_candidates(token, subreddit):
         data = child["data"]
         if data.get("stickied") or data.get("over_18"):
             continue
+        if not is_safe_text(data.get("title", ""), data.get("selftext", "")):
+            continue
         if data.get("num_comments", 0) < 20:
             continue
         candidates.append(data)
@@ -177,6 +229,8 @@ def fetch_reddit_post():
         data = child["data"]
         body = data.get("body", "")
         if body in {"[deleted]", "[removed]"} or len(body) < 35:
+            continue
+        if not is_safe_text(body, data.get("author", "")):
             continue
         comments.append(
             {
@@ -312,34 +366,36 @@ def compact_number(value):
     return str(value)
 
 
-def draw_upvote_icon(draw, x, y, size, color):
-    scale = size / 20
-    points = [
-        (10, 2.2),
-        (17.0, 9.2),
-        (12.2, 9.2),
-        (12.2, 15.0),
-        (11.8, 16.3),
-        (10.8, 17.1),
-        (9.8, 17.2),
-        (8.7, 16.9),
-        (7.8, 15.9),
-        (7.8, 9.2),
-        (3.0, 9.2),
-    ]
-    xy = [(x + px * scale, y + py * scale) for px, py in points]
-    draw.line(xy + [xy[0]], fill=color, width=max(2, int(size * 0.12)), joint="curve")
+@lru_cache(maxsize=8)
+def icon_mask(name, size):
+    icon = Image.open(ICON_DIR / f"{name}.png").convert("RGBA")
+    pixels = icon.load()
+    xs, ys = [], []
+    for py in range(icon.height):
+        for px in range(icon.width):
+            r, g, b, _ = pixels[px, py]
+            if not (r > 245 and g > 245 and b > 245):
+                xs.append(px)
+                ys.append(py)
+    if xs:
+        icon = icon.crop((min(xs), min(ys), max(xs) + 1, max(ys) + 1))
+
+    raw_mask = Image.new("L", icon.size, 0)
+    mask_pixels = raw_mask.load()
+    icon_pixels = icon.load()
+    for py in range(icon.height):
+        for px in range(icon.width):
+            r, g, b, _ = icon_pixels[px, py]
+            mask_pixels[px, py] = 0 if r > 245 and g > 245 and b > 245 else 255
+
+    raw_mask.thumbnail((size, size), Image.Resampling.LANCZOS)
+    mask = Image.new("L", (size, size), 0)
+    mask.paste(raw_mask, ((size - raw_mask.width) // 2, (size - raw_mask.height) // 2))
+    return mask
 
 
-def draw_comment_icon(draw, x, y, size, color):
-    width = max(2, int(size * 0.11))
-    draw.ellipse((x + size * 0.08, y + size * 0.08, x + size * 0.92, y + size * 0.82), outline=color, width=width)
-    tail = [
-        (x + size * 0.30, y + size * 0.76),
-        (x + size * 0.16, y + size * 0.96),
-        (x + size * 0.50, y + size * 0.80),
-    ]
-    draw.line(tail, fill=color, width=width, joint="curve")
+def draw_svg_icon(draw, name, x, y, size, color):
+    draw.bitmap((x, y), icon_mask(name, size), fill=color)
 
 
 def draw_vote_group(draw, x, y, score):
@@ -350,7 +406,7 @@ def draw_vote_group(draw, x, y, score):
     text_w = draw.textbbox((0, 0), text, font=text_font)[2]
     chip_w = max(126, text_w + 86)
     rounded_rect(draw, (x, y, x + chip_w, y + chip_h), chip_h // 2, "#eef1f3")
-    draw_upvote_icon(draw, x + 18, y + 16, icon, "#3f454b")
+    draw_svg_icon(draw, "reddit-upvote", x + 18, y + 16, icon, "#3f454b")
     draw.text((x + 54, y + 12), text, font=text_font, fill="#2f353b")
     return x + chip_w + 14
 
@@ -363,7 +419,7 @@ def draw_comment_button(draw, x, y, comments):
     text_w = draw.textbbox((0, 0), text, font=text_font)[2]
     chip_w = max(126, text_w + 86)
     rounded_rect(draw, (x, y, x + chip_w, y + chip_h), chip_h // 2, "#eef1f3")
-    draw_comment_icon(draw, x + 18, y + 16, icon, "#3f454b")
+    draw_svg_icon(draw, "reddit-comment", x + 18, y + 16, icon, "#3f454b")
     draw.text((x + 54, y + 12), text, font=text_font, fill="#2f353b")
     return x + chip_w + 14
 
@@ -378,12 +434,12 @@ def draw_brand_below_card(draw, y2):
     brand = "@theredditstuff"
     brand_font = font(42, True)
     bbox = draw.textbbox((0, 0), brand, font=brand_font)
-    draw.text(((W - (bbox[2] - bbox[0])) / 2, y2 + 34), brand, font=brand_font, fill=(255, 255, 255, 128))
+    draw.text(((W - (bbox[2] - bbox[0])) / 2, y2 + BRAND_GAP), brand, font=brand_font, fill=(255, 255, 255, 128))
 
 
-def card_bounds(content_h):
-    height = max(430, min(content_h, 940))
-    y1 = (H - height) // 2
+def card_bounds(content_h, min_h=430):
+    height = max(min_h, min(content_h, 940))
+    y1 = (H - height - BRAND_SPACE) // 2
     return 64, y1, W - 64, y1 + height
 
 
@@ -454,18 +510,57 @@ def draw_comment_component(draw, segment):
 def draw_cta_component(draw, segment):
     text_font = font(54, False)
     lines = segment["text"].split("\n")
-    content_h = 106 + len(lines) * (text_font.size + 17) + 82
-    x1, y1, x2, y2 = card_bounds(content_h)
+    line_h = text_font.size + 17
+    block_h = len(lines) * line_h - 17
+    content_h = block_h + 150
+    x1, y1, x2, y2 = card_bounds(content_h, min_h=300)
     rounded_rect(draw, (x1, y1, x2, y2), 28, "#ffffff")
-    y = y1 + 92
+    y = y1 + ((y2 - y1) - block_h) // 2
     for line in lines:
         draw.text((x1 + 50, y), line, font=text_font, fill="#111111")
-        y += text_font.size + 17
+        y += line_h
     draw_brand_below_card(draw, y2)
 
 
-def make_card(segment, index, total):
-    img = Image.new("RGB", (W, H), "#ff4500")
+BG_PALETTES = [
+    ((10, 18, 24), (20, 56, 66), (74, 42, 86)),
+    ((13, 16, 28), (38, 54, 96), (20, 78, 72)),
+    ((16, 18, 18), (58, 48, 36), (76, 28, 48)),
+    ((8, 16, 24), (24, 74, 54), (44, 44, 92)),
+    ((18, 14, 23), (72, 36, 76), (30, 62, 82)),
+]
+
+
+def shader_background(index, phase):
+    small_w, small_h = 180, 320
+    palette = BG_PALETTES[index % len(BG_PALETTES)]
+    img = Image.new("RGB", (small_w, small_h))
+    pixels = img.load()
+    drift = phase * math.tau
+    for y in range(small_h):
+        ny = y / (small_h - 1)
+        for x in range(small_w):
+            nx = x / (small_w - 1)
+            wave = (
+                math.sin((nx * 2.4 + ny * 1.2) * math.pi + drift) * 0.5
+                + math.sin((nx * -1.1 + ny * 2.8) * math.pi - drift * 0.7) * 0.5
+            )
+            mix_a = max(0, min(1, 0.42 + 0.24 * wave + 0.14 * ny))
+            mix_b = max(0, min(1, 0.24 + 0.18 * math.sin((nx + phase) * math.tau)))
+            base, a, b = palette
+            r = int(base[0] * (1 - mix_a) + a[0] * mix_a + b[0] * mix_b * 0.35)
+            g = int(base[1] * (1 - mix_a) + a[1] * mix_a + b[1] * mix_b * 0.35)
+            bl = int(base[2] * (1 - mix_a) + a[2] * mix_a + b[2] * mix_b * 0.35)
+            vignette = 0.80 + 0.20 * (1 - min(1, ((nx - 0.5) ** 2 + (ny - 0.5) ** 2) * 2.2))
+            pixels[x, y] = (int(r * vignette), int(g * vignette), int(bl * vignette))
+    img = img.resize((W, H), Image.Resampling.BICUBIC)
+    noise = Image.effect_noise((W, H), 8).convert("L")
+    noise_layer = Image.merge("RGB", (noise, noise, noise))
+    return Image.blend(img, noise_layer, 0.035)
+
+
+def make_card(segment, index, total, phase=0):
+    img = shader_background(index, phase)
     draw = ImageDraw.Draw(img, "RGBA")
 
     kind = segment.get("kind", "post")
@@ -559,15 +654,17 @@ def audio_duration(audio_path):
     return float(result.stdout.strip())
 
 
-def segment_to_video(image_path, audio_path, video_path, duration):
+def segment_to_video(frame_pattern, audio_path, video_path, duration):
     run_ffmpeg(
         [
-            "-loop",
-            "1",
+            "-stream_loop",
+            "-1",
+            "-framerate",
+            str(BG_FPS),
+            "-i",
+            str(frame_pattern),
             "-t",
             f"{duration:.2f}",
-            "-i",
-            str(image_path),
             "-i",
             str(audio_path),
             "-vf",
@@ -576,8 +673,6 @@ def segment_to_video(image_path, audio_path, video_path, duration):
             "libx264",
             "-preset",
             "ultrafast",
-            "-tune",
-            "stillimage",
             "-r",
             "24",
             "-c:a",
@@ -588,6 +683,13 @@ def segment_to_video(image_path, audio_path, video_path, duration):
             str(video_path),
         ]
     )
+
+
+def render_segment_frames(segment, index, total, frames_dir):
+    frames_dir.mkdir(parents=True, exist_ok=True)
+    for frame in range(BG_FRAMES):
+        phase = frame / BG_FRAMES
+        make_card(segment, index, total, phase).save(frames_dir / f"frame_{frame:03}.png")
 
 
 CTA_OPTIONS = [
@@ -611,6 +713,21 @@ def cta_for_title(title):
     return "What would you do?\nComment below."
 
 
+def spoken_username(username):
+    return (username or "someone").replace("_", " ").replace("-", " ")
+
+
+def comment_voice_intro(body, index):
+    lower = body.lower()
+    if any(word in lower for word in ["i think", "i believe", "imo", "in my opinion"]):
+        return "thinks"
+    if any(word in lower for word in ["i feel", "feels", "felt"]):
+        return "feels"
+    if any(word in lower for word in ["people", "everyone", "someone", "nobody"]):
+        return "points out"
+    return ["says", "thinks", "points out", "brings up"][index % 4]
+
+
 def build_segments(post):
     title = post["title"].strip()
     subreddit = post.get("subreddit", "AskReddit")
@@ -625,13 +742,14 @@ def build_segments(post):
             "subreddit": subreddit,
             "score": post.get("score", 0),
             "num_comments": post.get("num_comments", len(post.get("comments", []))),
-            "voice": f"In {subreddit}, {post_author} asked: {title}",
+            "voice": f"In {subreddit}, {spoken_username(post_author)} asked: {title}",
         }
     ]
     for i, comment in enumerate(post["comments"][:4], start=1):
         body = " ".join(comment["body"].split())
         body = textwrap.shorten(body, width=230, placeholder="...")
         author = comment.get("author", "redditor")
+        intro = comment_voice_intro(body, i)
         segments.append(
             {
                 "kind": "comment",
@@ -639,7 +757,7 @@ def build_segments(post):
                 "text": body,
                 "author": author,
                 "score": comment.get("score", 0),
-                "voice": f"{author} replied: {body}",
+                "voice": f"{spoken_username(author)} {intro}: {body}",
             }
         )
 
@@ -666,14 +784,14 @@ def main():
         work = Path(tmp)
         part_paths = []
         for index, segment in enumerate(segments):
-            image_path = work / f"segment_{index:02}.png"
+            frames_dir = work / f"segment_{index:02}_frames"
             audio_path = work / f"segment_{index:02}.wav"
             video_path = work / f"segment_{index:02}.mp4"
 
-            make_card(segment, index, len(segments)).save(image_path)
+            render_segment_frames(segment, index, len(segments), frames_dir)
             make_voice(segment["voice"], audio_path, index)
             duration = audio_duration(audio_path) + 0.15
-            segment_to_video(image_path, audio_path, video_path, duration)
+            segment_to_video(frames_dir / "frame_%03d.png", audio_path, video_path, duration)
             part_paths.append(video_path)
 
         concat_file = work / "concat.txt"
