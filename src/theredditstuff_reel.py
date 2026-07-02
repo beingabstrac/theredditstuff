@@ -337,6 +337,27 @@ def segment_to_video(image_path, audio_path, video_path, duration):
     )
 
 
+CTA_OPTIONS = [
+    ("rude", "Is this rude or normal?\nComment your take."),
+    ("wrong", "Who is in the wrong here?\nComment below."),
+    ("red flag", "Is this a red flag?\nComment yes or no."),
+    ("overrated", "Agree or disagree?\nComment below."),
+    ("unpopular", "Hot take or bad take?\nComment below."),
+    ("dating", "Would you stay or leave?\nComment below."),
+    ("relationship", "Whose side are you on?\nComment below."),
+    ("friend", "Would you say something?\nComment below."),
+    ("work", "Would you report this or ignore it?\nComment below."),
+]
+
+
+def cta_for_title(title):
+    lower = title.lower()
+    for keyword, cta in CTA_OPTIONS:
+        if keyword in lower:
+            return cta
+    return "What would you do?\nComment below."
+
+
 def build_segments(post):
     title = post["title"].strip()
     segments = [
@@ -357,6 +378,15 @@ def build_segments(post):
                 "voice": body,
             }
         )
+
+    cta = cta_for_title(title)
+    segments.append(
+        {
+            "label": "CTA",
+            "text": cta,
+            "voice": cta.replace("\n", " "),
+        }
+    )
     return segments
 
 
