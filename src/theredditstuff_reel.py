@@ -22,6 +22,9 @@ W, H = 1080, 1920
 
 SAMPLE_POST = {
     "subreddit": "AskReddit",
+    "author": "ordinary_opinion",
+    "score": 48200,
+    "num_comments": 9300,
     "title": "What is socially acceptable but actually rude?",
     "body": "",
     "comments": [
@@ -116,7 +119,10 @@ def fetch_askreddit_post():
         )
 
     return {
-        "subreddit": "AskReddit",
+        "subreddit": picked.get("subreddit", "AskReddit"),
+        "author": picked.get("author", "redditor"),
+        "score": picked.get("score", 0),
+        "num_comments": picked.get("num_comments", 0),
         "title": picked["title"],
         "body": picked.get("selftext", ""),
         "comments": comments[:4],
@@ -216,35 +222,157 @@ def rounded_rect(draw, xy, radius, fill, outline=None, width=1):
     draw.rounded_rectangle(xy, radius=radius, fill=fill, outline=outline, width=width)
 
 
-def make_card(segment, index, total):
-    img = Image.new("RGB", (W, H), "#ff4500")
-    draw = ImageDraw.Draw(img)
+def compact_number(value):
+    value = int(value or 0)
+    if value >= 1_000_000:
+        return f"{value / 1_000_000:.1f}M"
+    if value >= 1_000:
+        return f"{value / 1_000:.1f}k"
+    return str(value)
 
-    brand_font = font(58, True)
-    body_font = font(66, False)
 
-    # Simple Reddit-style mark.
-    draw.ellipse((88, 92, 178, 182), fill="white")
-    draw.ellipse((112, 122, 128, 138), fill="#ff4500")
-    draw.ellipse((138, 122, 154, 138), fill="#ff4500")
-    draw.arc((116, 132, 150, 162), 10, 170, fill="#ff4500", width=5)
-    draw.line((162, 100, 192, 72), fill="white", width=8)
-    draw.ellipse((188, 62, 210, 84), fill="white")
-    draw.text((228, 105), "@theredditstuff", font=brand_font, fill="white")
+def draw_reddit_mark(draw, x, y, size, bg="#ff4500", fg="white"):
+    draw.ellipse((x, y, x + size, y + size), fill=fg)
+    eye = max(4, size // 9)
+    draw.ellipse((x + size * 0.32, y + size * 0.38, x + size * 0.32 + eye, y + size * 0.38 + eye), fill=bg)
+    draw.ellipse((x + size * 0.58, y + size * 0.38, x + size * 0.58 + eye, y + size * 0.38 + eye), fill=bg)
+    draw.arc((x + size * 0.32, y + size * 0.42, x + size * 0.72, y + size * 0.78), 20, 160, fill=bg, width=max(3, size // 18))
+    draw.line((x + size * 0.82, y + size * 0.15, x + size * 1.14, y - size * 0.18), fill=fg, width=max(4, size // 12))
+    draw.ellipse((x + size * 1.08, y - size * 0.26, x + size * 1.28, y - size * 0.06), fill=fg)
 
-    card_x1, card_y1 = 70, 365
-    card_x2, card_y2 = W - 70, 1510
-    rounded_rect(draw, (card_x1, card_y1, card_x2, card_y2), 22, "#f8f8f8")
+
+def draw_avatar(draw, x, y, size, seed_text):
+    colors = ["#ff4500", "#46a6ff", "#7c5cff", "#00a368", "#f2a900"]
+    fill = colors[sum(ord(c) for c in seed_text) % len(colors)]
+    draw.ellipse((x, y, x + size, y + size), fill=fill)
+    draw.ellipse((x + size * 0.29, y + size * 0.35, x + size * 0.41, y + size * 0.47), fill="white")
+    draw.ellipse((x + size * 0.59, y + size * 0.35, x + size * 0.71, y + size * 0.47), fill="white")
+    draw.arc((x + size * 0.30, y + size * 0.42, x + size * 0.72, y + size * 0.78), 20, 160, fill="white", width=3)
+
+
+def draw_action_row(draw, x, y, score, comments=None):
+    small = font(30, True)
+    muted = "#5c6670"
+    chip = "#f2f4f5"
+    rounded_rect(draw, (x, y, x + 205, y + 58), 29, chip)
+    draw.text((x + 22, y + 12), "^", font=small, fill="#1a1a1b")
+    draw.text((x + 66, y + 13), compact_number(score), font=small, fill="#1a1a1b")
+    draw.text((x + 150, y + 12), "v", font=small, fill="#1a1a1b")
+
+    cx = x + 230
+    label = compact_number(comments) if comments is not None else "Reply"
+    rounded_rect(draw, (cx, y, cx + 180, y + 58), 29, chip)
+    draw.text((cx + 24, y + 13), label, font=small, fill=muted)
+
+    sx = cx + 205
+    rounded_rect(draw, (sx, y, sx + 150, y + 58), 29, chip)
+    draw.text((sx + 24, y + 13), "Share", font=small, fill=muted)
+
+
+def draw_brand_header(draw):
+    brand_font = font(54, True)
+    draw_reddit_mark(draw, 82, 93, 88)
+    draw.text((222, 106), "@theredditstuff", font=brand_font, fill="white")
+
+
+def draw_post_component(draw, segment):
+    pad = 44
+    x1, y1, x2 = 58, 390, W - 58
+    x = x1 + pad
+    header_h = 105
+    title_font = font(52, True)
+    body_font = font(38, False)
+    title_lines = wrap(draw, segment["text"], x2 - x - pad, title_font)[:7]
+    body = segment.get("body", "").strip()
+    body_lines = wrap(draw, body, x2 - x - pad, body_font)[:5] if body else []
+    content_h = header_h + len(title_lines) * (title_font.size + 16) + 95
+    if body_lines:
+        content_h += 22 + len(body_lines) * (body_font.size + 12)
+    y2 = min(y1 + max(430, content_h), 1390)
+
+    rounded_rect(draw, (x1, y1, x2, y2), 28, "#ffffff")
+
+    y = y1 + 38
+    draw_avatar(draw, x, y, 58, segment.get("author", "op"))
+
+    sub_font = font(31, True)
+    meta_font = font(28, False)
+
+    draw.text((x + 74, y + 1), f"r/{segment.get('subreddit', 'AskReddit')}", font=sub_font, fill="#1a1a1b")
+    draw.text((x + 74, y + 36), f"u/{segment.get('author', 'redditor')} · 4h", font=meta_font, fill="#57606a")
+    rounded_rect(draw, (x2 - 150, y + 4, x2 - 46, y + 52), 24, "#dbeafe")
+    draw.text((x2 - 124, y + 13), "Join", font=font(25, True), fill="#0b57d0")
+
+    y += 105
+    for line in title_lines:
+        draw.text((x, y), line, font=title_font, fill="#1a1a1b")
+        y += title_font.size + 16
+
+    if body_lines:
+        y += 20
+        for line in body_lines:
+            draw.text((x, y), line, font=body_font, fill="#1a1a1b")
+            y += body_font.size + 12
+
+    draw_action_row(draw, x, y2 - 82, segment.get("score", 0), segment.get("num_comments", 0))
+
+
+def draw_comment_component(draw, segment):
+    pad = 44
+    x1, y1, x2 = 58, 420, W - 58
+    x = x1 + pad
+    body_font = font(48, False)
+    body_lines = wrap(draw, segment["text"], x2 - x - pad - 40, body_font)[:11]
+    content_h = 112 + len(body_lines) * (body_font.size + 18) + 100
+    y2 = min(y1 + max(430, content_h), 1430)
+
+    rounded_rect(draw, (x1, y1, x2, y2), 28, "#ffffff")
+
+    y = y1 + 40
+    line_x = x + 23
+    draw.line((line_x, y + 58, line_x, y2 - 110), fill="#d7dadc", width=5)
+    draw_avatar(draw, x, y, 54, segment.get("author", "redditor"))
+
+    author_font = font(31, True)
+    meta_font = font(27, False)
+    draw.text((x + 72, y), f"u/{segment.get('author', 'redditor')}", font=author_font, fill="#1a1a1b")
+    draw.text((x + 72, y + 36), "4h", font=meta_font, fill="#57606a")
+
+    y += 100
+    for line in body_lines:
+        draw.text((x + 62, y), line, font=body_font, fill="#1a1a1b")
+        y += body_font.size + 18
+    draw_action_row(draw, x + 62, y2 - 82, segment.get("score", 0))
+
+
+def draw_cta_component(draw, segment):
+    x1, y1, x2, y2 = 78, 470, W - 78, 1335
+    rounded_rect(draw, (x1, y1, x2, y2), 28, "#ffffff")
     draw_multiline(
         draw,
         segment["text"],
-        (card_x1 + 58, card_y1 + 72),
-        card_x2 - card_x1 - 96,
-        body_font,
-        "#1c1c1c",
-        line_gap=26,
-        max_lines=10,
+        (x1 + 58, y1 + 105),
+        x2 - x1 - 116,
+        font(70, True),
+        "#1a1a1b",
+        line_gap=30,
+        max_lines=6,
     )
+    draw.text((x1 + 58, y2 - 116), "@theredditstuff", font=font(36, True), fill="#ff4500")
+
+
+def make_card(segment, index, total):
+    img = Image.new("RGB", (W, H), "#ff4500")
+    draw = ImageDraw.Draw(img)
+    draw_brand_header(draw)
+
+    kind = segment.get("kind", "post")
+    if kind == "comment":
+        draw_comment_component(draw, segment)
+    elif kind == "cta":
+        draw_cta_component(draw, segment)
+    else:
+        draw_post_component(draw, segment)
     return img
 
 
@@ -362,8 +490,14 @@ def build_segments(post):
     title = post["title"].strip()
     segments = [
         {
+            "kind": "post",
             "label": "Post",
             "text": title,
+            "body": " ".join(post.get("body", "").split()),
+            "author": post.get("author", "redditor"),
+            "subreddit": post.get("subreddit", "AskReddit"),
+            "score": post.get("score", 0),
+            "num_comments": post.get("num_comments", len(post.get("comments", []))),
             "voice": f"Reddit asked: {title}",
         }
     ]
@@ -372,8 +506,10 @@ def build_segments(post):
         body = textwrap.shorten(body, width=230, placeholder="...")
         segments.append(
             {
+                "kind": "comment",
                 "label": f"Top reply {i}",
                 "text": body,
+                "author": comment.get("author", "redditor"),
                 "score": comment.get("score", 0),
                 "voice": body,
             }
@@ -382,6 +518,7 @@ def build_segments(post):
     cta = cta_for_title(title)
     segments.append(
         {
+            "kind": "cta",
             "label": "CTA",
             "text": cta,
             "voice": cta.replace("\n", " "),
