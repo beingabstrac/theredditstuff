@@ -398,30 +398,33 @@ def draw_svg_icon(draw, name, x, y, size, color):
     draw.bitmap((x, y), icon_mask(name, size), fill=color)
 
 
-def draw_vote_group(draw, x, y, score):
-    chip_h = 54
-    icon = 22
-    text_font = font(28, True)
-    text = compact_number(score)
-    text_w = draw.textbbox((0, 0), text, font=text_font)[2]
-    chip_w = max(126, text_w + 86)
+def draw_metric_chip(draw, x, y, icon_name, value):
+    chip_h = 48
+    icon = 19
+    gap = 12
+    left_pad = 18
+    right_pad = 22
+    text_font = font(27, True)
+    text = compact_number(value)
+    bbox = draw.textbbox((0, 0), text, font=text_font)
+    text_w = bbox[2] - bbox[0]
+    text_h = bbox[3] - bbox[1]
+    chip_w = max(116, left_pad + icon + gap + text_w + right_pad)
     rounded_rect(draw, (x, y, x + chip_w, y + chip_h), chip_h // 2, "#eef1f3")
-    draw_svg_icon(draw, "reddit-upvote", x + 18, y + 16, icon, "#3f454b")
-    draw.text((x + 54, y + 12), text, font=text_font, fill="#2f353b")
+    icon_y = y + (chip_h - icon) // 2
+    text_x = x + left_pad + icon + gap
+    text_y = y + (chip_h - text_h) // 2 - bbox[1] - 1
+    draw_svg_icon(draw, icon_name, x + left_pad, icon_y, icon, "#3f454b")
+    draw.text((text_x, text_y), text, font=text_font, fill="#2f353b")
     return x + chip_w + 14
+
+
+def draw_vote_group(draw, x, y, score):
+    return draw_metric_chip(draw, x, y, "reddit-upvote", score)
 
 
 def draw_comment_button(draw, x, y, comments):
-    chip_h = 54
-    icon = 22
-    text_font = font(28, True)
-    text = compact_number(comments)
-    text_w = draw.textbbox((0, 0), text, font=text_font)[2]
-    chip_w = max(126, text_w + 86)
-    rounded_rect(draw, (x, y, x + chip_w, y + chip_h), chip_h // 2, "#eef1f3")
-    draw_svg_icon(draw, "reddit-comment", x + 18, y + 16, icon, "#3f454b")
-    draw.text((x + 54, y + 12), text, font=text_font, fill="#2f353b")
-    return x + chip_w + 14
+    return draw_metric_chip(draw, x, y, "reddit-comment", comments)
 
 
 def draw_action_row(draw, x, y, score, comments=None):
