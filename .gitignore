@@ -12,3 +12,8 @@ work/vendor/
 
 # Local secrets
 .env
+
+# Never keep temporary generated assets
+tmp/
+*.aiff
+*.wav

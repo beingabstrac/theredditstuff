@@ -3,7 +3,7 @@ import json
 import os
 import shutil
 import subprocess
-import sys
+import tempfile
 import textwrap
 import urllib.parse
 import urllib.request
@@ -13,9 +13,6 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 ROOT = Path(__file__).resolve().parents[1]
-WORK = ROOT / "work" / "render"
-VENDOR = ROOT / "work" / "vendor"
-HF_CACHE = ROOT / "work" / "hf_cache"
 OUT = ROOT / "outputs"
 VIDEO_OUT = OUT / "theredditstuff_mvp.mp4"
 STORY_OUT = OUT / "theredditstuff_storyboard.json"
@@ -268,12 +265,10 @@ def make_voice(text, audio_path, index):
 
 def kokoro_voice(text, audio_path, index):
     global KOKORO_PIPELINE
-    if not VENDOR.exists():
+    if os.getenv("USE_KOKORO") != "1":
         return False
 
     try:
-        os.environ.setdefault("HF_HOME", str(HF_CACHE))
-        sys.path.insert(0, str(VENDOR))
         import numpy as np
         import soundfile as sf
         from kokoro import KPipeline
@@ -366,28 +361,29 @@ def build_segments(post):
 
 
 def main():
-    WORK.mkdir(parents=True, exist_ok=True)
     OUT.mkdir(parents=True, exist_ok=True)
 
     post = fetch_askreddit_post()
     segments = build_segments(post)
     STORY_OUT.write_text(json.dumps({"post": post, "segments": segments}, indent=2), encoding="utf-8")
 
-    part_paths = []
-    for index, segment in enumerate(segments):
-        image_path = WORK / f"segment_{index:02}.png"
-        audio_path = WORK / f"segment_{index:02}.wav"
-        video_path = WORK / f"segment_{index:02}.mp4"
+    with tempfile.TemporaryDirectory(prefix="theredditstuff_") as tmp:
+        work = Path(tmp)
+        part_paths = []
+        for index, segment in enumerate(segments):
+            image_path = work / f"segment_{index:02}.png"
+            audio_path = work / f"segment_{index:02}.wav"
+            video_path = work / f"segment_{index:02}.mp4"
 
-        make_card(segment, index, len(segments)).save(image_path)
-        make_voice(segment["voice"], audio_path, index)
-        duration = audio_duration(audio_path) + 0.3
-        segment_to_video(image_path, audio_path, video_path, duration)
-        part_paths.append(video_path)
+            make_card(segment, index, len(segments)).save(image_path)
+            make_voice(segment["voice"], audio_path, index)
+            duration = audio_duration(audio_path) + 0.3
+            segment_to_video(image_path, audio_path, video_path, duration)
+            part_paths.append(video_path)
 
-    concat_file = WORK / "concat.txt"
-    concat_file.write_text("".join(f"file '{path}'\n" for path in part_paths), encoding="utf-8")
-    run_ffmpeg(["-f", "concat", "-safe", "0", "-i", str(concat_file), "-c", "copy", str(VIDEO_OUT)])
+        concat_file = work / "concat.txt"
+        concat_file.write_text("".join(f"file '{path}'\n" for path in part_paths), encoding="utf-8")
+        run_ffmpeg(["-f", "concat", "-safe", "0", "-i", str(concat_file), "-c", "copy", str(VIDEO_OUT)])
 
     print(VIDEO_OUT)
     print(STORY_OUT)

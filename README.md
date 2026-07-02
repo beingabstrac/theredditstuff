@@ -7,9 +7,10 @@ Free local pipeline for making short Reddit-style reels for `@theredditstuff`.
 - Picks shareable Reddit posts: relatable, debatable, easy to understand.
 - Shows each post/comment on a Reddit-orange background.
 - Reads text aloud with free local TTS.
-- Alternates female/male Kokoro voices when available.
-- Falls back to `espeak-ng`.
+- Uses lightweight free local `espeak-ng` by default.
+- Can use Kokoro only if explicitly enabled with `USE_KOKORO=1`.
 - Renders vertical MP4 with `ffmpeg`.
+- Deletes temporary render files automatically.
 
 ## Run
 
@@ -17,7 +18,7 @@ Free local pipeline for making short Reddit-style reels for `@theredditstuff`.
 ./scripts/render.sh
 ```
 
-Output:
+Final output kept:
 
 ```text
 outputs/theredditstuff_mvp.mp4
