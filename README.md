@@ -1,10 +1,10 @@
-# AskReddit Reel MVP
+# theredditstuff Reel MVP
 
-Free local pipeline for making short AskReddit-style reels.
+Free local pipeline for making short Reddit-style reels for `@theredditstuff`.
 
 ## What it does
 
-- Picks shareable AskReddit posts: relatable, debatable, easy to understand.
+- Picks shareable Reddit posts: relatable, debatable, easy to understand.
 - Shows each post/comment on a Reddit-orange background.
 - Reads text aloud with free local TTS.
 - Alternates female/male Kokoro voices when available.
@@ -20,7 +20,7 @@ Free local pipeline for making short AskReddit-style reels.
 Output:
 
 ```text
-outputs/askreddit_mvp.mp4
+outputs/theredditstuff_mvp.mp4
 ```
 
 ## Reddit API

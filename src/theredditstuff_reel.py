@@ -17,8 +17,8 @@ WORK = ROOT / "work" / "render"
 VENDOR = ROOT / "work" / "vendor"
 HF_CACHE = ROOT / "work" / "hf_cache"
 OUT = ROOT / "outputs"
-VIDEO_OUT = OUT / "askreddit_mvp.mp4"
-STORY_OUT = OUT / "askreddit_storyboard.json"
+VIDEO_OUT = OUT / "theredditstuff_mvp.mp4"
+STORY_OUT = OUT / "theredditstuff_storyboard.json"
 
 W, H = 1080, 1920
 
@@ -92,7 +92,7 @@ def fetch_askreddit_post():
     if not token:
         return SAMPLE_POST
 
-    listing = reddit_request("/r/AskReddit/top?t=day&limit=25", token)
+    listing = reddit_request("/r/top?t=day&limit=25", token)
     posts = listing["data"]["children"]
     candidates = [
         child["data"]
@@ -233,7 +233,7 @@ def make_card(segment, index, total):
     draw.arc((116, 132, 150, 162), 10, 170, fill="#ff4500", width=5)
     draw.line((162, 100, 192, 72), fill="white", width=8)
     draw.ellipse((188, 62, 210, 84), fill="white")
-    draw.text((228, 105), "/AskReddit", font=brand_font, fill="white")
+    draw.text((228, 105), "@theredditstuff", font=brand_font, fill="white")
 
     card_x1, card_y1 = 70, 365
     card_x2, card_y2 = W - 70, 1510
