@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Generated files
+outputs/
+work/render/
+work/hf_cache/
+
+# Local downloaded dependencies/models
+work/vendor/
+
+# Local secrets
+.env
