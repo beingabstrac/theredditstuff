@@ -25,6 +25,7 @@ OUT = ROOT / "outputs"
 VIDEO_OUT = OUT / "theredditstuff_mvp.mp4"
 STORY_OUT = OUT / "theredditstuff_storyboard.json"
 ICON_DIR = ROOT / "assets" / "icons"
+FONT_DIR = ROOT / "assets" / "fonts"
 POSTED_SOURCES_FILE = Path(os.getenv("POSTED_SOURCES_FILE", ROOT / "data" / "posted_sources.json"))
 
 W, H = 1080, 1920
@@ -154,6 +155,18 @@ UNSAFE_TERMS = [
     "grooming",
     "pedophile",
     "politic",
+    "government",
+    "president",
+    "u.s.",
+    "us state",
+    "u.s. state",
+    "america",
+    "american",
+    "independent country",
+    "country overnight",
+    "countries",
+    "border",
+    "military",
     "trump",
     "biden",
     "election",
@@ -517,6 +530,7 @@ def shareable_score(post):
 
 def font(size, bold=False):
     candidates = [
+        FONT_DIR / "Inter.ttf",
         "/Library/Fonts/SF-Pro-Text-Bold.otf" if bold else "/Library/Fonts/SF-Pro-Text-Regular.otf",
         "/Library/Fonts/SF-Pro-Display-Bold.otf" if bold else "/Library/Fonts/SF-Pro-Display-Regular.otf",
         "/usr/share/fonts/truetype/inter/Inter-Bold.ttf" if bold else "/usr/share/fonts/truetype/inter/Inter-Regular.ttf",
@@ -528,7 +542,13 @@ def font(size, bold=False):
     ]
     for candidate in candidates:
         if Path(candidate).exists():
-            return ImageFont.truetype(candidate, size)
+            loaded = ImageFont.truetype(candidate, size)
+            if Path(candidate).name == "Inter.ttf":
+                try:
+                    loaded.set_variation_by_axes([14, 700 if bold else 400])
+                except Exception:
+                    pass
+            return loaded
     return ImageFont.load_default()
 
 
@@ -666,7 +686,9 @@ def draw_post_component(draw, segment):
     title_lines = wrap(draw, segment["text"], max_width, title_font)[:7]
     body = segment.get("body", "").strip()
     body_lines = wrap(draw, body, max_width, body_font)[:4] if body else []
-    content_h = 60 + 58 + len(title_lines) * (title_font.size + 17) + 104 + 60
+    has_actions = segment.get("score") is not None or (segment.get("num_comments") or 0) > 0
+    action_space = 104 if has_actions else 28
+    content_h = 60 + 58 + len(title_lines) * (title_font.size + 17) + action_space + 52
     if body_lines:
         content_h += 18 + len(body_lines) * (body_font.size + 12)
 
@@ -689,7 +711,8 @@ def draw_post_component(draw, segment):
             draw.text((x, y), line, font=body_font, fill="#222222")
             y += body_font.size + 12
 
-    draw_action_row(draw, x, y2 - 104, segment.get("score", 0), segment.get("num_comments", 0))
+    if has_actions:
+        draw_action_row(draw, x, y2 - 104, segment.get("score"), segment.get("num_comments"))
     draw_brand_below_card(draw, y2)
 
 
@@ -700,7 +723,9 @@ def draw_comment_component(draw, segment):
     weak_font = font(28, False)
     max_width = W - 64 * 2 - pad * 2
     body_lines = wrap(draw, segment["text"], max_width, body_font)[:9]
-    content_h = 60 + 55 + len(body_lines) * (body_font.size + 17) + 104 + 60
+    has_actions = segment.get("score") is not None
+    action_space = 104 if has_actions else 28
+    content_h = 60 + 55 + len(body_lines) * (body_font.size + 17) + action_space + 52
 
     x1, y1, x2, y2 = card_bounds(content_h)
     rounded_rect(draw, (x1, y1, x2, y2), 28, "#ffffff")
@@ -715,7 +740,8 @@ def draw_comment_component(draw, segment):
         draw.text((x, y), line, font=body_font, fill="#111111")
         y += body_font.size + 17
 
-    draw_action_row(draw, x, y2 - 104, segment.get("score", 0))
+    if has_actions:
+        draw_action_row(draw, x, y2 - 104, segment.get("score"))
     draw_brand_below_card(draw, y2)
 
 
@@ -829,6 +855,11 @@ def audio_duration(audio_path):
     return float(result.stdout.strip())
 
 
+def estimated_voice_duration(text):
+    words = len((text or "").split())
+    return max(2.2, words / 2.75 + 0.8)
+
+
 def segment_to_video(image_path, audio_path, video_path, duration):
     run_ffmpeg(
         [
@@ -842,6 +873,8 @@ def segment_to_video(image_path, audio_path, video_path, duration):
             str(audio_path),
             "-vf",
             "format=yuv420p",
+            "-af",
+            "apad",
             "-c:v",
             "libx264",
             "-preset",
@@ -854,7 +887,8 @@ def segment_to_video(image_path, audio_path, video_path, duration):
             "aac",
             "-b:a",
             "128k",
-            "-shortest",
+            "-t",
+            f"{duration:.2f}",
             str(video_path),
         ]
     )
@@ -968,7 +1002,7 @@ def main():
 
             make_card(segment, index, len(segments)).save(image_path)
             make_voice(segment["voice"], audio_path, index)
-            duration = audio_duration(audio_path) + 0.15
+            duration = max(audio_duration(audio_path) + 0.35, estimated_voice_duration(segment["voice"]))
             segment_to_video(image_path, audio_path, video_path, duration)
             part_paths.append(video_path)
 
