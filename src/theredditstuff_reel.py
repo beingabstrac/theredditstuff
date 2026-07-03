@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 import json
 import asyncio
+import html
 import os
+import re
 import shutil
 import sys
 import subprocess
 import tempfile
 import textwrap
+import time
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from functools import lru_cache
 from pathlib import Path
 
@@ -26,6 +30,8 @@ W, H = 1080, 1920
 BRAND_GAP = 34
 BRAND_SPACE = 96
 MAX_COMMENTS = int(os.getenv("MAX_COMMENTS", "7"))
+RSS_CANDIDATE_TARGET = int(os.getenv("RSS_CANDIDATE_TARGET", "12"))
+RSS_COMMENT_ATTEMPTS = int(os.getenv("RSS_COMMENT_ATTEMPTS", "2"))
 
 DEFAULT_SUBREDDITS = [
     "AskReddit",
@@ -161,6 +167,50 @@ def reddit_public_request(url):
         return json.loads(response.read().decode("utf-8"))
 
 
+def reddit_rss_request(url):
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "theredditstuff-rss/0.1",
+            "Accept": "application/atom+xml, application/rss+xml, text/xml",
+        },
+    )
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(req, timeout=20) as response:
+                return response.read().decode("utf-8")
+        except urllib.error.HTTPError as exc:
+            if exc.code != 429 or attempt == 1:
+                raise
+            wait = int(exc.headers.get("x-ratelimit-reset") or 12)
+            time.sleep(max(8, min(wait + 1, 20)))
+
+
+def rss_entries(url):
+    root = ET.fromstring(reddit_rss_request(url))
+    ns = {"a": "http://www.w3.org/2005/Atom"}
+    return root.findall("a:entry", ns), ns
+
+
+def clean_rss_html(value):
+    text = html.unescape(value or "")
+    text = re.sub(r"<!--.*?-->", " ", text, flags=re.S)
+    text = re.sub(r"<br\s*/?>", "\n", text, flags=re.I)
+    text = re.sub(r"</p\s*>", "\n", text, flags=re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    return " ".join(text.split())
+
+
+def rss_author(entry, ns):
+    node = entry.find("a:author/a:name", ns)
+    return (node.text or "redditor").removeprefix("/u/") if node is not None else "redditor"
+
+
+def rss_link(entry, ns):
+    node = entry.find("a:link", ns)
+    return node.attrib.get("href", "") if node is not None else ""
+
+
 def reddit_token():
     client_id = os.getenv("REDDIT_CLIENT_ID")
     client_secret = os.getenv("REDDIT_CLIENT_SECRET")
@@ -213,45 +263,123 @@ def fetch_subreddit_candidates(token, subreddit):
     return candidates
 
 
+def fetch_subreddit_rss_candidates(subreddit):
+    url = f"https://www.reddit.com/r/{subreddit}/top/.rss?t=day"
+    try:
+        entries, ns = rss_entries(url)
+    except Exception as exc:
+        print(f"Skipping RSS r/{subreddit}: {exc}")
+        return []
+
+    candidates = []
+    for entry in entries:
+        title = entry.findtext("a:title", default="", namespaces=ns).strip()
+        link = rss_link(entry, ns)
+        post_id = entry.findtext("a:id", default="", namespaces=ns).removeprefix("t3_")
+        if not title or not link or not post_id:
+            continue
+        if not is_safe_text(title):
+            continue
+        permalink = urllib.parse.urlparse(link).path
+        candidates.append(
+            {
+                "id": post_id,
+                "subreddit": subreddit,
+                "author": rss_author(entry, ns),
+                "score": None,
+                "num_comments": None,
+                "title": title,
+                "selftext": "",
+                "permalink": permalink,
+                "source_url": link,
+                "from_rss": True,
+            }
+        )
+        if len(candidates) >= RSS_CANDIDATE_TARGET:
+            break
+    return candidates
+
+
+def fetch_rss_comments(permalink):
+    url = f"https://www.reddit.com{permalink.rstrip('/')}/.rss?sort=top"
+    try:
+        entries, ns = rss_entries(url)
+    except Exception as exc:
+        print(f"RSS comments unavailable: {exc}")
+        return []
+
+    comments = []
+    for entry in entries:
+        entry_id = entry.findtext("a:id", default="", namespaces=ns)
+        if not entry_id.startswith("t1_"):
+            continue
+        body = clean_rss_html(entry.findtext("a:content", default="", namespaces=ns))
+        author = rss_author(entry, ns)
+        if len(body) < 35 or not is_safe_text(body, author):
+            continue
+        comments.append({"author": author, "score": None, "body": body})
+        if len(comments) >= MAX_COMMENTS:
+            break
+    return comments
+
+
 def fetch_reddit_post():
     token = reddit_token()
 
     candidates = []
-    for subreddit in subreddit_pool():
-        candidates.extend(fetch_subreddit_candidates(token, subreddit))
+    if token:
+        for subreddit in subreddit_pool():
+            candidates.extend(fetch_subreddit_candidates(token, subreddit))
+    else:
+        for subreddit in subreddit_pool():
+            candidates.extend(fetch_subreddit_rss_candidates(subreddit))
+            if len(candidates) >= RSS_CANDIDATE_TARGET:
+                break
     if not candidates:
         return SAMPLE_POST
 
     picked = max(candidates, key=shareable_score)
 
-    try:
-        if token:
-            comments_data = reddit_request(f"/comments/{picked['id']}?limit=40&sort=top", token)
-        else:
-            comments_data = reddit_public_request(
-                f"https://www.reddit.com/comments/{picked['id']}.json?limit=40&sort=top&raw_json=1"
-            )
-    except Exception as exc:
-        print(f"Falling back to sample comments: {exc}")
-        comments_data = [None, {"data": {"children": []}}]
-
     comments = []
-    for child in comments_data[1]["data"]["children"]:
-        if child.get("kind") != "t1":
-            continue
-        data = child["data"]
-        body = data.get("body", "")
-        if body in {"[deleted]", "[removed]"} or len(body) < 35:
-            continue
-        if not is_safe_text(body, data.get("author", "")):
-            continue
-        comments.append(
-            {
-                "author": data.get("author", "redditor"),
-                "score": data.get("score", 0),
-                "body": body,
-            }
-        )
+    if picked.get("from_rss"):
+        for candidate in sorted(candidates, key=shareable_score, reverse=True)[:RSS_COMMENT_ATTEMPTS]:
+            comments = fetch_rss_comments(candidate["permalink"])
+            if comments:
+                picked = candidate
+                break
+        if not comments:
+            return SAMPLE_POST
+    else:
+        try:
+            if token:
+                comments_data = reddit_request(f"/comments/{picked['id']}?limit=40&sort=top", token)
+            else:
+                comments_data = reddit_public_request(
+                    f"https://www.reddit.com/comments/{picked['id']}.json?limit=40&sort=top&raw_json=1"
+                )
+        except Exception as exc:
+            print(f"Falling back to sample comments: {exc}")
+            comments_data = [None, {"data": {"children": []}}]
+
+        for child in comments_data[1]["data"]["children"]:
+            if child.get("kind") != "t1":
+                continue
+            data = child["data"]
+            body = data.get("body", "")
+            if body in {"[deleted]", "[removed]"} or len(body) < 35:
+                continue
+            if not is_safe_text(body, data.get("author", "")):
+                continue
+            comments.append(
+                {
+                    "author": data.get("author", "redditor"),
+                    "score": data.get("score", 0),
+                    "body": body,
+                }
+            )
+
+    if not comments:
+        comments = SAMPLE_POST["comments"]
 
     return {
         "subreddit": picked.get("subreddit", "AskReddit"),
@@ -261,7 +389,7 @@ def fetch_reddit_post():
         "title": picked["title"],
         "body": picked.get("selftext", ""),
         "comments": comments[:MAX_COMMENTS],
-        "source_url": f"https://www.reddit.com{picked['permalink']}",
+        "source_url": picked.get("source_url") or f"https://www.reddit.com{picked['permalink']}",
     }
 
 
@@ -310,8 +438,8 @@ def shareable_score(post):
 
     score += sum(10 for word in relatable if word in title)
     score += sum(16 for word in debatable if word in title)
-    score += min(post.get("num_comments", 0) / 150, 25)
-    score += min(post.get("score", 0) / 2000, 20)
+    score += min((post.get("num_comments") or 0) / 150, 25)
+    score += min((post.get("score") or 0) / 2000, 20)
     if post.get("subreddit") in DEFAULT_SUBREDDITS[:3]:
         score += 8
 
@@ -441,8 +569,10 @@ def draw_comment_button(draw, x, y, comments):
 
 
 def draw_action_row(draw, x, y, score, comments=None):
-    next_x = draw_vote_group(draw, x, y, score)
-    if comments is not None:
+    next_x = x
+    if score is not None:
+        next_x = draw_vote_group(draw, x, y, score)
+    if comments is not None and comments > 0:
         draw_comment_button(draw, next_x, y, comments)
 
 
