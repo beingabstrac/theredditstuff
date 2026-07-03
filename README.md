@@ -24,6 +24,32 @@ Final output kept:
 outputs/theredditstuff_mvp.mp4
 ```
 
+## Automation
+
+GitHub Actions can render and queue 3 Instagram posts per day through Buffer.
+
+Schedule:
+
+```text
+10:00, 15:00, 20:00 IST
+```
+
+Required GitHub Secrets:
+
+```text
+BUFFER_API_KEY
+BUFFER_INSTAGRAM_CHANNEL_ID
+CLOUDINARY_URL
+```
+
+Cloudinary is used only to host the MP4 publicly so Buffer can fetch it. Free plan is enough for MVP.
+
+The action keeps only a small duplicate-history file:
+
+```text
+data/posted_sources.json
+```
+
 ## Real Reddit Usernames
 
 For real post/comment usernames, use free Reddit API credentials:
@@ -33,7 +59,7 @@ export REDDIT_CLIENT_ID="..."
 export REDDIT_CLIENT_SECRET="..."
 ```
 
-Without those, the script tries public Reddit JSON. If Reddit blocks it, it uses sample content.
+Without those, the script uses Reddit RSS feeds. If RSS comments are rate-limited, it uses safe sample content.
 
 Custom source pool:
 

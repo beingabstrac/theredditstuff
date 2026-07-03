@@ -25,6 +25,7 @@ OUT = ROOT / "outputs"
 VIDEO_OUT = OUT / "theredditstuff_mvp.mp4"
 STORY_OUT = OUT / "theredditstuff_storyboard.json"
 ICON_DIR = ROOT / "assets" / "icons"
+POSTED_SOURCES_FILE = Path(os.getenv("POSTED_SOURCES_FILE", ROOT / "data" / "posted_sources.json"))
 
 W, H = 1080, 1920
 BRAND_GAP = 34
@@ -141,6 +142,20 @@ UNSAFE_TERMS = [
 def is_safe_text(*parts):
     text = " ".join(part or "" for part in parts).lower()
     return not any(term in text for term in UNSAFE_TERMS)
+
+
+def load_posted_sources():
+    try:
+        data = json.loads(POSTED_SOURCES_FILE.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        return set()
+    except json.JSONDecodeError:
+        return set()
+    return {item.get("source_url") for item in data.get("posted", []) if item.get("source_url")}
+
+
+def candidate_source_url(post):
+    return post.get("source_url") or f"https://www.reddit.com{post.get('permalink', '')}"
 
 
 def reddit_request(path, token):
@@ -338,6 +353,11 @@ def fetch_reddit_post():
     if not candidates:
         return SAMPLE_POST
 
+    posted_sources = load_posted_sources()
+    fresh_candidates = [post for post in candidates if candidate_source_url(post) not in posted_sources]
+    if fresh_candidates:
+        candidates = fresh_candidates
+
     picked = max(candidates, key=shareable_score)
 
     comments = []
@@ -457,6 +477,8 @@ def font(size, bold=False):
     candidates = [
         "/Library/Fonts/SF-Pro-Text-Bold.otf" if bold else "/Library/Fonts/SF-Pro-Text-Regular.otf",
         "/Library/Fonts/SF-Pro-Display-Bold.otf" if bold else "/Library/Fonts/SF-Pro-Display-Regular.otf",
+        "/usr/share/fonts/truetype/inter/Inter-Bold.ttf" if bold else "/usr/share/fonts/truetype/inter/Inter-Regular.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if bold else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
         "/System/Library/Fonts/SFNS.ttf",
         "/System/Library/Fonts/Supplemental/Arial Bold.ttf" if bold else "/System/Library/Fonts/Supplemental/Arial.ttf",
     ]
