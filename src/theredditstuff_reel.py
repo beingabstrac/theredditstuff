@@ -267,6 +267,27 @@ def is_safe_text(*parts):
     return not any(term in text for term in UNSAFE_TERMS)
 
 
+def strip_emoji(text):
+    text = re.sub(
+        "["
+        "\U0001f1e6-\U0001f1ff"
+        "\U0001f300-\U0001f5ff"
+        "\U0001f600-\U0001f64f"
+        "\U0001f680-\U0001f6ff"
+        "\U0001f700-\U0001f77f"
+        "\U0001f780-\U0001f7ff"
+        "\U0001f800-\U0001f8ff"
+        "\U0001f900-\U0001f9ff"
+        "\U0001fa00-\U0001fa6f"
+        "\U0001fa70-\U0001faff"
+        "\u2600-\u27bf"
+        "]+",
+        "",
+        text or "",
+    )
+    return " ".join(text.split())
+
+
 def term_in_text(term, text):
     if " " in term:
         return term in text
@@ -750,8 +771,7 @@ def draw_post_component(draw, segment):
     title_lines = wrap(draw, segment["text"], max_width, title_font)[:7]
     body = segment.get("body", "").strip()
     body_lines = wrap(draw, body, max_width, body_font)[:4] if body else []
-    has_actions = segment.get("score") is not None or (segment.get("num_comments") or 0) > 0
-    action_space = 104 if has_actions else 28
+    action_space = 28
     content_h = 60 + 58 + len(title_lines) * (title_font.size + 17) + action_space + 52
     if body_lines:
         content_h += 18 + len(body_lines) * (body_font.size + 12)
@@ -775,8 +795,6 @@ def draw_post_component(draw, segment):
             draw.text((x, y), line, font=body_font, fill="#222222")
             y += body_font.size + 12
 
-    if has_actions:
-        draw_action_row(draw, x, y2 - 104, segment.get("score"), segment.get("num_comments"))
     draw_brand_below_card(draw, y2)
 
 
@@ -787,8 +805,7 @@ def draw_comment_component(draw, segment):
     weak_font = font(28, False)
     max_width = W - 64 * 2 - pad * 2
     body_lines = wrap(draw, segment["text"], max_width, body_font)[:9]
-    has_actions = segment.get("score") is not None
-    action_space = 104 if has_actions else 28
+    action_space = 28
     content_h = 60 + 55 + len(body_lines) * (body_font.size + 17) + action_space + 52
 
     x1, y1, x2, y2 = card_bounds(content_h)
@@ -804,8 +821,6 @@ def draw_comment_component(draw, segment):
         draw.text((x, y), line, font=body_font, fill="#111111")
         y += body_font.size + 17
 
-    if has_actions:
-        draw_action_row(draw, x, y2 - 104, segment.get("score"))
     draw_brand_below_card(draw, y2)
 
 
@@ -975,7 +990,7 @@ def cta_for_title(title):
 
 
 def build_segments(post):
-    title = post["title"].strip()
+    title = strip_emoji(post["title"].strip())
     subreddit = post.get("subreddit", "AskReddit")
     post_author = post.get("author", "redditor")
     segments = [
@@ -983,16 +998,16 @@ def build_segments(post):
             "kind": "post",
             "label": "Post",
             "text": title,
-            "body": " ".join(post.get("body", "").split()),
+            "body": strip_emoji(post.get("body", "")),
             "author": post_author,
             "subreddit": subreddit,
-            "score": post.get("score", 0),
-            "num_comments": post.get("num_comments", len(post.get("comments", []))),
+            "score": None,
+            "num_comments": None,
             "voice": title,
         }
     ]
     for i, comment in enumerate(post["comments"][:MAX_COMMENTS], start=1):
-        body = " ".join(comment["body"].split())
+        body = strip_emoji(comment["body"])
         body = textwrap.shorten(body, width=230, placeholder="...")
         author = comment.get("author", "redditor")
         segments.append(
@@ -1002,7 +1017,7 @@ def build_segments(post):
                 "text": body,
                 "author": author,
                 "intro": "commented",
-                "score": comment.get("score", 0),
+                "score": None,
                 "voice": body,
             }
         )
