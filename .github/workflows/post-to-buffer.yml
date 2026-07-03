@@ -2,6 +2,11 @@ name: Post to Buffer
 
 on:
   workflow_dispatch:
+    inputs:
+      fill_count:
+        description: "How many reels to create and add to Buffer"
+        required: false
+        default: "1"
   schedule:
     # 10:00, 15:00, 20:00 IST. GitHub cron is UTC.
     - cron: "30 4,9,14 * * *"
@@ -29,6 +34,7 @@ jobs:
       CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
       CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
       CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+      QUEUE_FILL_COUNT: ${{ github.event.inputs.fill_count || '1' }}
 
     steps:
       - uses: actions/checkout@v4
@@ -49,11 +55,19 @@ jobs:
           python -m pip install pillow edge-tts
           python -m pip install --target .deps edge-tts
 
-      - name: Render reel
-        run: ./scripts/render.sh
-
-      - name: Queue in Buffer
-        run: python scripts/post_to_buffer.py
+      - name: Render and queue
+        run: |
+          count="${QUEUE_FILL_COUNT:-1}"
+          case "$count" in
+            ''|*[!0-9]*) count=1 ;;
+          esac
+          if [ "$count" -lt 1 ]; then count=1; fi
+          if [ "$count" -gt 5 ]; then count=5; fi
+          for i in $(seq 1 "$count"); do
+            echo "Rendering and queueing reel $i of $count"
+            ./scripts/render.sh
+            python scripts/post_to_buffer.py
+          done
 
       - name: Commit posted history
         run: |

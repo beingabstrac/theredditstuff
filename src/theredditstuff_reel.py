@@ -45,6 +45,81 @@ DEFAULT_SUBREDDITS = [
     "unpopularopinion",
 ]
 
+EVERYDAY_TERMS = [
+    "friend",
+    "friends",
+    "relationship",
+    "dating",
+    "partner",
+    "couple",
+    "couples",
+    "family",
+    "parents",
+    "roommate",
+    "neighbor",
+    "work",
+    "coworker",
+    "boss",
+    "money",
+    "bill",
+    "split",
+    "text",
+    "texts",
+    "reply",
+    "phone",
+    "password",
+    "home",
+    "house",
+    "habit",
+    "small thing",
+    "everyday",
+    "normal",
+    "rude",
+    "annoying",
+    "social",
+    "people",
+    "strangers",
+    "restaurant",
+    "shopping",
+]
+
+DEBATABLE_TERMS = [
+    "rude",
+    "normal",
+    "weird",
+    "wrong",
+    "acceptable",
+    "fair",
+    "unfair",
+    "judge",
+    "red flag",
+    "would you",
+    "should",
+    "shouldn't",
+    "rather",
+    "annoying",
+    "harmless",
+    "small lie",
+]
+
+LOW_VALUE_TERMS = [
+    "celebrity",
+    "famous",
+    "movie",
+    "movies",
+    "anime",
+    "game",
+    "gaming",
+    "song",
+    "lyrics",
+    "history",
+    "science",
+    "space",
+    "states",
+    "country",
+    "countries",
+]
+
 
 SAMPLE_POSTS = [
     {
@@ -52,71 +127,71 @@ SAMPLE_POSTS = [
         "author": "ordinary_opinion",
         "score": 48200,
         "num_comments": 9300,
-        "title": "What is socially acceptable but actually rude?",
-        "source_url": "fallback://socially-acceptable-rude",
+        "title": "Is it rude to wear headphones at home when someone is talking nearby?",
+        "source_url": "fallback://headphones-at-home-rude",
         "body": "",
         "comments": [
-            {"author": "speakerphone_truth", "score": 21400, "body": "Putting someone on speakerphone without telling the other people in the room. It instantly changes the whole conversation."},
-            {"author": "early_is_rude", "score": 18900, "body": "Showing up way too early to someone's house. Five minutes is fine. Thirty minutes early is just a surprise inspection."},
-            {"author": "dont_ask_that", "score": 15100, "body": "Asking couples when they are having kids. People treat it like small talk, but it can be a really loaded question."},
-            {"author": "public_not_content", "score": 12700, "body": "Recording strangers in public for content. Everyone acts like it is normal now, but most people did not agree to be part of your video."},
-            {"author": "smalltalk_skeptic", "score": 9800, "body": "Commenting on someone's body, even as a compliment. You never know what they are dealing with."},
-            {"author": "meeting_escapee", "score": 7600, "body": "Starting a meeting five minutes before it ends with 'quick question.' It is never quick."},
-            {"author": "cart_conflict", "score": 6100, "body": "Leaving your shopping cart in the middle of the aisle while you browse like nobody else exists."},
+            {"author": "same_room_rules", "score": 21400, "body": "If someone is actively talking to you, headphones feel rude. If they are just existing nearby, that is called living in the same house."},
+            {"author": "quiet_time_needed", "score": 18900, "body": "I wear headphones because I need my brain to calm down. It is not personal unless I ignore someone who clearly needs me."},
+            {"author": "say_my_name_first", "score": 15100, "body": "The rule should be simple. Say my name first, wait for me to pause, then talk. Do not start a full story while I hear nothing."},
+            {"author": "family_volume", "score": 12700, "body": "Some families think being available every second is normal. Other people need boundaries. That mismatch causes the whole argument."},
+            {"author": "one_ear_out", "score": 9800, "body": "One earbud at home is the compromise. Full noise canceling during a conversation is basically a soft exit."},
+            {"author": "not_a_call_center", "score": 7600, "body": "Nobody should have to be reachable like customer support just because they are sitting in the living room."},
+            {"author": "context_matters", "score": 6100, "body": "If it is dinner or family time, rude. If it is random background noise at 9 PM, completely normal."},
         ],
     },
     {
         "subreddit": "WouldYouRather",
-        "author": "choice_pressure",
+        "author": "bill_splitter",
         "score": 38600,
         "num_comments": 7200,
-        "title": "Would you rather be liked by everyone but never respected, or respected by everyone but rarely liked?",
-        "source_url": "fallback://liked-or-respected",
+        "title": "Would you split the bill evenly if one friend ordered way more?",
+        "source_url": "fallback://split-bill-evenly",
         "body": "",
         "comments": [
-            {"author": "respect_first", "score": 17600, "body": "Respect, easily. Being liked by everyone usually means you are editing yourself all day."},
-            {"author": "social_battery_low", "score": 14100, "body": "Liked but not respected sounds exhausting. People would invite you everywhere and still ignore what you say."},
-            {"author": "depends_on_work", "score": 11800, "body": "At work I want respect. In normal life I would rather be liked. Context changes the answer completely."},
-            {"author": "quiet_boundary", "score": 9400, "body": "Respected but rarely liked. At least people would take my boundaries seriously."},
-            {"author": "not_that_simple", "score": 8100, "body": "If everyone likes you, some respect probably comes with it. If nobody likes you, respect can turn into fear pretty fast."},
-            {"author": "people_pleaser_exit", "score": 6900, "body": "I spent years trying to be liked. Respect gives you peace. Being liked gives you maintenance work."},
-            {"author": "middle_option", "score": 5300, "body": "The real answer is neither. Both sound like a lonely life with better branding."},
+            {"author": "pay_for_yours", "score": 17600, "body": "No. Splitting evenly is for people who ordered roughly the same thing, not someone who discovered appetizers and cocktails."},
+            {"author": "friendship_tax", "score": 14100, "body": "If it is a close friend and it happens once, I do not care. If it is a pattern, I am suddenly very good at math."},
+            {"author": "say_it_early", "score": 11800, "body": "The easiest fix is saying separate checks before anyone orders. Waiting until the bill comes makes it awkward for everyone."},
+            {"author": "generous_until_used", "score": 9400, "body": "I like being generous. I do not like being quietly assigned the role of discount code."},
+            {"author": "group_pressure", "score": 8100, "body": "People call you cheap for objecting, but somehow the person ordering double is never called inconsiderate."},
+            {"author": "depends_on_amount", "score": 6900, "body": "If the difference is five dollars, whatever. If the difference is thirty dollars, we are itemizing."},
+            {"author": "birthday_exception", "score": 5300, "body": "Only exception is birthdays or planned treats. Otherwise your lobster is between you and your bank account."},
         ],
     },
     {
         "subreddit": "hypotheticalsituation",
-        "author": "tiny_tradeoff",
+        "author": "texting_gap",
         "score": 29400,
         "num_comments": 6100,
-        "title": "You get free rent forever, but one random friend can walk into your home anytime. Do you take it?",
-        "source_url": "fallback://free-rent-random-friend",
+        "title": "Is it normal to not reply to texts for hours?",
+        "source_url": "fallback://reply-to-texts-hours",
         "body": "",
         "comments": [
-            {"author": "rent_is_winning", "score": 15300, "body": "Free rent forever is too much money to turn down. I would simply stop having random friends."},
-            {"author": "privacy_tax", "score": 13700, "body": "No. Home is the one place where I do not want surprise guests, even if the surprise is technically affordable."},
-            {"author": "doorbell_required", "score": 9800, "body": "Depends if they can walk in while I am sleeping. If yes, absolutely not. That is not free rent, that is a haunted lease."},
-            {"author": "city_prices", "score": 8900, "body": "In this economy, my friend can walk in and critique my furniture. I will be financially healing."},
-            {"author": "social_contract", "score": 7300, "body": "I would take it only if I can choose the friend group. Some people treat boundaries like suggestions."},
-            {"author": "lock_the_bathroom", "score": 6100, "body": "Free rent but zero privacy is still a bad deal. People underestimate how much peace is worth."},
-            {"author": "one_good_friend", "score": 4800, "body": "If it is one of my close friends, fine. If it includes acquaintances, the deal is dead immediately."},
+            {"author": "not_emergency_line", "score": 15300, "body": "Normal. A text is not a summons. If it is urgent, call me. If it is not urgent, I will answer when my brain returns."},
+            {"author": "relationship_math", "score": 13700, "body": "It depends on the relationship. Taking six hours to answer your partner every single day sends a message whether you mean it or not."},
+            {"author": "busy_is_real", "score": 9800, "body": "People are working, driving, sleeping, cooking, or just tired. Instant replies should not be the default expectation."},
+            {"author": "pattern_reader", "score": 8900, "body": "The delay is not the problem. The pattern is. If someone only replies when they need something, you notice."},
+            {"author": "phone_in_hand", "score": 7300, "body": "Everyone says they were away from their phone, but then posts three stories. That is the part that feels insulting."},
+            {"author": "mental_space", "score": 6100, "body": "Sometimes I see the message and need time before I can be a normal person. That should be allowed."},
+            {"author": "simple_update", "score": 4800, "body": "A quick 'busy, will reply later' solves most of this. People do not need instant access, they need basic consideration."},
         ],
     },
     {
         "subreddit": "NoStupidQuestions",
-        "author": "social_confused",
+        "author": "phone_boundary",
         "score": 25100,
         "num_comments": 5400,
-        "title": "Is it weird to stop being friends with someone just because they only talk about themselves?",
-        "source_url": "fallback://self-centered-friend",
+        "title": "Should couples share phone passwords or is that weird?",
+        "source_url": "fallback://couples-phone-passwords",
         "body": "",
         "comments": [
-            {"author": "conversation_is_two", "score": 13200, "body": "No. A friendship where you are only an audience member is not really a friendship."},
-            {"author": "slow_fade_fan", "score": 10600, "body": "It is not weird, but I would probably fade out instead of making a dramatic announcement."},
-            {"author": "ask_once", "score": 9100, "body": "I would bring it up once. Some people genuinely do not realize they are doing it."},
-            {"author": "not_a_podcast", "score": 8200, "body": "If every hangout feels like listening to a podcast you cannot pause, that is a valid reason to leave."},
-            {"author": "pattern_matters", "score": 6700, "body": "Everyone has self-centered phases. The issue is when it becomes the whole pattern."},
-            {"author": "emotional_labor_bill", "score": 5400, "body": "People call it rude to leave, but never rude to use someone as free emotional storage."},
-            {"author": "direct_but_kind", "score": 4200, "body": "Tell them kindly first. If nothing changes, you already gave the friendship a fair chance."},
+            {"author": "trust_is_not_access", "score": 13200, "body": "Trust does not mean unlimited access. I trust my partner, but my group chats did not consent to being read."},
+            {"author": "emergency_only", "score": 10600, "body": "We know each other's passwords for emergencies, but neither of us scrolls. That feels normal to me."},
+            {"author": "privacy_is_healthy", "score": 9100, "body": "People confuse privacy with secrecy. You can be committed and still have a private device."},
+            {"author": "nothing_to_hide", "score": 8200, "body": "If there is nothing to hide, sharing it should not be a big deal. The defensive reaction would worry me more than the password."},
+            {"author": "bad_precedent", "score": 6700, "body": "Once checking becomes normal, it rarely stops at emergencies. It turns into little audits of tone, timing, and likes."},
+            {"author": "depends_on_history", "score": 5400, "body": "If someone has cheated before, this conversation is different. But using passwords to rebuild trust sounds miserable."},
+            {"author": "mutual_or_no", "score": 4200, "body": "It is only fair if it is mutual and calm. If one person demands it during a fight, that is not trust."},
         ],
     },
 ]
@@ -186,6 +261,11 @@ UNSAFE_TERMS = [
 def is_safe_text(*parts):
     text = " ".join(part or "" for part in parts).lower()
     return not any(term in text for term in UNSAFE_TERMS)
+
+
+def is_everyday_topic(title):
+    lower = (title or "").lower()
+    return any(term in lower for term in EVERYDAY_TERMS) and any(term in lower for term in DEBATABLE_TERMS)
 
 
 def load_posted_sources():
@@ -327,6 +407,8 @@ def fetch_subreddit_candidates(token, subreddit):
             continue
         if not is_safe_text(data.get("title", ""), data.get("selftext", "")):
             continue
+        if not is_everyday_topic(data.get("title", "")):
+            continue
         if data.get("num_comments", 0) < 20:
             continue
         candidates.append(data)
@@ -349,6 +431,8 @@ def fetch_subreddit_rss_candidates(subreddit):
         if not title or not link or not post_id:
             continue
         if not is_safe_text(title):
+            continue
+        if not is_everyday_topic(title):
             continue
         permalink = urllib.parse.urlparse(link).path
         candidates.append(
@@ -473,46 +557,8 @@ def shareable_score(post):
     words = title.split()
     score = 0
 
-    relatable = [
-        "relationship",
-        "friend",
-        "family",
-        "work",
-        "school",
-        "money",
-        "dating",
-        "social",
-        "people",
-        "parents",
-        "kids",
-        "roommate",
-        "coworker",
-        "partner",
-        "strangers",
-    ]
-    debatable = [
-        "acceptable",
-        "rude",
-        "wrong",
-        "overrated",
-        "red flag",
-        "unpopular",
-        "shouldn't",
-        "pretend",
-        "normalize",
-        "attractive",
-        "unattractive",
-        "rather",
-        "would you",
-        "hypothetical",
-        "annoying",
-        "fair",
-        "unfair",
-    ]
-    unsafe = ["politic", "religion", "war", "suicide", "murder", "abuse", "rape", "death", "nsfw"]
-
-    score += sum(10 for word in relatable if word in title)
-    score += sum(16 for word in debatable if word in title)
+    score += sum(12 for word in EVERYDAY_TERMS if word in title)
+    score += sum(18 for word in DEBATABLE_TERMS if word in title)
     score += min((post.get("num_comments") or 0) / 150, 25)
     score += min((post.get("score") or 0) / 2000, 20)
     if post.get("subreddit") in DEFAULT_SUBREDDITS[:3]:
@@ -522,7 +568,13 @@ def shareable_score(post):
         score += 18
     if len(title) > 135:
         score -= 30
-    if any(word in title for word in unsafe):
+    if any(word in title for word in LOW_VALUE_TERMS):
+        score -= 35
+    if title.startswith(("what's your favorite", "what is your favorite", "what are your favorite")):
+        score -= 30
+    if not is_everyday_topic(title):
+        score -= 100
+    if not is_safe_text(title):
         score -= 100
 
     return score
@@ -910,31 +962,6 @@ def cta_for_title(title):
     return "What would you do?\nComment below."
 
 
-def spoken_username(username):
-    return (username or "someone").replace("_", " ").replace("-", " ")
-
-
-def comment_voice_intro(body, index):
-    lower = body.lower()
-    if lower.rstrip().endswith("?"):
-        return "asks"
-    if any(word in lower for word in ["i think", "i believe", "imo", "in my opinion"]):
-        return "thinks"
-    if any(word in lower for word in ["i feel", "feels", "felt"]):
-        return "feels"
-    if any(word in lower for word in ["but", "though", "also", "another"]):
-        return "adds"
-    if any(word in lower for word in ["should", "never", "always", "normal now"]):
-        return "says"
-    return "says"
-
-
-def comment_voice_line(author, body, index):
-    name = spoken_username(author)
-    intro = comment_voice_intro(body, index)
-    return f"{name} {intro}: {body}"
-
-
 def build_segments(post):
     title = post["title"].strip()
     subreddit = post.get("subreddit", "AskReddit")
@@ -949,7 +976,7 @@ def build_segments(post):
             "subreddit": subreddit,
             "score": post.get("score", 0),
             "num_comments": post.get("num_comments", len(post.get("comments", []))),
-            "voice": f"In {subreddit}, {spoken_username(post_author)} asked: {title}",
+            "voice": title,
         }
     ]
     for i, comment in enumerate(post["comments"][:MAX_COMMENTS], start=1):
@@ -964,7 +991,7 @@ def build_segments(post):
                 "author": author,
                 "intro": "commented",
                 "score": comment.get("score", 0),
-                "voice": comment_voice_line(author, body, i),
+                "voice": body,
             }
         )
 
