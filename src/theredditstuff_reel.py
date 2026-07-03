@@ -52,6 +52,7 @@ SAMPLE_POSTS = [
         "score": 48200,
         "num_comments": 9300,
         "title": "What is socially acceptable but actually rude?",
+        "source_url": "fallback://socially-acceptable-rude",
         "body": "",
         "comments": [
             {"author": "speakerphone_truth", "score": 21400, "body": "Putting someone on speakerphone without telling the other people in the room. It instantly changes the whole conversation."},
@@ -69,6 +70,7 @@ SAMPLE_POSTS = [
         "score": 38600,
         "num_comments": 7200,
         "title": "Would you rather be liked by everyone but never respected, or respected by everyone but rarely liked?",
+        "source_url": "fallback://liked-or-respected",
         "body": "",
         "comments": [
             {"author": "respect_first", "score": 17600, "body": "Respect, easily. Being liked by everyone usually means you are editing yourself all day."},
@@ -86,6 +88,7 @@ SAMPLE_POSTS = [
         "score": 29400,
         "num_comments": 6100,
         "title": "You get free rent forever, but one random friend can walk into your home anytime. Do you take it?",
+        "source_url": "fallback://free-rent-random-friend",
         "body": "",
         "comments": [
             {"author": "rent_is_winning", "score": 15300, "body": "Free rent forever is too much money to turn down. I would simply stop having random friends."},
@@ -103,6 +106,7 @@ SAMPLE_POSTS = [
         "score": 25100,
         "num_comments": 5400,
         "title": "Is it weird to stop being friends with someone just because they only talk about themselves?",
+        "source_url": "fallback://self-centered-friend",
         "body": "",
         "comments": [
             {"author": "conversation_is_two", "score": 13200, "body": "No. A friendship where you are only an audience member is not really a friendship."},
@@ -182,8 +186,13 @@ def load_posted_sources():
 
 
 def fallback_post():
-    raw_index = os.getenv("FALLBACK_POST_INDEX")
+    raw_index = os.getenv("FALLBACK_POST_INDEX") or os.getenv("GITHUB_RUN_NUMBER") or os.getenv("GITHUB_RUN_ID")
     index = int(raw_index) if raw_index and raw_index.isdigit() else int(time.time() // 3600)
+    posted_sources = load_posted_sources()
+    for offset in range(len(SAMPLE_POSTS)):
+        post = SAMPLE_POSTS[(index + offset) % len(SAMPLE_POSTS)]
+        if post.get("source_url") not in posted_sources:
+            return json.loads(json.dumps(post))
     return json.loads(json.dumps(SAMPLE_POSTS[index % len(SAMPLE_POSTS)]))
 
 
