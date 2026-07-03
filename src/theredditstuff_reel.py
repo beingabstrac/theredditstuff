@@ -103,6 +103,10 @@ DEBATABLE_TERMS = [
 ]
 
 LOW_VALUE_TERMS = [
+    "billionaire",
+    "millionaire",
+    "rich",
+    "wealthy",
     "celebrity",
     "famous",
     "movie",
@@ -263,9 +267,17 @@ def is_safe_text(*parts):
     return not any(term in text for term in UNSAFE_TERMS)
 
 
+def term_in_text(term, text):
+    if " " in term:
+        return term in text
+    return re.search(rf"(?<![a-z0-9]){re.escape(term)}(?![a-z0-9])", text) is not None
+
+
 def is_everyday_topic(title):
     lower = (title or "").lower()
-    return any(term in lower for term in EVERYDAY_TERMS) and any(term in lower for term in DEBATABLE_TERMS)
+    return any(term_in_text(term, lower) for term in EVERYDAY_TERMS) and any(
+        term_in_text(term, lower) for term in DEBATABLE_TERMS
+    )
 
 
 def load_posted_sources():
@@ -557,8 +569,8 @@ def shareable_score(post):
     words = title.split()
     score = 0
 
-    score += sum(12 for word in EVERYDAY_TERMS if word in title)
-    score += sum(18 for word in DEBATABLE_TERMS if word in title)
+    score += sum(12 for word in EVERYDAY_TERMS if term_in_text(word, title))
+    score += sum(18 for word in DEBATABLE_TERMS if term_in_text(word, title))
     score += min((post.get("num_comments") or 0) / 150, 25)
     score += min((post.get("score") or 0) / 2000, 20)
     if post.get("subreddit") in DEFAULT_SUBREDDITS[:3]:
@@ -568,7 +580,7 @@ def shareable_score(post):
         score += 18
     if len(title) > 135:
         score -= 30
-    if any(word in title for word in LOW_VALUE_TERMS):
+    if any(term_in_text(word, title) for word in LOW_VALUE_TERMS):
         score -= 35
     if title.startswith(("what's your favorite", "what is your favorite", "what are your favorite")):
         score -= 30
