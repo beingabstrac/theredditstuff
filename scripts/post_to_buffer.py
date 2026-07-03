@@ -103,7 +103,7 @@ def create_buffer_post(caption, video_url):
     mutation {{
       createPost(input: {{
         channelId: {gql_string(channel_id)}
-        type: reel
+        type: "reel"
         text: {gql_string(caption)}
         schedulingType: automatic
         mode: addToQueue
@@ -129,8 +129,12 @@ def create_buffer_post(caption, video_url):
         data=json.dumps({"query": mutation}).encode("utf-8"),
         headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
     )
-    with urllib.request.urlopen(req, timeout=60) as response:
-        data = json.loads(response.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(req, timeout=60) as response:
+            data = json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        body = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Buffer HTTP {exc.code}: {body}") from exc
     if data.get("errors"):
         raise RuntimeError(json.dumps(data["errors"], indent=2))
     result = data.get("data", {}).get("createPost", {})
