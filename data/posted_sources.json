@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://split-bill-evenly",
+      "title": "Would you split the bill evenly if one friend ordered way more?",
+      "buffer_post_id": "6a47ba915a1476309a3f031e",
+      "posted_at": "2026-07-03T13:35:13.513958+00:00"
+    },
+    {
+      "source_url": "fallback://headphones-at-home-rude",
+      "title": "Is it rude to wear headphones at home when someone is talking nearby?",
+      "buffer_post_id": "6a47ba7a8bd76981adea372c",
+      "posted_at": "2026-07-03T13:34:50.726142+00:00"
+    },
+    {
       "source_url": "fallback://tell-friend-partner-flirting",
       "title": "Would you tell your friend if their partner was flirting with someone else?",
       "buffer_post_id": "6a47b8c66917141d4533111f",
