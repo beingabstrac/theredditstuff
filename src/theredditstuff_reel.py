@@ -855,11 +855,6 @@ def audio_duration(audio_path):
     return float(result.stdout.strip())
 
 
-def estimated_voice_duration(text):
-    words = len((text or "").split())
-    return max(2.2, words / 2.75 + 0.8)
-
-
 def segment_to_video(image_path, audio_path, video_path, duration):
     run_ffmpeg(
         [
@@ -1002,7 +997,7 @@ def main():
 
             make_card(segment, index, len(segments)).save(image_path)
             make_voice(segment["voice"], audio_path, index)
-            duration = max(audio_duration(audio_path) + 0.35, estimated_voice_duration(segment["voice"]))
+            duration = audio_duration(audio_path) + 0.22
             segment_to_video(image_path, audio_path, video_path, duration)
             part_paths.append(video_path)
 
