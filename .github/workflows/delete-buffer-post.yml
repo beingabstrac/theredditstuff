@@ -1,0 +1,25 @@
+name: Delete Buffer Post
+
+on:
+  workflow_dispatch:
+    inputs:
+      post_id:
+        description: "Buffer post id to delete"
+        required: true
+
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      BUFFER_POST_ID: ${{ github.event.inputs.post_id }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: python scripts/delete_buffer_post.py
