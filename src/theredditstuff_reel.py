@@ -45,51 +45,78 @@ DEFAULT_SUBREDDITS = [
 ]
 
 
-SAMPLE_POST = {
-    "subreddit": "AskReddit",
-    "author": "ordinary_opinion",
-    "score": 48200,
-    "num_comments": 9300,
-    "title": "What is socially acceptable but actually rude?",
-    "body": "",
-    "comments": [
-        {
-            "author": "speakerphone_truth",
-            "score": 21400,
-            "body": "Putting someone on speakerphone without telling the other people in the room. It instantly changes the whole conversation.",
-        },
-        {
-            "author": "early_is_rude",
-            "score": 18900,
-            "body": "Showing up way too early to someone's house. Five minutes is fine. Thirty minutes early is just a surprise inspection.",
-        },
-        {
-            "author": "dont_ask_that",
-            "score": 15100,
-            "body": "Asking couples when they are having kids. People treat it like small talk, but it can be a really loaded question.",
-        },
-        {
-            "author": "public_not_content",
-            "score": 12700,
-            "body": "Recording strangers in public for content. Everyone acts like it is normal now, but most people did not agree to be part of your video.",
-        },
-        {
-            "author": "smalltalk_skeptic",
-            "score": 9800,
-            "body": "Commenting on someone's body, even as a compliment. You never know what they are dealing with.",
-        },
-        {
-            "author": "meeting_escapee",
-            "score": 7600,
-            "body": "Starting a meeting five minutes before it ends with 'quick question.' It is never quick.",
-        },
-        {
-            "author": "cart_conflict",
-            "score": 6100,
-            "body": "Leaving your shopping cart in the middle of the aisle while you browse like nobody else exists.",
-        },
-    ],
-}
+SAMPLE_POSTS = [
+    {
+        "subreddit": "AskReddit",
+        "author": "ordinary_opinion",
+        "score": 48200,
+        "num_comments": 9300,
+        "title": "What is socially acceptable but actually rude?",
+        "body": "",
+        "comments": [
+            {"author": "speakerphone_truth", "score": 21400, "body": "Putting someone on speakerphone without telling the other people in the room. It instantly changes the whole conversation."},
+            {"author": "early_is_rude", "score": 18900, "body": "Showing up way too early to someone's house. Five minutes is fine. Thirty minutes early is just a surprise inspection."},
+            {"author": "dont_ask_that", "score": 15100, "body": "Asking couples when they are having kids. People treat it like small talk, but it can be a really loaded question."},
+            {"author": "public_not_content", "score": 12700, "body": "Recording strangers in public for content. Everyone acts like it is normal now, but most people did not agree to be part of your video."},
+            {"author": "smalltalk_skeptic", "score": 9800, "body": "Commenting on someone's body, even as a compliment. You never know what they are dealing with."},
+            {"author": "meeting_escapee", "score": 7600, "body": "Starting a meeting five minutes before it ends with 'quick question.' It is never quick."},
+            {"author": "cart_conflict", "score": 6100, "body": "Leaving your shopping cart in the middle of the aisle while you browse like nobody else exists."},
+        ],
+    },
+    {
+        "subreddit": "WouldYouRather",
+        "author": "choice_pressure",
+        "score": 38600,
+        "num_comments": 7200,
+        "title": "Would you rather be liked by everyone but never respected, or respected by everyone but rarely liked?",
+        "body": "",
+        "comments": [
+            {"author": "respect_first", "score": 17600, "body": "Respect, easily. Being liked by everyone usually means you are editing yourself all day."},
+            {"author": "social_battery_low", "score": 14100, "body": "Liked but not respected sounds exhausting. People would invite you everywhere and still ignore what you say."},
+            {"author": "depends_on_work", "score": 11800, "body": "At work I want respect. In normal life I would rather be liked. Context changes the answer completely."},
+            {"author": "quiet_boundary", "score": 9400, "body": "Respected but rarely liked. At least people would take my boundaries seriously."},
+            {"author": "not_that_simple", "score": 8100, "body": "If everyone likes you, some respect probably comes with it. If nobody likes you, respect can turn into fear pretty fast."},
+            {"author": "people_pleaser_exit", "score": 6900, "body": "I spent years trying to be liked. Respect gives you peace. Being liked gives you maintenance work."},
+            {"author": "middle_option", "score": 5300, "body": "The real answer is neither. Both sound like a lonely life with better branding."},
+        ],
+    },
+    {
+        "subreddit": "hypotheticalsituation",
+        "author": "tiny_tradeoff",
+        "score": 29400,
+        "num_comments": 6100,
+        "title": "You get free rent forever, but one random friend can walk into your home anytime. Do you take it?",
+        "body": "",
+        "comments": [
+            {"author": "rent_is_winning", "score": 15300, "body": "Free rent forever is too much money to turn down. I would simply stop having random friends."},
+            {"author": "privacy_tax", "score": 13700, "body": "No. Home is the one place where I do not want surprise guests, even if the surprise is technically affordable."},
+            {"author": "doorbell_required", "score": 9800, "body": "Depends if they can walk in while I am sleeping. If yes, absolutely not. That is not free rent, that is a haunted lease."},
+            {"author": "city_prices", "score": 8900, "body": "In this economy, my friend can walk in and critique my furniture. I will be financially healing."},
+            {"author": "social_contract", "score": 7300, "body": "I would take it only if I can choose the friend group. Some people treat boundaries like suggestions."},
+            {"author": "lock_the_bathroom", "score": 6100, "body": "Free rent but zero privacy is still a bad deal. People underestimate how much peace is worth."},
+            {"author": "one_good_friend", "score": 4800, "body": "If it is one of my close friends, fine. If it includes acquaintances, the deal is dead immediately."},
+        ],
+    },
+    {
+        "subreddit": "NoStupidQuestions",
+        "author": "social_confused",
+        "score": 25100,
+        "num_comments": 5400,
+        "title": "Is it weird to stop being friends with someone just because they only talk about themselves?",
+        "body": "",
+        "comments": [
+            {"author": "conversation_is_two", "score": 13200, "body": "No. A friendship where you are only an audience member is not really a friendship."},
+            {"author": "slow_fade_fan", "score": 10600, "body": "It is not weird, but I would probably fade out instead of making a dramatic announcement."},
+            {"author": "ask_once", "score": 9100, "body": "I would bring it up once. Some people genuinely do not realize they are doing it."},
+            {"author": "not_a_podcast", "score": 8200, "body": "If every hangout feels like listening to a podcast you cannot pause, that is a valid reason to leave."},
+            {"author": "pattern_matters", "score": 6700, "body": "Everyone has self-centered phases. The issue is when it becomes the whole pattern."},
+            {"author": "emotional_labor_bill", "score": 5400, "body": "People call it rude to leave, but never rude to use someone as free emotional storage."},
+            {"author": "direct_but_kind", "score": 4200, "body": "Tell them kindly first. If nothing changes, you already gave the friendship a fair chance."},
+        ],
+    },
+]
+
+SAMPLE_POST = SAMPLE_POSTS[0]
 
 KOKORO_PIPELINE = None
 KOKORO_VOICES = ["af_heart", "am_adam", "af_bella", "am_michael"]
@@ -152,6 +179,12 @@ def load_posted_sources():
     except json.JSONDecodeError:
         return set()
     return {item.get("source_url") for item in data.get("posted", []) if item.get("source_url")}
+
+
+def fallback_post():
+    raw_index = os.getenv("FALLBACK_POST_INDEX")
+    index = int(raw_index) if raw_index and raw_index.isdigit() else int(time.time() // 3600)
+    return json.loads(json.dumps(SAMPLE_POSTS[index % len(SAMPLE_POSTS)]))
 
 
 def candidate_source_url(post):
@@ -351,7 +384,7 @@ def fetch_reddit_post():
             if len(candidates) >= RSS_CANDIDATE_TARGET:
                 break
     if not candidates:
-        return SAMPLE_POST
+        return fallback_post()
 
     posted_sources = load_posted_sources()
     fresh_candidates = [post for post in candidates if candidate_source_url(post) not in posted_sources]
@@ -368,7 +401,7 @@ def fetch_reddit_post():
                 picked = candidate
                 break
         if not comments:
-            return SAMPLE_POST
+            return fallback_post()
     else:
         try:
             if token:
@@ -399,7 +432,7 @@ def fetch_reddit_post():
             )
 
     if not comments:
-        comments = SAMPLE_POST["comments"]
+        comments = fallback_post()["comments"]
 
     return {
         "subreddit": picked.get("subreddit", "AskReddit"),
@@ -478,6 +511,8 @@ def font(size, bold=False):
         "/Library/Fonts/SF-Pro-Text-Bold.otf" if bold else "/Library/Fonts/SF-Pro-Text-Regular.otf",
         "/Library/Fonts/SF-Pro-Display-Bold.otf" if bold else "/Library/Fonts/SF-Pro-Display-Regular.otf",
         "/usr/share/fonts/truetype/inter/Inter-Bold.ttf" if bold else "/usr/share/fonts/truetype/inter/Inter-Regular.ttf",
+        "/usr/share/fonts/truetype/inter-vf/Inter.var.ttf",
+        "/usr/share/fonts/truetype/inter/Inter.ttf",
         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if bold else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
         "/System/Library/Fonts/SFNS.ttf",
         "/System/Library/Fonts/Supplemental/Arial Bold.ttf" if bold else "/System/Library/Fonts/Supplemental/Arial.ttf",

@@ -103,6 +103,7 @@ def create_buffer_post(caption, video_url):
     mutation {{
       createPost(input: {{
         channelId: {gql_string(channel_id)}
+        type: reel
         text: {gql_string(caption)}
         schedulingType: automatic
         mode: addToQueue
