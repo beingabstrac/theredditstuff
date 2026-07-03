@@ -145,8 +145,18 @@ def create_buffer_post(caption, video_url):
         raise RuntimeError(json.dumps(data["errors"], indent=2))
     result = data.get("data", {}).get("createPost", {})
     if result.get("message"):
-        raise RuntimeError(result["message"])
+        message = result["message"]
+        if os.getenv("IGNORE_QUEUE_FULL") == "1" and is_queue_full_error(message):
+            print(json.dumps({"skipped": "queue_full", "message": message}, indent=2))
+            return None
+        raise RuntimeError(message)
     return result.get("post", {})
+
+
+def is_queue_full_error(message):
+    text = (message or "").lower()
+    markers = ["queue", "limit", "maximum", "max", "scheduled posts", "10 posts"]
+    return any(marker in text for marker in markers)
 
 
 def mark_posted(story, buffer_post):
@@ -185,6 +195,8 @@ def main():
         print(json.dumps({"caption": caption, "video_url": video_url}, indent=2))
         return
     buffer_post = create_buffer_post(caption, video_url)
+    if not buffer_post:
+        return
     mark_posted(story, buffer_post)
     print(json.dumps({"buffer_post": buffer_post, "video_url": video_url}, indent=2))
 

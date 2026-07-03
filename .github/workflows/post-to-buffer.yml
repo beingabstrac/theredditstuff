@@ -35,6 +35,7 @@ jobs:
       CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
       CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
       QUEUE_FILL_COUNT: ${{ github.event.inputs.fill_count || '1' }}
+      IGNORE_QUEUE_FULL: "1"
 
     steps:
       - uses: actions/checkout@v4
