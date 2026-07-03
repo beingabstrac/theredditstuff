@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 VIDEO_PATH = ROOT / "outputs" / "theredditstuff_mvp.mp4"
 STORY_PATH = ROOT / "outputs" / "theredditstuff_storyboard.json"
 POSTED_SOURCES_FILE = Path(os.getenv("POSTED_SOURCES_FILE", ROOT / "data" / "posted_sources.json"))
+QUEUE_FULL_MARKER = ROOT / "outputs" / "queue_full"
 
 
 def require_env(name):
@@ -85,11 +86,38 @@ def cloudinary_upload(video_path):
     )
     with urllib.request.urlopen(req, timeout=120) as response:
         data = json.loads(response.read().decode("utf-8"))
-    return data["secure_url"]
+    return data["secure_url"], data.get("public_id", public_id)
 
 
-def public_video_url():
-    return os.getenv("PUBLIC_VIDEO_URL") or cloudinary_upload(VIDEO_PATH)
+def cloudinary_destroy(public_id):
+    cloud_name, api_key, api_secret = cloudinary_config()
+    if not cloud_name or not api_key or not api_secret or not public_id:
+        return
+    timestamp = str(int(time.time()))
+    signature_base = f"public_id={public_id}&timestamp={timestamp}{api_secret}"
+    signature = hashlib.sha1(signature_base.encode()).hexdigest()
+    body = urllib.parse.urlencode(
+        {
+            "public_id": public_id,
+            "timestamp": timestamp,
+            "api_key": api_key,
+            "signature": signature,
+        }
+    ).encode("utf-8")
+    req = urllib.request.Request(
+        f"https://api.cloudinary.com/v1_1/{cloud_name}/video/destroy",
+        data=body,
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+    )
+    with urllib.request.urlopen(req, timeout=60) as response:
+        response.read()
+
+
+def public_video_asset():
+    public_url = os.getenv("PUBLIC_VIDEO_URL")
+    if public_url:
+        return public_url, None
+    return cloudinary_upload(VIDEO_PATH)
 
 
 def gql_string(value):
@@ -186,16 +214,20 @@ def mark_posted(story, buffer_post):
 
 
 def main():
+    QUEUE_FULL_MARKER.unlink(missing_ok=True)
     if not VIDEO_PATH.exists():
         raise RuntimeError(f"Missing video: {VIDEO_PATH}")
     story = load_story()
     caption = caption_for_story(story)
-    video_url = public_video_url()
     if os.getenv("DRY_RUN") == "1":
-        print(json.dumps({"caption": caption, "video_url": video_url}, indent=2))
+        print(json.dumps({"caption": caption}, indent=2))
         return
+    video_url, cloudinary_public_id = public_video_asset()
     buffer_post = create_buffer_post(caption, video_url)
     if not buffer_post:
+        cloudinary_destroy(cloudinary_public_id)
+        QUEUE_FULL_MARKER.parent.mkdir(parents=True, exist_ok=True)
+        QUEUE_FULL_MARKER.write_text("1\n", encoding="utf-8")
         return
     mark_posted(story, buffer_post)
     print(json.dumps({"buffer_post": buffer_post, "video_url": video_url}, indent=2))
