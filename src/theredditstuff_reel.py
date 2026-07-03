@@ -34,6 +34,7 @@ BRAND_SPACE = 96
 MAX_COMMENTS = int(os.getenv("MAX_COMMENTS", "7"))
 RSS_CANDIDATE_TARGET = int(os.getenv("RSS_CANDIDATE_TARGET", "12"))
 RSS_COMMENT_ATTEMPTS = int(os.getenv("RSS_COMMENT_ATTEMPTS", "2"))
+USE_LIVE_REDDIT = os.getenv("USE_LIVE_REDDIT", "0") == "1"
 
 DEFAULT_SUBREDDITS = [
     "AskReddit",
@@ -196,6 +197,114 @@ SAMPLE_POSTS = [
             {"author": "bad_precedent", "score": 6700, "body": "Once checking becomes normal, it rarely stops at emergencies. It turns into little audits of tone, timing, and likes."},
             {"author": "depends_on_history", "score": 5400, "body": "If someone has cheated before, this conversation is different. But using passwords to rebuild trust sounds miserable."},
             {"author": "mutual_or_no", "score": 4200, "body": "It is only fair if it is mutual and calm. If one person demands it during a fight, that is not trust."},
+        ],
+    },
+    {
+        "subreddit": "AskReddit",
+        "author": "tiny_judgement",
+        "score": 34200,
+        "num_comments": 6800,
+        "title": "What harmless habit makes you instantly judge someone?",
+        "source_url": "fallback://harmless-habit-judge",
+        "body": "",
+        "comments": [
+            {"author": "speakerphone_public", "score": 17100, "body": "Watching videos out loud in public. It tells me they know other people exist and simply decided not to care."},
+            {"author": "cart_blocker", "score": 13800, "body": "Blocking the whole grocery aisle with a cart while slowly comparing two identical boxes of cereal."},
+            {"author": "late_every_time", "score": 11900, "body": "Being late every single time and acting like clocks are a personal attack."},
+            {"author": "trash_next_to_bin", "score": 9600, "body": "Leaving trash near a bin but not inside it. You did ninety percent of the task and quit at the weirdest part."},
+            {"author": "phone_dinner", "score": 8100, "body": "Checking their phone constantly during a meal. It makes the other person feel like a loading screen."},
+            {"author": "reply_all_survivor", "score": 6500, "body": "Using reply all for something only one person needed to see. I immediately assume they create meetings too."},
+            {"author": "doorway_pause", "score": 5100, "body": "Stopping right in a doorway to think. Move three steps and have your life crisis over there."},
+        ],
+    },
+    {
+        "subreddit": "AskReddit",
+        "author": "price_check",
+        "score": 31800,
+        "num_comments": 7400,
+        "title": "What everyday thing became expensive for no good reason?",
+        "source_url": "fallback://everyday-expensive",
+        "body": "",
+        "comments": [
+            {"author": "sandwich_math", "score": 16600, "body": "A basic sandwich. Somehow bread, cheese, and one sad tomato became a financial decision."},
+            {"author": "coffee_total", "score": 14200, "body": "Coffee from normal places. I am not asking for a life-changing drink. I am asking to be awake."},
+            {"author": "delivery_fees", "score": 12100, "body": "Food delivery. The fees now cost enough that I start negotiating with my own laziness."},
+            {"author": "movie_snacks", "score": 9800, "body": "Popcorn at the movies. They price it like each kernel has a college degree."},
+            {"author": "basic_groceries", "score": 8700, "body": "Groceries in general. You walk in for five normal items and leave feeling financially irresponsible."},
+            {"author": "phone_cases", "score": 6900, "body": "Phone cases. It is a rectangle of plastic, but apparently it has luxury brand confidence."},
+            {"author": "airport_water", "score": 5600, "body": "Bottled water at airports. Being thirsty should not feel like a subscription service."},
+        ],
+    },
+    {
+        "subreddit": "NoStupidQuestions",
+        "author": "care_or_avoid",
+        "score": 26700,
+        "num_comments": 4900,
+        "title": "What do people call self-care that is actually avoidance?",
+        "source_url": "fallback://self-care-avoidance",
+        "body": "",
+        "comments": [
+            {"author": "nap_loop", "score": 13100, "body": "Sleeping every time life gets stressful. Rest is healthy, but using sleep as an escape hatch catches up fast."},
+            {"author": "buying_peace", "score": 11200, "body": "Buying things to feel better. Sometimes the package is not self-care, it is just tomorrow's regret in a box."},
+            {"author": "cancel_everything", "score": 9300, "body": "Canceling plans every time you feel slightly uncomfortable. Boundaries are good, disappearing from your life is different."},
+            {"author": "ignore_messages", "score": 7800, "body": "Ignoring every difficult message and calling it protecting your peace. Sometimes peace requires one awkward reply."},
+            {"author": "doomscroll_break", "score": 6500, "body": "Scrolling for hours to decompress. If you feel worse afterward, it was not care."},
+            {"author": "treat_yourself_loop", "score": 5200, "body": "Treating yourself after every minor inconvenience. At some point the treat becomes the main problem."},
+            {"author": "no_hard_tasks", "score": 4100, "body": "Only doing things that feel good in the moment. Future you is still on the group project."},
+        ],
+    },
+    {
+        "subreddit": "AskReddit",
+        "author": "small_lie",
+        "score": 28900,
+        "num_comments": 6200,
+        "title": "What small lie does everyone tell?",
+        "source_url": "fallback://small-lie-everyone-tells",
+        "body": "",
+        "comments": [
+            {"author": "five_minutes", "score": 15100, "body": "I'll be ready in five minutes. That sentence has never once respected time as a concept."},
+            {"author": "no_worries", "score": 12900, "body": "No worries. Sometimes there are absolutely worries, but the email needs to end."},
+            {"author": "almost_there", "score": 10400, "body": "I'm almost there. Usually means I have left emotionally, but not physically."},
+            {"author": "read_terms", "score": 8800, "body": "I have read and agree to the terms. No you did not. Nobody did. We all just wanted the app to open."},
+            {"author": "doing_fine", "score": 7600, "body": "I'm fine. It can mean anything from actually fine to one inconvenience away from becoming a documentary."},
+            {"author": "circle_back", "score": 6200, "body": "Let's circle back. Half the time it means let this idea fade away with dignity."},
+            {"author": "just_one_episode", "score": 4900, "body": "Just one episode. That lie has destroyed more sleep schedules than caffeine."},
+        ],
+    },
+    {
+        "subreddit": "AskReddit",
+        "author": "house_rules",
+        "score": 24400,
+        "num_comments": 5700,
+        "title": "What is normal in your house but weird everywhere else?",
+        "source_url": "fallback://normal-house-weird-elsewhere",
+        "body": "",
+        "comments": [
+            {"author": "assigned_cups", "score": 12000, "body": "Everyone having a specific cup that nobody else is allowed to use. It sounds silly until someone touches the wrong cup."},
+            {"author": "silent_room", "score": 10100, "body": "Sitting in the same room doing completely separate things in silence. To us it is quality time."},
+            {"author": "leftover_rules", "score": 8900, "body": "Labeling leftovers by emotional importance. Some food is shared food. Some food is a legal matter."},
+            {"author": "inside_voice", "score": 7300, "body": "Announcing where you are going in the house. Nobody needs to know, but everyone still reports their location."},
+            {"author": "remote_owner", "score": 6100, "body": "One person being the unofficial owner of the TV remote. There was no election, but the power is real."},
+            {"author": "shoe_border", "score": 5000, "body": "Shoes off is not a preference, it is a border policy."},
+            {"author": "fridge_negotiation", "score": 3900, "body": "Asking if anyone owns food before eating it, even if it is clearly communal. Trust has limits near snacks."},
+        ],
+    },
+    {
+        "subreddit": "hypotheticalsituation",
+        "author": "friend_warning",
+        "score": 30100,
+        "num_comments": 6600,
+        "title": "Would you tell your friend if their partner was flirting with someone else?",
+        "source_url": "fallback://tell-friend-partner-flirting",
+        "body": "",
+        "comments": [
+            {"author": "tell_them_once", "score": 15400, "body": "Yes, but only with facts. I would say what I saw, not turn it into a courtroom drama."},
+            {"author": "proof_first", "score": 13200, "body": "I need to be very sure before saying anything. A wrong accusation can damage three relationships at once."},
+            {"author": "want_to_know", "score": 11100, "body": "I would want my friend to tell me, so I have to offer the same honesty back."},
+            {"author": "messenger_problem", "score": 9400, "body": "People always say they want the truth until you become the person delivering it."},
+            {"author": "depends_on_flirting", "score": 7800, "body": "There is playful conversation and then there is clearly testing the waters. The difference matters."},
+            {"author": "private_first", "score": 6400, "body": "I might talk to the partner first if we are close. Sometimes one direct warning fixes stupid behavior."},
+            {"author": "no_group_chat", "score": 5200, "body": "Whatever happens, do not make it group chat gossip. Tell the friend privately or stay out of it."},
         ],
     },
 ]
@@ -511,6 +620,9 @@ def fetch_rss_comments(permalink):
 
 
 def fetch_reddit_post():
+    if not USE_LIVE_REDDIT:
+        return fallback_post()
+
     token = reddit_token()
 
     candidates = []
