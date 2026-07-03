@@ -25,6 +25,7 @@ ICON_DIR = ROOT / "assets" / "icons"
 W, H = 1080, 1920
 BRAND_GAP = 34
 BRAND_SPACE = 96
+MAX_COMMENTS = int(os.getenv("MAX_COMMENTS", "7"))
 
 DEFAULT_SUBREDDITS = [
     "AskReddit",
@@ -64,6 +65,21 @@ SAMPLE_POST = {
             "author": "public_not_content",
             "score": 12700,
             "body": "Recording strangers in public for content. Everyone acts like it is normal now, but most people did not agree to be part of your video.",
+        },
+        {
+            "author": "smalltalk_skeptic",
+            "score": 9800,
+            "body": "Commenting on someone's body, even as a compliment. You never know what they are dealing with.",
+        },
+        {
+            "author": "meeting_escapee",
+            "score": 7600,
+            "body": "Starting a meeting five minutes before it ends with 'quick question.' It is never quick.",
+        },
+        {
+            "author": "cart_conflict",
+            "score": 6100,
+            "body": "Leaving your shopping cart in the middle of the aisle while you browse like nobody else exists.",
         },
     ],
 }
@@ -244,7 +260,7 @@ def fetch_reddit_post():
         "num_comments": picked.get("num_comments", 0),
         "title": picked["title"],
         "body": picked.get("selftext", ""),
-        "comments": comments[:4],
+        "comments": comments[:MAX_COMMENTS],
         "source_url": f"https://www.reddit.com{picked['permalink']}",
     }
 
@@ -397,11 +413,11 @@ def draw_svg_icon(draw, name, x, y, size, color):
 
 def draw_metric_chip(draw, x, y, icon_name, value):
     chip_h = 48
-    icon = 19
+    icon = 20
     gap = 12
     left_pad = 18
     right_pad = 22
-    text_font = font(27, True)
+    text_font = font(27, False)
     text = compact_number(value)
     bbox = draw.textbbox((0, 0), text, font=text_font)
     text_w = bbox[2] - bbox[0]
@@ -675,13 +691,23 @@ def spoken_username(username):
 
 def comment_voice_intro(body, index):
     lower = body.lower()
+    if lower.rstrip().endswith("?"):
+        return "asks"
     if any(word in lower for word in ["i think", "i believe", "imo", "in my opinion"]):
         return "thinks"
     if any(word in lower for word in ["i feel", "feels", "felt"]):
         return "feels"
-    if any(word in lower for word in ["people", "everyone", "someone", "nobody"]):
-        return "points out"
-    return ["says", "thinks", "points out", "brings up"][index % 4]
+    if any(word in lower for word in ["but", "though", "also", "another"]):
+        return "adds"
+    if any(word in lower for word in ["should", "never", "always", "normal now"]):
+        return "says"
+    return "says"
+
+
+def comment_voice_line(author, body, index):
+    name = spoken_username(author)
+    intro = comment_voice_intro(body, index)
+    return f"{name} {intro}: {body}"
 
 
 def build_segments(post):
@@ -701,20 +727,19 @@ def build_segments(post):
             "voice": f"In {subreddit}, {spoken_username(post_author)} asked: {title}",
         }
     ]
-    for i, comment in enumerate(post["comments"][:4], start=1):
+    for i, comment in enumerate(post["comments"][:MAX_COMMENTS], start=1):
         body = " ".join(comment["body"].split())
         body = textwrap.shorten(body, width=230, placeholder="...")
         author = comment.get("author", "redditor")
-        intro = comment_voice_intro(body, i)
         segments.append(
             {
                 "kind": "comment",
                 "label": f"Top reply {i}",
                 "text": body,
                 "author": author,
-                "intro": intro,
+                "intro": "commented",
                 "score": comment.get("score", 0),
-                "voice": f"{spoken_username(author)} {intro}: {body}",
+                "voice": comment_voice_line(author, body, i),
             }
         )
 
