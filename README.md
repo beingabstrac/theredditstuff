@@ -26,12 +26,12 @@ outputs/theredditstuff_mvp.mp4
 
 ## Automation
 
-GitHub Actions can render and queue 3 Instagram posts per day through Buffer.
+GitHub Actions renders reels and keeps the Buffer queue topped up.
 
 Schedule:
 
 ```text
-10:00, 15:00, 20:00 IST
+Set posting slots in Buffer. Current target: 5 reels/day.
 ```
 
 Required GitHub Secrets:
@@ -49,6 +49,15 @@ The action keeps only a small duplicate-history file:
 ```text
 data/posted_sources.json
 ```
+
+Autopilot guardrails:
+
+- Queue top-up runs every 2 hours.
+- Stops cleanly when Buffer queue is full.
+- Old Cloudinary videos are deleted automatically.
+- Daily health check writes `outputs/autopilot_report.md`.
+- Workflow failures open one GitHub issue instead of silently failing.
+- Health check fails when content runway drops below 14 days.
 
 ## Real Reddit Usernames
 

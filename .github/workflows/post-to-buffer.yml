@@ -17,6 +17,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   render-and-queue:
@@ -96,3 +97,17 @@ jobs:
             outputs/theredditstuff_mvp.mp4
             outputs/theredditstuff_storyboard.json
           retention-days: 3
+
+      - name: Open failure issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Autopilot queue failed"
+          body="The reel queue workflow failed. Check this run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          existing="$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body"
+          fi

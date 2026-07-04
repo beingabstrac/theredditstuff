@@ -1,0 +1,61 @@
+name: Autopilot Health
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily, 03:10 IST.
+    - cron: "40 21 * * *"
+
+concurrency:
+  group: autopilot-health
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      POSTS_PER_DAY: "5"
+      MIN_CONTENT_RUNWAY_DAYS: "14"
+      MAX_HOURS_WITHOUT_QUEUE: "40"
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      BUFFER_INSTAGRAM_CHANNEL_ID: ${{ secrets.BUFFER_INSTAGRAM_CHANNEL_ID }}
+      CLOUDINARY_URL: ${{ secrets.CLOUDINARY_URL }}
+      CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+      CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+      CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run health check
+        run: python scripts/autopilot_health.py
+
+      - name: Upload health report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: autopilot-health-report
+          path: outputs/autopilot_report.md
+          retention-days: 14
+
+      - name: Open failure issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Autopilot needs attention"
+          existing="$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file outputs/autopilot_report.md
+          else
+            gh issue create --title "$title" --body-file outputs/autopilot_report.md
+          fi
