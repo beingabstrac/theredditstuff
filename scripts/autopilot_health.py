@@ -88,6 +88,7 @@ def main():
     posts_per_day = int(os.getenv("POSTS_PER_DAY", "5"))
     min_runway_days = int(os.getenv("MIN_CONTENT_RUNWAY_DAYS", "14"))
     max_hours_without_queue = int(os.getenv("MAX_HOURS_WITHOUT_QUEUE", "40"))
+    procedural_backup = os.getenv("PROCEDURAL_BACKUP", "1") == "1"
 
     curated = curated_posts()
     code_sources = source_urls_from_code()
@@ -110,7 +111,9 @@ def main():
         problems.append(f"Missing secrets/env: {', '.join(missing)}")
     if len(curated) < 100:
         warnings.append(f"Curated bank is small: {len(curated)}")
-    if runway_days < min_runway_days:
+    if runway_days < min_runway_days and procedural_backup:
+        warnings.append(f"Curated runway is low: {runway_days:.1f} days; procedural backup is enabled")
+    elif runway_days < min_runway_days:
         problems.append(f"Content runway is low: {runway_days:.1f} days")
     if last_queue_hours is None:
         warnings.append("No queue history yet")
@@ -133,6 +136,7 @@ def main():
         f"- Posted/queued history: {len(posted_sources)}",
         f"- Remaining before repeats: {len(remaining_sources)}",
         f"- Estimated runway: {runway_days:.1f} days",
+        f"- Procedural backup: {'enabled' if procedural_backup else 'disabled'}",
         f"- Last queued: {'never' if last_queue_hours is None else f'{last_queue_hours:.1f} hours ago'}",
         f"- Cloudinary: {cloudinary}",
         "",

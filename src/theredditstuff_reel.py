@@ -135,6 +135,81 @@ BUCKET_KEYWORDS = {
     "restaurant": ["restaurant", "dinner", "food", "server", "coffee"],
 }
 
+QUESTION_FRAMES = [
+    "Is it rude to {action} {context}?",
+    "Is it normal to {action} {context}?",
+    "Would you judge someone for choosing to {action} {context}?",
+    "Should people be able to {action} {context}?",
+    "Is it weird to {action} {context}?",
+    "Would you say something if someone wanted to {action} {context}?",
+]
+
+PROCEDURAL_ANGLES = {
+    "money": {
+        "actions": ["ask the price", "split the bill exactly", "remind someone they owe money", "say something is too expensive", "refuse to lend money", "ask for separate checks", "skip plans because of cost", "charge a friend for gas"],
+        "contexts": ["before agreeing to plans", "with close friends", "on a group dinner", "after someone already paid", "when everyone earns differently", "during a birthday plan", "after it happened twice", "without making it awkward"],
+    },
+    "texting": {
+        "actions": ["reply late", "leave someone on read", "send only voice notes", "mute a group chat", "double text", "watch a story before replying", "send dry replies", "take a day to answer"],
+        "contexts": ["when the message is casual", "while still posting online", "without explaining why", "after making plans", "during a busy workday", "in early dating", "with close friends", "when nothing is urgent"],
+    },
+    "work": {
+        "actions": ["ignore work messages", "leave exactly on time", "say no to last minute tasks", "wear headphones all day", "skip optional meetings", "ask if a meeting is needed", "mute work apps", "refuse unpaid extra work"],
+        "contexts": ["after hours", "during lunch", "while on vacation", "when coworkers keep doing it", "at a new job", "when the team is busy", "without apologizing", "if the manager expects it"],
+    },
+    "roommates": {
+        "actions": ["label your food", "ask before guests come over", "complain about dishes", "change the thermostat", "avoid your roommate", "ask for quiet hours", "split chores exactly", "mention a bad smell"],
+        "contexts": ["in a shared apartment", "after it keeps happening", "when rent is split evenly", "with a close friend roommate", "before saying anything else", "without sounding controlling", "when guests stay late", "if nobody else cleans"],
+    },
+    "family": {
+        "actions": ["set boundaries", "skip a family event", "not answer calls immediately", "ask family to call first", "refuse a family favor", "leave early", "stop explaining every plan", "say a topic is off limits"],
+        "contexts": ["with relatives", "as an adult", "during holidays", "when they mean well", "after repeated comments", "without feeling guilty", "when you need rest", "if they get offended"],
+    },
+    "dating": {
+        "actions": ["split the bill", "ask about money", "need alone time", "keep phone privacy", "cancel a date", "share locations", "text after a date", "notice a small red flag"],
+        "contexts": ["early in dating", "in a serious relationship", "on a first date", "without making it a big deal", "after one awkward moment", "when expectations are different", "if trust already exists", "before it becomes a pattern"],
+    },
+    "etiquette": {
+        "actions": ["arrive early", "cancel by text", "ask guests to leave", "play videos out loud", "bring your own food", "ask why someone is quiet", "take leftovers", "ask people to remove shoes"],
+        "contexts": ["at someone house", "in public", "during dinner", "when nobody asked", "with new friends", "after plans were made", "without warning", "if everyone else is comfortable"],
+    },
+    "red_flags": {
+        "actions": ["judge a tiny habit", "notice how someone treats staff", "care about small lies", "pull back after one weird moment", "watch how someone handles no", "notice constant interrupting", "question a harmless habit", "trust your first impression"],
+        "contexts": ["when meeting someone new", "on a first dinner", "in a friendship", "before anything serious happens", "even if it seems small", "when everyone else ignores it", "after it happens twice", "without overthinking it"],
+    },
+    "would_you_rather": {
+        "actions": ["have free rent or free food", "always be early or exactly on time", "know the truth or feel comfortable", "have one close friend or many casual friends", "never wash dishes or never do laundry", "be respected or liked", "never wait in lines or never sit in traffic", "get honest advice or quiet support"],
+        "contexts": ["for the rest of your life", "if you had to choose today", "with no explanation", "but everyone knows your choice", "if it changed your daily routine", "without being able to switch", "in your current life", "if money was still the same"],
+    },
+    "shopping": {
+        "actions": ["leave items in the wrong place", "block an aisle", "take too long at self checkout", "argue over a return", "compare prices out loud", "leave a cart behind", "browse without buying", "take a call in line"],
+        "contexts": ["in a busy store", "when people are waiting", "with friends nearby", "if staff have to fix it", "during checkout", "without noticing others", "when the line is long", "after changing your mind"],
+    },
+    "friendship": {
+        "actions": ["stop texting first", "ask before venting", "exclude one friend from plans", "keep score of favors", "cancel for alone time", "tell a friend they are draining", "pull back quietly", "expect friends to remember details"],
+        "contexts": ["in a close friendship", "after months of imbalance", "without starting drama", "when everyone is busy", "if they never ask about you", "after they cancel often", "when plans are small", "if it feels one-sided"],
+    },
+    "restaurant": {
+        "actions": ["split appetizers", "complain loudly", "stay after eating", "take a call at dinner", "ask for many substitutions", "order the cheapest thing", "start a tipping debate", "share food without asking"],
+        "contexts": ["at a restaurant", "with friends", "when the table is full", "during a first meetup", "if everyone is hungry", "after the server leaves", "when one person picked the place", "without making dinner tense"],
+    },
+}
+
+PROCEDURAL_COMMENTS = {
+    "money": ["The money is not the awkward part. The silence around it is.", "A clear expectation before plans saves everyone later.", "If someone is comfortable spending your money, that matters.", "Being careful with money is not the same as being cheap.", "The pattern matters more than the one moment."],
+    "texting": ["Nobody needs instant access, but people do notice patterns.", "A quick honest reply prevents most of the drama.", "The same behavior feels different depending on the relationship.", "Delayed is normal. Dismissive is different.", "People overthink texting because nobody says the rules out loud."],
+    "work": ["Work boundaries only seem rude when people benefit from ignoring them.", "If everything is urgent, nothing is being managed well.", "Being reliable should not mean being available forever.", "The job matters, but unpaid time still matters.", "One exception is fine. A permanent expectation is not."],
+    "roommates": ["Shared space only works when everyone remembers it is shared.", "The problem is usually the repeat, not the one mistake.", "A house rule is fair if everyone has to live with the outcome.", "Quiet resentment makes roommate problems worse.", "Basic respect should not need a weekly negotiation."],
+    "family": ["Family can explain why it is sensitive, not why boundaries disappear.", "Meaning well does not automatically make something okay.", "A calm no should not become a family emergency.", "Some relatives confuse closeness with permission.", "Adult relationships need respect more than constant access."],
+    "dating": ["Small moments show expectations faster than big speeches.", "Privacy and secrecy are different, but people mix them up.", "Dating is easier when people say what they expect.", "One awkward moment is human. A pattern is information.", "The right person should make boundaries easier, not harder."],
+    "etiquette": ["The difference between relaxed and rude is usually consent.", "A quick ask would solve most of these situations.", "Small manners matter because other people share the space.", "It is only normal if everyone involved is actually comfortable.", "Tone can turn a normal request into a rude one."],
+    "red_flags": ["Tiny things matter because they often repeat.", "It is not the habit. It is refusing to notice the effect.", "How someone acts when nothing is at stake tells you a lot.", "A small red flag is usually selfishness showing up early.", "Some things are small until you imagine them every day."],
+    "would_you_rather": ["This depends entirely on what is stressing you out right now.", "The practical answer and the emotional answer are different.", "One option gives comfort. The other gives control.", "People answer these based on this week pain.", "The right choice is the one that removes daily stress."],
+    "shopping": ["Stores reveal who remembers other people exist.", "Being slow is fine. Being unaware is the problem.", "If your convenience creates work for strangers, it is not harmless.", "Most shopping etiquette is just moving out of the way.", "Small public habits become big because everyone shares the space."],
+    "friendship": ["Friendship should not feel like one person renewing a subscription.", "The test is what happens when you stop carrying it.", "One-sided friendships can look normal from outside.", "Healthy friendship has room for both people to need things.", "People show priorities through effort, not speeches."],
+    "restaurant": ["Restaurants are a quick test of patience and manners.", "The request is usually fine. The tone is what ruins it.", "How someone treats staff says a lot.", "Dinner should not become a public incident.", "Sharing only works when everyone agreed to share."],
+}
+
 LOW_VALUE_TERMS = [
     "billionaire",
     "millionaire",
@@ -880,6 +955,47 @@ def infer_bucket(post):
     return "etiquette"
 
 
+def procedural_post(bucket, index, posted_sources):
+    spec = PROCEDURAL_ANGLES.get(bucket) or PROCEDURAL_ANGLES["etiquette"]
+    actions = spec["actions"]
+    contexts = spec["contexts"]
+    frames = QUESTION_FRAMES
+    total = len(actions) * len(contexts) * len(frames)
+
+    for offset in range(total * 20):
+        seed = index + offset
+        action = actions[(seed // len(frames)) % len(actions)]
+        context = contexts[(seed // (len(frames) * len(actions))) % len(contexts)]
+        if bucket == "would_you_rather":
+            title = f"Would you rather {action} {context}?"
+        else:
+            frame = frames[seed % len(frames)]
+            title = frame.format(action=action, context=context)
+        source_url = f"procedural://{bucket}/{seed}"
+        if source_url in posted_sources:
+            continue
+        comments = PROCEDURAL_COMMENTS.get(bucket, PROCEDURAL_COMMENTS["etiquette"])
+        return {
+            "bucket": bucket,
+            "subreddit": "WouldYouRather" if bucket == "would_you_rather" else "AskReddit",
+            "author": f"{bucket}_angle",
+            "score": 18000 + ((seed * 7919) % 26000),
+            "num_comments": 3000 + ((seed * 3571) % 7000),
+            "title": title,
+            "source_url": source_url,
+            "body": "",
+            "comments": [
+                {
+                    "author": f"{bucket}_take_{i + 1}",
+                    "score": 5000 + (((seed + 11) * (i + 3) * 997) % 15000),
+                    "body": comments[(seed + i) % len(comments)],
+                }
+                for i in range(min(MAX_COMMENTS, len(comments)))
+            ],
+        }
+    return None
+
+
 def fallback_post():
     raw_index = os.getenv("FALLBACK_POST_INDEX") or os.getenv("GITHUB_RUN_NUMBER") or os.getenv("GITHUB_RUN_ID")
     index = int(raw_index) if raw_index and raw_index.isdigit() else int(time.time() // 3600)
@@ -887,8 +1003,15 @@ def fallback_post():
     posted_sources = load_posted_sources()
     desired_bucket = os.getenv("CONTENT_BUCKET") or BUCKET_ORDER[index % len(BUCKET_ORDER)]
 
+    fresh_bucket = [post for post in posts if post.get("source_url") not in posted_sources and infer_bucket(post) == desired_bucket]
+    if fresh_bucket:
+        return json.loads(json.dumps(fresh_bucket[index % len(fresh_bucket)]))
+
+    generated = procedural_post(desired_bucket, index, posted_sources)
+    if generated:
+        return json.loads(json.dumps(generated))
+
     groups = [
-        [post for post in posts if post.get("source_url") not in posted_sources and infer_bucket(post) == desired_bucket],
         [post for post in posts if post.get("source_url") not in posted_sources],
         [post for post in posts if infer_bucket(post) == desired_bucket],
         posts,
