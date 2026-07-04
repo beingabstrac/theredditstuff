@@ -27,6 +27,7 @@ STORY_OUT = OUT / "theredditstuff_storyboard.json"
 ICON_DIR = ROOT / "assets" / "icons"
 FONT_DIR = ROOT / "assets" / "fonts"
 POSTED_SOURCES_FILE = Path(os.getenv("POSTED_SOURCES_FILE", ROOT / "data" / "posted_sources.json"))
+CURATED_POSTS_FILE = Path(os.getenv("CURATED_POSTS_FILE", ROOT / "data" / "curated_posts.json"))
 
 W, H = 1080, 1920
 BRAND_GAP = 34
@@ -102,6 +103,37 @@ DEBATABLE_TERMS = [
     "harmless",
     "small lie",
 ]
+
+
+BUCKET_ORDER = [
+    "money",
+    "texting",
+    "work",
+    "roommates",
+    "family",
+    "dating",
+    "etiquette",
+    "red_flags",
+    "would_you_rather",
+    "shopping",
+    "friendship",
+    "restaurant",
+]
+
+BUCKET_KEYWORDS = {
+    "money": ["money", "bill", "split", "pay", "paid", "borrow", "lend", "rent", "expensive", "cheap", "tip"],
+    "texting": ["text", "reply", "read", "phone", "message", "group chat"],
+    "work": ["work", "boss", "coworker", "meeting", "office", "job", "manager"],
+    "roommates": ["roommate", "house", "home", "neighbor", "apartment"],
+    "family": ["family", "parents", "sibling", "relative", "mom", "dad"],
+    "dating": ["dating", "date", "partner", "couple", "relationship"],
+    "etiquette": ["rude", "normal", "weird", "manners", "invite", "guest"],
+    "red_flags": ["red flag", "judge", "lose respect", "annoying", "habit"],
+    "would_you_rather": ["would you rather"],
+    "shopping": ["shopping", "store", "cart", "checkout", "delivery"],
+    "friendship": ["friend", "friends", "friendship"],
+    "restaurant": ["restaurant", "dinner", "food", "server", "coffee"],
+}
 
 LOW_VALUE_TERMS = [
     "billionaire",
@@ -249,7 +281,7 @@ SAMPLE_POSTS = [
             {"author": "cancel_everything", "score": 9300, "body": "Canceling plans every time you feel slightly uncomfortable. Boundaries are good, disappearing from your life is different."},
             {"author": "ignore_messages", "score": 7800, "body": "Ignoring every difficult message and calling it protecting your peace. Sometimes peace requires one awkward reply."},
             {"author": "doomscroll_break", "score": 6500, "body": "Scrolling for hours to decompress. If you feel worse afterward, it was not care."},
-            {"author": "treat_yourself_loop", "score": 5200, "body": "Treating yourself after every minor inconvenience. At some point the treat becomes the main problem."},
+            {"author": "treat_yourself_loop", "score": 5200, "body": "Treating yourself after every small inconvenience. At some point the treat becomes the main problem."},
             {"author": "no_hard_tasks", "score": 4100, "body": "Only doing things that feel good in the moment. Future you is still on the group project."},
         ],
     },
@@ -284,8 +316,8 @@ SAMPLE_POSTS = [
             {"author": "silent_room", "score": 10100, "body": "Sitting in the same room doing completely separate things in silence. To us it is quality time."},
             {"author": "leftover_rules", "score": 8900, "body": "Labeling leftovers by emotional importance. Some food is shared food. Some food is a legal matter."},
             {"author": "inside_voice", "score": 7300, "body": "Announcing where you are going in the house. Nobody needs to know, but everyone still reports their location."},
-            {"author": "remote_owner", "score": 6100, "body": "One person being the unofficial owner of the TV remote. There was no election, but the power is real."},
-            {"author": "shoe_border", "score": 5000, "body": "Shoes off is not a preference, it is a border policy."},
+            {"author": "remote_owner", "score": 6100, "body": "One person being the unofficial owner of the TV remote. Nobody voted, but the power is real."},
+            {"author": "shoe_border", "score": 5000, "body": "Shoes off is not a preference, it is a house rule."},
             {"author": "fridge_negotiation", "score": 3900, "body": "Asking if anyone owns food before eating it, even if it is clearly communal. Trust has limits near snacks."},
         ],
     },
@@ -773,7 +805,7 @@ UNSAFE_TERMS = [
 
 def is_safe_text(*parts):
     text = " ".join(part or "" for part in parts).lower()
-    return not any(term in text for term in UNSAFE_TERMS)
+    return not any(term_in_text(term, text) for term in UNSAFE_TERMS)
 
 
 def strip_emoji(text):
@@ -820,15 +852,51 @@ def load_posted_sources():
     return {item.get("source_url") for item in data.get("posted", []) if item.get("source_url")}
 
 
+@lru_cache(maxsize=1)
+def curated_posts():
+    try:
+        data = json.loads(CURATED_POSTS_FILE.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        return []
+    except json.JSONDecodeError as exc:
+        print(f"Ignoring curated posts file: {exc}")
+        return []
+    posts = data.get("posts", data if isinstance(data, list) else [])
+    return [post for post in posts if isinstance(post, dict) and post.get("title") and post.get("comments")]
+
+
+def all_sample_posts():
+    return SAMPLE_POSTS + curated_posts()
+
+
+def infer_bucket(post):
+    explicit = post.get("bucket")
+    if explicit:
+        return explicit
+    title = (post.get("title") or "").lower()
+    for bucket, keywords in BUCKET_KEYWORDS.items():
+        if any(term_in_text(keyword, title) for keyword in keywords):
+            return bucket
+    return "etiquette"
+
+
 def fallback_post():
     raw_index = os.getenv("FALLBACK_POST_INDEX") or os.getenv("GITHUB_RUN_NUMBER") or os.getenv("GITHUB_RUN_ID")
     index = int(raw_index) if raw_index and raw_index.isdigit() else int(time.time() // 3600)
+    posts = all_sample_posts()
     posted_sources = load_posted_sources()
-    for offset in range(len(SAMPLE_POSTS)):
-        post = SAMPLE_POSTS[(index + offset) % len(SAMPLE_POSTS)]
-        if post.get("source_url") not in posted_sources:
-            return json.loads(json.dumps(post))
-    return json.loads(json.dumps(SAMPLE_POSTS[index % len(SAMPLE_POSTS)]))
+    desired_bucket = os.getenv("CONTENT_BUCKET") or BUCKET_ORDER[index % len(BUCKET_ORDER)]
+
+    groups = [
+        [post for post in posts if post.get("source_url") not in posted_sources and infer_bucket(post) == desired_bucket],
+        [post for post in posts if post.get("source_url") not in posted_sources],
+        [post for post in posts if infer_bucket(post) == desired_bucket],
+        posts,
+    ]
+    for group in groups:
+        if group:
+            return json.loads(json.dumps(group[index % len(group)]))
+    return json.loads(json.dumps(SAMPLE_POST))
 
 
 def candidate_source_url(post):
