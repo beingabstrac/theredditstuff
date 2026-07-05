@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://lend-money-friend-owes",
+      "title": "Would you lend money to a friend who still owes other people?",
+      "buffer_post_id": "6a4a8c319dd66bf2fd588ec0",
+      "posted_at": "2026-07-05T16:54:09.556071+00:00"
+    },
+    {
       "source_url": "curated://friendship/would-you-tell-a-friend-they-are-draining-to-be-around",
       "title": "Would you tell a friend they are draining to be around?",
       "buffer_post_id": "6a4a56a4c109183ee8578c3a",
