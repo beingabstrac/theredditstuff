@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-sending-voice-notes-instead-of-texting-annoying",
+      "title": "Is sending voice notes instead of texting annoying?",
+      "buffer_post_id": "6a4cd8c5bb79d83b86bf92b2",
+      "posted_at": "2026-07-07T10:45:26.641328+00:00"
+    },
+    {
+      "source_url": "curated://texting/should-people-explain-why-they-reply-late",
+      "title": "Should people explain why they reply late?",
+      "buffer_post_id": "6a4cd8b00993a74c1fc53b57",
+      "posted_at": "2026-07-07T10:45:04.339574+00:00"
+    },
+    {
       "source_url": "fallback://check-split-bill",
       "title": "Is it rude to check the bill when someone else said they split it already?",
       "buffer_post_id": "6a4c97856dbbf56de0afc2b6",
