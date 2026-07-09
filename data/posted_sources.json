@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/should-the-person-who-chose-the-restaurant-handle-the-booking",
+      "title": "Should the person who chose the restaurant handle the booking?",
+      "buffer_post_id": "6a4ff48c3c48e2c7b33f7bf8",
+      "posted_at": "2026-07-09T19:20:44.122109+00:00"
+    },
+    {
       "source_url": "fallback://friendship-one-sided",
       "title": "What makes a friendship start feeling one-sided?",
       "buffer_post_id": "6a4fcabd6b09df42d9489411",
