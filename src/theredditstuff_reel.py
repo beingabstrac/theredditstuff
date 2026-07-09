@@ -821,11 +821,21 @@ SAMPLE_POST = SAMPLE_POSTS[0]
 KOKORO_PIPELINE = None
 KOKORO_VOICES = ["af_heart", "am_adam", "af_bella", "am_michael"]
 EDGE_VOICES = [
-    "en-US-AndrewMultilingualNeural",
-    "en-US-AvaMultilingualNeural",
-    "en-US-BrianMultilingualNeural",
-    "en-US-EmmaMultilingualNeural",
+    "en-US-AndrewNeural",
+    "en-US-EmmaNeural",
+    "en-US-BrianNeural",
+    "en-US-AvaNeural",
 ]
+
+# Per-beat prosody: segment kind -> (rate, pitch). Replaces the old flat +16% speed-up
+# that made every segment sound rushed and robotic. Delivery now tracks the moment.
+EDGE_BEAT_PROSODY = {
+    "hook": ("-2%", "+1Hz"),            # post title: slower, draws the viewer in
+    "conversational": ("+3%", "+0Hz"),  # comments: natural, like a real person talking
+    "invite": ("+5%", "+2Hz"),          # CTA: upbeat, a nudge to engage
+    "calm": ("+0%", "+0Hz"),
+}
+KIND_TO_BEAT = {"post": "hook", "comment": "conversational", "cta": "invite"}
 
 UNSAFE_TERMS = [
     "nsfw",
@@ -1560,8 +1570,8 @@ def run_ffmpeg(args):
     subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", *args], check=True)
 
 
-def make_voice(text, audio_path, index):
-    if edge_voice(text, audio_path, index):
+def make_voice(text, audio_path, index, beat="calm"):
+    if edge_voice(text, audio_path, index, beat):
         return
     if kokoro_voice(text, audio_path, index):
         return
@@ -1573,7 +1583,7 @@ def make_voice(text, audio_path, index):
     subprocess.run([tts, "-v", voice, "-s", "155", "-w", str(audio_path), text], check=True)
 
 
-def edge_voice(text, audio_path, index):
+def edge_voice(text, audio_path, index, beat="calm"):
     if not DEPS.exists():
         return False
 
@@ -1582,9 +1592,10 @@ def edge_voice(text, audio_path, index):
         import edge_tts
 
         voice = EDGE_VOICES[index % len(EDGE_VOICES)]
+        rate, pitch = EDGE_BEAT_PROSODY.get(beat, EDGE_BEAT_PROSODY["calm"])
 
         async def synthesize():
-            communicate = edge_tts.Communicate(text, voice=voice, rate="+16%", pitch="+0Hz")
+            communicate = edge_tts.Communicate(text, voice=voice, rate=rate, pitch=pitch)
             await communicate.save(str(audio_path))
 
         asyncio.run(synthesize())
@@ -1753,7 +1764,8 @@ def main():
             video_path = work / f"segment_{index:02}.mp4"
 
             make_card(segment, index, len(segments)).save(image_path)
-            make_voice(segment["voice"], audio_path, index)
+            beat = KIND_TO_BEAT.get(segment.get("kind"), "calm")
+            make_voice(segment["voice"], audio_path, index, beat)
             duration = audio_duration(audio_path) + 0.22
             segment_to_video(image_path, audio_path, video_path, duration)
             part_paths.append(video_path)
