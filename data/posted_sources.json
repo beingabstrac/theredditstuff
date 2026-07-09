@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://phone-on-table-dinner",
+      "title": "Is it rude to put your phone on the table during dinner?",
+      "buffer_post_id": "6a50288ddc1a5c85f255ad1b",
+      "posted_at": "2026-07-09T23:02:37.766072+00:00"
+    },
+    {
       "source_url": "curated://restaurant/should-the-person-who-chose-the-restaurant-handle-the-booking",
       "title": "Should the person who chose the restaurant handle the booking?",
       "buffer_post_id": "6a4ff48c3c48e2c7b33f7bf8",
