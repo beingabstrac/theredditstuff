@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-have-unlimited-free-coffee-or-unlimited-free-rides",
+      "title": "Would you rather have unlimited free coffee or unlimited free rides?",
+      "buffer_post_id": "6a52c59d4835bc01be2764fe",
+      "posted_at": "2026-07-11T22:37:17.175213+00:00"
+    },
+    {
       "source_url": "fallback://apology-with-explaining",
       "title": "Is an apology real if someone keeps explaining why they did it?",
       "buffer_post_id": "6a528ee5fe300e0e9ba84f90",
