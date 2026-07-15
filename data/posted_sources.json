@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://early-or-on-time",
+      "title": "Would you rather always be early or always be exactly on time?",
+      "buffer_post_id": "6a57865269813da31181234f",
+      "posted_at": "2026-07-15T13:08:34.658434+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-rude-to-ask-guests-to-leave",
       "title": "Is it rude to ask guests to leave?",
       "buffer_post_id": "6a575797acf4b680b37b159f",
