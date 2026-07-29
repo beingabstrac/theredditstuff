@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/274",
+      "title": "Is it weird to tell a friend they are draining after they cancel often?",
+      "buffer_post_id": "6a6a65ccc28dfd4e75eaa89f",
+      "posted_at": "2026-07-29T20:42:52.241027+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/271",
       "title": "Is it normal to notice constant interrupting when everyone else ignores it?",
       "buffer_post_id": "6a6a1fdb964c3b8add1efa6b",
@@ -1193,12 +1199,6 @@
       "title": "Should couples share phone passwords or is that weird?",
       "buffer_post_id": "6a479fd138c95aa209e179e6",
       "posted_at": "2026-07-03T11:41:05.588866+00:00"
-    },
-    {
-      "source_url": "fallback://reply-to-texts-hours",
-      "title": "Is it normal to not reply to texts for hours?",
-      "buffer_post_id": "6a479f0fbe007daab522f444",
-      "posted_at": "2026-07-03T11:37:51.679277+00:00"
     }
   ]
 }
