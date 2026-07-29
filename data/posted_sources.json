@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://restaurant/275",
+      "title": "Would you say something if someone wanted to order the cheapest thing after the server leaves?",
+      "buffer_post_id": "6a6a833dabe0794f85ef1bc5",
+      "posted_at": "2026-07-29T22:48:29.455006+00:00"
+    },
+    {
       "source_url": "procedural://friendship/274",
       "title": "Is it weird to tell a friend they are draining after they cancel often?",
       "buffer_post_id": "6a6a65ccc28dfd4e75eaa89f",
@@ -1193,12 +1199,6 @@
       "title": "What harmless habit makes you instantly judge someone?",
       "buffer_post_id": "6a47a1b538c95aa209e18769",
       "posted_at": "2026-07-03T11:49:09.348621+00:00"
-    },
-    {
-      "source_url": "fallback://couples-phone-passwords",
-      "title": "Should couples share phone passwords or is that weird?",
-      "buffer_post_id": "6a479fd138c95aa209e179e6",
-      "posted_at": "2026-07-03T11:41:05.588866+00:00"
     }
   ]
 }
