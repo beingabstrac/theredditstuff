@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/280",
+      "title": "Is it weird to stop explaining every plan without feeling guilty?",
+      "buffer_post_id": "6a6b50ad2d8a9060e38c2e71",
+      "posted_at": "2026-07-30T13:25:02.135208+00:00"
+    },
+    {
       "source_url": "curated://roommates/is-it-rude-to-leave-laundry-in-the-machine-for-hours",
       "title": "Is it rude to leave laundry in the machine for hours?",
       "buffer_post_id": "6a6b397354fb501ed8c704cc",
@@ -1193,12 +1199,6 @@
       "title": "Would you tell your friend if their partner was flirting with someone else?",
       "buffer_post_id": "6a47b8c66917141d4533111f",
       "posted_at": "2026-07-03T13:27:34.231254+00:00"
-    },
-    {
-      "source_url": "fallback://normal-house-weird-elsewhere",
-      "title": "What is normal in your house but weird everywhere else?",
-      "buffer_post_id": "6a47b89d5a1476309a3ef376",
-      "posted_at": "2026-07-03T13:26:53.748081+00:00"
     }
   ]
 }
