@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/would-you-remind-someone-about-five-dollars-they-owe-you",
+      "title": "Would you remind someone about five dollars they owe you?",
+      "buffer_post_id": "6a6aa693bf2d4c6e4198a9a5",
+      "posted_at": "2026-07-30T01:19:16.013090+00:00"
+    },
+    {
       "source_url": "procedural://restaurant/275",
       "title": "Would you say something if someone wanted to order the cheapest thing after the server leaves?",
       "buffer_post_id": "6a6a833dabe0794f85ef1bc5",
@@ -1193,12 +1199,6 @@
       "title": "What everyday thing became expensive for no good reason?",
       "buffer_post_id": "6a47b81081c4c124bc8e5a1f",
       "posted_at": "2026-07-03T13:24:32.607868+00:00"
-    },
-    {
-      "source_url": "fallback://harmless-habit-judge",
-      "title": "What harmless habit makes you instantly judge someone?",
-      "buffer_post_id": "6a47a1b538c95aa209e18769",
-      "posted_at": "2026-07-03T11:49:09.348621+00:00"
     }
   ]
 }
