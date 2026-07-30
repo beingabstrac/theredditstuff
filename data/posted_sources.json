@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-it-rude-to-leave-laundry-in-the-machine-for-hours",
+      "title": "Is it rude to leave laundry in the machine for hours?",
+      "buffer_post_id": "6a6b397354fb501ed8c704cc",
+      "posted_at": "2026-07-30T11:45:55.653418+00:00"
+    },
+    {
       "source_url": "procedural://work/278",
       "title": "Would you judge someone for choosing to mute work apps when the team is busy?",
       "buffer_post_id": "6a6b05f2624551d661c3b13d",
@@ -1193,12 +1199,6 @@
       "title": "What is normal in your house but weird everywhere else?",
       "buffer_post_id": "6a47b89d5a1476309a3ef376",
       "posted_at": "2026-07-03T13:26:53.748081+00:00"
-    },
-    {
-      "source_url": "fallback://small-lie-everyone-tells",
-      "title": "What small lie does everyone tell?",
-      "buffer_post_id": "6a47b86e6917141d45330f35",
-      "posted_at": "2026-07-03T13:26:06.747197+00:00"
     }
   ]
 }
