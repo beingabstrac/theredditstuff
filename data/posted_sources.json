@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://dating/281",
+      "title": "Would you say something if someone wanted to text after a date when expectations are different?",
+      "buffer_post_id": "6a6b71b6ebb4ea4943a2a238",
+      "posted_at": "2026-07-30T15:45:59.018018+00:00"
+    },
+    {
       "source_url": "procedural://family/280",
       "title": "Is it weird to stop explaining every plan without feeling guilty?",
       "buffer_post_id": "6a6b50ad2d8a9060e38c2e71",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to wear headphones at home when someone is talking nearby?",
       "buffer_post_id": "6a47ba7a8bd76981adea372c",
       "posted_at": "2026-07-03T13:34:50.726142+00:00"
-    },
-    {
-      "source_url": "fallback://tell-friend-partner-flirting",
-      "title": "Would you tell your friend if their partner was flirting with someone else?",
-      "buffer_post_id": "6a47b8c66917141d4533111f",
-      "posted_at": "2026-07-03T13:27:34.231254+00:00"
     }
   ]
 }
