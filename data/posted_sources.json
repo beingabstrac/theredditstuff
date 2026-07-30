@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://couples-phone-passwords",
+      "title": "Should couples share phone passwords or is that weird?",
+      "buffer_post_id": "6a6ad752bf2d4c6e419aa8d6",
+      "posted_at": "2026-07-30T04:47:14.440941+00:00"
+    },
+    {
       "source_url": "curated://money/would-you-remind-someone-about-five-dollars-they-owe-you",
       "title": "Would you remind someone about five dollars they owe you?",
       "buffer_post_id": "6a6aa693bf2d4c6e4198a9a5",
@@ -1193,12 +1199,6 @@
       "title": "What do people call self-care that is actually avoidance?",
       "buffer_post_id": "6a47b841c109183ee84486a3",
       "posted_at": "2026-07-03T13:25:21.637964+00:00"
-    },
-    {
-      "source_url": "fallback://everyday-expensive",
-      "title": "What everyday thing became expensive for no good reason?",
-      "buffer_post_id": "6a47b81081c4c124bc8e5a1f",
-      "posted_at": "2026-07-03T13:24:32.607868+00:00"
     }
   ]
 }
