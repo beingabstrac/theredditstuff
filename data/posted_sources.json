@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/290",
+      "title": "Would you judge someone for choosing to ignore work messages without apologizing?",
+      "buffer_post_id": "6a6ca346e4816623866f400f",
+      "posted_at": "2026-07-31T13:29:42.925348+00:00"
+    },
+    {
       "source_url": "fallback://reply-to-texts-hours",
       "title": "Is it normal to not reply to texts for hours?",
       "buffer_post_id": "6a6c8c69e4816623866dfd06",
@@ -1193,12 +1199,6 @@
       "title": "What harmless habit makes someone hard to trust?",
       "buffer_post_id": "6a49f26bb3f33d21402a6d52",
       "posted_at": "2026-07-05T05:58:03.478158+00:00"
-    },
-    {
-      "source_url": "fallback://ignore-work-after-hours",
-      "title": "Is it fair to ignore work messages after hours?",
-      "buffer_post_id": "6a493a577e52c06f81b2cbec",
-      "posted_at": "2026-07-04T16:52:39.238602+00:00"
     }
   ]
 }
