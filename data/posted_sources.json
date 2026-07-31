@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://red_flags/what-harmless-habit-makes-someone-hard-to-trust",
+      "title": "What harmless habit makes someone hard to trust?",
+      "buffer_post_id": "6a6d26c04c4e74ba2a2ea32b",
+      "posted_at": "2026-07-31T22:50:40.678978+00:00"
+    },
+    {
       "source_url": "fallback://tell-friend-partner-flirting",
       "title": "Would you tell your friend if their partner was flirting with someone else?",
       "buffer_post_id": "6a6cf221ef3b8a12e11c9106",
@@ -1193,12 +1199,6 @@
       "title": "Would you tell a friend they are draining to be around?",
       "buffer_post_id": "6a4a56a4c109183ee8578c3a",
       "posted_at": "2026-07-05T13:05:40.460244+00:00"
-    },
-    {
-      "source_url": "curated://shopping/should-people-bag-their-own-groceries-when-the-line-is-long",
-      "title": "Should people bag their own groceries when the line is long?",
-      "buffer_post_id": "6a4a3e9b6917141d4545cd86",
-      "posted_at": "2026-07-05T11:23:07.230716+00:00"
     }
   ]
 }
