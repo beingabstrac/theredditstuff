@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://headphones-at-home-rude",
+      "title": "Is it rude to wear headphones at home when someone is talking nearby?",
+      "buffer_post_id": "6a6cc52c4c4e74ba2a29c94c",
+      "posted_at": "2026-07-31T15:54:20.541001+00:00"
+    },
+    {
       "source_url": "procedural://work/290",
       "title": "Would you judge someone for choosing to ignore work messages without apologizing?",
       "buffer_post_id": "6a6ca346e4816623866f400f",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather get honest advice or comforting support?",
       "buffer_post_id": "6a4a1a04b3f33d21402b9527",
       "posted_at": "2026-07-05T08:47:00.371290+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-harmless-habit-makes-someone-hard-to-trust",
-      "title": "What harmless habit makes someone hard to trust?",
-      "buffer_post_id": "6a49f26bb3f33d21402a6d52",
-      "posted_at": "2026-07-05T05:58:03.478158+00:00"
     }
   ]
 }
