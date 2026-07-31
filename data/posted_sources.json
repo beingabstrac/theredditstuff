@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://reply-to-texts-hours",
+      "title": "Is it normal to not reply to texts for hours?",
+      "buffer_post_id": "6a6c8c69e4816623866dfd06",
+      "posted_at": "2026-07-31T11:52:09.344445+00:00"
+    },
+    {
       "source_url": "fallback://split-bill-evenly",
       "title": "Would you split the bill evenly if one friend ordered way more?",
       "buffer_post_id": "6a6c5d7b961582f29ff457fb",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to ignore work messages after hours?",
       "buffer_post_id": "6a493a577e52c06f81b2cbec",
       "posted_at": "2026-07-04T16:52:39.238602+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-rude-to-ask-the-price-before-agreeing-to-plans",
-      "title": "Is it rude to ask the price before agreeing to plans?",
-      "buffer_post_id": "6a4903599dd66bf2fd4e0494",
-      "posted_at": "2026-07-04T12:58:01.185657+00:00"
     }
   ]
 }
