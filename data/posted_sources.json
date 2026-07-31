@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/286",
+      "title": "Is it weird to expect friends to remember details after they cancel often?",
+      "buffer_post_id": "6a6bfe5ecc9eb43b4c1dec6b",
+      "posted_at": "2026-07-31T01:46:06.406888+00:00"
+    },
+    {
       "source_url": "procedural://shopping/285",
       "title": "Should people be able to take a call in line without noticing others?",
       "buffer_post_id": "6a6bd68c961582f29fee218e",
@@ -1193,12 +1199,6 @@
       "title": "What everyday behavior makes you lose respect for someone?",
       "buffer_post_id": "6a489c0d6917141d453a4103",
       "posted_at": "2026-07-04T05:37:17.610573+00:00"
-    },
-    {
-      "source_url": "fallback://invite-yourself-plans",
-      "title": "Is it weird to invite yourself to plans you heard about?",
-      "buffer_post_id": "6a47ed83f2d4081834433751",
-      "posted_at": "2026-07-03T17:12:35.236367+00:00"
     }
   ]
 }
