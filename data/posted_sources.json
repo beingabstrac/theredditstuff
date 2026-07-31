@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://restaurant/287",
+      "title": "Would you say something if someone wanted to share food without asking after the server leaves?",
+      "buffer_post_id": "6a6c317dbb30a3674701b006",
+      "posted_at": "2026-07-31T05:24:13.607935+00:00"
+    },
+    {
       "source_url": "procedural://friendship/286",
       "title": "Is it weird to expect friends to remember details after they cancel often?",
       "buffer_post_id": "6a6bfe5ecc9eb43b4c1dec6b",
@@ -1193,12 +1199,6 @@
       "title": "Is cancelling plans because you are tired a valid reason?",
       "buffer_post_id": "6a48ebb181c4c124bc97c917",
       "posted_at": "2026-07-04T11:17:05.508717+00:00"
-    },
-    {
-      "source_url": "fallback://everyday-lose-respect",
-      "title": "What everyday behavior makes you lose respect for someone?",
-      "buffer_post_id": "6a489c0d6917141d453a4103",
-      "posted_at": "2026-07-04T05:37:17.610573+00:00"
     }
   ]
 }
