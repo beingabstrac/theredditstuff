@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-it-fair-to-split-utilities-evenly-if-one-person-is-always-home",
+      "title": "Is it fair to split utilities evenly if one person is always home?",
+      "buffer_post_id": "6a6e4076f93d764d93904e1b",
+      "posted_at": "2026-08-01T18:52:38.291495+00:00"
+    },
+    {
       "source_url": "fallback://ignore-work-after-hours",
       "title": "Is it fair to ignore work messages after hours?",
       "buffer_post_id": "6a6e22f02bbc9e05873680a0",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to check the bill when someone else said they split it already?",
       "buffer_post_id": "6a4c97856dbbf56de0afc2b6",
       "posted_at": "2026-07-07T06:07:02.049497+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-everyday-behavior-feels-selfish-immediately",
-      "title": "What everyday behavior feels selfish immediately?",
-      "buffer_post_id": "6a4bdc5622a20424d7b29777",
-      "posted_at": "2026-07-06T16:48:22.555005+00:00"
     }
   ]
 }
