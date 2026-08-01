@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/would-you-tell-a-friend-they-are-draining-to-be-around",
+      "title": "Would you tell a friend they are draining to be around?",
+      "buffer_post_id": "6a6da7e34c4e74ba2a345887",
+      "posted_at": "2026-08-01T08:01:39.245214+00:00"
+    },
+    {
       "source_url": "curated://shopping/should-people-bag-their-own-groceries-when-the-line-is-long",
       "title": "Should people bag their own groceries when the line is long?",
       "buffer_post_id": "6a6d81514c4e74ba2a328957",
@@ -1193,12 +1199,6 @@
       "title": "Should couples share locations with each other?",
       "buffer_post_id": "6a4b62e7bb08ba69daad8267",
       "posted_at": "2026-07-06T08:10:15.665893+00:00"
-    },
-    {
-      "source_url": "curated://dating/should-you-text-right-after-a-good-date",
-      "title": "Should you text right after a good date?",
-      "buffer_post_id": "6a4b62d2c109183ee86037df",
-      "posted_at": "2026-07-06T08:09:54.842082+00:00"
     }
   ]
 }
