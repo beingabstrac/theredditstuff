@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-get-honest-advice-or-comforting-support",
+      "title": "Would you rather get honest advice or comforting support?",
+      "buffer_post_id": "6a6d503eebe00edff55ea88d",
+      "posted_at": "2026-08-01T01:47:42.674139+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-harmless-habit-makes-someone-hard-to-trust",
       "title": "What harmless habit makes someone hard to trust?",
       "buffer_post_id": "6a6d26c04c4e74ba2a2ea32b",
@@ -1193,12 +1199,6 @@
       "title": "Would you lend money to a friend who still owes other people?",
       "buffer_post_id": "6a4a8c319dd66bf2fd588ec0",
       "posted_at": "2026-07-05T16:54:09.556071+00:00"
-    },
-    {
-      "source_url": "curated://friendship/would-you-tell-a-friend-they-are-draining-to-be-around",
-      "title": "Would you tell a friend they are draining to be around?",
-      "buffer_post_id": "6a4a56a4c109183ee8578c3a",
-      "posted_at": "2026-07-05T13:05:40.460244+00:00"
     }
   ]
 }
