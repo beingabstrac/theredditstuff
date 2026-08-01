@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/should-people-bag-their-own-groceries-when-the-line-is-long",
+      "title": "Should people bag their own groceries when the line is long?",
+      "buffer_post_id": "6a6d81514c4e74ba2a328957",
+      "posted_at": "2026-08-01T05:17:05.976469+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-get-honest-advice-or-comforting-support",
       "title": "Would you rather get honest advice or comforting support?",
       "buffer_post_id": "6a6d503eebe00edff55ea88d",
@@ -1193,12 +1199,6 @@
       "title": "Should you text right after a good date?",
       "buffer_post_id": "6a4b62d2c109183ee86037df",
       "posted_at": "2026-07-06T08:09:54.842082+00:00"
-    },
-    {
-      "source_url": "fallback://lend-money-friend-owes",
-      "title": "Would you lend money to a friend who still owes other people?",
-      "buffer_post_id": "6a4a8c319dd66bf2fd588ec0",
-      "posted_at": "2026-07-05T16:54:09.556071+00:00"
     }
   ]
 }
