@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/310",
+      "title": "Is it weird to keep score of favors when plans are small?",
+      "buffer_post_id": "6a6f3e565dc5613cefddb61a",
+      "posted_at": "2026-08-02T12:55:50.300356+00:00"
+    },
+    {
       "source_url": "procedural://shopping/309",
       "title": "Should people be able to argue over a return when the line is long?",
       "buffer_post_id": "6a6f25b52bbc9e0587423ae8",
@@ -1193,12 +1199,6 @@
       "title": "Is blocking an aisle with a cart a major offense?",
       "buffer_post_id": "6a4e050c0fda7385d13c70fc",
       "posted_at": "2026-07-08T08:06:36.136148+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-never-do-laundry-or-never-wash-dishes",
-      "title": "Would you rather never do laundry or never wash dishes?",
-      "buffer_post_id": "6a4dd90b4ce854af68a0f498",
-      "posted_at": "2026-07-08T04:58:51.260165+00:00"
     }
   ]
 }
