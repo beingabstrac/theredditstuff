@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/would-you-label-your-food-in-a-shared-fridge",
+      "title": "Would you label your food in a shared fridge?",
+      "buffer_post_id": "6a6fc8472bbc9e05874aa5b6",
+      "posted_at": "2026-08-02T22:44:23.711518+00:00"
+    },
+    {
       "source_url": "curated://texting/is-sending-voice-notes-instead-of-texting-annoying",
       "title": "Is sending voice notes instead of texting annoying?",
       "buffer_post_id": "6a6f922998d2f31dff10bfb3",
@@ -1193,12 +1199,6 @@
       "title": "Should plans be confirmed again the day of?",
       "buffer_post_id": "6a4e87a4b657b31762e65f5d",
       "posted_at": "2026-07-08T17:23:48.167802+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-normal-for-friendships-to-fade-without-a-fight",
-      "title": "Is it normal for friendships to fade without a fight?",
-      "buffer_post_id": "6a4e37a5a31caf2ce59fe4d8",
-      "posted_at": "2026-07-08T11:42:29.504449+00:00"
     }
   ]
 }
