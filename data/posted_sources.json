@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/309",
+      "title": "Should people be able to argue over a return when the line is long?",
+      "buffer_post_id": "6a6f25b52bbc9e0587423ae8",
+      "posted_at": "2026-08-02T11:10:46.039371+00:00"
+    },
+    {
       "source_url": "procedural://would_you_rather/308",
       "title": "Would you rather have one close friend or many casual friends in your current life?",
       "buffer_post_id": "6a6ef9e05dc5613cefda8882",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather never do laundry or never wash dishes?",
       "buffer_post_id": "6a4dd90b4ce854af68a0f498",
       "posted_at": "2026-07-08T04:58:51.260165+00:00"
-    },
-    {
-      "source_url": "curated://roommates/would-you-label-your-food-in-a-shared-fridge",
-      "title": "Would you label your food in a shared fridge?",
-      "buffer_post_id": "6a4d3c98b61c8b0fcf0a4bca",
-      "posted_at": "2026-07-07T17:51:20.195080+00:00"
     }
   ]
 }
