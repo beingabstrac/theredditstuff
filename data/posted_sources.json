@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://self-care-avoidance",
+      "title": "What do people call self-care that is actually avoidance?",
+      "buffer_post_id": "6a6ea0d498d2f31dff056745",
+      "posted_at": "2026-08-02T01:43:48.358298+00:00"
+    },
+    {
       "source_url": "curated://dating/should-couples-share-locations-with-each-other",
       "title": "Should couples share locations with each other?",
       "buffer_post_id": "6a6e76aa1b4d436cc30cb36f",
@@ -1193,12 +1199,6 @@
       "title": "Is sending voice notes instead of texting annoying?",
       "buffer_post_id": "6a4cd8c5bb79d83b86bf92b2",
       "posted_at": "2026-07-07T10:45:26.641328+00:00"
-    },
-    {
-      "source_url": "curated://texting/should-people-explain-why-they-reply-late",
-      "title": "Should people explain why they reply late?",
-      "buffer_post_id": "6a4cd8b00993a74c1fc53b57",
-      "posted_at": "2026-07-07T10:45:04.339574+00:00"
     }
   ]
 }
