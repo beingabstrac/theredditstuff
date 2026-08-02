@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://red_flags/what-everyday-behavior-feels-selfish-immediately",
+      "title": "What everyday behavior feels selfish immediately?",
+      "buffer_post_id": "6a6ed2eeaacd241cfda5bdac",
+      "posted_at": "2026-08-02T05:17:34.696462+00:00"
+    },
+    {
       "source_url": "fallback://self-care-avoidance",
       "title": "What do people call self-care that is actually avoidance?",
       "buffer_post_id": "6a6ea0d498d2f31dff056745",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to say no to last minute work?",
       "buffer_post_id": "6a4d0789204433652f447950",
       "posted_at": "2026-07-07T14:04:57.882951+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-sending-voice-notes-instead-of-texting-annoying",
-      "title": "Is sending voice notes instead of texting annoying?",
-      "buffer_post_id": "6a4cd8c5bb79d83b86bf92b2",
-      "posted_at": "2026-07-07T10:45:26.641328+00:00"
     }
   ]
 }
