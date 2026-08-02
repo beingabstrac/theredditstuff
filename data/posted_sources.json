@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-sending-voice-notes-instead-of-texting-annoying",
+      "title": "Is sending voice notes instead of texting annoying?",
+      "buffer_post_id": "6a6f922998d2f31dff10bfb3",
+      "posted_at": "2026-08-02T18:53:29.781976+00:00"
+    },
+    {
       "source_url": "fallback://check-split-bill",
       "title": "Is it rude to check the bill when someone else said they split it already?",
       "buffer_post_id": "6a6f743d1b4d436cc318a781",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal for friendships to fade without a fight?",
       "buffer_post_id": "6a4e37a5a31caf2ce59fe4d8",
       "posted_at": "2026-07-08T11:42:29.504449+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-weird-when-friends-keep-score-of-favors",
-      "title": "Is it weird when friends keep score of favors?",
-      "buffer_post_id": "6a4e378c6953d469e7c9ae1e",
-      "posted_at": "2026-07-08T11:42:04.379295+00:00"
     }
   ]
 }
