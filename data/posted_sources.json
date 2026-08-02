@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://would_you_rather/308",
+      "title": "Would you rather have one close friend or many casual friends in your current life?",
+      "buffer_post_id": "6a6ef9e05dc5613cefda8882",
+      "posted_at": "2026-08-02T08:03:44.298671+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-everyday-behavior-feels-selfish-immediately",
       "title": "What everyday behavior feels selfish immediately?",
       "buffer_post_id": "6a6ed2eeaacd241cfda5bdac",
@@ -1193,12 +1199,6 @@
       "title": "Would you label your food in a shared fridge?",
       "buffer_post_id": "6a4d3c98b61c8b0fcf0a4bca",
       "posted_at": "2026-07-07T17:51:20.195080+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-fair-to-say-no-to-last-minute-work",
-      "title": "Is it fair to say no to last minute work?",
-      "buffer_post_id": "6a4d0789204433652f447950",
-      "posted_at": "2026-07-07T14:04:57.882951+00:00"
     }
   ]
 }
