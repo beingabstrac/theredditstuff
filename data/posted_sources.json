@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-always-know-when-someone-is-lying-or-always-sound-believable",
+      "title": "Would you rather always know when someone is lying or always sound believable?",
+      "buffer_post_id": "6a70be5d74d4ac2309cbd4c7",
+      "posted_at": "2026-08-03T16:14:21.867943+00:00"
+    },
+    {
       "source_url": "fallback://shopping-habit-annoys",
       "title": "What shopping habit instantly annoys you?",
       "buffer_post_id": "6a708e571c5ed0395f6eac4c",
@@ -1193,12 +1199,6 @@
       "title": "Should the person who chose the restaurant handle the booking?",
       "buffer_post_id": "6a4ff48c3c48e2c7b33f7bf8",
       "posted_at": "2026-07-09T19:20:44.122109+00:00"
-    },
-    {
-      "source_url": "fallback://friendship-one-sided",
-      "title": "What makes a friendship start feeling one-sided?",
-      "buffer_post_id": "6a4fcabd6b09df42d9489411",
-      "posted_at": "2026-07-09T16:22:21.231716+00:00"
     }
   ]
 }
