@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://shopping-habit-annoys",
+      "title": "What shopping habit instantly annoys you?",
+      "buffer_post_id": "6a708e571c5ed0395f6eac4c",
+      "posted_at": "2026-08-03T12:49:27.300519+00:00"
+    },
+    {
+      "source_url": "curated://red_flags/what-is-a-red-flag-at-dinner-with-someone",
+      "title": "What is a red flag at dinner with someone?",
+      "buffer_post_id": "6a708e3f44821b393540c043",
+      "posted_at": "2026-08-03T12:49:03.860965+00:00"
+    },
+    {
       "source_url": "fallback://small-lie-everyone-tells",
       "title": "What small lie does everyone tell?",
       "buffer_post_id": "6a7058cbe40db69068613fa9",
@@ -1187,18 +1199,6 @@
       "title": "What makes a friendship start feeling one-sided?",
       "buffer_post_id": "6a4fcabd6b09df42d9489411",
       "posted_at": "2026-07-09T16:22:21.231716+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-always-know-when-someone-is-lying-or-always-sound-believable",
-      "title": "Would you rather always know when someone is lying or always sound believable?",
-      "buffer_post_id": "6a4f93807a87880f4bec8ddb",
-      "posted_at": "2026-07-09T12:26:40.632101+00:00"
-    },
-    {
-      "source_url": "fallback://shopping-habit-annoys",
-      "title": "What shopping habit instantly annoys you?",
-      "buffer_post_id": "6a4f67bbf73f05ac9a22247c",
-      "posted_at": "2026-07-09T09:19:55.607362+00:00"
     }
   ]
 }
