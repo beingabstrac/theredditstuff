@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://small-lie-everyone-tells",
+      "title": "What small lie does everyone tell?",
+      "buffer_post_id": "6a7058cbe40db69068613fa9",
+      "posted_at": "2026-08-03T09:00:59.317504+00:00"
+    },
+    {
       "source_url": "curated://dating/should-you-text-right-after-a-good-date",
       "title": "Should you text right after a good date?",
       "buffer_post_id": "6a7027632bbc9e05874f0429",
@@ -1193,12 +1199,6 @@
       "title": "What shopping habit instantly annoys you?",
       "buffer_post_id": "6a4f67bbf73f05ac9a22247c",
       "posted_at": "2026-07-09T09:19:55.607362+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-red-flag-at-dinner-with-someone",
-      "title": "What is a red flag at dinner with someone?",
-      "buffer_post_id": "6a4f67a0631080c3cec7d857",
-      "posted_at": "2026-07-09T09:19:28.692124+00:00"
     }
   ]
 }
