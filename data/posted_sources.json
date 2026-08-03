@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/is-blocking-an-aisle-with-a-cart-a-major-offense",
+      "title": "Is blocking an aisle with a cart a major offense?",
+      "buffer_post_id": "6a70e9450ed90f7662e26c0a",
+      "posted_at": "2026-08-03T19:17:25.282067+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-always-know-when-someone-is-lying-or-always-sound-believable",
       "title": "Would you rather always know when someone is lying or always sound believable?",
       "buffer_post_id": "6a70be5d74d4ac2309cbd4c7",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to put your phone on the table during dinner?",
       "buffer_post_id": "6a50288ddc1a5c85f255ad1b",
       "posted_at": "2026-07-09T23:02:37.766072+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/should-the-person-who-chose-the-restaurant-handle-the-booking",
-      "title": "Should the person who chose the restaurant handle the booking?",
-      "buffer_post_id": "6a4ff48c3c48e2c7b33f7bf8",
-      "posted_at": "2026-07-09T19:20:44.122109+00:00"
     }
   ]
 }
