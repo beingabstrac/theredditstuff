@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/should-the-person-who-chose-the-restaurant-handle-the-booking",
+      "title": "Should the person who chose the restaurant handle the booking?",
+      "buffer_post_id": "6a711b8fd702c24ecb1e24c1",
+      "posted_at": "2026-08-03T22:51:59.760512+00:00"
+    },
+    {
       "source_url": "curated://shopping/is-blocking-an-aisle-with-a-cart-a-major-offense",
       "title": "Is blocking an aisle with a cart a major offense?",
       "buffer_post_id": "6a70e9450ed90f7662e26c0a",
@@ -1193,12 +1199,6 @@
       "title": "Should people be praised for working late?",
       "buffer_post_id": "6a504fbd06672c5e9f5ab90c",
       "posted_at": "2026-07-10T01:49:49.760112+00:00"
-    },
-    {
-      "source_url": "fallback://phone-on-table-dinner",
-      "title": "Is it rude to put your phone on the table during dinner?",
-      "buffer_post_id": "6a50288ddc1a5c85f255ad1b",
-      "posted_at": "2026-07-09T23:02:37.766072+00:00"
     }
   ]
 }
