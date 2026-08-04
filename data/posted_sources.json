@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/should-roommates-ask-before-changing-the-thermostat",
+      "title": "Should roommates ask before changing the thermostat?",
+      "buffer_post_id": "6a71d30e2c92c345a126d3e8",
+      "posted_at": "2026-08-04T11:54:55.062830+00:00"
+    },
+    {
       "source_url": "curated://work/is-it-fair-to-say-no-to-last-minute-work",
       "title": "Is it fair to say no to last minute work?",
       "buffer_post_id": "6a719fd90923373b13b5d84f",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to bring your own food to someone house?",
       "buffer_post_id": "6a511a684d08b305a5158851",
       "posted_at": "2026-07-10T16:14:32.576282+00:00"
-    },
-    {
-      "source_url": "fallback://dating-texting-red-flag",
-      "title": "What texting habit is a dating red flag?",
-      "buffer_post_id": "6a50e35a4da1cb45deaa727d",
-      "posted_at": "2026-07-10T12:19:38.477760+00:00"
     }
   ]
 }
