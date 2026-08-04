@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/should-people-explain-why-they-reply-late",
+      "title": "Should people explain why they reply late?",
+      "buffer_post_id": "6a717060d702c24ecb22233a",
+      "posted_at": "2026-08-04T04:53:52.241671+00:00"
+    },
+    {
       "source_url": "fallback://lend-money-friend-owes",
       "title": "Would you lend money to a friend who still owes other people?",
       "buffer_post_id": "6a713ed120d3689200b053ff",
@@ -1193,12 +1199,6 @@
       "title": "Is it wrong to not lend family your car?",
       "buffer_post_id": "6a50b4a5d275f5bd85fa0d07",
       "posted_at": "2026-07-10T09:00:21.738094+00:00"
-    },
-    {
-      "source_url": "curated://roommates/should-roommates-ask-before-changing-the-thermostat",
-      "title": "Should roommates ask before changing the thermostat?",
-      "buffer_post_id": "6a5088e5f50a99bddcce375a",
-      "posted_at": "2026-07-10T05:53:41.226446+00:00"
     }
   ]
 }
