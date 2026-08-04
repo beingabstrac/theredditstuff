@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://cancel-plans-tired",
+      "title": "Is cancelling plans because you are tired a valid reason?",
+      "buffer_post_id": "6a723b28cbe1782802939a07",
+      "posted_at": "2026-08-04T19:19:04.216453+00:00"
+    },
+    {
       "source_url": "fallback://dating-texting-red-flag",
       "title": "What texting habit is a dating red flag?",
       "buffer_post_id": "6a720e0e40dd1cf976966c79",
@@ -1193,12 +1199,6 @@
       "title": "Should people return carts every single time?",
       "buffer_post_id": "6a51771bc4b9e094adf7735c",
       "posted_at": "2026-07-10T22:50:04.001110+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-green-flag-people-do-not-talk-about-enough",
-      "title": "What is a green flag people do not talk about enough?",
-      "buffer_post_id": "6a5144b25bfb30fba4a7939a",
-      "posted_at": "2026-07-10T19:14:59.050848+00:00"
     }
   ]
 }
