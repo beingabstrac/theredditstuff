@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://lend-money-friend-owes",
+      "title": "Would you lend money to a friend who still owes other people?",
+      "buffer_post_id": "6a713ed120d3689200b053ff",
+      "posted_at": "2026-08-04T01:22:25.315207+00:00"
+    },
+    {
       "source_url": "curated://restaurant/should-the-person-who-chose-the-restaurant-handle-the-booking",
       "title": "Should the person who chose the restaurant handle the booking?",
       "buffer_post_id": "6a711b8fd702c24ecb1e24c1",
@@ -1193,12 +1199,6 @@
       "title": "Should roommates ask before changing the thermostat?",
       "buffer_post_id": "6a5088e5f50a99bddcce375a",
       "posted_at": "2026-07-10T05:53:41.226446+00:00"
-    },
-    {
-      "source_url": "curated://work/should-people-be-praised-for-working-late",
-      "title": "Should people be praised for working late?",
-      "buffer_post_id": "6a504fbd06672c5e9f5ab90c",
-      "posted_at": "2026-07-10T01:49:49.760112+00:00"
     }
   ]
 }
