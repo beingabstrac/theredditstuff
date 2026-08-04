@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-never-do-laundry-or-never-wash-dishes",
+      "title": "Would you rather never do laundry or never wash dishes?",
+      "buffer_post_id": "6a726d2126354a038b4e665f",
+      "posted_at": "2026-08-04T22:52:17.271916+00:00"
+    },
+    {
       "source_url": "fallback://cancel-plans-tired",
       "title": "Is cancelling plans because you are tired a valid reason?",
       "buffer_post_id": "6a723b28cbe1782802939a07",
@@ -1193,12 +1199,6 @@
       "title": "Should friends remember small details about your life?",
       "buffer_post_id": "6a519c405bfb30fba4aae5e7",
       "posted_at": "2026-07-11T01:28:32.288292+00:00"
-    },
-    {
-      "source_url": "curated://shopping/should-people-return-carts-every-single-time",
-      "title": "Should people return carts every single time?",
-      "buffer_post_id": "6a51771bc4b9e094adf7735c",
-      "posted_at": "2026-07-10T22:50:04.001110+00:00"
     }
   ]
 }
