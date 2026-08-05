@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/should-you-tell-someone-they-have-food-in-their-teeth",
+      "title": "Should you tell someone they have food in their teeth?",
+      "buffer_post_id": "6a73bdb0134431cdba4763e6",
+      "posted_at": "2026-08-05T22:48:16.535226+00:00"
+    },
+    {
       "source_url": "procedural://family/340",
       "title": "Is it weird to set boundaries if they get offended?",
       "buffer_post_id": "6a738b2d847f848d72906c11",
@@ -1193,12 +1199,6 @@
       "title": "Should delivery fees make you stop ordering food?",
       "buffer_post_id": "6a52ee25b5390f6a13fe225d",
       "posted_at": "2026-07-12T01:30:14.149371+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-unlimited-free-coffee-or-unlimited-free-rides",
-      "title": "Would you rather have unlimited free coffee or unlimited free rides?",
-      "buffer_post_id": "6a52c59d4835bc01be2764fe",
-      "posted_at": "2026-07-11T22:37:17.175213+00:00"
     }
   ]
 }
