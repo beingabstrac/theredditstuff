@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/is-it-normal-for-friendships-to-fade-without-a-fight",
+      "title": "Is it normal for friendships to fade without a fight?",
+      "buffer_post_id": "6a72c1fec549049f46546204",
+      "posted_at": "2026-08-05T04:54:22.857853+00:00"
+    },
+    {
       "source_url": "curated://shopping/should-people-return-carts-every-single-time",
       "title": "Should people return carts every single time?",
       "buffer_post_id": "6a729180c6717b2bad67d61c",
@@ -1193,12 +1199,6 @@
       "title": "Is lending small amounts of money to friends worth the risk?",
       "buffer_post_id": "6a51f14fc4b9e094adfc0d81",
       "posted_at": "2026-07-11T07:31:27.973154+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/would-you-go-back-to-a-place-your-friend-hated",
-      "title": "Would you go back to a place your friend hated?",
-      "buffer_post_id": "6a51cc39c571e283da588ca8",
-      "posted_at": "2026-07-11T04:53:13.530673+00:00"
     }
   ]
 }
