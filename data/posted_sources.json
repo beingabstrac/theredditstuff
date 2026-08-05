@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/is-it-rude-to-ask-the-price-before-agreeing-to-plans",
+      "title": "Is it rude to ask the price before agreeing to plans?",
+      "buffer_post_id": "6a7323db04661c18cf3e8f0d",
+      "posted_at": "2026-08-05T11:51:56.099463+00:00"
+    },
+    {
       "source_url": "curated://restaurant/would-you-go-back-to-a-place-your-friend-hated",
       "title": "Would you go back to a place your friend hated?",
       "buffer_post_id": "6a72f104994cfd8040b2ed4e",
@@ -1193,12 +1199,6 @@
       "title": "Should roommates warn before bringing guests over?",
       "buffer_post_id": "6a523cb6a27e00341f9eec55",
       "posted_at": "2026-07-11T12:53:10.850162+00:00"
-    },
-    {
-      "source_url": "curated://work/would-you-tell-a-coworker-they-are-talking-too-loudly",
-      "title": "Would you tell a coworker they are talking too loudly?",
-      "buffer_post_id": "6a5220e15bfb30fba4b0996a",
-      "posted_at": "2026-07-11T10:54:25.768118+00:00"
     }
   ]
 }
