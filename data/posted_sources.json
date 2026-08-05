@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/340",
+      "title": "Is it weird to set boundaries if they get offended?",
+      "buffer_post_id": "6a738b2d847f848d72906c11",
+      "posted_at": "2026-08-05T19:12:45.178373+00:00"
+    },
+    {
       "source_url": "curated://work/would-you-tell-a-coworker-they-are-talking-too-loudly",
       "title": "Would you tell a coworker they are talking too loudly?",
       "buffer_post_id": "6a735caf739261512b3293cd",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather have unlimited free coffee or unlimited free rides?",
       "buffer_post_id": "6a52c59d4835bc01be2764fe",
       "posted_at": "2026-07-11T22:37:17.175213+00:00"
-    },
-    {
-      "source_url": "fallback://apology-with-explaining",
-      "title": "Is an apology real if someone keeps explaining why they did it?",
-      "buffer_post_id": "6a528ee5fe300e0e9ba84f90",
-      "posted_at": "2026-07-11T18:43:49.900276+00:00"
     }
   ]
 }
