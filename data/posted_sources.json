@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/should-plans-be-confirmed-again-the-day-of",
+      "title": "Should plans be confirmed again the day of?",
+      "buffer_post_id": "6a733d8bd5c5d76547e76c1d",
+      "posted_at": "2026-08-05T13:41:32.114707+00:00"
+    },
+    {
       "source_url": "curated://money/is-it-rude-to-ask-the-price-before-agreeing-to-plans",
       "title": "Is it rude to ask the price before agreeing to plans?",
       "buffer_post_id": "6a7323db04661c18cf3e8f0d",
@@ -1193,12 +1199,6 @@
       "title": "Would you tell someone their dating standards are unrealistic?",
       "buffer_post_id": "6a52726bc4b9e094ad01c3a6",
       "posted_at": "2026-07-11T16:42:19.437694+00:00"
-    },
-    {
-      "source_url": "curated://roommates/should-roommates-warn-before-bringing-guests-over",
-      "title": "Should roommates warn before bringing guests over?",
-      "buffer_post_id": "6a523cb6a27e00341f9eec55",
-      "posted_at": "2026-07-11T12:53:10.850162+00:00"
     }
   ]
 }
