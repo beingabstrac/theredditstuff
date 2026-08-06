@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/350",
+      "title": "Would you judge someone for choosing to say no to last minute tasks if the manager expects it?",
+      "buffer_post_id": "6a751dd6145b14b3da60c8b7",
+      "posted_at": "2026-08-06T23:50:46.735980+00:00"
+    },
+    {
+      "source_url": "curated://work/would-you-cover-for-a-coworker-who-is-always-late",
+      "title": "Would you cover for a coworker who is always late?",
+      "buffer_post_id": "6a751dbbe66d34bb734a65c9",
+      "posted_at": "2026-08-06T23:50:19.393060+00:00"
+    },
+    {
+      "source_url": "curated://work/should-people-be-praised-for-working-late",
+      "title": "Should people be praised for working late?",
+      "buffer_post_id": "6a751da48d264d79c1baa052",
+      "posted_at": "2026-08-06T23:49:56.693395+00:00"
+    },
+    {
       "source_url": "curated://restaurant/would-you-judge-someone-for-being-picky-at-restaurants",
       "title": "Would you judge someone for being picky at restaurants?",
       "buffer_post_id": "6a748fd9be3538462cb9cfa0",
@@ -1181,24 +1199,6 @@
       "title": "Would you rather have one perfect friend or many casual friends?",
       "buffer_post_id": "6a543fd198dc0120703c3ce2",
       "posted_at": "2026-07-13T01:30:57.969850+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-normal-habit-becomes-annoying-very-fast",
-      "title": "What normal habit becomes annoying very fast?",
-      "buffer_post_id": "6a54173b98dc0120703ae301",
-      "posted_at": "2026-07-12T22:37:47.249234+00:00"
-    },
-    {
-      "source_url": "curated://dating/would-you-date-someone-who-is-always-late",
-      "title": "Would you date someone who is always late?",
-      "buffer_post_id": "6a53e1735f9decadd2983b0e",
-      "posted_at": "2026-07-12T18:48:19.450586+00:00"
-    },
-    {
-      "source_url": "curated://family/would-you-tell-family-to-stop-commenting-on-your-life",
-      "title": "Would you tell family to stop commenting on your life?",
-      "buffer_post_id": "6a53c4949cf8918f1dcac001",
-      "posted_at": "2026-07-12T16:45:08.619459+00:00"
     }
   ]
 }
