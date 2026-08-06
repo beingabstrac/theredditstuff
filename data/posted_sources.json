@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/would-you-judge-someone-for-being-picky-at-restaurants",
+      "title": "Would you judge someone for being picky at restaurants?",
+      "buffer_post_id": "6a748fd9be3538462cb9cfa0",
+      "posted_at": "2026-08-06T13:44:57.231693+00:00"
+    },
+    {
       "source_url": "curated://friendship/should-friends-ask-before-venting",
       "title": "Should friends ask before venting?",
       "buffer_post_id": "6a7476823e114b56fdb7e6cf",
@@ -1193,12 +1199,6 @@
       "title": "Would you tell family to stop commenting on your life?",
       "buffer_post_id": "6a53c4949cf8918f1dcac001",
       "posted_at": "2026-07-12T16:45:08.619459+00:00"
-    },
-    {
-      "source_url": "curated://work/would-you-cover-for-a-coworker-who-is-always-late",
-      "title": "Would you cover for a coworker who is always late?",
-      "buffer_post_id": "6a538e6040ac19c8f571787b",
-      "posted_at": "2026-07-12T12:53:52.317938+00:00"
     }
   ]
 }
