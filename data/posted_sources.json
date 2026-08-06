@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/should-friends-ask-before-venting",
+      "title": "Should friends ask before venting?",
+      "buffer_post_id": "6a7476823e114b56fdb7e6cf",
+      "posted_at": "2026-08-06T11:56:50.228237+00:00"
+    },
+    {
       "source_url": "curated://shopping/should-delivery-fees-make-you-stop-ordering-food",
       "title": "Should delivery fees make you stop ordering food?",
       "buffer_post_id": "6a744231de0248f0f2c0957b",
@@ -1193,12 +1199,6 @@
       "title": "Would you cover for a coworker who is always late?",
       "buffer_post_id": "6a538e6040ac19c8f571787b",
       "posted_at": "2026-07-12T12:53:52.317938+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-rude-to-use-coupons-on-a-date",
-      "title": "Is it rude to use coupons on a date?",
-      "buffer_post_id": "6a5362aa4835bc01be2c34f5",
-      "posted_at": "2026-07-12T09:47:22.541583+00:00"
     }
   ]
 }
