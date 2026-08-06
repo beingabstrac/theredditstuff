@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-have-unlimited-free-coffee-or-unlimited-free-rides",
+      "title": "Would you rather have unlimited free coffee or unlimited free rides?",
+      "buffer_post_id": "6a7413a0a7837e555de65304",
+      "posted_at": "2026-08-06T04:54:56.973882+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-is-a-green-flag-people-do-not-talk-about-enough",
       "title": "What is a green flag people do not talk about enough?",
       "buffer_post_id": "6a73e285626c06990eadb200",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for being picky at restaurants?",
       "buffer_post_id": "6a5348fdf6f7a02e8b0c014a",
       "posted_at": "2026-07-12T07:57:49.612267+00:00"
-    },
-    {
-      "source_url": "curated://friendship/should-friends-ask-before-venting",
-      "title": "Should friends ask before venting?",
-      "buffer_post_id": "6a53230df6f7a02e8b0adcf5",
-      "posted_at": "2026-07-12T05:15:57.279313+00:00"
     }
   ]
 }
