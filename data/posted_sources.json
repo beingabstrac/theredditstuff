@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-it-weird-to-text-someone-only-when-you-need-something",
+      "title": "Is it weird to text someone only when you need something?",
+      "buffer_post_id": "6a765b21eb086b1202cd3d9f",
+      "posted_at": "2026-08-07T22:24:33.571937+00:00"
+    },
+    {
       "source_url": "procedural://restaurant/359",
       "title": "Would you say something if someone wanted to take a call at dinner without making dinner tense?",
       "buffer_post_id": "6a7626388aa5e1393fa744ea",
@@ -1193,12 +1199,6 @@
       "title": "Should adults have to explain every plan to their parents?",
       "buffer_post_id": "6a558ed9a208f5b1ac0cee1f",
       "posted_at": "2026-07-14T01:20:25.773078+00:00"
-    },
-    {
-      "source_url": "fallback://house-guest-red-flag",
-      "title": "What house guest behavior is an instant red flag?",
-      "buffer_post_id": "6a556a5b0a91bd784c7bc5dd",
-      "posted_at": "2026-07-13T22:44:43.563359+00:00"
     }
   ]
 }
