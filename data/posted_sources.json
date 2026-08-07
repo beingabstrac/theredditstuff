@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/would-you-tell-family-to-stop-commenting-on-your-life",
+      "title": "Would you tell family to stop commenting on your life?",
+      "buffer_post_id": "6a756ccc8363eb69498e22c4",
+      "posted_at": "2026-08-07T05:27:40.388547+00:00"
+    },
+    {
       "source_url": "curated://roommates/should-roommates-warn-before-bringing-guests-over",
       "title": "Should roommates warn before bringing guests over?",
       "buffer_post_id": "6a753cedab236f0ec5877fd0",
@@ -1193,12 +1199,6 @@
       "title": "Would you confront a friend who only talks about themselves?",
       "buffer_post_id": "6a54a5cede991dc7c5bbfefd",
       "posted_at": "2026-07-13T08:46:06.197573+00:00"
-    },
-    {
-      "source_url": "curated://shopping/would-you-say-something-to-someone-cutting-a-line",
-      "title": "Would you say something to someone cutting a line?",
-      "buffer_post_id": "6a5476a59cf8918f1dd0b739",
-      "posted_at": "2026-07-13T05:24:53.845902+00:00"
     }
   ]
 }
