@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://restaurant/359",
+      "title": "Would you say something if someone wanted to take a call at dinner without making dinner tense?",
+      "buffer_post_id": "6a7626388aa5e1393fa744ea",
+      "posted_at": "2026-08-07T18:38:48.188203+00:00"
+    },
+    {
+      "source_url": "curated://restaurant/is-it-rude-to-take-a-call-during-dinner",
+      "title": "Is it rude to take a call during dinner?",
+      "buffer_post_id": "6a7626228b39b04b79fe76e2",
+      "posted_at": "2026-08-07T18:38:26.770506+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-have-one-perfect-friend-or-many-casual-friends",
       "title": "Would you rather have one perfect friend or many casual friends?",
       "buffer_post_id": "6a75d1be97f54129442652d6",
@@ -1187,18 +1199,6 @@
       "title": "What house guest behavior is an instant red flag?",
       "buffer_post_id": "6a556a5b0a91bd784c7bc5dd",
       "posted_at": "2026-07-13T22:44:43.563359+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-weird-to-text-someone-only-when-you-need-something",
-      "title": "Is it weird to text someone only when you need something?",
-      "buffer_post_id": "6a55382f0a91bd784c79906f",
-      "posted_at": "2026-07-13T19:10:39.224225+00:00"
-    },
-    {
-      "source_url": "fallback://thoughtful-cheap-vs-expensive-lazy",
-      "title": "Would you rather receive a thoughtful cheap gift or an expensive lazy one?",
-      "buffer_post_id": "6a55108bebe0cdbfa520d40f",
-      "posted_at": "2026-07-13T16:21:32.016656+00:00"
     }
   ]
 }
