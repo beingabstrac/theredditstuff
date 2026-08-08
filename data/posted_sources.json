@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://phone-on-table-dinner",
+      "title": "Is it rude to put your phone on the table during dinner?",
+      "buffer_post_id": "6a77aad49517ea3cc68a214d",
+      "posted_at": "2026-08-08T22:16:52.937858+00:00"
+    },
+    {
       "source_url": "curated://money/is-lending-small-amounts-of-money-to-friends-worth-the-risk",
       "title": "Is lending small amounts of money to friends worth the risk?",
       "buffer_post_id": "6a778eaed86dda1f366a1962",
@@ -1193,12 +1199,6 @@
       "title": "What office habit makes a normal day worse?",
       "buffer_post_id": "6a56bc16a98769c5aac7ec62",
       "posted_at": "2026-07-14T22:45:42.463226+00:00"
-    },
-    {
-      "source_url": "curated://money/would-you-charge-a-friend-for-gas-on-a-short-ride",
-      "title": "Would you charge a friend for gas on a short ride?",
-      "buffer_post_id": "6a56877b07fd5efc5672de18",
-      "posted_at": "2026-07-14T19:01:15.662574+00:00"
     }
   ]
 }
