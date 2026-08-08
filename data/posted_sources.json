@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/362",
+      "title": "Would you judge someone for choosing to skip optional meetings if the manager expects it?",
+      "buffer_post_id": "6a767c9beb086b1202cf08a3",
+      "posted_at": "2026-08-08T00:47:24.072463+00:00"
+    },
+    {
       "source_url": "curated://texting/is-it-weird-to-text-someone-only-when-you-need-something",
       "title": "Is it weird to text someone only when you need something?",
       "buffer_post_id": "6a765b21eb086b1202cd3d9f",
@@ -1193,12 +1199,6 @@
       "title": "Is checking your phone on a date a dealbreaker?",
       "buffer_post_id": "6a55bdb40a91bd784c7e8f0f",
       "posted_at": "2026-07-14T04:40:21.009509+00:00"
-    },
-    {
-      "source_url": "curated://family/should-adults-have-to-explain-every-plan-to-their-parents",
-      "title": "Should adults have to explain every plan to their parents?",
-      "buffer_post_id": "6a558ed9a208f5b1ac0cee1f",
-      "posted_at": "2026-07-14T01:20:25.773078+00:00"
     }
   ]
 }
