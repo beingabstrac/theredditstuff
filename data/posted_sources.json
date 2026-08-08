@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/would-you-say-something-to-someone-cutting-a-line",
+      "title": "Would you say something to someone cutting a line?",
+      "buffer_post_id": "6a773bb0a69527d8fa5b5a55",
+      "posted_at": "2026-08-08T14:22:40.765133+00:00"
+    },
+    {
       "source_url": "procedural://would_you_rather/368",
       "title": "Would you rather be respected or liked if money was still the same?",
       "buffer_post_id": "6a771ffe2c3e8e5fce74c7d9",
@@ -1193,12 +1199,6 @@
       "title": "Should people tip more if they make a mess?",
       "buffer_post_id": "6a566b90c73baf813114b266",
       "posted_at": "2026-07-14T17:02:08.740790+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-rude-to-take-forever-at-self-checkout",
-      "title": "Is it rude to take forever at self checkout?",
-      "buffer_post_id": "6a56341603db4ec361caf23e",
-      "posted_at": "2026-07-14T13:05:26.973661+00:00"
     }
   ]
 }
