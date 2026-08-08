@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/is-lending-small-amounts-of-money-to-friends-worth-the-risk",
+      "title": "Is lending small amounts of money to friends worth the risk?",
+      "buffer_post_id": "6a778eaed86dda1f366a1962",
+      "posted_at": "2026-08-08T20:16:46.849431+00:00"
+    },
+    {
       "source_url": "curated://shopping/would-you-say-something-to-someone-cutting-a-line",
       "title": "Would you say something to someone cutting a line?",
       "buffer_post_id": "6a773bb0a69527d8fa5b5a55",
@@ -1193,12 +1199,6 @@
       "title": "Would you charge a friend for gas on a short ride?",
       "buffer_post_id": "6a56877b07fd5efc5672de18",
       "posted_at": "2026-07-14T19:01:15.662574+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/should-people-tip-more-if-they-make-a-mess",
-      "title": "Should people tip more if they make a mess?",
-      "buffer_post_id": "6a566b90c73baf813114b266",
-      "posted_at": "2026-07-14T17:02:08.740790+00:00"
     }
   ]
 }
