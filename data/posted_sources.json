@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/should-adults-have-to-explain-every-plan-to-their-parents",
+      "title": "Should adults have to explain every plan to their parents?",
+      "buffer_post_id": "6a76b4938aa5e1393fade8c3",
+      "posted_at": "2026-08-08T04:46:11.835629+00:00"
+    },
+    {
       "source_url": "procedural://work/362",
       "title": "Would you judge someone for choosing to skip optional meetings if the manager expects it?",
       "buffer_post_id": "6a767c9beb086b1202cf08a3",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to play videos out loud in public?",
       "buffer_post_id": "6a55e932b7b88797119c4c8d",
       "posted_at": "2026-07-14T07:45:54.738259+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-checking-your-phone-on-a-date-a-dealbreaker",
-      "title": "Is checking your phone on a date a dealbreaker?",
-      "buffer_post_id": "6a55bdb40a91bd784c7e8f0f",
-      "posted_at": "2026-07-14T04:40:21.009509+00:00"
     }
   ]
 }
