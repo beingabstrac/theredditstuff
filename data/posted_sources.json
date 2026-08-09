@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/is-it-rude-to-take-forever-at-self-checkout",
+      "title": "Is it rude to take forever at self checkout?",
+      "buffer_post_id": "6a788dc4634795f2bafbf102",
+      "posted_at": "2026-08-09T14:25:08.817357+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-is-a-small-sign-someone-lacks-self-awareness",
       "title": "What is a small sign someone lacks self awareness?",
       "buffer_post_id": "6a7854c313d01138ced9eb3e",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather always be early or always be exactly on time?",
       "buffer_post_id": "6a57865269813da31181234f",
       "posted_at": "2026-07-15T13:08:34.658434+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-ask-guests-to-leave",
-      "title": "Is it rude to ask guests to leave?",
-      "buffer_post_id": "6a575797acf4b680b37b159f",
-      "posted_at": "2026-07-15T09:49:11.736882+00:00"
     }
   ]
 }
