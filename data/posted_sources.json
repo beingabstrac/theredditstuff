@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/would-you-charge-a-friend-for-gas-on-a-short-ride",
+      "title": "Would you charge a friend for gas on a short ride?",
+      "buffer_post_id": "6a78e0ddd192ae76f3d3729d",
+      "posted_at": "2026-08-09T20:19:42.029737+00:00"
+    },
+    {
       "source_url": "curated://friendship/would-you-confront-a-friend-who-only-talks-about-themselves",
       "title": "Would you confront a friend who only talks about themselves?",
       "buffer_post_id": "6a78a911b76513f20421756c",
@@ -1193,12 +1199,6 @@
       "title": "Would you split appetizers if you did not eat them?",
       "buffer_post_id": "6a57d73f64df3d2bf2414636",
       "posted_at": "2026-07-15T18:53:51.298081+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-fair-to-cancel-on-friends-for-alone-time",
-      "title": "Is it fair to cancel on friends for alone time?",
-      "buffer_post_id": "6a57bd8e980b8bd8d6d32776",
-      "posted_at": "2026-07-15T17:04:14.615918+00:00"
     }
   ]
 }
