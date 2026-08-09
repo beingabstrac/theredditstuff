@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://texting/385",
+      "title": "Is it normal to reply late when the message is casual?",
+      "buffer_post_id": "6a78fcc5658b572af4b47126",
+      "posted_at": "2026-08-09T22:18:45.465290+00:00"
+    },
+    {
       "source_url": "curated://money/would-you-charge-a-friend-for-gas-on-a-short-ride",
       "title": "Would you charge a friend for gas on a short ride?",
       "buffer_post_id": "6a78e0ddd192ae76f3d3729d",
@@ -1193,12 +1199,6 @@
       "title": "Is double texting desperate or normal?",
       "buffer_post_id": "6a580e0ad765d496af90f78d",
       "posted_at": "2026-07-15T22:47:38.965644+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/would-you-split-appetizers-if-you-did-not-eat-them",
-      "title": "Would you split appetizers if you did not eat them?",
-      "buffer_post_id": "6a57d73f64df3d2bf2414636",
-      "posted_at": "2026-07-15T18:53:51.298081+00:00"
     }
   ]
 }
