@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/374",
+      "title": "Would you judge someone for choosing to mute work apps if the manager expects it?",
+      "buffer_post_id": "6a77cef09517ea3cc68b98f2",
+      "posted_at": "2026-08-09T00:50:56.764746+00:00"
+    },
+    {
       "source_url": "fallback://phone-on-table-dinner",
       "title": "Is it rude to put your phone on the table during dinner?",
       "buffer_post_id": "6a77aad49517ea3cc68a214d",
@@ -1193,12 +1199,6 @@
       "title": "Would you move out over a roommate who never cleans?",
       "buffer_post_id": "6a56dfbea98769c5aac92604",
       "posted_at": "2026-07-15T01:17:50.476150+00:00"
-    },
-    {
-      "source_url": "curated://work/what-office-habit-makes-a-normal-day-worse",
-      "title": "What office habit makes a normal day worse?",
-      "buffer_post_id": "6a56bc16a98769c5aac7ec62",
-      "posted_at": "2026-07-14T22:45:42.463226+00:00"
     }
   ]
 }
