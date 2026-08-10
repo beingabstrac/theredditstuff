@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/is-it-rude-to-cancel-a-date-because-you-are-tired",
+      "title": "Is it rude to cancel a date because you are tired?",
+      "buffer_post_id": "6a7978e5472e1a5200f0c2fb",
+      "posted_at": "2026-08-10T07:08:21.997005+00:00"
+    },
+    {
       "source_url": "fallback://normal-house-weird-elsewhere",
       "title": "What is normal in your house but weird everywhere else?",
       "buffer_post_id": "6a7948d7cbdbc1436875e38b",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to not answer family calls immediately?",
       "buffer_post_id": "6a588e4303395c57c1747cab",
       "posted_at": "2026-07-16T07:54:43.363072+00:00"
-    },
-    {
-      "source_url": "fallback://roommate-habit-move-out",
-      "title": "What roommate habit would make you move out immediately?",
-      "buffer_post_id": "6a5863089fa595d8e574e87a",
-      "posted_at": "2026-07-16T04:50:17.155219+00:00"
     }
   ]
 }
