@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/would-you-split-appetizers-if-you-did-not-eat-them",
+      "title": "Would you split appetizers if you did not eat them?",
+      "buffer_post_id": "6a7a1b55b2453761eed7331a",
+      "posted_at": "2026-08-10T18:41:25.342224+00:00"
+    },
+    {
       "source_url": "curated://friendship/is-it-fair-to-cancel-on-friends-for-alone-time",
       "title": "Is it fair to cancel on friends for alone time?",
       "buffer_post_id": "6a79ff533d4de5229d75628e",
@@ -1193,12 +1199,6 @@
       "title": "Should friends invite partners to every plan?",
       "buffer_post_id": "6a5928fc1e7f23e1afc8ed0b",
       "posted_at": "2026-07-16T18:54:52.476104+00:00"
-    },
-    {
-      "source_url": "curated://shopping/would-you-judge-someone-for-arguing-over-a-return",
-      "title": "Would you judge someone for arguing over a return?",
-      "buffer_post_id": "6a590eb497b5f53a2bab7a81",
-      "posted_at": "2026-07-16T17:02:44.710118+00:00"
     }
   ]
 }
