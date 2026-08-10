@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://everyday-lose-respect",
+      "title": "What everyday behavior makes you lose respect for someone?",
+      "buffer_post_id": "6a79ae750c0d23960a6ce685",
+      "posted_at": "2026-08-10T10:56:53.191813+00:00"
+    },
+    {
       "source_url": "curated://dating/is-it-rude-to-cancel-a-date-because-you-are-tired",
       "title": "Is it rude to cancel a date because you are tired?",
       "buffer_post_id": "6a7978e5472e1a5200f0c2fb",
@@ -1193,12 +1199,6 @@
       "title": "Should partners have access to each other social media?",
       "buffer_post_id": "6a58aac37f68200a6c1776c7",
       "posted_at": "2026-07-16T09:56:19.967232+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-rude-to-not-answer-family-calls-immediately",
-      "title": "Is it rude to not answer family calls immediately?",
-      "buffer_post_id": "6a588e4303395c57c1747cab",
-      "posted_at": "2026-07-16T07:54:43.363072+00:00"
     }
   ]
 }
