@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-double-texting-desperate-or-normal",
+      "title": "Is double texting desperate or normal?",
+      "buffer_post_id": "6a7a4ff098be23f3c73daa89",
+      "posted_at": "2026-08-10T22:25:53.022329+00:00"
+    },
+    {
       "source_url": "curated://restaurant/would-you-split-appetizers-if-you-did-not-eat-them",
       "title": "Would you split appetizers if you did not eat them?",
       "buffer_post_id": "6a7a1b55b2453761eed7331a",
@@ -1193,12 +1199,6 @@
       "title": "Would you stop inviting a friend who never pays on time?",
       "buffer_post_id": "6a595fa8763686fc6b49791d",
       "posted_at": "2026-07-16T22:48:08.595919+00:00"
-    },
-    {
-      "source_url": "curated://friendship/should-friends-invite-partners-to-every-plan",
-      "title": "Should friends invite partners to every plan?",
-      "buffer_post_id": "6a5928fc1e7f23e1afc8ed0b",
-      "posted_at": "2026-07-16T18:54:52.476104+00:00"
     }
   ]
 }
