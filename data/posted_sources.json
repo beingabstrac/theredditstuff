@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://normal-house-weird-elsewhere",
+      "title": "What is normal in your house but weird everywhere else?",
+      "buffer_post_id": "6a7948d7cbdbc1436875e38b",
+      "posted_at": "2026-08-10T03:43:19.553316+00:00"
+    },
+    {
       "source_url": "curated://work/what-office-habit-makes-a-normal-day-worse",
       "title": "What office habit makes a normal day worse?",
       "buffer_post_id": "6a79210be99da63ec8a215ea",
@@ -1193,12 +1199,6 @@
       "title": "What roommate habit would make you move out immediately?",
       "buffer_post_id": "6a5863089fa595d8e574e87a",
       "posted_at": "2026-07-16T04:50:17.155219+00:00"
-    },
-    {
-      "source_url": "curated://work/should-coworkers-reply-during-lunch-breaks",
-      "title": "Should coworkers reply during lunch breaks?",
-      "buffer_post_id": "6a5833679fa595d8e573526b",
-      "posted_at": "2026-07-16T01:27:03.670778+00:00"
     }
   ]
 }
