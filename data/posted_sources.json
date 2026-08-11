@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://group-chat-annoying",
+      "title": "What makes a group chat instantly annoying?",
+      "buffer_post_id": "6a7ba2bc89b02c54c749ff4a",
+      "posted_at": "2026-08-11T22:31:24.515986+00:00"
+    },
+    {
       "source_url": "curated://restaurant/should-people-tip-more-if-they-make-a-mess",
       "title": "Should people tip more if they make a mess?",
       "buffer_post_id": "6a7b6de38246fb8f28a5fe5e",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to stay at a table long after eating?",
       "buffer_post_id": "6a5aaef3399fe1a460f56325",
       "posted_at": "2026-07-17T22:38:43.754851+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-normal-to-compare-prices-in-front-of-friends",
-      "title": "Is it normal to compare prices in front of friends?",
-      "buffer_post_id": "6a5a79e6fc7fce1db70112ee",
-      "posted_at": "2026-07-17T18:52:22.238317+00:00"
     }
   ]
 }
