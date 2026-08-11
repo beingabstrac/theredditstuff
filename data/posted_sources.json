@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://would_you_rather/404",
+      "title": "Would you rather have one close friend or many casual friends for the rest of your life?",
+      "buffer_post_id": "6a7b17d5b4b04fdf1bf5ba38",
+      "posted_at": "2026-08-11T12:38:45.514471+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-habit-makes-someone-look-inconsiderate",
       "title": "What habit makes someone look inconsiderate?",
       "buffer_post_id": "6a7afc4c8c145332da1a4fad",
@@ -1193,12 +1199,6 @@
       "title": "Should people take their shoes off in every home?",
       "buffer_post_id": "6a5a279bb08bd9a0b2e8527e",
       "posted_at": "2026-07-17T13:01:16.103948+00:00"
-    },
-    {
-      "source_url": "curated://family/would-you-refuse-to-host-relatives-who-overstay",
-      "title": "Would you refuse to host relatives who overstay?",
-      "buffer_post_id": "6a59f9e1cbf23621491fd321",
-      "posted_at": "2026-07-17T09:46:09.660406+00:00"
     }
   ]
 }
