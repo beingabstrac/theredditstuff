@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/is-it-rude-to-not-answer-family-calls-immediately",
+      "title": "Is it rude to not answer family calls immediately?",
+      "buffer_post_id": "6a7aabc488a24397906a593d",
+      "posted_at": "2026-08-11T04:57:40.992215+00:00"
+    },
+    {
       "source_url": "curated://work/should-coworkers-reply-during-lunch-breaks",
       "title": "Should coworkers reply during lunch breaks?",
       "buffer_post_id": "6a7a7278399fea065b4f4020",
@@ -1193,12 +1199,6 @@
       "title": "Should meetings have to prove they are necessary?",
       "buffer_post_id": "6a59b545a4472b8894770f8b",
       "posted_at": "2026-07-17T04:53:25.412242+00:00"
-    },
-    {
-      "source_url": "fallback://group-chat-annoying",
-      "title": "What makes a group chat instantly annoying?",
-      "buffer_post_id": "6a59859aa4472b889474d40b",
-      "posted_at": "2026-07-17T01:30:02.472972+00:00"
     }
   ]
 }
