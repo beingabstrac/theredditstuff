@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/should-friends-invite-partners-to-every-plan",
+      "title": "Should friends invite partners to every plan?",
+      "buffer_post_id": "6a7b51ac6cb7e267959cbbf2",
+      "posted_at": "2026-08-11T16:45:32.875261+00:00"
+    },
+    {
       "source_url": "procedural://would_you_rather/404",
       "title": "Would you rather have one close friend or many casual friends for the rest of your life?",
       "buffer_post_id": "6a7b17d5b4b04fdf1bf5ba38",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather know what people think of you or never care?",
       "buffer_post_id": "6a5a5f3aef0db6c2966c7a4c",
       "posted_at": "2026-07-17T16:58:34.769847+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/should-people-take-their-shoes-off-in-every-home",
-      "title": "Should people take their shoes off in every home?",
-      "buffer_post_id": "6a5a279bb08bd9a0b2e8527e",
-      "posted_at": "2026-07-17T13:01:16.103948+00:00"
     }
   ]
 }
