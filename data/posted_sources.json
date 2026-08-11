@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/should-coworkers-reply-during-lunch-breaks",
+      "title": "Should coworkers reply during lunch breaks?",
+      "buffer_post_id": "6a7a7278399fea065b4f4020",
+      "posted_at": "2026-08-11T00:53:12.324003+00:00"
+    },
+    {
       "source_url": "curated://texting/is-double-texting-desperate-or-normal",
       "title": "Is double texting desperate or normal?",
       "buffer_post_id": "6a7a4ff098be23f3c73daa89",
@@ -1193,12 +1199,6 @@
       "title": "What makes a group chat instantly annoying?",
       "buffer_post_id": "6a59859aa4472b889474d40b",
       "posted_at": "2026-07-17T01:30:02.472972+00:00"
-    },
-    {
-      "source_url": "curated://money/would-you-stop-inviting-a-friend-who-never-pays-on-time",
-      "title": "Would you stop inviting a friend who never pays on time?",
-      "buffer_post_id": "6a595fa8763686fc6b49791d",
-      "posted_at": "2026-07-16T22:48:08.595919+00:00"
     }
   ]
 }
