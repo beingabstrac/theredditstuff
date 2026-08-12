@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-it-normal-to-take-a-day-to-reply-to-casual-messages",
+      "title": "Is it normal to take a day to reply to casual messages?",
+      "buffer_post_id": "6a7cf3d3661f10647e9b5191",
+      "posted_at": "2026-08-12T22:29:39.215266+00:00"
+    },
+    {
       "source_url": "curated://restaurant/is-it-rude-to-stay-at-a-table-long-after-eating",
       "title": "Is it rude to stay at a table long after eating?",
       "buffer_post_id": "6a7cbf50a5805ff3f58b89ed",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to not include every friend in every hangout?",
       "buffer_post_id": "6a5c0047408c9cdb25bfe7ed",
       "posted_at": "2026-07-18T22:38:00.102110+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-a-quiet-neighbor-or-a-helpful-neighbor",
-      "title": "Would you rather have a quiet neighbor or a helpful neighbor?",
-      "buffer_post_id": "6a5bc9a05f414eb1d83ec665",
-      "posted_at": "2026-07-18T18:44:48.915244+00:00"
     }
   ]
 }
