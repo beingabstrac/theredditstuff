@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-know-what-people-think-of-you-or-never-care",
+      "title": "Would you rather know what people think of you or never care?",
+      "buffer_post_id": "6a7c6a0d41c06323130177b3",
+      "posted_at": "2026-08-12T12:41:49.480520+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/415",
       "title": "Is it normal to notice constant interrupting when meeting someone new?",
       "buffer_post_id": "6a7c502241c0632313ffc4de",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to ask about money early in dating?",
       "buffer_post_id": "6a5b75f18de1e74f178d8af0",
       "posted_at": "2026-07-18T12:47:45.579264+00:00"
-    },
-    {
-      "source_url": "curated://family/would-you-correct-family-when-they-embarrass-you-in-public",
-      "title": "Would you correct family when they embarrass you in public?",
-      "buffer_post_id": "6a5b5b9efc7fce1db708ea17",
-      "posted_at": "2026-07-18T10:55:27.040309+00:00"
     }
   ]
 }
