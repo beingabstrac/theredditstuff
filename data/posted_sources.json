@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/should-meetings-have-to-prove-they-are-necessary",
+      "title": "Should meetings have to prove they are necessary?",
+      "buffer_post_id": "6a7bc5803d0bf74d65216041",
+      "posted_at": "2026-08-12T00:59:44.462048+00:00"
+    },
+    {
       "source_url": "fallback://group-chat-annoying",
       "title": "What makes a group chat instantly annoying?",
       "buffer_post_id": "6a7ba2bc89b02c54c749ff4a",
@@ -1193,12 +1199,6 @@
       "title": "Is splitting every bill exactly fair or annoying?",
       "buffer_post_id": "6a5ad549d0af22d144c74513",
       "posted_at": "2026-07-18T01:22:17.949738+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-rude-to-stay-at-a-table-long-after-eating",
-      "title": "Is it rude to stay at a table long after eating?",
-      "buffer_post_id": "6a5aaef3399fe1a460f56325",
-      "posted_at": "2026-07-17T22:38:43.754851+00:00"
     }
   ]
 }
