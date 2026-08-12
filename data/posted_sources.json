@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/should-friends-remember-small-details-about-your-life",
+      "title": "Should friends remember small details about your life?",
+      "buffer_post_id": "6a7ca33a42faf65c43cdaa83",
+      "posted_at": "2026-08-12T16:45:46.929394+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-know-what-people-think-of-you-or-never-care",
       "title": "Would you rather know what people think of you or never care?",
       "buffer_post_id": "6a7c6a0d41c06323130177b3",
@@ -1193,12 +1199,6 @@
       "title": "What tiny behavior is an instant red flag?",
       "buffer_post_id": "6a5bad222cef1f7cb08df999",
       "posted_at": "2026-07-18T16:43:14.430996+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-weird-to-ask-about-money-early-in-dating",
-      "title": "Is it weird to ask about money early in dating?",
-      "buffer_post_id": "6a5b75f18de1e74f178d8af0",
-      "posted_at": "2026-07-18T12:47:45.579264+00:00"
     }
   ]
 }
