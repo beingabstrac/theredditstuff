@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://dating/413",
+      "title": "Would you say something if someone wanted to cancel a date early in dating?",
+      "buffer_post_id": "6a7c1b721b970aa73b3c470a",
+      "posted_at": "2026-08-12T07:06:26.565499+00:00"
+    },
+    {
       "source_url": "curated://roommates/should-quiet-hours-exist-in-shared-apartments",
       "title": "Should quiet hours exist in shared apartments?",
       "buffer_post_id": "6a7bee98227d01d3c7a25093",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to ignore messages during vacation?",
       "buffer_post_id": "6a5b2a93a1f13bc0c99c6df8",
       "posted_at": "2026-07-18T07:26:11.233812+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-normal-to-take-a-day-to-reply-to-casual-messages",
-      "title": "Is it normal to take a day to reply to casual messages?",
-      "buffer_post_id": "6a5b0347399fe1a460f7ebd6",
-      "posted_at": "2026-07-18T04:38:31.413476+00:00"
     }
   ]
 }
