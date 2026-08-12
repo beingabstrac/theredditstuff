@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/should-quiet-hours-exist-in-shared-apartments",
+      "title": "Should quiet hours exist in shared apartments?",
+      "buffer_post_id": "6a7bee98227d01d3c7a25093",
+      "posted_at": "2026-08-12T03:55:04.560199+00:00"
+    },
+    {
       "source_url": "curated://work/should-meetings-have-to-prove-they-are-necessary",
       "title": "Should meetings have to prove they are necessary?",
       "buffer_post_id": "6a7bc5803d0bf74d65216041",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to take a day to reply to casual messages?",
       "buffer_post_id": "6a5b0347399fe1a460f7ebd6",
       "posted_at": "2026-07-18T04:38:31.413476+00:00"
-    },
-    {
-      "source_url": "curated://money/is-splitting-every-bill-exactly-fair-or-annoying",
-      "title": "Is splitting every bill exactly fair or annoying?",
-      "buffer_post_id": "6a5ad549d0af22d144c74513",
-      "posted_at": "2026-07-18T01:22:17.949738+00:00"
     }
   ]
 }
