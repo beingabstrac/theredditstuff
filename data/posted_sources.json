@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/is-it-rude-to-not-include-every-friend-in-every-hangout",
+      "title": "Is it rude to not include every friend in every hangout?",
+      "buffer_post_id": "6a7df45c0cbe88b1bb11285f",
+      "posted_at": "2026-08-13T16:44:12.705381+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-have-a-quiet-neighbor-or-a-helpful-neighbor",
       "title": "Would you rather have a quiet neighbor or a helpful neighbor?",
       "buffer_post_id": "6a7dbbcd018aa21ebbbab6f6",
@@ -1193,12 +1199,6 @@
       "title": "Should guests help clean up without being asked?",
       "buffer_post_id": "6a5cfeb167e8ff89c3ad2679",
       "posted_at": "2026-07-19T16:43:29.492607+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-normal-to-hide-small-purchases-from-family-judgment",
-      "title": "Is it normal to hide small purchases from family judgment?",
-      "buffer_post_id": "6a5cc8469357309df2b71128",
-      "posted_at": "2026-07-19T12:51:18.545373+00:00"
     }
   ]
 }
