@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-have-a-quiet-neighbor-or-a-helpful-neighbor",
+      "title": "Would you rather have a quiet neighbor or a helpful neighbor?",
+      "buffer_post_id": "6a7dbbcd018aa21ebbbab6f6",
+      "posted_at": "2026-08-13T12:42:54.089237+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-tiny-behavior-is-an-instant-red-flag",
       "title": "What tiny behavior is an instant red flag?",
       "buffer_post_id": "6a7da23091307e443c237424",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to hide small purchases from family judgment?",
       "buffer_post_id": "6a5cc8469357309df2b71128",
       "posted_at": "2026-07-19T12:51:18.545373+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-rude-to-wear-headphones-at-work-all-day",
-      "title": "Is it rude to wear headphones at work all day?",
-      "buffer_post_id": "6a5c9cf89357309df2b57aff",
-      "posted_at": "2026-07-19T09:46:32.350286+00:00"
     }
   ]
 }
