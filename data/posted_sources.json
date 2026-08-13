@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/is-it-normal-to-share-food-without-asking",
+      "title": "Is it normal to share food without asking?",
+      "buffer_post_id": "6a7e10f3fa03fcc4d9f267c8",
+      "posted_at": "2026-08-13T18:46:11.961488+00:00"
+    },
+    {
       "source_url": "curated://friendship/is-it-rude-to-not-include-every-friend-in-every-hangout",
       "title": "Is it rude to not include every friend in every hangout?",
       "buffer_post_id": "6a7df45c0cbe88b1bb11285f",
@@ -1193,12 +1199,6 @@
       "title": "Is it annoying when coworkers ask questions they could search?",
       "buffer_post_id": "6a5e4266c927b4d4845e93e9",
       "posted_at": "2026-07-20T15:44:38.972049+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/should-guests-help-clean-up-without-being-asked",
-      "title": "Should guests help clean up without being asked?",
-      "buffer_post_id": "6a5cfeb167e8ff89c3ad2679",
-      "posted_at": "2026-07-19T16:43:29.492607+00:00"
     }
   ]
 }
