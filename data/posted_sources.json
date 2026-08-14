@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://texting/445",
+      "title": "Is it normal to send only voice notes while still posting online?",
+      "buffer_post_id": "6a7f92c772d7f70e3e1f6913",
+      "posted_at": "2026-08-14T22:12:24.064616+00:00"
+    },
+    {
       "source_url": "procedural://restaurant/443",
       "title": "Would you say something if someone wanted to complain loudly with friends?",
       "buffer_post_id": "6a7f60f1fe417788df5efbe3",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to ask someone why they are quiet?",
       "buffer_post_id": "6a5ea506175147b027fb0ac4",
       "posted_at": "2026-07-20T22:45:26.557417+00:00"
-    },
-    {
-      "source_url": "curated://family/should-parents-call-before-visiting-adult-children",
-      "title": "Should parents call before visiting adult children?",
-      "buffer_post_id": "6a5e75ba063a08464f5dcf46",
-      "posted_at": "2026-07-20T19:23:38.375752+00:00"
     }
   ]
 }
