@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://would_you_rather/441",
+      "title": "Would you rather always be early or exactly on time if you had to choose today?",
+      "buffer_post_id": "6a7f0c5d790e65699e99dd34",
+      "posted_at": "2026-08-14T12:38:53.502207+00:00"
+    },
+    {
+      "source_url": "procedural://would_you_rather/440",
+      "title": "Would you rather always be early or exactly on time if you had to choose today?",
+      "buffer_post_id": "6a7f0c5125f9a099dfbfec6a",
+      "posted_at": "2026-08-14T12:38:41.860477+00:00"
+    },
+    {
       "source_url": "procedural://dating/437",
       "title": "Would you say something if someone wanted to split the bill in a serious relationship?",
       "buffer_post_id": "6a7ebe7eaac2ebaaf416a582",
@@ -1187,18 +1199,6 @@
       "title": "Would you say something if someone wanted to mute work apps when coworkers keep doing it?",
       "buffer_post_id": "6a5e42f278310c2361f03050",
       "posted_at": "2026-07-20T15:46:58.388959+00:00"
-    },
-    {
-      "source_url": "procedural://work/184",
-      "title": "Is it weird to mute work apps when coworkers keep doing it?",
-      "buffer_post_id": "6a5e42d7e11f95ff2614ef68",
-      "posted_at": "2026-07-20T15:46:31.176620+00:00"
-    },
-    {
-      "source_url": "procedural://work/183",
-      "title": "Should people be able to mute work apps when coworkers keep doing it?",
-      "buffer_post_id": "6a5e42c093e3bcb3f7e37408",
-      "posted_at": "2026-07-20T15:46:08.456307+00:00"
     }
   ]
 }
