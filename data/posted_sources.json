@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://restaurant/443",
+      "title": "Would you say something if someone wanted to complain loudly with friends?",
+      "buffer_post_id": "6a7f60f1fe417788df5efbe3",
+      "posted_at": "2026-08-14T18:39:45.798580+00:00"
+    },
+    {
       "source_url": "fallback://friendship-one-sided",
       "title": "What makes a friendship start feeling one-sided?",
       "buffer_post_id": "6a7f44e5808f4286d2ee741b",
@@ -1193,12 +1199,6 @@
       "title": "Should parents call before visiting adult children?",
       "buffer_post_id": "6a5e75ba063a08464f5dcf46",
       "posted_at": "2026-07-20T19:23:38.375752+00:00"
-    },
-    {
-      "source_url": "procedural://work/186",
-      "title": "Is it rude to refuse unpaid extra work when coworkers keep doing it?",
-      "buffer_post_id": "6a5e43083040d67a4c3725be",
-      "posted_at": "2026-07-20T15:47:20.858331+00:00"
     }
   ]
 }
