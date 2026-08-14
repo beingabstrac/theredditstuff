@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/is-it-rude-to-wear-headphones-at-work-all-day",
+      "title": "Is it rude to wear headphones at work all day?",
+      "buffer_post_id": "6a7e6894dcbc3184d7f04157",
+      "posted_at": "2026-08-14T01:00:04.305817+00:00"
+    },
+    {
       "source_url": "curated://texting/is-replying-with-just-okay-rude",
       "title": "Is replying with just okay rude?",
       "buffer_post_id": "6a7e457ddcbc3184d7ee80a1",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird when coworkers act like work is family?",
       "buffer_post_id": "6a5e428a3040d67a4c371e73",
       "posted_at": "2026-07-20T15:45:14.844548+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-rude-to-leave-work-exactly-on-time",
-      "title": "Is it rude to leave work exactly on time?",
-      "buffer_post_id": "6a5e427c2308c70009a1a65d",
-      "posted_at": "2026-07-20T15:45:00.263042+00:00"
     }
   ]
 }
