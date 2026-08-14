@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://dating/437",
+      "title": "Would you say something if someone wanted to split the bill in a serious relationship?",
+      "buffer_post_id": "6a7ebe7eaac2ebaaf416a582",
+      "posted_at": "2026-08-14T07:06:38.135442+00:00"
+    },
+    {
       "source_url": "curated://roommates/would-you-move-out-over-a-roommate-who-never-cleans",
       "title": "Would you move out over a roommate who never cleans?",
       "buffer_post_id": "6a7e916f6bf062f95aa97ef3",
@@ -1193,12 +1199,6 @@
       "title": "Should people be able to mute work apps when coworkers keep doing it?",
       "buffer_post_id": "6a5e42c093e3bcb3f7e37408",
       "posted_at": "2026-07-20T15:46:08.456307+00:00"
-    },
-    {
-      "source_url": "procedural://work/182",
-      "title": "Would you judge someone for choosing to mute work apps when coworkers keep doing it?",
-      "buffer_post_id": "6a5e42a93040d67a4c372020",
-      "posted_at": "2026-07-20T15:45:45.252322+00:00"
     }
   ]
 }
