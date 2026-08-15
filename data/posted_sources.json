@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/should-parents-call-before-visiting-adult-children",
+      "title": "Should parents call before visiting adult children?",
+      "buffer_post_id": "6a7fe93ff22b84c353a33bd2",
+      "posted_at": "2026-08-15T04:21:19.996374+00:00"
+    },
+    {
       "source_url": "curated://work/is-it-annoying-when-coworkers-ask-questions-they-could-search",
       "title": "Is it annoying when coworkers ask questions they could search?",
       "buffer_post_id": "6a7fb45372d7f70e3e2102a9",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather have free groceries or free takeout?",
       "buffer_post_id": "6a5efc6a9ac5c69457b6155e",
       "posted_at": "2026-07-21T04:58:18.214280+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-quiet-red-flag-in-a-friendship",
-      "title": "What is a quiet red flag in a friendship?",
-      "buffer_post_id": "6a5ecb10ff844812f8aafb33",
-      "posted_at": "2026-07-21T01:27:44.590308+00:00"
     }
   ]
 }
