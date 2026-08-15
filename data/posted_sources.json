@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/would-you-judge-someone-for-arguing-over-a-return",
+      "title": "Would you judge someone for arguing over a return?",
+      "buffer_post_id": "6a8073d55040b1f98bd193f3",
+      "posted_at": "2026-08-15T14:12:37.831551+00:00"
+    },
+    {
+      "source_url": "curated://shopping/is-it-normal-to-compare-prices-in-front-of-friends",
+      "title": "Is it normal to compare prices in front of friends?",
+      "buffer_post_id": "6a8073c633d1df359474f667",
+      "posted_at": "2026-08-15T14:12:22.859374+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-rude-to-ask-guests-to-leave",
       "title": "Is it rude to ask guests to leave?",
       "buffer_post_id": "6a801ffe0bf7953eaac39f9f",
@@ -1187,18 +1199,6 @@
       "title": "Is it embarrassing when someone complains loudly at dinner?",
       "buffer_post_id": "6a5f70b57b5ab7451500feaa",
       "posted_at": "2026-07-21T13:14:29.927010+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-wrong-to-outgrow-a-friend-quietly",
-      "title": "Is it wrong to outgrow a friend quietly?",
-      "buffer_post_id": "6a5f5b09008558bc7ca9b83b",
-      "posted_at": "2026-07-21T11:42:01.343221+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-annoying-when-people-test-products-and-do-not-buy-them",
-      "title": "Is it annoying when people test products and do not buy them?",
-      "buffer_post_id": "6a5f288dfc172cdae9aea121",
-      "posted_at": "2026-07-21T08:06:37.694793+00:00"
     }
   ]
 }
