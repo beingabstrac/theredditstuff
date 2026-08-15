@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/is-it-wrong-to-outgrow-a-friend-quietly",
+      "title": "Is it wrong to outgrow a friend quietly?",
+      "buffer_post_id": "6a808fd45aae4fa473167775",
+      "posted_at": "2026-08-15T16:12:04.686713+00:00"
+    },
+    {
       "source_url": "curated://shopping/would-you-judge-someone-for-arguing-over-a-return",
       "title": "Would you judge someone for arguing over a return?",
       "buffer_post_id": "6a8073d55040b1f98bd193f3",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to mute a group chat without telling anyone?",
       "buffer_post_id": "6a5fa720801f9f0e566a8699",
       "posted_at": "2026-07-21T17:06:40.514608+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-embarrassing-when-someone-complains-loudly-at-dinner",
-      "title": "Is it embarrassing when someone complains loudly at dinner?",
-      "buffer_post_id": "6a5f70b57b5ab7451500feaa",
-      "posted_at": "2026-07-21T13:14:29.927010+00:00"
     }
   ]
 }
