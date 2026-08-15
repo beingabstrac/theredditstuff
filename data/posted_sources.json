@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/is-it-annoying-when-coworkers-ask-questions-they-could-search",
+      "title": "Is it annoying when coworkers ask questions they could search?",
+      "buffer_post_id": "6a7fb45372d7f70e3e2102a9",
+      "posted_at": "2026-08-15T00:35:31.939466+00:00"
+    },
+    {
       "source_url": "procedural://texting/445",
       "title": "Is it normal to send only voice notes while still posting online?",
       "buffer_post_id": "6a7f92c772d7f70e3e1f6913",
@@ -1193,12 +1199,6 @@
       "title": "What is a quiet red flag in a friendship?",
       "buffer_post_id": "6a5ecb10ff844812f8aafb33",
       "posted_at": "2026-07-21T01:27:44.590308+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-ask-someone-why-they-are-quiet",
-      "title": "Is it rude to ask someone why they are quiet?",
-      "buffer_post_id": "6a5ea506175147b027fb0ac4",
-      "posted_at": "2026-07-20T22:45:26.557417+00:00"
     }
   ]
 }
