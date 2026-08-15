@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-rude-to-ask-guests-to-leave",
+      "title": "Is it rude to ask guests to leave?",
+      "buffer_post_id": "6a801ffe0bf7953eaac39f9f",
+      "posted_at": "2026-08-15T08:14:55.107670+00:00"
+    },
+    {
       "source_url": "curated://family/should-parents-call-before-visiting-adult-children",
       "title": "Should parents call before visiting adult children?",
       "buffer_post_id": "6a7fe93ff22b84c353a33bd2",
@@ -1193,12 +1199,6 @@
       "title": "Is it annoying when people test products and do not buy them?",
       "buffer_post_id": "6a5f288dfc172cdae9aea121",
       "posted_at": "2026-07-21T08:06:37.694793+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-free-groceries-or-free-takeout",
-      "title": "Would you rather have free groceries or free takeout?",
-      "buffer_post_id": "6a5efc6a9ac5c69457b6155e",
-      "posted_at": "2026-07-21T04:58:18.214280+00:00"
     }
   ]
 }
