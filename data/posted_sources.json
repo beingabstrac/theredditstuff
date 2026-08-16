@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/is-it-rude-to-leave-work-exactly-on-time",
+      "title": "Is it rude to leave work exactly on time?",
+      "buffer_post_id": "6a81063313afe87ec8a8e8e7",
+      "posted_at": "2026-08-16T00:37:07.823898+00:00"
+    },
+    {
       "source_url": "curated://texting/is-it-rude-to-mute-a-group-chat-without-telling-anyone",
       "title": "Is it rude to mute a group chat without telling anyone?",
       "buffer_post_id": "6a80e3a989eb644aed8d9858",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to need alone time in a relationship?",
       "buffer_post_id": "6a601c3cf71f91e3fb5f42ff",
       "posted_at": "2026-07-22T01:26:20.869797+00:00"
-    },
-    {
-      "source_url": "fallback://family-show-up-without-calling",
-      "title": "Is it rude for family to show up without calling first?",
-      "buffer_post_id": "6a5ff62824f2657e75ba93d4",
-      "posted_at": "2026-07-21T22:43:52.629470+00:00"
     }
   ]
 }
