@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://thoughtful-cheap-vs-expensive-lazy",
+      "title": "Would you rather receive a thoughtful cheap gift or an expensive lazy one?",
+      "buffer_post_id": "6a82190acb308e1e8d941511",
+      "posted_at": "2026-08-16T20:09:47.016733+00:00"
+    },
+    {
       "source_url": "curated://friendship/is-it-weird-when-friends-keep-score-of-favors",
       "title": "Is it weird when friends keep score of favors?",
       "buffer_post_id": "6a81e12e3486edd56d154e43",
@@ -1193,12 +1199,6 @@
       "title": "Is it wrong to refuse lending money to family?",
       "buffer_post_id": "6a61128c0d2b1a6f77e997d8",
       "posted_at": "2026-07-22T18:57:16.290770+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/should-friends-wait-until-everyone-has-food-before-eating",
-      "title": "Should friends wait until everyone has food before eating?",
-      "buffer_post_id": "6a60f8b55964f6ebc32baace",
-      "posted_at": "2026-07-22T17:07:01.636879+00:00"
     }
   ]
 }
