@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/is-it-rude-to-leave-unwanted-items-anywhere-in-a-store",
+      "title": "Is it rude to leave unwanted items anywhere in a store?",
+      "buffer_post_id": "6a8317ec01a6c9dff41eacee",
+      "posted_at": "2026-08-17T14:17:17.170119+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-small-lie-tells-you-a-lot-about-someone",
       "title": "What small lie tells you a lot about someone?",
       "buffer_post_id": "6a82e0aa38d70a7ff5c62ec7",
@@ -1193,12 +1199,6 @@
       "title": "What small thing makes you silently judge a person?",
       "buffer_post_id": "6a62157a55fe5d6c15eee0df",
       "posted_at": "2026-07-23T13:22:02.403779+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-normal-to-take-leftovers-from-a-party",
-      "title": "Is it normal to take leftovers from a party?",
-      "buffer_post_id": "6a61fed53b934f3b30a2dfad",
-      "posted_at": "2026-07-23T11:45:25.385515+00:00"
     }
   ]
 }
