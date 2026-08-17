@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://refuse-lending-family-money",
+      "title": "Is it wrong to refuse lending money to family?",
+      "buffer_post_id": "6a836bbd87edd9b4df342657",
+      "posted_at": "2026-08-17T20:14:53.975956+00:00"
+    },
+    {
       "source_url": "procedural://friendship/478",
       "title": "Is it weird to expect friends to remember details after months of imbalance?",
       "buffer_post_id": "6a83337a185705c23247df2c",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to stop reaching out first and see what happens?",
       "buffer_post_id": "6a62640b17cd0c5456aaef67",
       "posted_at": "2026-07-23T18:57:16.112227+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-always-get-the-last-word-or-never-need-it",
-      "title": "Would you rather always get the last word or never need it?",
-      "buffer_post_id": "6a62377a3de15816db06fa84",
-      "posted_at": "2026-07-23T15:47:06.350871+00:00"
     }
   ]
 }
