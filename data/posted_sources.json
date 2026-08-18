@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/would-you-stop-inviting-a-friend-who-never-pays-on-time",
+      "title": "Would you stop inviting a friend who never pays on time?",
+      "buffer_post_id": "6a84bc9057fccd2c75f0f495",
+      "posted_at": "2026-08-18T20:12:00.448030+00:00"
+    },
+    {
+      "source_url": "fallback://ask-borrowed-money-back",
+      "title": "Is it rude to ask for borrowed money back?",
+      "buffer_post_id": "6a84bc7d4cc5b353b07f6406",
+      "posted_at": "2026-08-18T20:11:41.549073+00:00"
+    },
+    {
       "source_url": "procedural://shopping/489",
       "title": "Should people be able to block an aisle with friends nearby?",
       "buffer_post_id": "6a846a90980531e504ef990c",
@@ -1187,18 +1199,6 @@
       "title": "Would you rather never wait in lines or never sit in traffic?",
       "buffer_post_id": "6a63b8b112fafbaf49c940d7",
       "posted_at": "2026-07-24T19:10:41.381297+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-behavior-makes-someone-seem-exhausting",
-      "title": "What behavior makes someone seem exhausting?",
-      "buffer_post_id": "6a639eca22bc282b88624488",
-      "posted_at": "2026-07-24T17:20:10.313014+00:00"
-    },
-    {
-      "source_url": "curated://dating/would-you-be-bothered-if-your-partner-liked-an-ex-post",
-      "title": "Would you be bothered if your partner liked an ex post?",
-      "buffer_post_id": "6a6365c012fafbaf49c591f5",
-      "posted_at": "2026-07-24T13:16:48.204219+00:00"
     }
   ]
 }
