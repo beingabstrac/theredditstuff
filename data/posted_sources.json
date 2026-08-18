@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://red_flags/what-small-thing-makes-you-silently-judge-a-person",
+      "title": "What small thing makes you silently judge a person?",
+      "buffer_post_id": "6a843134033c29724fcc9d24",
+      "posted_at": "2026-08-18T10:17:24.243684+00:00"
+    },
+    {
       "source_url": "fallback://rude-pretend-honest",
       "title": "What is rude but people pretend is just being honest?",
       "buffer_post_id": "6a8416579163f06cd6080973",
@@ -1193,12 +1199,6 @@
       "title": "Is it wrong to skip family events because you need rest?",
       "buffer_post_id": "6a634cc93a50867cfaa6b877",
       "posted_at": "2026-07-24T11:30:17.457743+00:00"
-    },
-    {
-      "source_url": "curated://roommates/is-it-rude-to-take-long-showers-when-you-share-a-bathroom",
-      "title": "Is it rude to take long showers when you share a bathroom?",
-      "buffer_post_id": "6a631d11962b70c7a37d938a",
-      "posted_at": "2026-07-24T08:06:41.254663+00:00"
     }
   ]
 }
