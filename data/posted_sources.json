@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/489",
+      "title": "Should people be able to block an aisle with friends nearby?",
+      "buffer_post_id": "6a846a90980531e504ef990c",
+      "posted_at": "2026-08-18T14:22:08.656056+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-small-thing-makes-you-silently-judge-a-person",
       "title": "What small thing makes you silently judge a person?",
       "buffer_post_id": "6a843134033c29724fcc9d24",
@@ -1193,12 +1199,6 @@
       "title": "Would you be bothered if your partner liked an ex post?",
       "buffer_post_id": "6a6365c012fafbaf49c591f5",
       "posted_at": "2026-07-24T13:16:48.204219+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-wrong-to-skip-family-events-because-you-need-rest",
-      "title": "Is it wrong to skip family events because you need rest?",
-      "buffer_post_id": "6a634cc93a50867cfaa6b877",
-      "posted_at": "2026-07-24T11:30:17.457743+00:00"
     }
   ]
 }
