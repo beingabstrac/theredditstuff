@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://rude-pretend-honest",
+      "title": "What is rude but people pretend is just being honest?",
+      "buffer_post_id": "6a8416579163f06cd6080973",
+      "posted_at": "2026-08-18T08:22:47.800452+00:00"
+    },
+    {
       "source_url": "curated://family/is-it-fair-to-set-boundaries-with-relatives-who-mean-well",
       "title": "Is it fair to set boundaries with relatives who mean well?",
       "buffer_post_id": "6a83de8c33ec6735e9122140",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to take long showers when you share a bathroom?",
       "buffer_post_id": "6a631d11962b70c7a37d938a",
       "posted_at": "2026-07-24T08:06:41.254663+00:00"
-    },
-    {
-      "source_url": "procedural://work/218",
-      "title": "Would you judge someone for choosing to skip optional meetings at a new job?",
-      "buffer_post_id": "6a62f14759cf1d7b3899cabd",
-      "posted_at": "2026-07-24T04:59:51.376100+00:00"
     }
   ]
 }
