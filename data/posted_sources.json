@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-it-normal-to-avoid-your-roommate-in-your-own-home",
+      "title": "Is it normal to avoid your roommate in your own home?",
+      "buffer_post_id": "6a83c7be33ec6735e910fee2",
+      "posted_at": "2026-08-18T02:47:26.648621+00:00"
+    },
+    {
       "source_url": "procedural://texting/481",
       "title": "Is it normal to reply late without explaining why?",
       "buffer_post_id": "6a8387722485bd5f3ffc99be",
@@ -1193,12 +1199,6 @@
       "title": "Would you be upset if someone watched your story but ignored your text?",
       "buffer_post_id": "6a62c028b7a65f989c924cfc",
       "posted_at": "2026-07-24T01:30:16.768466+00:00"
-    },
-    {
-      "source_url": "fallback://ask-borrowed-money-back",
-      "title": "Is it rude to ask for borrowed money back?",
-      "buffer_post_id": "6a62999d85f7fddaf7b2daa0",
-      "posted_at": "2026-07-23T22:45:50.088693+00:00"
     }
   ]
 }
