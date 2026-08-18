@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/would-you-be-upset-if-someone-watched-your-story-but-ignored-your-text",
+      "title": "Would you be upset if someone watched your story but ignored your text?",
+      "buffer_post_id": "6a84d8a057fccd2c75f2b86b",
+      "posted_at": "2026-08-18T22:11:44.696139+00:00"
+    },
+    {
       "source_url": "curated://money/would-you-stop-inviting-a-friend-who-never-pays-on-time",
       "title": "Would you stop inviting a friend who never pays on time?",
       "buffer_post_id": "6a84bc9057fccd2c75f0f495",
@@ -1193,12 +1199,6 @@
       "title": "Would you stay friends with someone who never celebrates you?",
       "buffer_post_id": "6a63ec9f9d853f39877cfb8d",
       "posted_at": "2026-07-24T22:52:15.782038+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-never-wait-in-lines-or-never-sit-in-traffic",
-      "title": "Would you rather never wait in lines or never sit in traffic?",
-      "buffer_post_id": "6a63b8b112fafbaf49c940d7",
-      "posted_at": "2026-07-24T19:10:41.381297+00:00"
     }
   ]
 }
