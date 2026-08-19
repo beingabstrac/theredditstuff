@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/494",
+      "title": "Would you judge someone for choosing to say no to last minute tasks while on vacation?",
+      "buffer_post_id": "6a84fa438a0a45b02c5cf93f",
+      "posted_at": "2026-08-19T00:35:15.704581+00:00"
+    },
+    {
       "source_url": "curated://texting/would-you-be-upset-if-someone-watched-your-story-but-ignored-your-text",
       "title": "Would you be upset if someone watched your story but ignored your text?",
       "buffer_post_id": "6a84d8a057fccd2c75f2b86b",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to order the cheapest thing on the menu?",
       "buffer_post_id": "6a6411a3351863828cdfedbd",
       "posted_at": "2026-07-25T01:30:11.655579+00:00"
-    },
-    {
-      "source_url": "curated://friendship/would-you-stay-friends-with-someone-who-never-celebrates-you",
-      "title": "Would you stay friends with someone who never celebrates you?",
-      "buffer_post_id": "6a63ec9f9d853f39877cfb8d",
-      "posted_at": "2026-07-24T22:52:15.782038+00:00"
     }
   ]
 }
