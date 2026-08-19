@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/should-friends-wait-until-everyone-has-food-before-eating",
+      "title": "Should friends wait until everyone has food before eating?",
+      "buffer_post_id": "6a85f3539ec2305146f61750",
+      "posted_at": "2026-08-19T18:17:55.718112+00:00"
+    },
+    {
       "source_url": "procedural://shopping/501",
       "title": "Should people be able to argue over a return with friends nearby?",
       "buffer_post_id": "6a85bc1ee575e25c4b33f87a",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to cancel plans by text?",
       "buffer_post_id": "6a64e7e39d853f398787167e",
       "posted_at": "2026-07-25T16:44:19.516793+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-rude-to-leave-a-family-gathering-early",
-      "title": "Is it rude to leave a family gathering early?",
-      "buffer_post_id": "6a64b2ff9d853f398784e88b",
-      "posted_at": "2026-07-25T12:58:39.829881+00:00"
     }
   ]
 }
