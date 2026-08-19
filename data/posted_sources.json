@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/is-it-rude-to-use-coupons-on-a-date",
+      "title": "Is it rude to use coupons on a date?",
+      "buffer_post_id": "6a860fb59de0c4814a7a4ec8",
+      "posted_at": "2026-08-19T20:19:01.471075+00:00"
+    },
+    {
       "source_url": "curated://restaurant/should-friends-wait-until-everyone-has-food-before-eating",
       "title": "Should friends wait until everyone has food before eating?",
       "buffer_post_id": "6a85f3539ec2305146f61750",
@@ -1193,12 +1199,6 @@
       "title": "What small workplace habit makes everyone secretly annoyed?",
       "buffer_post_id": "6a65055c5e6849349866e3f0",
       "posted_at": "2026-07-25T18:50:04.797217+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-cancel-plans-by-text",
-      "title": "Is it rude to cancel plans by text?",
-      "buffer_post_id": "6a64e7e39d853f398787167e",
-      "posted_at": "2026-07-25T16:44:19.516793+00:00"
     }
   ]
 }
