@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/is-it-normal-to-keep-some-friendships-private-from-your-partner",
+      "title": "Is it normal to keep some friendships private from your partner?",
+      "buffer_post_id": "6a854edf4f1c1259e7c99e9d",
+      "posted_at": "2026-08-19T06:36:15.537869+00:00"
+    },
+    {
       "source_url": "curated://family/is-it-wrong-to-skip-family-events-because-you-need-rest",
       "title": "Is it wrong to skip family events because you need rest?",
       "buffer_post_id": "6a8530544cc5b353b0863f88",
@@ -1193,12 +1199,6 @@
       "title": "Should read receipts be turned off by default?",
       "buffer_post_id": "6a646a7a9d853f3987822e85",
       "posted_at": "2026-07-25T07:49:14.410153+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-fair-to-skip-a-birthday-dinner-because-it-costs-too-much",
-      "title": "Is it fair to skip a birthday dinner because it costs too much?",
-      "buffer_post_id": "6a6441e222bc282b8869167a",
-      "posted_at": "2026-07-25T04:56:03.084625+00:00"
     }
   ]
 }
