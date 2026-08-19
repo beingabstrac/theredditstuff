@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/501",
+      "title": "Should people be able to argue over a return with friends nearby?",
+      "buffer_post_id": "6a85bc1ee575e25c4b33f87a",
+      "posted_at": "2026-08-19T14:22:22.229774+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-behavior-makes-someone-seem-exhausting",
       "title": "What behavior makes someone seem exhausting?",
       "buffer_post_id": "6a8582df3ee60e3b7acafad6",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to leave a family gathering early?",
       "buffer_post_id": "6a64b2ff9d853f398784e88b",
       "posted_at": "2026-07-25T12:58:39.829881+00:00"
-    },
-    {
-      "source_url": "curated://roommates/is-leaving-dishes-overnight-normal-or-gross",
-      "title": "Is leaving dishes overnight normal or gross?",
-      "buffer_post_id": "6a6497e0351863828ce5818d",
-      "posted_at": "2026-07-25T11:02:56.423168+00:00"
     }
   ]
 }
