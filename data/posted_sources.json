@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/is-splitting-every-bill-exactly-fair-or-annoying",
+      "title": "Is splitting every bill exactly fair or annoying?",
+      "buffer_post_id": "6a8760c1434e939bf5a74780",
+      "posted_at": "2026-08-20T20:17:05.698384+00:00"
+    },
+    {
       "source_url": "curated://friendship/is-it-rude-to-stop-reaching-out-first-and-see-what-happens",
       "title": "Is it rude to stop reaching out first and see what happens?",
       "buffer_post_id": "6a872999ca8e6cdb1794a0ed",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to split the bill on a first date?",
       "buffer_post_id": "6a6657e12df0a0f1fdd70a48",
       "posted_at": "2026-07-26T18:54:25.935799+00:00"
-    },
-    {
-      "source_url": "procedural://family/244",
-      "title": "Is it weird to set boundaries without feeling guilty?",
-      "buffer_post_id": "6a6639b7ecad4329a9142dc9",
-      "posted_at": "2026-07-26T16:45:43.189848+00:00"
     }
   ]
 }
