@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://small-workplace-habit-annoyed",
+      "title": "What small workplace habit makes everyone secretly annoyed?",
+      "buffer_post_id": "6a86d4ac9d8b5661e841c962",
+      "posted_at": "2026-08-20T10:19:24.778752+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-normal-to-take-leftovers-from-a-party",
       "title": "Is it normal to take leftovers from a party?",
       "buffer_post_id": "6a86b9ad34a1034a3c520b36",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to end a text conversation by reacting instead of replying?",
       "buffer_post_id": "6a65ebc412fafbaf49dfb3b4",
       "posted_at": "2026-07-26T11:13:08.890296+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-awkward-to-say-a-restaurant-is-too-expensive",
-      "title": "Is it awkward to say a restaurant is too expensive?",
-      "buffer_post_id": "6a65bfee2df0a0f1fdd019fc",
-      "posted_at": "2026-07-26T08:06:06.997098+00:00"
     }
   ]
 }
