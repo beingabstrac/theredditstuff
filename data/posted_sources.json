@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/is-it-rude-to-stop-reaching-out-first-and-see-what-happens",
+      "title": "Is it rude to stop reaching out first and see what happens?",
+      "buffer_post_id": "6a872999ca8e6cdb1794a0ed",
+      "posted_at": "2026-08-20T16:21:45.215390+00:00"
+    },
+    {
       "source_url": "curated://shopping/would-you-leave-a-store-if-the-music-is-too-loud",
       "title": "Would you leave a store if the music is too loud?",
       "buffer_post_id": "6a870e1cb40a3556113f7258",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to set boundaries without feeling guilty?",
       "buffer_post_id": "6a6639b7ecad4329a9142dc9",
       "posted_at": "2026-07-26T16:45:43.189848+00:00"
-    },
-    {
-      "source_url": "procedural://work/242",
-      "title": "Would you judge someone for choosing to ignore work messages when the team is busy?",
-      "buffer_post_id": "6a6603c879ae388ebda8a0d1",
-      "posted_at": "2026-07-26T12:55:37.100015+00:00"
     }
   ]
 }
