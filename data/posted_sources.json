@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://red_flags/523",
+      "title": "Is it normal to trust your first impression in a friendship?",
+      "buffer_post_id": "6a88261ddc319146a278fd27",
+      "posted_at": "2026-08-21T10:19:10.075955+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-rude-to-arrive-early-to-someone-house",
       "title": "Is it rude to arrive early to someone house?",
       "buffer_post_id": "6a880bb25d32580681ede44e",
@@ -1193,12 +1199,6 @@
       "title": "What restaurant behavior tells you someone is hard to be around?",
       "buffer_post_id": "6a6753ea78b372bff4648d15",
       "posted_at": "2026-07-27T12:49:46.973287+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/250",
-      "title": "Is it weird to ask before venting after they cancel often?",
-      "buffer_post_id": "6a67248f3246bc17b3fda3e9",
-      "posted_at": "2026-07-27T09:27:43.236573+00:00"
     }
   ]
 }
