@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/is-it-rude-to-browse-a-small-shop-and-buy-nothing",
+      "title": "Is it rude to browse a small shop and buy nothing?",
+      "buffer_post_id": "6a885f735b4a6e681b2b3cdd",
+      "posted_at": "2026-08-21T14:23:47.351811+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/523",
       "title": "Is it normal to trust your first impression in a friendship?",
       "buffer_post_id": "6a88261ddc319146a278fd27",
@@ -1193,12 +1199,6 @@
       "title": "Would you say something if someone wanted to complain loudly after the server leaves?",
       "buffer_post_id": "6a6753fe224d9daaf5f6e54a",
       "posted_at": "2026-07-27T12:50:06.508584+00:00"
-    },
-    {
-      "source_url": "fallback://restaurant-hard-to-be-around",
-      "title": "What restaurant behavior tells you someone is hard to be around?",
-      "buffer_post_id": "6a6753ea78b372bff4648d15",
-      "posted_at": "2026-07-27T12:49:46.973287+00:00"
     }
   ]
 }
