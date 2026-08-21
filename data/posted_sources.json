@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/is-it-normal-to-hide-small-purchases-from-family-judgment",
+      "title": "Is it normal to hide small purchases from family judgment?",
+      "buffer_post_id": "6a87d3e35d32580681ea7e2f",
+      "posted_at": "2026-08-21T04:28:19.260936+00:00"
+    },
+    {
       "source_url": "procedural://work/518",
       "title": "Would you judge someone for choosing to mute work apps while on vacation?",
       "buffer_post_id": "6a879dd42c87911adc7168de",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to browse a small shop and buy nothing?",
       "buffer_post_id": "6a66ef0c2df0a0f1fddd6392",
       "posted_at": "2026-07-27T05:39:24.351302+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-always-be-overdressed-or-always-be-underdressed",
-      "title": "Would you rather always be overdressed or always be underdressed?",
-      "buffer_post_id": "6a66b99f7d8129a6191317f0",
-      "posted_at": "2026-07-27T01:51:27.726639+00:00"
     }
   ]
 }
