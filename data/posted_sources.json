@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/would-you-stay-friends-with-someone-who-never-celebrates-you",
+      "title": "Would you stay friends with someone who never celebrates you?",
+      "buffer_post_id": "6a887a971b38003a90d011b4",
+      "posted_at": "2026-08-21T16:19:35.822392+00:00"
+    },
+    {
       "source_url": "curated://shopping/is-it-rude-to-browse-a-small-shop-and-buy-nothing",
       "title": "Is it rude to browse a small shop and buy nothing?",
       "buffer_post_id": "6a885f735b4a6e681b2b3cdd",
@@ -1193,12 +1199,6 @@
       "title": "Should the person who picked the expensive place pay more?",
       "buffer_post_id": "6a6782416c8ee9d209d5ff11",
       "posted_at": "2026-07-27T16:07:29.964779+00:00"
-    },
-    {
-      "source_url": "procedural://restaurant/251",
-      "title": "Would you say something if someone wanted to complain loudly after the server leaves?",
-      "buffer_post_id": "6a6753fe224d9daaf5f6e54a",
-      "posted_at": "2026-07-27T12:50:06.508584+00:00"
     }
   ]
 }
