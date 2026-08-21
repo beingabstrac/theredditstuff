@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/should-friends-pay-you-back-immediately-or-is-later-fine",
+      "title": "Should friends pay you back immediately or is later fine?",
+      "buffer_post_id": "6a88b172b1e0795f7f63179c",
+      "posted_at": "2026-08-21T20:13:38.948882+00:00"
+    },
+    {
       "source_url": "curated://friendship/would-you-stay-friends-with-someone-who-never-celebrates-you",
       "title": "Would you stay friends with someone who never celebrates you?",
       "buffer_post_id": "6a887a971b38003a90d011b4",
@@ -1193,12 +1199,6 @@
       "title": "Does dry texting always mean someone is not interested?",
       "buffer_post_id": "6a67ad37cc2efa263e27e19b",
       "posted_at": "2026-07-27T19:10:47.276725+00:00"
-    },
-    {
-      "source_url": "curated://money/should-the-person-who-picked-the-expensive-place-pay-more",
-      "title": "Should the person who picked the expensive place pay more?",
-      "buffer_post_id": "6a6782416c8ee9d209d5ff11",
-      "posted_at": "2026-07-27T16:07:29.964779+00:00"
     }
   ]
 }
