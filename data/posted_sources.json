@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://texting/529",
+      "title": "Is it normal to reply late after making plans?",
+      "buffer_post_id": "6a88cd625b4a6e681b323449",
+      "posted_at": "2026-08-21T22:12:50.609840+00:00"
+    },
+    {
       "source_url": "curated://money/should-friends-pay-you-back-immediately-or-is-later-fine",
       "title": "Should friends pay you back immediately or is later fine?",
       "buffer_post_id": "6a88b172b1e0795f7f63179c",
@@ -1193,12 +1199,6 @@
       "title": "Would you confront a roommate about smell?",
       "buffer_post_id": "6a67e0b54229805eb70f9164",
       "posted_at": "2026-07-27T22:50:29.745035+00:00"
-    },
-    {
-      "source_url": "curated://texting/does-dry-texting-always-mean-someone-is-not-interested",
-      "title": "Does dry texting always mean someone is not interested?",
-      "buffer_post_id": "6a67ad37cc2efa263e27e19b",
-      "posted_at": "2026-07-27T19:10:47.276725+00:00"
     }
   ]
 }
