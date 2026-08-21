@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/518",
+      "title": "Would you judge someone for choosing to mute work apps while on vacation?",
+      "buffer_post_id": "6a879dd42c87911adc7168de",
+      "posted_at": "2026-08-21T00:37:40.914724+00:00"
+    },
+    {
       "source_url": "curated://texting/is-it-rude-to-end-a-text-conversation-by-reacting-instead-of-replying",
       "title": "Is it rude to end a text conversation by reacting instead of replying?",
       "buffer_post_id": "6a877c954d7448d186a56dd4",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather always be overdressed or always be underdressed?",
       "buffer_post_id": "6a66b99f7d8129a6191317f0",
       "posted_at": "2026-07-27T01:51:27.726639+00:00"
-    },
-    {
-      "source_url": "procedural://red_flags/247",
-      "title": "Is it normal to notice how someone treats staff when everyone else ignores it?",
-      "buffer_post_id": "6a668ee0ecad4329a917c37f",
-      "posted_at": "2026-07-26T22:49:04.312527+00:00"
     }
   ]
 }
