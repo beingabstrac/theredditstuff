@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/is-it-awkward-to-say-a-restaurant-is-too-expensive",
+      "title": "Is it awkward to say a restaurant is too expensive?",
+      "buffer_post_id": "6a8a0264dd02437c219ede87",
+      "posted_at": "2026-08-22T20:11:16.690854+00:00"
+    },
+    {
       "source_url": "procedural://friendship/538",
       "title": "Is it weird to ask before venting when everyone is busy?",
       "buffer_post_id": "6a89ca22dc319146a2946785",
@@ -1193,12 +1199,6 @@
       "title": "Would you say something if someone wanted to take a call at dinner after the server leaves?",
       "buffer_post_id": "6a68fd787a406d7421b5d0f8",
       "posted_at": "2026-07-28T19:05:28.876628+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/261",
-      "title": "Should people be able to argue over a return without noticing others?",
-      "buffer_post_id": "6a68d19ab64b3b7ac6b384eb",
-      "posted_at": "2026-07-28T15:58:18.783984+00:00"
     }
   ]
 }
