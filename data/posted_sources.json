@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/does-dry-texting-always-mean-someone-is-not-interested",
+      "title": "Does dry texting always mean someone is not interested?",
+      "buffer_post_id": "6a8a1e70dc319146a299f2d3",
+      "posted_at": "2026-08-22T22:10:56.266313+00:00"
+    },
+    {
       "source_url": "curated://money/is-it-awkward-to-say-a-restaurant-is-too-expensive",
       "title": "Is it awkward to say a restaurant is too expensive?",
       "buffer_post_id": "6a8a0264dd02437c219ede87",
@@ -1193,12 +1199,6 @@
       "title": "Is leaving someone on read worse than replying late?",
       "buffer_post_id": "6a69324a55a4f4b8a1a08bbf",
       "posted_at": "2026-07-28T22:50:50.464284+00:00"
-    },
-    {
-      "source_url": "procedural://restaurant/263",
-      "title": "Would you say something if someone wanted to take a call at dinner after the server leaves?",
-      "buffer_post_id": "6a68fd787a406d7421b5d0f8",
-      "posted_at": "2026-07-28T19:05:28.876628+00:00"
     }
   ]
 }
