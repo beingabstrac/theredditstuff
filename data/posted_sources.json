@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-rude-to-ask-someone-why-they-are-quiet",
+      "title": "Is it rude to ask someone why they are quiet?",
+      "buffer_post_id": "6a895ad4c5db1e9cdcde20b6",
+      "posted_at": "2026-08-22T08:16:20.293331+00:00"
+    },
+    {
       "source_url": "curated://family/would-you-refuse-to-host-relatives-who-overstay",
       "title": "Would you refuse to host relatives who overstay?",
       "buffer_post_id": "6a8923e1dc319146a289896d",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to not offer guests a drink?",
       "buffer_post_id": "6a686492f740203cd780106f",
       "posted_at": "2026-07-28T08:13:06.643792+00:00"
-    },
-    {
-      "source_url": "procedural://dating/257",
-      "title": "Would you say something if someone wanted to need alone time when expectations are different?",
-      "buffer_post_id": "6a6835d3f548c7887af6dfcc",
-      "posted_at": "2026-07-28T04:53:39.448947+00:00"
     }
   ]
 }
