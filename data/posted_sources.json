@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://red_flags/535",
+      "title": "Is it normal to notice how someone treats staff before anything serious happens?",
+      "buffer_post_id": "6a897613dc319146a28e5931",
+      "posted_at": "2026-08-22T10:12:35.603160+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-rude-to-ask-someone-why-they-are-quiet",
       "title": "Is it rude to ask someone why they are quiet?",
       "buffer_post_id": "6a895ad4c5db1e9cdcde20b6",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to pull back after one weird moment when everyone else ignores it?",
       "buffer_post_id": "6a68977b4009bc9c55ca0a1b",
       "posted_at": "2026-07-28T11:50:19.685792+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-normal-to-not-offer-guests-a-drink",
-      "title": "Is it normal to not offer guests a drink?",
-      "buffer_post_id": "6a686492f740203cd780106f",
-      "posted_at": "2026-07-28T08:13:06.643792+00:00"
     }
   ]
 }
