@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/538",
+      "title": "Is it weird to ask before venting when everyone is busy?",
+      "buffer_post_id": "6a89ca22dc319146a2946785",
+      "posted_at": "2026-08-22T16:11:14.756310+00:00"
+    },
+    {
       "source_url": "procedural://shopping/537",
       "title": "Should people be able to block an aisle if staff have to fix it?",
       "buffer_post_id": "6a89adff37caa42812cd8780",
@@ -1193,12 +1199,6 @@
       "title": "Should people be able to argue over a return without noticing others?",
       "buffer_post_id": "6a68d19ab64b3b7ac6b384eb",
       "posted_at": "2026-07-28T15:58:18.783984+00:00"
-    },
-    {
-      "source_url": "procedural://would_you_rather/260",
-      "title": "Would you rather have one close friend or many casual friends without being able to switch?",
-      "buffer_post_id": "6a68ae8fdee543e85a39d131",
-      "posted_at": "2026-07-28T13:28:47.387882+00:00"
     }
   ]
 }
