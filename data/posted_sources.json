@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/would-you-refuse-to-host-relatives-who-overstay",
+      "title": "Would you refuse to host relatives who overstay?",
+      "buffer_post_id": "6a8923e1dc319146a289896d",
+      "posted_at": "2026-08-22T04:21:53.303764+00:00"
+    },
+    {
       "source_url": "procedural://work/530",
       "title": "Would you judge someone for choosing to ignore work messages when coworkers keep doing it?",
       "buffer_post_id": "6a88eec8859b98c365e36677",
@@ -1193,12 +1199,6 @@
       "title": "Would you say something if someone wanted to need alone time when expectations are different?",
       "buffer_post_id": "6a6835d3f548c7887af6dfcc",
       "posted_at": "2026-07-28T04:53:39.448947+00:00"
-    },
-    {
-      "source_url": "procedural://family/256",
-      "title": "Is it weird to not answer calls immediately without feeling guilty?",
-      "buffer_post_id": "6a68053af548c7887af49f0e",
-      "posted_at": "2026-07-28T01:26:18.963557+00:00"
     }
   ]
 }
