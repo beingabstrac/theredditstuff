@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/537",
+      "title": "Should people be able to block an aisle if staff have to fix it?",
+      "buffer_post_id": "6a89adff37caa42812cd8780",
+      "posted_at": "2026-08-22T14:11:12.097358+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/535",
       "title": "Is it normal to notice how someone treats staff before anything serious happens?",
       "buffer_post_id": "6a897613dc319146a28e5931",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather have one close friend or many casual friends without being able to switch?",
       "buffer_post_id": "6a68ae8fdee543e85a39d131",
       "posted_at": "2026-07-28T13:28:47.387882+00:00"
-    },
-    {
-      "source_url": "procedural://red_flags/259",
-      "title": "Is it normal to pull back after one weird moment when everyone else ignores it?",
-      "buffer_post_id": "6a68977b4009bc9c55ca0a1b",
-      "posted_at": "2026-07-28T11:50:19.685792+00:00"
     }
   ]
 }
