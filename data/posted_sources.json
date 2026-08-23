@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/549",
+      "title": "Should people be able to argue over a return if staff have to fix it?",
+      "buffer_post_id": "6a8afffedd02437c21ad7459",
+      "posted_at": "2026-08-23T14:13:18.940937+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/547",
       "title": "Is it normal to pull back after one weird moment before anything serious happens?",
       "buffer_post_id": "6a8ac7b8dd02437c21a996c7",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to ask why someone is quiet after plans were made?",
       "buffer_post_id": "6a6a03afffd442faf956b2c1",
       "posted_at": "2026-07-29T13:44:16.059359+00:00"
-    },
-    {
-      "source_url": "procedural://dating/269",
-      "title": "Would you say something if someone wanted to cancel a date when expectations are different?",
-      "buffer_post_id": "6a69e9dde23d5b5f79a9fea0",
-      "posted_at": "2026-07-29T11:54:05.711118+00:00"
     }
   ]
 }
