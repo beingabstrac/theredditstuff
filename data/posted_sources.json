@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/would-you-correct-family-when-they-embarrass-you-in-public",
+      "title": "Would you correct family when they embarrass you in public?",
+      "buffer_post_id": "6a8a7688dd02437c21a50ccf",
+      "posted_at": "2026-08-23T04:26:49.058886+00:00"
+    },
+    {
       "source_url": "procedural://work/542",
       "title": "Would you judge someone for choosing to say no to last minute tasks when coworkers keep doing it?",
       "buffer_post_id": "6a8a410cdeb4b57dfeacf6fc",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude for roommates to use your food without asking?",
       "buffer_post_id": "6a6988797b325a18866915a0",
       "posted_at": "2026-07-29T04:58:33.871702+00:00"
-    },
-    {
-      "source_url": "procedural://work/266",
-      "title": "Would you judge someone for choosing to skip optional meetings when the team is busy?",
-      "buffer_post_id": "6a6956c9d3cfdc3678f54ddf",
-      "posted_at": "2026-07-29T01:26:33.198945+00:00"
     }
   ]
 }
