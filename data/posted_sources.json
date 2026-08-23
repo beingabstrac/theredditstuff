@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/550",
+      "title": "Is it weird to keep score of favors when everyone is busy?",
+      "buffer_post_id": "6a8b1be7dd02437c21af409e",
+      "posted_at": "2026-08-23T16:12:23.532669+00:00"
+    },
+    {
       "source_url": "procedural://shopping/549",
       "title": "Should people be able to argue over a return if staff have to fix it?",
       "buffer_post_id": "6a8afffedd02437c21ad7459",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to notice constant interrupting when everyone else ignores it?",
       "buffer_post_id": "6a6a1fdb964c3b8add1efa6b",
       "posted_at": "2026-07-29T15:44:27.920077+00:00"
-    },
-    {
-      "source_url": "procedural://etiquette/270",
-      "title": "Is it rude to ask why someone is quiet after plans were made?",
-      "buffer_post_id": "6a6a03afffd442faf956b2c1",
-      "posted_at": "2026-07-29T13:44:16.059359+00:00"
     }
   ]
 }
