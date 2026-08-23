@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/should-people-ask-before-taking-photos-of-friends",
+      "title": "Should people ask before taking photos of friends?",
+      "buffer_post_id": "6a8aac8bbc455ba248eb4f10",
+      "posted_at": "2026-08-23T08:17:16.095642+00:00"
+    },
+    {
       "source_url": "curated://family/would-you-correct-family-when-they-embarrass-you-in-public",
       "title": "Would you correct family when they embarrass you in public?",
       "buffer_post_id": "6a8a7688dd02437c21a50ccf",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to refuse a family favor without feeling guilty?",
       "buffer_post_id": "6a69b721525fdedde70a6244",
       "posted_at": "2026-07-29T08:17:37.702733+00:00"
-    },
-    {
-      "source_url": "curated://roommates/is-it-rude-for-roommates-to-use-your-food-without-asking",
-      "title": "Is it rude for roommates to use your food without asking?",
-      "buffer_post_id": "6a6988797b325a18866915a0",
-      "posted_at": "2026-07-29T04:58:33.871702+00:00"
     }
   ]
 }
