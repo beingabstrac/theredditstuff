@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://left-on-read-vs-late",
+      "title": "Is leaving someone on read worse than replying late?",
+      "buffer_post_id": "6a8b6ff253c54dc08761cf6a",
+      "posted_at": "2026-08-23T22:10:58.753878+00:00"
+    },
+    {
       "source_url": "curated://money/should-the-person-who-picked-the-expensive-place-pay-more",
       "title": "Should the person who picked the expensive place pay more?",
       "buffer_post_id": "6a8b53b44ae7c07fd3d750c7",
@@ -1193,12 +1199,6 @@
       "title": "Would you say something if someone wanted to order the cheapest thing after the server leaves?",
       "buffer_post_id": "6a6a833dabe0794f85ef1bc5",
       "posted_at": "2026-07-29T22:48:29.455006+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/274",
-      "title": "Is it weird to tell a friend they are draining after they cancel often?",
-      "buffer_post_id": "6a6a65ccc28dfd4e75eaa89f",
-      "posted_at": "2026-07-29T20:42:52.241027+00:00"
     }
   ]
 }
