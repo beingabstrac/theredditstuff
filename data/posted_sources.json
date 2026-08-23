@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/should-the-person-who-picked-the-expensive-place-pay-more",
+      "title": "Should the person who picked the expensive place pay more?",
+      "buffer_post_id": "6a8b53b44ae7c07fd3d750c7",
+      "posted_at": "2026-08-23T20:10:28.966447+00:00"
+    },
+    {
       "source_url": "procedural://friendship/550",
       "title": "Is it weird to keep score of favors when everyone is busy?",
       "buffer_post_id": "6a8b1be7dd02437c21af409e",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to tell a friend they are draining after they cancel often?",
       "buffer_post_id": "6a6a65ccc28dfd4e75eaa89f",
       "posted_at": "2026-07-29T20:42:52.241027+00:00"
-    },
-    {
-      "source_url": "procedural://red_flags/271",
-      "title": "Is it normal to notice constant interrupting when everyone else ignores it?",
-      "buffer_post_id": "6a6a1fdb964c3b8add1efa6b",
-      "posted_at": "2026-07-29T15:44:27.920077+00:00"
     }
   ]
 }
