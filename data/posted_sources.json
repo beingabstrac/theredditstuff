@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/542",
+      "title": "Would you judge someone for choosing to say no to last minute tasks when coworkers keep doing it?",
+      "buffer_post_id": "6a8a410cdeb4b57dfeacf6fc",
+      "posted_at": "2026-08-23T00:38:36.368141+00:00"
+    },
+    {
       "source_url": "curated://texting/does-dry-texting-always-mean-someone-is-not-interested",
       "title": "Does dry texting always mean someone is not interested?",
       "buffer_post_id": "6a8a1e70dc319146a299f2d3",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to skip optional meetings when the team is busy?",
       "buffer_post_id": "6a6956c9d3cfdc3678f54ddf",
       "posted_at": "2026-07-29T01:26:33.198945+00:00"
-    },
-    {
-      "source_url": "fallback://left-on-read-vs-late",
-      "title": "Is leaving someone on read worse than replying late?",
-      "buffer_post_id": "6a69324a55a4f4b8a1a08bbf",
-      "posted_at": "2026-07-28T22:50:50.464284+00:00"
     }
   ]
 }
