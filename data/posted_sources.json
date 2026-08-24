@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://couples-phone-passwords",
+      "title": "Should couples share phone passwords or is that weird?",
+      "buffer_post_id": "6a8cc2749bf578c9ef196202",
+      "posted_at": "2026-08-24T22:15:16.407215+00:00"
+    },
+    {
       "source_url": "curated://money/would-you-remind-someone-about-five-dollars-they-owe-you",
       "title": "Would you remind someone about five dollars they owe you?",
       "buffer_post_id": "6a8ca7062a0955d667d62e4d",
@@ -1193,12 +1199,6 @@
       "title": "Should people be able to take a call in line without noticing others?",
       "buffer_post_id": "6a6bd68c961582f29fee218e",
       "posted_at": "2026-07-30T22:56:12.408591+00:00"
-    },
-    {
-      "source_url": "fallback://harmless-habit-judge",
-      "title": "What harmless habit makes you instantly judge someone?",
-      "buffer_post_id": "6a6ba12e15af6a6d3369ddde",
-      "posted_at": "2026-07-30T19:08:30.502172+00:00"
     }
   ]
 }
