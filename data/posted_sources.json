@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/561",
+      "title": "Should people be able to leave a cart behind if staff have to fix it?",
+      "buffer_post_id": "6a8c55ca4820b3999b3fa224",
+      "posted_at": "2026-08-24T14:31:39.088997+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/559",
       "title": "Is it normal to notice constant interrupting before anything serious happens?",
       "buffer_post_id": "6a8c1c8feb530dcb04678cae",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to stop explaining every plan without feeling guilty?",
       "buffer_post_id": "6a6b50ad2d8a9060e38c2e71",
       "posted_at": "2026-07-30T13:25:02.135208+00:00"
-    },
-    {
-      "source_url": "curated://roommates/is-it-rude-to-leave-laundry-in-the-machine-for-hours",
-      "title": "Is it rude to leave laundry in the machine for hours?",
-      "buffer_post_id": "6a6b397354fb501ed8c704cc",
-      "posted_at": "2026-07-30T11:45:55.653418+00:00"
     }
   ]
 }
