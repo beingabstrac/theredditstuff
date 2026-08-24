@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://red_flags/559",
+      "title": "Is it normal to notice constant interrupting before anything serious happens?",
+      "buffer_post_id": "6a8c1c8feb530dcb04678cae",
+      "posted_at": "2026-08-24T10:27:27.549187+00:00"
+    },
+    {
       "source_url": "curated://dating/would-you-be-bothered-if-your-partner-liked-an-ex-post",
       "title": "Would you be bothered if your partner liked an ex post?",
       "buffer_post_id": "6a8be60da3b8277a83a70814",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to leave laundry in the machine for hours?",
       "buffer_post_id": "6a6b397354fb501ed8c704cc",
       "posted_at": "2026-07-30T11:45:55.653418+00:00"
-    },
-    {
-      "source_url": "procedural://work/278",
-      "title": "Would you judge someone for choosing to mute work apps when the team is busy?",
-      "buffer_post_id": "6a6b05f2624551d661c3b13d",
-      "posted_at": "2026-07-30T08:06:10.288846+00:00"
     }
   ]
 }
