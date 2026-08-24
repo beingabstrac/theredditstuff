@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/562",
+      "title": "Is it weird to tell a friend they are draining when everyone is busy?",
+      "buffer_post_id": "6a8c70006162eddfa9bfcccc",
+      "posted_at": "2026-08-24T16:23:28.611730+00:00"
+    },
+    {
       "source_url": "procedural://shopping/561",
       "title": "Should people be able to leave a cart behind if staff have to fix it?",
       "buffer_post_id": "6a8c55ca4820b3999b3fa224",
@@ -1193,12 +1199,6 @@
       "title": "Would you say something if someone wanted to text after a date when expectations are different?",
       "buffer_post_id": "6a6b71b6ebb4ea4943a2a238",
       "posted_at": "2026-07-30T15:45:59.018018+00:00"
-    },
-    {
-      "source_url": "procedural://family/280",
-      "title": "Is it weird to stop explaining every plan without feeling guilty?",
-      "buffer_post_id": "6a6b50ad2d8a9060e38c2e71",
-      "posted_at": "2026-07-30T13:25:02.135208+00:00"
     }
   ]
 }
