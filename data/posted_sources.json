@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/would-you-be-bothered-if-your-partner-liked-an-ex-post",
+      "title": "Would you be bothered if your partner liked an ex post?",
+      "buffer_post_id": "6a8be60da3b8277a83a70814",
+      "posted_at": "2026-08-24T06:34:53.742491+00:00"
+    },
+    {
       "source_url": "procedural://family/556",
       "title": "Is it weird to refuse a family favor when they mean well?",
       "buffer_post_id": "6a8bc9e1a3b8277a83a571eb",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to mute work apps when the team is busy?",
       "buffer_post_id": "6a6b05f2624551d661c3b13d",
       "posted_at": "2026-07-30T08:06:10.288846+00:00"
-    },
-    {
-      "source_url": "fallback://couples-phone-passwords",
-      "title": "Should couples share phone passwords or is that weird?",
-      "buffer_post_id": "6a6ad752bf2d4c6e419aa8d6",
-      "posted_at": "2026-07-30T04:47:14.440941+00:00"
     }
   ]
 }
