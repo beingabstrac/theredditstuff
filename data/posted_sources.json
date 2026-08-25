@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/566",
+      "title": "Would you judge someone for choosing to mute work apps when coworkers keep doing it?",
+      "buffer_post_id": "6a8ce3879bf578c9ef1b9e63",
+      "posted_at": "2026-08-25T00:36:23.295555+00:00"
+    },
+    {
       "source_url": "fallback://couples-phone-passwords",
       "title": "Should couples share phone passwords or is that weird?",
       "buffer_post_id": "6a8cc2749bf578c9ef196202",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to expect friends to remember details after they cancel often?",
       "buffer_post_id": "6a6bfe5ecc9eb43b4c1dec6b",
       "posted_at": "2026-07-31T01:46:06.406888+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/285",
-      "title": "Should people be able to take a call in line without noticing others?",
-      "buffer_post_id": "6a6bd68c961582f29fee218e",
-      "posted_at": "2026-07-30T22:56:12.408591+00:00"
     }
   ]
 }
