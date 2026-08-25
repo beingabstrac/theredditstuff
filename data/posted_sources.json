@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://harmless-habit-judge",
+      "title": "What harmless habit makes you instantly judge someone?",
+      "buffer_post_id": "6a8d6cb31cdd120f4e10564c",
+      "posted_at": "2026-08-25T10:21:39.706210+00:00"
+    },
+    {
       "source_url": "curated://etiquette/should-guests-help-clean-up-without-being-asked",
       "title": "Should guests help clean up without being asked?",
       "buffer_post_id": "6a8d525c5dbd4b6c9d67e9f8",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to not reply to texts for hours?",
       "buffer_post_id": "6a6c8c69e4816623866dfd06",
       "posted_at": "2026-07-31T11:52:09.344445+00:00"
-    },
-    {
-      "source_url": "fallback://split-bill-evenly",
-      "title": "Would you split the bill evenly if one friend ordered way more?",
-      "buffer_post_id": "6a6c5d7b961582f29ff457fb",
-      "posted_at": "2026-07-31T08:31:55.955023+00:00"
     }
   ]
 }
