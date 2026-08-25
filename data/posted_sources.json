@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/568",
+      "title": "Is it weird to stop explaining every plan when they mean well?",
+      "buffer_post_id": "6a8d19f4b23d1307623a8232",
+      "posted_at": "2026-08-25T04:28:36.602251+00:00"
+    },
+    {
       "source_url": "procedural://work/566",
       "title": "Would you judge someone for choosing to mute work apps when coworkers keep doing it?",
       "buffer_post_id": "6a8ce3879bf578c9ef1b9e63",
@@ -1193,12 +1199,6 @@
       "title": "Would you say something if someone wanted to share food without asking after the server leaves?",
       "buffer_post_id": "6a6c317dbb30a3674701b006",
       "posted_at": "2026-07-31T05:24:13.607935+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/286",
-      "title": "Is it weird to expect friends to remember details after they cancel often?",
-      "buffer_post_id": "6a6bfe5ecc9eb43b4c1dec6b",
-      "posted_at": "2026-07-31T01:46:06.406888+00:00"
     }
   ]
 }
