@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://reply-to-texts-hours",
+      "title": "Is it normal to not reply to texts for hours?",
+      "buffer_post_id": "6a8e140a4236595eb3cba5f0",
+      "posted_at": "2026-08-25T22:15:39.157888+00:00"
+    },
+    {
       "source_url": "fallback://split-bill-evenly",
       "title": "Would you split the bill evenly if one friend ordered way more?",
       "buffer_post_id": "6a8df836e08d06ae6750481e",
@@ -1193,12 +1199,6 @@
       "title": "What harmless habit makes someone hard to trust?",
       "buffer_post_id": "6a6d26c04c4e74ba2a2ea32b",
       "posted_at": "2026-07-31T22:50:40.678978+00:00"
-    },
-    {
-      "source_url": "fallback://tell-friend-partner-flirting",
-      "title": "Would you tell your friend if their partner was flirting with someone else?",
-      "buffer_post_id": "6a6cf221ef3b8a12e11c9106",
-      "posted_at": "2026-07-31T19:06:09.110375+00:00"
     }
   ]
 }
