@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/should-guests-help-clean-up-without-being-asked",
+      "title": "Should guests help clean up without being asked?",
+      "buffer_post_id": "6a8d525c5dbd4b6c9d67e9f8",
+      "posted_at": "2026-08-25T08:29:16.579425+00:00"
+    },
+    {
       "source_url": "procedural://family/568",
       "title": "Is it weird to stop explaining every plan when they mean well?",
       "buffer_post_id": "6a8d19f4b23d1307623a8232",
@@ -1193,12 +1199,6 @@
       "title": "Would you split the bill evenly if one friend ordered way more?",
       "buffer_post_id": "6a6c5d7b961582f29ff457fb",
       "posted_at": "2026-07-31T08:31:55.955023+00:00"
-    },
-    {
-      "source_url": "procedural://restaurant/287",
-      "title": "Would you say something if someone wanted to share food without asking after the server leaves?",
-      "buffer_post_id": "6a6c317dbb30a3674701b006",
-      "posted_at": "2026-07-31T05:24:13.607935+00:00"
     }
   ]
 }
