@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/573",
+      "title": "Should people be able to take a call in line if staff have to fix it?",
+      "buffer_post_id": "6a8da7ee5f0792e3d620af9d",
+      "posted_at": "2026-08-25T14:34:22.321668+00:00"
+    },
+    {
       "source_url": "fallback://harmless-habit-judge",
       "title": "What harmless habit makes you instantly judge someone?",
       "buffer_post_id": "6a8d6cb31cdd120f4e10564c",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to ignore work messages without apologizing?",
       "buffer_post_id": "6a6ca346e4816623866f400f",
       "posted_at": "2026-07-31T13:29:42.925348+00:00"
-    },
-    {
-      "source_url": "fallback://reply-to-texts-hours",
-      "title": "Is it normal to not reply to texts for hours?",
-      "buffer_post_id": "6a6c8c69e4816623866dfd06",
-      "posted_at": "2026-07-31T11:52:09.344445+00:00"
     }
   ]
 }
