@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://split-bill-evenly",
+      "title": "Would you split the bill evenly if one friend ordered way more?",
+      "buffer_post_id": "6a8df836e08d06ae6750481e",
+      "posted_at": "2026-08-25T20:16:54.520122+00:00"
+    },
+    {
       "source_url": "procedural://friendship/574",
       "title": "Is it weird to expect friends to remember details when everyone is busy?",
       "buffer_post_id": "6a8dc1bececd7e25c00d0a44",
@@ -1193,12 +1199,6 @@
       "title": "Would you tell your friend if their partner was flirting with someone else?",
       "buffer_post_id": "6a6cf221ef3b8a12e11c9106",
       "posted_at": "2026-07-31T19:06:09.110375+00:00"
-    },
-    {
-      "source_url": "fallback://headphones-at-home-rude",
-      "title": "Is it rude to wear headphones at home when someone is talking nearby?",
-      "buffer_post_id": "6a6cc52c4c4e74ba2a29c94c",
-      "posted_at": "2026-07-31T15:54:20.541001+00:00"
     }
   ]
 }
