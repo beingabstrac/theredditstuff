@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/578",
+      "title": "Would you judge someone for choosing to ignore work messages at a new job?",
+      "buffer_post_id": "6a8e353d6e7257c67e79c167",
+      "posted_at": "2026-08-26T00:37:17.414522+00:00"
+    },
+    {
       "source_url": "fallback://reply-to-texts-hours",
       "title": "Is it normal to not reply to texts for hours?",
       "buffer_post_id": "6a8e140a4236595eb3cba5f0",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather get honest advice or comforting support?",
       "buffer_post_id": "6a6d503eebe00edff55ea88d",
       "posted_at": "2026-08-01T01:47:42.674139+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-harmless-habit-makes-someone-hard-to-trust",
-      "title": "What harmless habit makes someone hard to trust?",
-      "buffer_post_id": "6a6d26c04c4e74ba2a2ea32b",
-      "posted_at": "2026-07-31T22:50:40.678978+00:00"
     }
   ]
 }
