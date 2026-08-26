@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://complain-loud-neighbors",
+      "title": "Is it petty to complain about loud neighbors?",
+      "buffer_post_id": "6a8ea46649c110258ff862bf",
+      "posted_at": "2026-08-26T08:31:34.489068+00:00"
+    },
+    {
       "source_url": "procedural://family/580",
       "title": "Is it weird to set boundaries after repeated comments?",
       "buffer_post_id": "6a8e6bf148c24ff777b6fa0f",
@@ -1193,12 +1199,6 @@
       "title": "Would you tell a friend they are draining to be around?",
       "buffer_post_id": "6a6da7e34c4e74ba2a345887",
       "posted_at": "2026-08-01T08:01:39.245214+00:00"
-    },
-    {
-      "source_url": "curated://shopping/should-people-bag-their-own-groceries-when-the-line-is-long",
-      "title": "Should people bag their own groceries when the line is long?",
-      "buffer_post_id": "6a6d81514c4e74ba2a328957",
-      "posted_at": "2026-08-01T05:17:05.976469+00:00"
     }
   ]
 }
