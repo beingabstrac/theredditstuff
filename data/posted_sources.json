@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/580",
+      "title": "Is it weird to set boundaries after repeated comments?",
+      "buffer_post_id": "6a8e6bf148c24ff777b6fa0f",
+      "posted_at": "2026-08-26T04:30:41.207870+00:00"
+    },
+    {
       "source_url": "procedural://work/578",
       "title": "Would you judge someone for choosing to ignore work messages at a new job?",
       "buffer_post_id": "6a8e353d6e7257c67e79c167",
@@ -1193,12 +1199,6 @@
       "title": "Should people bag their own groceries when the line is long?",
       "buffer_post_id": "6a6d81514c4e74ba2a328957",
       "posted_at": "2026-08-01T05:17:05.976469+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-get-honest-advice-or-comforting-support",
-      "title": "Would you rather get honest advice or comforting support?",
-      "buffer_post_id": "6a6d503eebe00edff55ea88d",
-      "posted_at": "2026-08-01T01:47:42.674139+00:00"
     }
   ]
 }
