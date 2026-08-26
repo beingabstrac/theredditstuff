@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://everyday-expensive",
+      "title": "What everyday thing became expensive for no good reason?",
+      "buffer_post_id": "6a8f6a1df7cda5d0e56d5a10",
+      "posted_at": "2026-08-26T22:35:09.695376+00:00"
+    },
+    {
       "source_url": "curated://restaurant/is-it-weird-to-order-the-cheapest-thing-on-the-menu",
       "title": "Is it weird to order the cheapest thing on the menu?",
       "buffer_post_id": "6a8f3ecca35e3b8c4e8026ba",
@@ -1193,12 +1199,6 @@
       "title": "Should couples share locations with each other?",
       "buffer_post_id": "6a6e76aa1b4d436cc30cb36f",
       "posted_at": "2026-08-01T22:43:54.294240+00:00"
-    },
-    {
-      "source_url": "curated://roommates/is-it-fair-to-split-utilities-evenly-if-one-person-is-always-home",
-      "title": "Is it fair to split utilities evenly if one person is always home?",
-      "buffer_post_id": "6a6e4076f93d764d93904e1b",
-      "posted_at": "2026-08-01T18:52:38.291495+00:00"
     }
   ]
 }
