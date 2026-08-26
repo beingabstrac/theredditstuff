@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/is-it-weird-to-order-the-cheapest-thing-on-the-menu",
+      "title": "Is it weird to order the cheapest thing on the menu?",
+      "buffer_post_id": "6a8f3ecca35e3b8c4e8026ba",
+      "posted_at": "2026-08-26T19:30:21.202683+00:00"
+    },
+    {
       "source_url": "curated://friendship/would-you-tell-a-friend-they-are-draining-to-be-around",
       "title": "Would you tell a friend they are draining to be around?",
       "buffer_post_id": "6a8f173067e50744e7ba3dea",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to split utilities evenly if one person is always home?",
       "buffer_post_id": "6a6e4076f93d764d93904e1b",
       "posted_at": "2026-08-01T18:52:38.291495+00:00"
-    },
-    {
-      "source_url": "fallback://ignore-work-after-hours",
-      "title": "Is it fair to ignore work messages after hours?",
-      "buffer_post_id": "6a6e22f02bbc9e05873680a0",
-      "posted_at": "2026-08-01T16:46:40.682970+00:00"
     }
   ]
 }
