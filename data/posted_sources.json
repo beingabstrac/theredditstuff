@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/would-you-tell-a-friend-they-are-draining-to-be-around",
+      "title": "Would you tell a friend they are draining to be around?",
+      "buffer_post_id": "6a8f173067e50744e7ba3dea",
+      "posted_at": "2026-08-26T16:41:21.064213+00:00"
+    },
+    {
       "source_url": "curated://shopping/should-people-bag-their-own-groceries-when-the-line-is-long",
       "title": "Should people bag their own groceries when the line is long?",
       "buffer_post_id": "6a8ef979721680f0dd8dda13",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to ignore work messages after hours?",
       "buffer_post_id": "6a6e22f02bbc9e05873680a0",
       "posted_at": "2026-08-01T16:46:40.682970+00:00"
-    },
-    {
-      "source_url": "fallback://everyday-expensive",
-      "title": "What everyday thing became expensive for no good reason?",
-      "buffer_post_id": "6a6dec682bbc9e05873348ea",
-      "posted_at": "2026-08-01T12:54:00.513981+00:00"
     }
   ]
 }
