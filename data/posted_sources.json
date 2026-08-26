@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://red_flags/what-harmless-habit-makes-someone-hard-to-trust",
+      "title": "What harmless habit makes someone hard to trust?",
+      "buffer_post_id": "6a8ebeb464b654d2c8f65c3f",
+      "posted_at": "2026-08-26T10:23:48.394688+00:00"
+    },
+    {
       "source_url": "fallback://complain-loud-neighbors",
       "title": "Is it petty to complain about loud neighbors?",
       "buffer_post_id": "6a8ea46649c110258ff862bf",
@@ -1193,12 +1199,6 @@
       "title": "Would you say something if someone wanted to complain loudly when one person picked the place?",
       "buffer_post_id": "6a6dd40e4c4e74ba2a36bb13",
       "posted_at": "2026-08-01T11:10:06.214515+00:00"
-    },
-    {
-      "source_url": "curated://friendship/would-you-tell-a-friend-they-are-draining-to-be-around",
-      "title": "Would you tell a friend they are draining to be around?",
-      "buffer_post_id": "6a6da7e34c4e74ba2a345887",
-      "posted_at": "2026-08-01T08:01:39.245214+00:00"
     }
   ]
 }
