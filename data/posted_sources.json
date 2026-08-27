@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://texting/590",
+      "title": "Would you judge someone for choosing to send only voice notes during a busy workday?",
+      "buffer_post_id": "6a8fcc7635e45d032c2dfe36",
+      "posted_at": "2026-08-27T05:34:47.047154+00:00"
+    },
+    {
+      "source_url": "procedural://texting/589",
+      "title": "Is it normal to send only voice notes during a busy workday?",
+      "buffer_post_id": "6a8fcc6435e45d032c2dfd5e",
+      "posted_at": "2026-08-27T05:34:28.212583+00:00"
+    },
+    {
       "source_url": "fallback://everyday-expensive",
       "title": "What everyday thing became expensive for no good reason?",
       "buffer_post_id": "6a8f6a1df7cda5d0e56d5a10",
@@ -1187,18 +1199,6 @@
       "title": "What everyday behavior feels selfish immediately?",
       "buffer_post_id": "6a6ed2eeaacd241cfda5bdac",
       "posted_at": "2026-08-02T05:17:34.696462+00:00"
-    },
-    {
-      "source_url": "fallback://self-care-avoidance",
-      "title": "What do people call self-care that is actually avoidance?",
-      "buffer_post_id": "6a6ea0d498d2f31dff056745",
-      "posted_at": "2026-08-02T01:43:48.358298+00:00"
-    },
-    {
-      "source_url": "curated://dating/should-couples-share-locations-with-each-other",
-      "title": "Should couples share locations with each other?",
-      "buffer_post_id": "6a6e76aa1b4d436cc30cb36f",
-      "posted_at": "2026-08-01T22:43:54.294240+00:00"
     }
   ]
 }
