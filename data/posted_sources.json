@@ -1,6 +1,30 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/592",
+      "title": "Is it weird to say no to last minute tasks at a new job?",
+      "buffer_post_id": "6a906ddb31d64512d89813ed",
+      "posted_at": "2026-08-27T17:03:23.366623+00:00"
+    },
+    {
+      "source_url": "procedural://work/591",
+      "title": "Should people be able to say no to last minute tasks at a new job?",
+      "buffer_post_id": "6a906dc531d64512d8981280",
+      "posted_at": "2026-08-27T17:03:01.693783+00:00"
+    },
+    {
+      "source_url": "procedural://work/590",
+      "title": "Would you judge someone for choosing to say no to last minute tasks at a new job?",
+      "buffer_post_id": "6a906da5e1ff4f94894adbbd",
+      "posted_at": "2026-08-27T17:02:29.471198+00:00"
+    },
+    {
+      "source_url": "fallback://ignore-work-after-hours",
+      "title": "Is it fair to ignore work messages after hours?",
+      "buffer_post_id": "6a906d8aad439ded2ea0a5a0",
+      "posted_at": "2026-08-27T17:02:02.348504+00:00"
+    },
+    {
       "source_url": "procedural://texting/590",
       "title": "Would you judge someone for choosing to send only voice notes during a busy workday?",
       "buffer_post_id": "6a8fcc7635e45d032c2dfe36",
@@ -1175,30 +1199,6 @@
       "title": "Is it rude to check the bill when someone else said they split it already?",
       "buffer_post_id": "6a6f743d1b4d436cc318a781",
       "posted_at": "2026-08-02T16:45:49.279689+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/310",
-      "title": "Is it weird to keep score of favors when plans are small?",
-      "buffer_post_id": "6a6f3e565dc5613cefddb61a",
-      "posted_at": "2026-08-02T12:55:50.300356+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/309",
-      "title": "Should people be able to argue over a return when the line is long?",
-      "buffer_post_id": "6a6f25b52bbc9e0587423ae8",
-      "posted_at": "2026-08-02T11:10:46.039371+00:00"
-    },
-    {
-      "source_url": "procedural://would_you_rather/308",
-      "title": "Would you rather have one close friend or many casual friends in your current life?",
-      "buffer_post_id": "6a6ef9e05dc5613cefda8882",
-      "posted_at": "2026-08-02T08:03:44.298671+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-everyday-behavior-feels-selfish-immediately",
-      "title": "What everyday behavior feels selfish immediately?",
-      "buffer_post_id": "6a6ed2eeaacd241cfda5bdac",
-      "posted_at": "2026-08-02T05:17:34.696462+00:00"
     }
   ]
 }
