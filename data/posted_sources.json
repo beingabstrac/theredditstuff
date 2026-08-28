@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-it-fair-to-split-utilities-evenly-if-one-person-is-always-home",
+      "title": "Is it fair to split utilities evenly if one person is always home?",
+      "buffer_post_id": "6a90ea0cb12b8efbe733ec67",
+      "posted_at": "2026-08-28T01:53:16.256386+00:00"
+    },
+    {
+      "source_url": "curated://roommates/is-leaving-dishes-overnight-normal-or-gross",
+      "title": "Is leaving dishes overnight normal or gross?",
+      "buffer_post_id": "6a90e9f8ae8294e4836c6f21",
+      "posted_at": "2026-08-28T01:52:57.061471+00:00"
+    },
+    {
+      "source_url": "curated://roommates/would-you-confront-a-roommate-about-smell",
+      "title": "Would you confront a roommate about smell?",
+      "buffer_post_id": "6a90e9df6693c575a7827bf9",
+      "posted_at": "2026-08-28T01:52:32.134073+00:00"
+    },
+    {
       "source_url": "procedural://work/592",
       "title": "Is it weird to say no to last minute tasks at a new job?",
       "buffer_post_id": "6a906ddb31d64512d89813ed",
@@ -1181,24 +1199,6 @@
       "title": "Is it weird to refuse a family favor when you need rest?",
       "buffer_post_id": "6a6ff2daaacd241cfdb3fa9b",
       "posted_at": "2026-08-03T01:46:02.961702+00:00"
-    },
-    {
-      "source_url": "curated://roommates/would-you-label-your-food-in-a-shared-fridge",
-      "title": "Would you label your food in a shared fridge?",
-      "buffer_post_id": "6a6fc8472bbc9e05874aa5b6",
-      "posted_at": "2026-08-02T22:44:23.711518+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-sending-voice-notes-instead-of-texting-annoying",
-      "title": "Is sending voice notes instead of texting annoying?",
-      "buffer_post_id": "6a6f922998d2f31dff10bfb3",
-      "posted_at": "2026-08-02T18:53:29.781976+00:00"
-    },
-    {
-      "source_url": "fallback://check-split-bill",
-      "title": "Is it rude to check the bill when someone else said they split it already?",
-      "buffer_post_id": "6a6f743d1b4d436cc318a781",
-      "posted_at": "2026-08-02T16:45:49.279689+00:00"
     }
   ]
 }
