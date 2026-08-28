@@ -1,6 +1,30 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/595",
+      "title": "Is it normal to ask family to call first after repeated comments?",
+      "buffer_post_id": "6a918d941093ae12df433601",
+      "posted_at": "2026-08-28T13:31:00.790592+00:00"
+    },
+    {
+      "source_url": "procedural://family/594",
+      "title": "Is it rude to ask family to call first after repeated comments?",
+      "buffer_post_id": "6a918d87dae2bc15a5ad8183",
+      "posted_at": "2026-08-28T13:30:47.257357+00:00"
+    },
+    {
+      "source_url": "procedural://family/593",
+      "title": "Would you say something if someone wanted to not answer calls immediately after repeated comments?",
+      "buffer_post_id": "6a918d751093ae12df43329d",
+      "posted_at": "2026-08-28T13:30:29.928155+00:00"
+    },
+    {
+      "source_url": "procedural://family/592",
+      "title": "Is it weird to not answer calls immediately after repeated comments?",
+      "buffer_post_id": "6a918d601239e5171ec57a6e",
+      "posted_at": "2026-08-28T13:30:08.517574+00:00"
+    },
+    {
       "source_url": "curated://roommates/is-it-fair-to-split-utilities-evenly-if-one-person-is-always-home",
       "title": "Is it fair to split utilities evenly if one person is always home?",
       "buffer_post_id": "6a90ea0cb12b8efbe733ec67",
@@ -1175,30 +1199,6 @@
       "title": "What shopping habit instantly annoys you?",
       "buffer_post_id": "6a708e571c5ed0395f6eac4c",
       "posted_at": "2026-08-03T12:49:27.300519+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-red-flag-at-dinner-with-someone",
-      "title": "What is a red flag at dinner with someone?",
-      "buffer_post_id": "6a708e3f44821b393540c043",
-      "posted_at": "2026-08-03T12:49:03.860965+00:00"
-    },
-    {
-      "source_url": "fallback://small-lie-everyone-tells",
-      "title": "What small lie does everyone tell?",
-      "buffer_post_id": "6a7058cbe40db69068613fa9",
-      "posted_at": "2026-08-03T09:00:59.317504+00:00"
-    },
-    {
-      "source_url": "curated://dating/should-you-text-right-after-a-good-date",
-      "title": "Should you text right after a good date?",
-      "buffer_post_id": "6a7027632bbc9e05874f0429",
-      "posted_at": "2026-08-03T05:30:11.494071+00:00"
-    },
-    {
-      "source_url": "procedural://family/316",
-      "title": "Is it weird to refuse a family favor when you need rest?",
-      "buffer_post_id": "6a6ff2daaacd241cfdb3fa9b",
-      "posted_at": "2026-08-03T01:46:02.961702+00:00"
     }
   ]
 }
