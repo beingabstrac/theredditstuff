@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://red_flags/what-is-a-red-flag-at-dinner-with-someone",
+      "title": "What is a red flag at dinner with someone?",
+      "buffer_post_id": "6a92c8abaa187a14a5f094ca",
+      "posted_at": "2026-08-29T11:55:23.541446+00:00"
+    },
+    {
+      "source_url": "curated://red_flags/what-everyday-behavior-feels-selfish-immediately",
+      "title": "What everyday behavior feels selfish immediately?",
+      "buffer_post_id": "6a92c89c9e5f3621e7265f20",
+      "posted_at": "2026-08-29T11:55:08.505628+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-normal-to-not-offer-guests-a-drink",
       "title": "Is it normal to not offer guests a drink?",
       "buffer_post_id": "6a9262a43a3b8905af265363",
@@ -1187,18 +1199,6 @@
       "title": "Should roommates ask before changing the thermostat?",
       "buffer_post_id": "6a71d30e2c92c345a126d3e8",
       "posted_at": "2026-08-04T11:54:55.062830+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-fair-to-say-no-to-last-minute-work",
-      "title": "Is it fair to say no to last minute work?",
-      "buffer_post_id": "6a719fd90923373b13b5d84f",
-      "posted_at": "2026-08-04T08:16:25.532576+00:00"
-    },
-    {
-      "source_url": "curated://texting/should-people-explain-why-they-reply-late",
-      "title": "Should people explain why they reply late?",
-      "buffer_post_id": "6a717060d702c24ecb22233a",
-      "posted_at": "2026-08-04T04:53:52.241671+00:00"
     }
   ]
 }
