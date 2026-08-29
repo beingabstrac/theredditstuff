@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/598",
+      "title": "Is it weird to keep score of favors if they never ask about you?",
+      "buffer_post_id": "6a9357d5ba5ed85198073521",
+      "posted_at": "2026-08-29T22:06:13.616948+00:00"
+    },
+    {
       "source_url": "curated://shopping/is-blocking-an-aisle-with-a-cart-a-major-offense",
       "title": "Is blocking an aisle with a cart a major offense?",
       "buffer_post_id": "6a932c1061f7ab587ccd5b97",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather never do laundry or never wash dishes?",
       "buffer_post_id": "6a726d2126354a038b4e665f",
       "posted_at": "2026-08-04T22:52:17.271916+00:00"
-    },
-    {
-      "source_url": "fallback://cancel-plans-tired",
-      "title": "Is cancelling plans because you are tired a valid reason?",
-      "buffer_post_id": "6a723b28cbe1782802939a07",
-      "posted_at": "2026-08-04T19:19:04.216453+00:00"
     }
   ]
 }
