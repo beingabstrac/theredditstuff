@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-normal-to-not-offer-guests-a-drink",
+      "title": "Is it normal to not offer guests a drink?",
+      "buffer_post_id": "6a9262a43a3b8905af265363",
+      "posted_at": "2026-08-29T04:40:04.517123+00:00"
+    },
+    {
+      "source_url": "fallback://invite-yourself-plans",
+      "title": "Is it weird to invite yourself to plans you heard about?",
+      "buffer_post_id": "6a926290e959557ce555837a",
+      "posted_at": "2026-08-29T04:39:44.318176+00:00"
+    },
+    {
       "source_url": "curated://dating/should-you-text-right-after-a-good-date",
       "title": "Should you text right after a good date?",
       "buffer_post_id": "6a9216eac4c3aa938d8a6af6",
@@ -1187,18 +1199,6 @@
       "title": "Should people explain why they reply late?",
       "buffer_post_id": "6a717060d702c24ecb22233a",
       "posted_at": "2026-08-04T04:53:52.241671+00:00"
-    },
-    {
-      "source_url": "fallback://lend-money-friend-owes",
-      "title": "Would you lend money to a friend who still owes other people?",
-      "buffer_post_id": "6a713ed120d3689200b053ff",
-      "posted_at": "2026-08-04T01:22:25.315207+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/should-the-person-who-chose-the-restaurant-handle-the-booking",
-      "title": "Should the person who chose the restaurant handle the booking?",
-      "buffer_post_id": "6a711b8fd702c24ecb1e24c1",
-      "posted_at": "2026-08-03T22:51:59.760512+00:00"
     }
   ]
 }
