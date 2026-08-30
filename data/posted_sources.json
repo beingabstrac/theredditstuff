@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/should-the-person-who-chose-the-restaurant-handle-the-booking",
+      "title": "Should the person who chose the restaurant handle the booking?",
+      "buffer_post_id": "6a93918df7f5d8f78d0e9946",
+      "posted_at": "2026-08-30T02:12:29.694282+00:00"
+    },
+    {
       "source_url": "procedural://friendship/598",
       "title": "Is it weird to keep score of favors if they never ask about you?",
       "buffer_post_id": "6a9357d5ba5ed85198073521",
@@ -1193,12 +1199,6 @@
       "title": "Should people return carts every single time?",
       "buffer_post_id": "6a729180c6717b2bad67d61c",
       "posted_at": "2026-08-05T01:27:28.992805+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-never-do-laundry-or-never-wash-dishes",
-      "title": "Would you rather never do laundry or never wash dishes?",
-      "buffer_post_id": "6a726d2126354a038b4e665f",
-      "posted_at": "2026-08-04T22:52:17.271916+00:00"
     }
   ]
 }
