@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/is-it-fair-to-skip-a-birthday-dinner-because-it-costs-too-much",
+      "title": "Is it fair to skip a birthday dinner because it costs too much?",
+      "buffer_post_id": "6a93f906883d90b51c4711ec",
+      "posted_at": "2026-08-30T09:33:58.714983+00:00"
+    },
+    {
+      "source_url": "fallback://lend-money-friend-owes",
+      "title": "Would you lend money to a friend who still owes other people?",
+      "buffer_post_id": "6a93f8f924c2007a004666e4",
+      "posted_at": "2026-08-30T09:33:45.816678+00:00"
+    },
+    {
+      "source_url": "fallback://check-split-bill",
+      "title": "Is it rude to check the bill when someone else said they split it already?",
+      "buffer_post_id": "6a93f8e4f7f5d8f78d156161",
+      "posted_at": "2026-08-30T09:33:25.078653+00:00"
+    },
+    {
       "source_url": "curated://restaurant/should-the-person-who-chose-the-restaurant-handle-the-booking",
       "title": "Should the person who chose the restaurant handle the booking?",
       "buffer_post_id": "6a93918df7f5d8f78d0e9946",
@@ -1181,24 +1199,6 @@
       "title": "Is it rude to ask the price before agreeing to plans?",
       "buffer_post_id": "6a7323db04661c18cf3e8f0d",
       "posted_at": "2026-08-05T11:51:56.099463+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/would-you-go-back-to-a-place-your-friend-hated",
-      "title": "Would you go back to a place your friend hated?",
-      "buffer_post_id": "6a72f104994cfd8040b2ed4e",
-      "posted_at": "2026-08-05T08:15:01.062970+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-normal-for-friendships-to-fade-without-a-fight",
-      "title": "Is it normal for friendships to fade without a fight?",
-      "buffer_post_id": "6a72c1fec549049f46546204",
-      "posted_at": "2026-08-05T04:54:22.857853+00:00"
-    },
-    {
-      "source_url": "curated://shopping/should-people-return-carts-every-single-time",
-      "title": "Should people return carts every single time?",
-      "buffer_post_id": "6a729180c6717b2bad67d61c",
-      "posted_at": "2026-08-05T01:27:28.992805+00:00"
     }
   ]
 }
