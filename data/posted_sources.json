@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-sending-voice-notes-instead-of-texting-annoying",
+      "title": "Is sending voice notes instead of texting annoying?",
+      "buffer_post_id": "6a943f56fd31f7e50b71dd22",
+      "posted_at": "2026-08-30T14:33:58.500951+00:00"
+    },
+    {
       "source_url": "curated://money/is-it-fair-to-skip-a-birthday-dinner-because-it-costs-too-much",
       "title": "Is it fair to skip a birthday dinner because it costs too much?",
       "buffer_post_id": "6a93f906883d90b51c4711ec",
@@ -1193,12 +1199,6 @@
       "title": "Should plans be confirmed again the day of?",
       "buffer_post_id": "6a733d8bd5c5d76547e76c1d",
       "posted_at": "2026-08-05T13:41:32.114707+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-rude-to-ask-the-price-before-agreeing-to-plans",
-      "title": "Is it rude to ask the price before agreeing to plans?",
-      "buffer_post_id": "6a7323db04661c18cf3e8f0d",
-      "posted_at": "2026-08-05T11:51:56.099463+00:00"
     }
   ]
 }
