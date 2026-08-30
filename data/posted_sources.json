@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/602",
+      "title": "Would you judge someone for choosing to skip optional meetings at a new job?",
+      "buffer_post_id": "6a947c98d076c0e583621c27",
+      "posted_at": "2026-08-30T18:55:21.003597+00:00"
+    },
+    {
+      "source_url": "curated://work/is-it-fair-to-say-no-to-last-minute-work",
+      "title": "Is it fair to say no to last minute work?",
+      "buffer_post_id": "6a947c87d58664eabd7b148e",
+      "posted_at": "2026-08-30T18:55:03.324286+00:00"
+    },
+    {
       "source_url": "curated://texting/is-sending-voice-notes-instead-of-texting-annoying",
       "title": "Is sending voice notes instead of texting annoying?",
       "buffer_post_id": "6a943f56fd31f7e50b71dd22",
@@ -1187,18 +1199,6 @@
       "title": "Is it weird to set boundaries if they get offended?",
       "buffer_post_id": "6a738b2d847f848d72906c11",
       "posted_at": "2026-08-05T19:12:45.178373+00:00"
-    },
-    {
-      "source_url": "curated://work/would-you-tell-a-coworker-they-are-talking-too-loudly",
-      "title": "Would you tell a coworker they are talking too loudly?",
-      "buffer_post_id": "6a735caf739261512b3293cd",
-      "posted_at": "2026-08-05T15:54:23.870365+00:00"
-    },
-    {
-      "source_url": "curated://texting/should-plans-be-confirmed-again-the-day-of",
-      "title": "Should plans be confirmed again the day of?",
-      "buffer_post_id": "6a733d8bd5c5d76547e76c1d",
-      "posted_at": "2026-08-05T13:41:32.114707+00:00"
     }
   ]
 }
