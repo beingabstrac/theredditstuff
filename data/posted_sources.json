@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://shopping-habit-annoys",
+      "title": "What shopping habit instantly annoys you?",
+      "buffer_post_id": "6a960e86814fc696b8e41db5",
+      "posted_at": "2026-08-31T23:30:15.020520+00:00"
+    },
+    {
+      "source_url": "curated://red_flags/what-is-a-green-flag-people-do-not-talk-about-enough",
+      "title": "What is a green flag people do not talk about enough?",
+      "buffer_post_id": "6a960e6e0f92a66e76ce1ee4",
+      "posted_at": "2026-08-31T23:29:50.576213+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-weird-to-bring-your-own-food-to-someone-house",
       "title": "Is it weird to bring your own food to someone house?",
       "buffer_post_id": "6a95c6a926fd9f0535851e70",
@@ -1187,18 +1199,6 @@
       "title": "Would you judge someone for choosing to say no to last minute tasks if the manager expects it?",
       "buffer_post_id": "6a751dd6145b14b3da60c8b7",
       "posted_at": "2026-08-06T23:50:46.735980+00:00"
-    },
-    {
-      "source_url": "curated://work/would-you-cover-for-a-coworker-who-is-always-late",
-      "title": "Would you cover for a coworker who is always late?",
-      "buffer_post_id": "6a751dbbe66d34bb734a65c9",
-      "posted_at": "2026-08-06T23:50:19.393060+00:00"
-    },
-    {
-      "source_url": "curated://work/should-people-be-praised-for-working-late",
-      "title": "Should people be praised for working late?",
-      "buffer_post_id": "6a751da48d264d79c1baa052",
-      "posted_at": "2026-08-06T23:49:56.693395+00:00"
     }
   ]
 }
