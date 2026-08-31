@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/is-it-wrong-to-not-lend-family-your-car",
+      "title": "Is it wrong to not lend family your car?",
+      "buffer_post_id": "6a94e1f289479b733db77570",
+      "posted_at": "2026-08-31T02:07:46.417476+00:00"
+    },
+    {
       "source_url": "fallback://house-guest-red-flag",
       "title": "What house guest behavior is an instant red flag?",
       "buffer_post_id": "6a94aaec6bbc8c9a02f80e8c",
@@ -1193,12 +1199,6 @@
       "title": "What is a green flag people do not talk about enough?",
       "buffer_post_id": "6a73e285626c06990eadb200",
       "posted_at": "2026-08-06T01:25:25.397581+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/should-you-tell-someone-they-have-food-in-their-teeth",
-      "title": "Should you tell someone they have food in their teeth?",
-      "buffer_post_id": "6a73bdb0134431cdba4763e6",
-      "posted_at": "2026-08-05T22:48:16.535226+00:00"
     }
   ]
 }
