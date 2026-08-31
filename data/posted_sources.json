@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://dating/605",
+      "title": "Would you say something if someone wanted to cancel a date after one awkward moment?",
+      "buffer_post_id": "6a955419a2be5e67b3cb0d83",
+      "posted_at": "2026-08-31T10:14:49.308374+00:00"
+    },
+    {
+      "source_url": "fallback://tell-friend-partner-flirting",
+      "title": "Would you tell your friend if their partner was flirting with someone else?",
+      "buffer_post_id": "6a9554002986185ba1834119",
+      "posted_at": "2026-08-31T10:14:24.392603+00:00"
+    },
+    {
+      "source_url": "fallback://dating-texting-red-flag",
+      "title": "What texting habit is a dating red flag?",
+      "buffer_post_id": "6a9553df2986185ba1833f0f",
+      "posted_at": "2026-08-31T10:13:51.427405+00:00"
+    },
+    {
       "source_url": "curated://family/is-it-wrong-to-not-lend-family-your-car",
       "title": "Is it wrong to not lend family your car?",
       "buffer_post_id": "6a94e1f289479b733db77570",
@@ -1181,24 +1199,6 @@
       "title": "Should friends ask before venting?",
       "buffer_post_id": "6a7476823e114b56fdb7e6cf",
       "posted_at": "2026-08-06T11:56:50.228237+00:00"
-    },
-    {
-      "source_url": "curated://shopping/should-delivery-fees-make-you-stop-ordering-food",
-      "title": "Should delivery fees make you stop ordering food?",
-      "buffer_post_id": "6a744231de0248f0f2c0957b",
-      "posted_at": "2026-08-06T08:13:37.562222+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-unlimited-free-coffee-or-unlimited-free-rides",
-      "title": "Would you rather have unlimited free coffee or unlimited free rides?",
-      "buffer_post_id": "6a7413a0a7837e555de65304",
-      "posted_at": "2026-08-06T04:54:56.973882+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-green-flag-people-do-not-talk-about-enough",
-      "title": "What is a green flag people do not talk about enough?",
-      "buffer_post_id": "6a73e285626c06990eadb200",
-      "posted_at": "2026-08-06T01:25:25.397581+00:00"
     }
   ]
 }
