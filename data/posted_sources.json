@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-weird-to-bring-your-own-food-to-someone-house",
+      "title": "Is it weird to bring your own food to someone house?",
+      "buffer_post_id": "6a95c6a926fd9f0535851e70",
+      "posted_at": "2026-08-31T18:23:37.281294+00:00"
+    },
+    {
+      "source_url": "curated://etiquette/is-it-rude-to-play-videos-out-loud-in-public",
+      "title": "Is it rude to play videos out loud in public?",
+      "buffer_post_id": "6a95c68fbc8169016ae9bd77",
+      "posted_at": "2026-08-31T18:23:12.203461+00:00"
+    },
+    {
       "source_url": "procedural://dating/605",
       "title": "Would you say something if someone wanted to cancel a date after one awkward moment?",
       "buffer_post_id": "6a955419a2be5e67b3cb0d83",
@@ -1187,18 +1199,6 @@
       "title": "Should people be praised for working late?",
       "buffer_post_id": "6a751da48d264d79c1baa052",
       "posted_at": "2026-08-06T23:49:56.693395+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/would-you-judge-someone-for-being-picky-at-restaurants",
-      "title": "Would you judge someone for being picky at restaurants?",
-      "buffer_post_id": "6a748fd9be3538462cb9cfa0",
-      "posted_at": "2026-08-06T13:44:57.231693+00:00"
-    },
-    {
-      "source_url": "curated://friendship/should-friends-ask-before-venting",
-      "title": "Should friends ask before venting?",
-      "buffer_post_id": "6a7476823e114b56fdb7e6cf",
-      "posted_at": "2026-08-06T11:56:50.228237+00:00"
     }
   ]
 }
