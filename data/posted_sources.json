@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/would-you-go-back-to-a-place-your-friend-hated",
+      "title": "Would you go back to a place your friend hated?",
+      "buffer_post_id": "6a97206c12353bde621e9896",
+      "posted_at": "2026-09-01T18:58:52.338426+00:00"
+    },
+    {
+      "source_url": "curated://restaurant/is-it-embarrassing-when-someone-complains-loudly-at-dinner",
+      "title": "Is it embarrassing when someone complains loudly at dinner?",
+      "buffer_post_id": "6a97204e621c4f647bd4c884",
+      "posted_at": "2026-09-01T18:58:22.757634+00:00"
+    },
+    {
       "source_url": "curated://friendship/should-friends-ask-before-venting",
       "title": "Should friends ask before venting?",
       "buffer_post_id": "6a96dfeb68a18cc49914bfc6",
@@ -1187,18 +1199,6 @@
       "title": "Would you say something if someone wanted to take a call at dinner without making dinner tense?",
       "buffer_post_id": "6a7626388aa5e1393fa744ea",
       "posted_at": "2026-08-07T18:38:48.188203+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-rude-to-take-a-call-during-dinner",
-      "title": "Is it rude to take a call during dinner?",
-      "buffer_post_id": "6a7626228b39b04b79fe76e2",
-      "posted_at": "2026-08-07T18:38:26.770506+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-one-perfect-friend-or-many-casual-friends",
-      "title": "Would you rather have one perfect friend or many casual friends?",
-      "buffer_post_id": "6a75d1be97f54129442652d6",
-      "posted_at": "2026-08-07T12:38:22.186873+00:00"
     }
   ]
 }
