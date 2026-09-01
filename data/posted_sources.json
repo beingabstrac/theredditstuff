@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-always-get-the-last-word-or-never-need-it",
+      "title": "Would you rather always get the last word or never need it?",
+      "buffer_post_id": "6a9638477f35fa8ffd75b155",
+      "posted_at": "2026-09-01T02:28:23.466549+00:00"
+    },
+    {
       "source_url": "fallback://shopping-habit-annoys",
       "title": "What shopping habit instantly annoys you?",
       "buffer_post_id": "6a960e86814fc696b8e41db5",
@@ -1193,12 +1199,6 @@
       "title": "Should roommates warn before bringing guests over?",
       "buffer_post_id": "6a753cedab236f0ec5877fd0",
       "posted_at": "2026-08-07T02:03:25.172372+00:00"
-    },
-    {
-      "source_url": "procedural://work/350",
-      "title": "Would you judge someone for choosing to say no to last minute tasks if the manager expects it?",
-      "buffer_post_id": "6a751dd6145b14b3da60c8b7",
-      "posted_at": "2026-08-06T23:50:46.735980+00:00"
     }
   ]
 }
