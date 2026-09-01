@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/is-it-rude-to-ask-the-price-before-agreeing-to-plans",
+      "title": "Is it rude to ask the price before agreeing to plans?",
+      "buffer_post_id": "6a974d8a3bb977dabf68efb2",
+      "posted_at": "2026-09-01T22:11:22.865151+00:00"
+    },
+    {
       "source_url": "curated://restaurant/would-you-go-back-to-a-place-your-friend-hated",
       "title": "Would you go back to a place your friend hated?",
       "buffer_post_id": "6a97206c12353bde621e9896",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to text someone only when you need something?",
       "buffer_post_id": "6a765b21eb086b1202cd3d9f",
       "posted_at": "2026-08-07T22:24:33.571937+00:00"
-    },
-    {
-      "source_url": "procedural://restaurant/359",
-      "title": "Would you say something if someone wanted to take a call at dinner without making dinner tense?",
-      "buffer_post_id": "6a7626388aa5e1393fa744ea",
-      "posted_at": "2026-08-07T18:38:48.188203+00:00"
     }
   ]
 }
