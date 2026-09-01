@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/should-friends-ask-before-venting",
+      "title": "Should friends ask before venting?",
+      "buffer_post_id": "6a96dfeb68a18cc49914bfc6",
+      "posted_at": "2026-09-01T14:23:39.309631+00:00"
+    },
+    {
+      "source_url": "curated://friendship/is-it-normal-for-friendships-to-fade-without-a-fight",
+      "title": "Is it normal for friendships to fade without a fight?",
+      "buffer_post_id": "6a96dfdbb4426bdd0294bcf5",
+      "posted_at": "2026-09-01T14:23:23.746243+00:00"
+    },
+    {
       "source_url": "curated://shopping/should-people-return-carts-every-single-time",
       "title": "Should people return carts every single time?",
       "buffer_post_id": "6a9694008be140580d723f18",
@@ -1187,18 +1199,6 @@
       "title": "Would you rather have one perfect friend or many casual friends?",
       "buffer_post_id": "6a75d1be97f54129442652d6",
       "posted_at": "2026-08-07T12:38:22.186873+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-normal-habit-becomes-annoying-very-fast",
-      "title": "What normal habit becomes annoying very fast?",
-      "buffer_post_id": "6a75b68cd445a81af5f2d2da",
-      "posted_at": "2026-08-07T10:42:20.547161+00:00"
-    },
-    {
-      "source_url": "curated://dating/would-you-tell-someone-their-dating-standards-are-unrealistic",
-      "title": "Would you tell someone their dating standards are unrealistic?",
-      "buffer_post_id": "6a7582c3ab236f0ec58a76c2",
-      "posted_at": "2026-08-07T07:01:24.101109+00:00"
     }
   ]
 }
