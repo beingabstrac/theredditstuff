@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/would-you-tell-a-coworker-they-are-talking-too-loudly",
+      "title": "Would you tell a coworker they are talking too loudly?",
+      "buffer_post_id": "6a97c3b84ef402cb9b13cf54",
+      "posted_at": "2026-09-02T06:35:36.899567+00:00"
+    },
+    {
+      "source_url": "curated://work/would-you-cover-for-a-coworker-who-is-always-late",
+      "title": "Would you cover for a coworker who is always late?",
+      "buffer_post_id": "6a97c3a4143685ad4343a6a1",
+      "posted_at": "2026-09-02T06:35:16.437263+00:00"
+    },
+    {
       "source_url": "curated://texting/should-plans-be-confirmed-again-the-day-of",
       "title": "Should plans be confirmed again the day of?",
       "buffer_post_id": "6a9780a8b025b625550446a9",
@@ -1187,18 +1199,6 @@
       "title": "Would you date someone who is always late?",
       "buffer_post_id": "6a76cd96eb086b1202d2c2f8",
       "posted_at": "2026-08-08T06:32:54.671028+00:00"
-    },
-    {
-      "source_url": "curated://family/should-adults-have-to-explain-every-plan-to-their-parents",
-      "title": "Should adults have to explain every plan to their parents?",
-      "buffer_post_id": "6a76b4938aa5e1393fade8c3",
-      "posted_at": "2026-08-08T04:46:11.835629+00:00"
-    },
-    {
-      "source_url": "procedural://work/362",
-      "title": "Would you judge someone for choosing to skip optional meetings if the manager expects it?",
-      "buffer_post_id": "6a767c9beb086b1202cf08a3",
-      "posted_at": "2026-08-08T00:47:24.072463+00:00"
     }
   ]
 }
