@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/would-you-tell-someone-their-dating-standards-are-unrealistic",
+      "title": "Would you tell someone their dating standards are unrealistic?",
+      "buffer_post_id": "6a9883be09ad463a84405759",
+      "posted_at": "2026-09-02T20:14:54.282486+00:00"
+    },
+    {
       "source_url": "curated://family/would-you-tell-family-to-stop-commenting-on-your-life",
       "title": "Would you tell family to stop commenting on your life?",
       "buffer_post_id": "6a985d29f4b73e9c3c1038f0",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to put your phone on the table during dinner?",
       "buffer_post_id": "6a77aad49517ea3cc68a214d",
       "posted_at": "2026-08-08T22:16:52.937858+00:00"
-    },
-    {
-      "source_url": "curated://money/is-lending-small-amounts-of-money-to-friends-worth-the-risk",
-      "title": "Is lending small amounts of money to friends worth the risk?",
-      "buffer_post_id": "6a778eaed86dda1f366a1962",
-      "posted_at": "2026-08-08T20:16:46.849431+00:00"
     }
   ]
 }
