@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/should-plans-be-confirmed-again-the-day-of",
+      "title": "Should plans be confirmed again the day of?",
+      "buffer_post_id": "6a9780a8b025b625550446a9",
+      "posted_at": "2026-09-02T01:49:28.279319+00:00"
+    },
+    {
       "source_url": "curated://money/is-it-rude-to-ask-the-price-before-agreeing-to-plans",
       "title": "Is it rude to ask the price before agreeing to plans?",
       "buffer_post_id": "6a974d8a3bb977dabf68efb2",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to skip optional meetings if the manager expects it?",
       "buffer_post_id": "6a767c9beb086b1202cf08a3",
       "posted_at": "2026-08-08T00:47:24.072463+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-weird-to-text-someone-only-when-you-need-something",
-      "title": "Is it weird to text someone only when you need something?",
-      "buffer_post_id": "6a765b21eb086b1202cd3d9f",
-      "posted_at": "2026-08-07T22:24:33.571937+00:00"
     }
   ]
 }
