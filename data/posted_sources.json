@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-it-rude-to-leave-laundry-in-the-machine-for-hours",
+      "title": "Is it rude to leave laundry in the machine for hours?",
+      "buffer_post_id": "6a98150c7f81d1ff9546d6e8",
+      "posted_at": "2026-09-02T12:22:36.952069+00:00"
+    },
+    {
       "source_url": "curated://work/would-you-tell-a-coworker-they-are-talking-too-loudly",
       "title": "Would you tell a coworker they are talking too loudly?",
       "buffer_post_id": "6a97c3b84ef402cb9b13cf54",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather be respected or liked if money was still the same?",
       "buffer_post_id": "6a771ffe2c3e8e5fce74c7d9",
       "posted_at": "2026-08-08T12:24:30.342638+00:00"
-    },
-    {
-      "source_url": "curated://dating/would-you-date-someone-who-is-always-late",
-      "title": "Would you date someone who is always late?",
-      "buffer_post_id": "6a76cd96eb086b1202d2c2f8",
-      "posted_at": "2026-08-08T06:32:54.671028+00:00"
     }
   ]
 }
