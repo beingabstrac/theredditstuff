@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/623",
+      "title": "Would you say something if someone wanted to expect friends to remember details if they never ask about you?",
+      "buffer_post_id": "6a99ad3fbf8c68433e7c88c3",
+      "posted_at": "2026-09-03T17:24:16.697695+00:00"
+    },
+    {
+      "source_url": "procedural://friendship/622",
+      "title": "Is it weird to expect friends to remember details if they never ask about you?",
+      "buffer_post_id": "6a99ad1842022427f5919d7b",
+      "posted_at": "2026-09-03T17:23:36.863783+00:00"
+    },
+    {
       "source_url": "curated://shopping/would-you-say-something-to-someone-cutting-a-line",
       "title": "Would you say something to someone cutting a line?",
       "buffer_post_id": "6a9965fd70cb410f0b07687f",
@@ -1187,18 +1199,6 @@
       "title": "Would you charge a friend for gas on a short ride?",
       "buffer_post_id": "6a78e0ddd192ae76f3d3729d",
       "posted_at": "2026-08-09T20:19:42.029737+00:00"
-    },
-    {
-      "source_url": "curated://friendship/would-you-confront-a-friend-who-only-talks-about-themselves",
-      "title": "Would you confront a friend who only talks about themselves?",
-      "buffer_post_id": "6a78a911b76513f20421756c",
-      "posted_at": "2026-08-09T16:21:38.052596+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-rude-to-take-forever-at-self-checkout",
-      "title": "Is it rude to take forever at self checkout?",
-      "buffer_post_id": "6a788dc4634795f2bafbf102",
-      "posted_at": "2026-08-09T14:25:08.817357+00:00"
     }
   ]
 }
