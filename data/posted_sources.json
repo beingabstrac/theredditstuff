@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://red_flags/what-normal-habit-becomes-annoying-very-fast",
+      "title": "What normal habit becomes annoying very fast?",
+      "buffer_post_id": "6a98d385fed7717ad382e94a",
+      "posted_at": "2026-09-03T01:55:17.536169+00:00"
+    },
+    {
       "source_url": "fallback://self-care-avoidance",
       "title": "What do people call self-care that is actually avoidance?",
       "buffer_post_id": "6a98b40d99622a9a0a548742",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to stop explaining every plan if they get offended?",
       "buffer_post_id": "6a78082613d01138ced5c170",
       "posted_at": "2026-08-09T04:55:02.820126+00:00"
-    },
-    {
-      "source_url": "procedural://work/374",
-      "title": "Would you judge someone for choosing to mute work apps if the manager expects it?",
-      "buffer_post_id": "6a77cef09517ea3cc68b98f2",
-      "posted_at": "2026-08-09T00:50:56.764746+00:00"
     }
   ]
 }
