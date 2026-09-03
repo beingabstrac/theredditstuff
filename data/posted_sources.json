@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/is-lending-small-amounts-of-money-to-friends-worth-the-risk",
+      "title": "Is lending small amounts of money to friends worth the risk?",
+      "buffer_post_id": "6a9a05373c620187850f6c3a",
+      "posted_at": "2026-09-03T23:39:36.028548+00:00"
+    },
+    {
       "source_url": "curated://restaurant/is-it-rude-to-take-a-call-during-dinner",
       "title": "Is it rude to take a call during dinner?",
       "buffer_post_id": "6a99d55b7820340df41c3596",
@@ -1193,12 +1199,6 @@
       "title": "What office habit makes a normal day worse?",
       "buffer_post_id": "6a79210be99da63ec8a215ea",
       "posted_at": "2026-08-10T00:53:31.211815+00:00"
-    },
-    {
-      "source_url": "procedural://texting/385",
-      "title": "Is it normal to reply late when the message is casual?",
-      "buffer_post_id": "6a78fcc5658b572af4b47126",
-      "posted_at": "2026-08-09T22:18:45.465290+00:00"
     }
   ]
 }
