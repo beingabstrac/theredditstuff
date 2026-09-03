@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/is-it-rude-to-take-a-call-during-dinner",
+      "title": "Is it rude to take a call during dinner?",
+      "buffer_post_id": "6a99d55b7820340df41c3596",
+      "posted_at": "2026-09-03T20:15:23.140377+00:00"
+    },
+    {
       "source_url": "procedural://friendship/623",
       "title": "Would you say something if someone wanted to expect friends to remember details if they never ask about you?",
       "buffer_post_id": "6a99ad3fbf8c68433e7c88c3",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to reply late when the message is casual?",
       "buffer_post_id": "6a78fcc5658b572af4b47126",
       "posted_at": "2026-08-09T22:18:45.465290+00:00"
-    },
-    {
-      "source_url": "curated://money/would-you-charge-a-friend-for-gas-on-a-short-ride",
-      "title": "Would you charge a friend for gas on a short ride?",
-      "buffer_post_id": "6a78e0ddd192ae76f3d3729d",
-      "posted_at": "2026-08-09T20:19:42.029737+00:00"
     }
   ]
 }
