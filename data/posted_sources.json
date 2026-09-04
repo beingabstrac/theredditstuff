@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/is-it-rude-to-cancel-a-date-because-you-are-tired",
+      "title": "Is it rude to cancel a date because you are tired?",
+      "buffer_post_id": "6a9b2382b6e1228b36af8b93",
+      "posted_at": "2026-09-04T20:01:07.468613+00:00"
+    },
+    {
       "source_url": "procedural://family/629",
       "title": "Would you say something if someone wanted to set boundaries without feeling guilty?",
       "buffer_post_id": "6a9afcb8c513903fea2b9202",
@@ -1193,12 +1199,6 @@
       "title": "Is double texting desperate or normal?",
       "buffer_post_id": "6a7a4ff098be23f3c73daa89",
       "posted_at": "2026-08-10T22:25:53.022329+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/would-you-split-appetizers-if-you-did-not-eat-them",
-      "title": "Would you split appetizers if you did not eat them?",
-      "buffer_post_id": "6a7a1b55b2453761eed7331a",
-      "posted_at": "2026-08-10T18:41:25.342224+00:00"
     }
   ]
 }
