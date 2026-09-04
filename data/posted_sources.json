@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/should-people-explain-why-they-reply-late",
+      "title": "Should people explain why they reply late?",
+      "buffer_post_id": "6a9a23b33c6201878511bd60",
+      "posted_at": "2026-09-04T01:49:39.625689+00:00"
+    },
+    {
       "source_url": "curated://money/is-lending-small-amounts-of-money-to-friends-worth-the-risk",
       "title": "Is lending small amounts of money to friends worth the risk?",
       "buffer_post_id": "6a9a05373c620187850f6c3a",
@@ -1193,12 +1199,6 @@
       "title": "What is normal in your house but weird everywhere else?",
       "buffer_post_id": "6a7948d7cbdbc1436875e38b",
       "posted_at": "2026-08-10T03:43:19.553316+00:00"
-    },
-    {
-      "source_url": "curated://work/what-office-habit-makes-a-normal-day-worse",
-      "title": "What office habit makes a normal day worse?",
-      "buffer_post_id": "6a79210be99da63ec8a215ea",
-      "posted_at": "2026-08-10T00:53:31.211815+00:00"
     }
   ]
 }
