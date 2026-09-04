@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/629",
+      "title": "Would you say something if someone wanted to set boundaries without feeling guilty?",
+      "buffer_post_id": "6a9afcb8c513903fea2b9202",
+      "posted_at": "2026-09-04T17:15:36.567138+00:00"
+    },
+    {
+      "source_url": "procedural://family/628",
+      "title": "Is it weird to set boundaries without feeling guilty?",
+      "buffer_post_id": "6a9afca2c513903fea2b8f70",
+      "posted_at": "2026-09-04T17:15:14.161845+00:00"
+    },
+    {
       "source_url": "curated://roommates/is-it-rude-to-take-long-showers-when-you-share-a-bathroom",
       "title": "Is it rude to take long showers when you share a bathroom?",
       "buffer_post_id": "6a9ab79400f893faf312adb4",
@@ -1187,18 +1199,6 @@
       "title": "Would you split appetizers if you did not eat them?",
       "buffer_post_id": "6a7a1b55b2453761eed7331a",
       "posted_at": "2026-08-10T18:41:25.342224+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-fair-to-cancel-on-friends-for-alone-time",
-      "title": "Is it fair to cancel on friends for alone time?",
-      "buffer_post_id": "6a79ff533d4de5229d75628e",
-      "posted_at": "2026-08-10T16:41:55.681414+00:00"
-    },
-    {
-      "source_url": "fallback://early-or-on-time",
-      "title": "Would you rather always be early or always be exactly on time?",
-      "buffer_post_id": "6a79c737516fbbc4ea0c660e",
-      "posted_at": "2026-08-10T12:42:31.740539+00:00"
     }
   ]
 }
