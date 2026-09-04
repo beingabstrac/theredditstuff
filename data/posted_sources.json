@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-it-rude-to-take-long-showers-when-you-share-a-bathroom",
+      "title": "Is it rude to take long showers when you share a bathroom?",
+      "buffer_post_id": "6a9ab79400f893faf312adb4",
+      "posted_at": "2026-09-04T12:20:36.349686+00:00"
+    },
+    {
       "source_url": "curated://work/should-people-be-praised-for-working-late",
       "title": "Should people be praised for working late?",
       "buffer_post_id": "6a9a684182940622ebb6fa75",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather always be early or always be exactly on time?",
       "buffer_post_id": "6a79c737516fbbc4ea0c660e",
       "posted_at": "2026-08-10T12:42:31.740539+00:00"
-    },
-    {
-      "source_url": "fallback://everyday-lose-respect",
-      "title": "What everyday behavior makes you lose respect for someone?",
-      "buffer_post_id": "6a79ae750c0d23960a6ce685",
-      "posted_at": "2026-08-10T10:56:53.191813+00:00"
     }
   ]
 }
