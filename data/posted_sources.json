@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/should-people-be-praised-for-working-late",
+      "title": "Should people be praised for working late?",
+      "buffer_post_id": "6a9a684182940622ebb6fa75",
+      "posted_at": "2026-09-04T06:42:09.322891+00:00"
+    },
+    {
+      "source_url": "curated://work/what-office-habit-makes-a-normal-day-worse",
+      "title": "What office habit makes a normal day worse?",
+      "buffer_post_id": "6a9a683282940622ebb6f98b",
+      "posted_at": "2026-09-04T06:41:54.926840+00:00"
+    },
+    {
       "source_url": "curated://texting/should-people-explain-why-they-reply-late",
       "title": "Should people explain why they reply late?",
       "buffer_post_id": "6a9a23b33c6201878511bd60",
@@ -1187,18 +1199,6 @@
       "title": "What everyday behavior makes you lose respect for someone?",
       "buffer_post_id": "6a79ae750c0d23960a6ce685",
       "posted_at": "2026-08-10T10:56:53.191813+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-rude-to-cancel-a-date-because-you-are-tired",
-      "title": "Is it rude to cancel a date because you are tired?",
-      "buffer_post_id": "6a7978e5472e1a5200f0c2fb",
-      "posted_at": "2026-08-10T07:08:21.997005+00:00"
-    },
-    {
-      "source_url": "fallback://normal-house-weird-elsewhere",
-      "title": "What is normal in your house but weird everywhere else?",
-      "buffer_post_id": "6a7948d7cbdbc1436875e38b",
-      "posted_at": "2026-08-10T03:43:19.553316+00:00"
     }
   ]
 }
