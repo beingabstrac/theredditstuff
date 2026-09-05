@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/would-you-judge-someone-for-being-picky-at-restaurants",
+      "title": "Would you judge someone for being picky at restaurants?",
+      "buffer_post_id": "6a9c55c4fba008bcd54ecbfe",
+      "posted_at": "2026-09-05T17:47:48.146589+00:00"
+    },
+    {
       "source_url": "curated://friendship/would-you-confront-a-friend-who-only-talks-about-themselves",
       "title": "Would you confront a friend who only talks about themselves?",
       "buffer_post_id": "6a9c228bfba008bcd549f329",
@@ -1193,12 +1199,6 @@
       "title": "Should people tip more if they make a mess?",
       "buffer_post_id": "6a7b6de38246fb8f28a5fe5e",
       "posted_at": "2026-08-11T18:45:55.952720+00:00"
-    },
-    {
-      "source_url": "curated://friendship/should-friends-invite-partners-to-every-plan",
-      "title": "Should friends invite partners to every plan?",
-      "buffer_post_id": "6a7b51ac6cb7e267959cbbf2",
-      "posted_at": "2026-08-11T16:45:32.875261+00:00"
     }
   ]
 }
