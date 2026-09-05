@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/633",
+      "title": "Should people be able to block an aisle without noticing others?",
+      "buffer_post_id": "6a9bfcd8bf4ba461730343e3",
+      "posted_at": "2026-09-05T11:28:24.991695+00:00"
+    },
+    {
+      "source_url": "curated://shopping/is-it-rude-to-take-forever-at-self-checkout",
+      "title": "Is it rude to take forever at self checkout?",
+      "buffer_post_id": "6a9bfcb98219c85cc85ddb76",
+      "posted_at": "2026-09-05T11:27:54.027043+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-have-unlimited-free-coffee-or-unlimited-free-rides",
       "title": "Would you rather have unlimited free coffee or unlimited free rides?",
       "buffer_post_id": "6a9bb67d9ca05109bed09355",
@@ -1187,18 +1199,6 @@
       "title": "Would you rather have one close friend or many casual friends for the rest of your life?",
       "buffer_post_id": "6a7b17d5b4b04fdf1bf5ba38",
       "posted_at": "2026-08-11T12:38:45.514471+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-habit-makes-someone-look-inconsiderate",
-      "title": "What habit makes someone look inconsiderate?",
-      "buffer_post_id": "6a7afc4c8c145332da1a4fad",
-      "posted_at": "2026-08-11T10:41:17.051410+00:00"
-    },
-    {
-      "source_url": "curated://dating/should-partners-have-access-to-each-other-social-media",
-      "title": "Should partners have access to each other social media?",
-      "buffer_post_id": "6a7ac50b73342af267548d0a",
-      "posted_at": "2026-08-11T06:45:31.467279+00:00"
     }
   ]
 }
