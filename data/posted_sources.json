@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-double-texting-desperate-or-normal",
+      "title": "Is double texting desperate or normal?",
+      "buffer_post_id": "6a9c8dbe85ccb3a22c0abb2c",
+      "posted_at": "2026-09-05T21:46:38.295258+00:00"
+    },
+    {
       "source_url": "curated://money/should-couples-split-everything-fifty-fifty-if-incomes-are-different",
       "title": "Should couples split everything fifty fifty if incomes are different?",
       "buffer_post_id": "6a9c703385ccb3a22c090ce7",
@@ -1193,12 +1199,6 @@
       "title": "Should meetings have to prove they are necessary?",
       "buffer_post_id": "6a7bc5803d0bf74d65216041",
       "posted_at": "2026-08-12T00:59:44.462048+00:00"
-    },
-    {
-      "source_url": "fallback://group-chat-annoying",
-      "title": "What makes a group chat instantly annoying?",
-      "buffer_post_id": "6a7ba2bc89b02c54c749ff4a",
-      "posted_at": "2026-08-11T22:31:24.515986+00:00"
     }
   ]
 }
