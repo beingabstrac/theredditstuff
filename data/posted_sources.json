@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/should-couples-split-everything-fifty-fifty-if-incomes-are-different",
+      "title": "Should couples split everything fifty fifty if incomes are different?",
+      "buffer_post_id": "6a9c703385ccb3a22c090ce7",
+      "posted_at": "2026-09-05T19:40:35.669987+00:00"
+    },
+    {
       "source_url": "curated://restaurant/would-you-judge-someone-for-being-picky-at-restaurants",
       "title": "Would you judge someone for being picky at restaurants?",
       "buffer_post_id": "6a9c55c4fba008bcd54ecbfe",
@@ -1193,12 +1199,6 @@
       "title": "What makes a group chat instantly annoying?",
       "buffer_post_id": "6a7ba2bc89b02c54c749ff4a",
       "posted_at": "2026-08-11T22:31:24.515986+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/should-people-tip-more-if-they-make-a-mess",
-      "title": "Should people tip more if they make a mess?",
-      "buffer_post_id": "6a7b6de38246fb8f28a5fe5e",
-      "posted_at": "2026-08-11T18:45:55.952720+00:00"
     }
   ]
 }
