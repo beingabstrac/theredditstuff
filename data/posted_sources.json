@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/would-you-confront-a-friend-who-only-talks-about-themselves",
+      "title": "Would you confront a friend who only talks about themselves?",
+      "buffer_post_id": "6a9c228bfba008bcd549f329",
+      "posted_at": "2026-09-05T14:09:15.447352+00:00"
+    },
+    {
       "source_url": "procedural://shopping/633",
       "title": "Should people be able to block an aisle without noticing others?",
       "buffer_post_id": "6a9bfcd8bf4ba461730343e3",
@@ -1193,12 +1199,6 @@
       "title": "Should friends invite partners to every plan?",
       "buffer_post_id": "6a7b51ac6cb7e267959cbbf2",
       "posted_at": "2026-08-11T16:45:32.875261+00:00"
-    },
-    {
-      "source_url": "procedural://would_you_rather/404",
-      "title": "Would you rather have one close friend or many casual friends for the rest of your life?",
-      "buffer_post_id": "6a7b17d5b4b04fdf1bf5ba38",
-      "posted_at": "2026-08-11T12:38:45.514471+00:00"
     }
   ]
 }
