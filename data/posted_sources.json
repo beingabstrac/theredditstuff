@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://red_flags/what-is-a-small-sign-someone-lacks-self-awareness",
+      "title": "What is a small sign someone lacks self awareness?",
+      "buffer_post_id": "6a9b757fb6e1228b36b55a93",
+      "posted_at": "2026-09-05T01:50:55.776660+00:00"
+    },
+    {
       "source_url": "fallback://small-lie-everyone-tells",
       "title": "What small lie does everyone tell?",
       "buffer_post_id": "6a9b42029ca05109bec88f02",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to not answer family calls immediately?",
       "buffer_post_id": "6a7aabc488a24397906a593d",
       "posted_at": "2026-08-11T04:57:40.992215+00:00"
-    },
-    {
-      "source_url": "curated://work/should-coworkers-reply-during-lunch-breaks",
-      "title": "Should coworkers reply during lunch breaks?",
-      "buffer_post_id": "6a7a7278399fea065b4f4020",
-      "posted_at": "2026-08-11T00:53:12.324003+00:00"
     }
   ]
 }
