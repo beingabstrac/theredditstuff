@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-always-be-overdressed-or-always-be-underdressed",
+      "title": "Would you rather always be overdressed or always be underdressed?",
+      "buffer_post_id": "6a9dc2535c2ba4d1541ba91f",
+      "posted_at": "2026-09-06T19:43:15.374009+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-habit-makes-someone-look-inconsiderate",
       "title": "What habit makes someone look inconsiderate?",
       "buffer_post_id": "6a9da82c6acbdfc9eda571c6",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to take a day to reply to casual messages?",
       "buffer_post_id": "6a7cf3d3661f10647e9b5191",
       "posted_at": "2026-08-12T22:29:39.215266+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-rude-to-stay-at-a-table-long-after-eating",
-      "title": "Is it rude to stay at a table long after eating?",
-      "buffer_post_id": "6a7cbf50a5805ff3f58b89ed",
-      "posted_at": "2026-08-12T18:45:36.846600+00:00"
     }
   ]
 }
