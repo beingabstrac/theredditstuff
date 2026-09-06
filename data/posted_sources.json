@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/645",
+      "title": "Should people be able to argue over a return without noticing others?",
+      "buffer_post_id": "6a9ddffc20f5ae4508aba569",
+      "posted_at": "2026-09-06T21:49:48.367467+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-always-be-overdressed-or-always-be-underdressed",
       "title": "Would you rather always be overdressed or always be underdressed?",
       "buffer_post_id": "6a9dc2535c2ba4d1541ba91f",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to ignore messages during vacation?",
       "buffer_post_id": "6a7d1743d2d1b273e87d2c0f",
       "posted_at": "2026-08-13T01:00:51.971929+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-normal-to-take-a-day-to-reply-to-casual-messages",
-      "title": "Is it normal to take a day to reply to casual messages?",
-      "buffer_post_id": "6a7cf3d3661f10647e9b5191",
-      "posted_at": "2026-08-12T22:29:39.215266+00:00"
     }
   ]
 }
