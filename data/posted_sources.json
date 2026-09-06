@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/should-roommates-warn-before-bringing-guests-over",
+      "title": "Should roommates warn before bringing guests over?",
+      "buffer_post_id": "6a9cc59185ccb3a22c0e6eb7",
+      "posted_at": "2026-09-06T01:44:49.315557+00:00"
+    },
+    {
       "source_url": "curated://texting/is-double-texting-desperate-or-normal",
       "title": "Is double texting desperate or normal?",
       "buffer_post_id": "6a9c8dbe85ccb3a22c0abb2c",
@@ -1193,12 +1199,6 @@
       "title": "Should quiet hours exist in shared apartments?",
       "buffer_post_id": "6a7bee98227d01d3c7a25093",
       "posted_at": "2026-08-12T03:55:04.560199+00:00"
-    },
-    {
-      "source_url": "curated://work/should-meetings-have-to-prove-they-are-necessary",
-      "title": "Should meetings have to prove they are necessary?",
-      "buffer_post_id": "6a7bc5803d0bf74d65216041",
-      "posted_at": "2026-08-12T00:59:44.462048+00:00"
     }
   ]
 }
