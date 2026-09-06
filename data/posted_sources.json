@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/should-partners-have-access-to-each-other-social-media",
+      "title": "Should partners have access to each other social media?",
+      "buffer_post_id": "6a9d53316acbdfc9ed9d0990",
+      "posted_at": "2026-09-06T11:49:05.909893+00:00"
+    },
+    {
       "source_url": "procedural://family/640",
       "title": "Is it weird to not answer calls immediately without feeling guilty?",
       "buffer_post_id": "6a9d0a356aba2748320140ee",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather know what people think of you or never care?",
       "buffer_post_id": "6a7c6a0d41c06323130177b3",
       "posted_at": "2026-08-12T12:41:49.480520+00:00"
-    },
-    {
-      "source_url": "procedural://red_flags/415",
-      "title": "Is it normal to notice constant interrupting when meeting someone new?",
-      "buffer_post_id": "6a7c502241c0632313ffc4de",
-      "posted_at": "2026-08-12T10:51:14.568079+00:00"
     }
   ]
 }
