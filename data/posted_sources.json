@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/is-it-fair-to-ignore-messages-during-vacation",
+      "title": "Is it fair to ignore messages during vacation?",
+      "buffer_post_id": "6a9f02551d17e4bff020dfd1",
+      "posted_at": "2026-09-07T18:28:37.541482+00:00"
+    },
+    {
       "source_url": "curated://texting/is-it-normal-to-take-a-day-to-reply-to-casual-messages",
       "title": "Is it normal to take a day to reply to casual messages?",
       "buffer_post_id": "6a9ec05a6d520c4771018cfa",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to share food without asking?",
       "buffer_post_id": "6a7e10f3fa03fcc4d9f267c8",
       "posted_at": "2026-08-13T18:46:11.961488+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-rude-to-not-include-every-friend-in-every-hangout",
-      "title": "Is it rude to not include every friend in every hangout?",
-      "buffer_post_id": "6a7df45c0cbe88b1bb11285f",
-      "posted_at": "2026-08-13T16:44:12.705381+00:00"
     }
   ]
 }
