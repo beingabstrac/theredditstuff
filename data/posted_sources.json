@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/should-quiet-hours-exist-in-shared-apartments",
+      "title": "Should quiet hours exist in shared apartments?",
+      "buffer_post_id": "6a9f3960dddc9257172ef12c",
+      "posted_at": "2026-09-07T22:23:28.418627+00:00"
+    },
+    {
+      "source_url": "fallback://headphones-at-home-rude",
+      "title": "Is it rude to wear headphones at home when someone is talking nearby?",
+      "buffer_post_id": "6a9f3946630f873cd78d002e",
+      "posted_at": "2026-09-07T22:23:02.681071+00:00"
+    },
+    {
       "source_url": "curated://work/is-it-fair-to-ignore-messages-during-vacation",
       "title": "Is it fair to ignore messages during vacation?",
       "buffer_post_id": "6a9f02551d17e4bff020dfd1",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude to wear headphones at work all day?",
       "buffer_post_id": "6a7e6894dcbc3184d7f04157",
       "posted_at": "2026-08-14T01:00:04.305817+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-replying-with-just-okay-rude",
-      "title": "Is replying with just okay rude?",
-      "buffer_post_id": "6a7e457ddcbc3184d7ee80a1",
-      "posted_at": "2026-08-13T22:30:21.422760+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-normal-to-share-food-without-asking",
-      "title": "Is it normal to share food without asking?",
-      "buffer_post_id": "6a7e10f3fa03fcc4d9f267c8",
-      "posted_at": "2026-08-13T18:46:11.961488+00:00"
     }
   ]
 }
