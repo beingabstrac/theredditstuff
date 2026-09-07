@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/should-people-tip-more-if-they-make-a-mess",
+      "title": "Should people tip more if they make a mess?",
+      "buffer_post_id": "6a9e1672da70ee44df09dca9",
+      "posted_at": "2026-09-07T01:42:10.396060+00:00"
+    },
+    {
       "source_url": "procedural://shopping/645",
       "title": "Should people be able to argue over a return without noticing others?",
       "buffer_post_id": "6a9ddffc20f5ae4508aba569",
@@ -1193,12 +1199,6 @@
       "title": "What roommate habit would make you move out immediately?",
       "buffer_post_id": "6a7d40f43505a33deee7698a",
       "posted_at": "2026-08-13T03:58:44.524849+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-fair-to-ignore-messages-during-vacation",
-      "title": "Is it fair to ignore messages during vacation?",
-      "buffer_post_id": "6a7d1743d2d1b273e87d2c0f",
-      "posted_at": "2026-08-13T01:00:51.971929+00:00"
     }
   ]
 }
