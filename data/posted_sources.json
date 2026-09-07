@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://money/648",
+      "title": "Is it rude to refuse to lend money during a birthday plan?",
+      "buffer_post_id": "6a9e5d8dffe4128b1f9d6771",
+      "posted_at": "2026-09-07T06:45:33.205066+00:00"
+    },
+    {
+      "source_url": "curated://money/would-you-charge-a-friend-for-gas-on-a-short-ride",
+      "title": "Would you charge a friend for gas on a short ride?",
+      "buffer_post_id": "6a9e5d793533dee3ad190df7",
+      "posted_at": "2026-09-07T06:45:13.464006+00:00"
+    },
+    {
       "source_url": "curated://restaurant/should-people-tip-more-if-they-make-a-mess",
       "title": "Should people tip more if they make a mess?",
       "buffer_post_id": "6a9e1672da70ee44df09dca9",
@@ -1187,18 +1199,6 @@
       "title": "What tiny behavior is an instant red flag?",
       "buffer_post_id": "6a7da23091307e443c237424",
       "posted_at": "2026-08-13T10:53:37.039983+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-weird-to-ask-about-money-early-in-dating",
-      "title": "Is it weird to ask about money early in dating?",
-      "buffer_post_id": "6a7d6df323bcdbeb4c0d5644",
-      "posted_at": "2026-08-13T07:10:43.728368+00:00"
-    },
-    {
-      "source_url": "fallback://roommate-habit-move-out",
-      "title": "What roommate habit would make you move out immediately?",
-      "buffer_post_id": "6a7d40f43505a33deee7698a",
-      "posted_at": "2026-08-13T03:58:44.524849+00:00"
     }
   ]
 }
