@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/657",
+      "title": "Should people be able to leave a cart behind without noticing others?",
+      "buffer_post_id": "6aa09df33bd0dd9ef31f5099",
+      "posted_at": "2026-09-08T23:44:52.167169+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-have-a-quiet-neighbor-or-a-helpful-neighbor",
       "title": "Would you rather have a quiet neighbor or a helpful neighbor?",
       "buffer_post_id": "6aa06f7ae5d2fcbf7f6bfcd2",
@@ -1193,12 +1199,6 @@
       "title": "Is it annoying when coworkers ask questions they could search?",
       "buffer_post_id": "6a7fb45372d7f70e3e2102a9",
       "posted_at": "2026-08-15T00:35:31.939466+00:00"
-    },
-    {
-      "source_url": "procedural://texting/445",
-      "title": "Is it normal to send only voice notes while still posting online?",
-      "buffer_post_id": "6a7f92c772d7f70e3e1f6913",
-      "posted_at": "2026-08-14T22:12:24.064616+00:00"
     }
   ]
 }
