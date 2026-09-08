@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/would-you-date-someone-who-is-always-late",
+      "title": "Would you date someone who is always late?",
+      "buffer_post_id": "6a9fae987eee3ace70b77e90",
+      "posted_at": "2026-09-08T06:43:36.990573+00:00"
+    },
+    {
+      "source_url": "curated://dating/is-it-weird-to-ask-about-money-early-in-dating",
+      "title": "Is it weird to ask about money early in dating?",
+      "buffer_post_id": "6a9fae86bfce41cfe2ffc936",
+      "posted_at": "2026-09-08T06:43:18.647272+00:00"
+    },
+    {
       "source_url": "procedural://family/652",
       "title": "Is it weird to refuse a family favor without feeling guilty?",
       "buffer_post_id": "6a9f6aa5ff0db23b220cd14c",
@@ -1187,18 +1199,6 @@
       "title": "Would you rather always be early or exactly on time if you had to choose today?",
       "buffer_post_id": "6a7f0c5125f9a099dfbfec6a",
       "posted_at": "2026-08-14T12:38:41.860477+00:00"
-    },
-    {
-      "source_url": "procedural://dating/437",
-      "title": "Would you say something if someone wanted to split the bill in a serious relationship?",
-      "buffer_post_id": "6a7ebe7eaac2ebaaf416a582",
-      "posted_at": "2026-08-14T07:06:38.135442+00:00"
-    },
-    {
-      "source_url": "curated://roommates/would-you-move-out-over-a-roommate-who-never-cleans",
-      "title": "Would you move out over a roommate who never cleans?",
-      "buffer_post_id": "6a7e916f6bf062f95aa97ef3",
-      "posted_at": "2026-08-14T03:54:23.996091+00:00"
     }
   ]
 }
