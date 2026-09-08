@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/652",
+      "title": "Is it weird to refuse a family favor without feeling guilty?",
+      "buffer_post_id": "6a9f6aa5ff0db23b220cd14c",
+      "posted_at": "2026-09-08T01:53:41.987248+00:00"
+    },
+    {
       "source_url": "curated://roommates/should-quiet-hours-exist-in-shared-apartments",
       "title": "Should quiet hours exist in shared apartments?",
       "buffer_post_id": "6a9f3960dddc9257172ef12c",
@@ -1193,12 +1199,6 @@
       "title": "Would you move out over a roommate who never cleans?",
       "buffer_post_id": "6a7e916f6bf062f95aa97ef3",
       "posted_at": "2026-08-14T03:54:23.996091+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-rude-to-wear-headphones-at-work-all-day",
-      "title": "Is it rude to wear headphones at work all day?",
-      "buffer_post_id": "6a7e6894dcbc3184d7f04157",
-      "posted_at": "2026-08-14T01:00:04.305817+00:00"
     }
   ]
 }
