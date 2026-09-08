@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://cancel-plans-tired",
+      "title": "Is cancelling plans because you are tired a valid reason?",
+      "buffer_post_id": "6a9ffe00ba897c4764339b71",
+      "posted_at": "2026-09-08T12:22:25.011542+00:00"
+    },
+    {
       "source_url": "curated://dating/would-you-date-someone-who-is-always-late",
       "title": "Would you date someone who is always late?",
       "buffer_post_id": "6a9fae987eee3ace70b77e90",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather always be early or exactly on time if you had to choose today?",
       "buffer_post_id": "6a7f0c5d790e65699e99dd34",
       "posted_at": "2026-08-14T12:38:53.502207+00:00"
-    },
-    {
-      "source_url": "procedural://would_you_rather/440",
-      "title": "Would you rather always be early or exactly on time if you had to choose today?",
-      "buffer_post_id": "6a7f0c5125f9a099dfbfec6a",
-      "posted_at": "2026-08-14T12:38:41.860477+00:00"
     }
   ]
 }
