@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://everyday-lose-respect",
+      "title": "What everyday behavior makes you lose respect for someone?",
+      "buffer_post_id": "6aa0488ea590708a601ad848",
+      "posted_at": "2026-09-08T17:40:30.366580+00:00"
+    },
+    {
+      "source_url": "curated://red_flags/what-tiny-behavior-is-an-instant-red-flag",
+      "title": "What tiny behavior is an instant red flag?",
+      "buffer_post_id": "6aa048704b871f274d101489",
+      "posted_at": "2026-09-08T17:40:00.943547+00:00"
+    },
+    {
       "source_url": "fallback://cancel-plans-tired",
       "title": "Is cancelling plans because you are tired a valid reason?",
       "buffer_post_id": "6a9ffe00ba897c4764339b71",
@@ -1187,18 +1199,6 @@
       "title": "Would you say something if someone wanted to complain loudly with friends?",
       "buffer_post_id": "6a7f60f1fe417788df5efbe3",
       "posted_at": "2026-08-14T18:39:45.798580+00:00"
-    },
-    {
-      "source_url": "fallback://friendship-one-sided",
-      "title": "What makes a friendship start feeling one-sided?",
-      "buffer_post_id": "6a7f44e5808f4286d2ee741b",
-      "posted_at": "2026-08-14T16:40:05.695191+00:00"
-    },
-    {
-      "source_url": "procedural://would_you_rather/441",
-      "title": "Would you rather always be early or exactly on time if you had to choose today?",
-      "buffer_post_id": "6a7f0c5d790e65699e99dd34",
-      "posted_at": "2026-08-14T12:38:53.502207+00:00"
     }
   ]
 }
