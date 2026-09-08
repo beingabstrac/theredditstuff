@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-have-a-quiet-neighbor-or-a-helpful-neighbor",
+      "title": "Would you rather have a quiet neighbor or a helpful neighbor?",
+      "buffer_post_id": "6aa06f7ae5d2fcbf7f6bfcd2",
+      "posted_at": "2026-09-08T20:26:34.714089+00:00"
+    },
+    {
       "source_url": "fallback://everyday-lose-respect",
       "title": "What everyday behavior makes you lose respect for someone?",
       "buffer_post_id": "6aa0488ea590708a601ad848",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to send only voice notes while still posting online?",
       "buffer_post_id": "6a7f92c772d7f70e3e1f6913",
       "posted_at": "2026-08-14T22:12:24.064616+00:00"
-    },
-    {
-      "source_url": "procedural://restaurant/443",
-      "title": "Would you say something if someone wanted to complain loudly with friends?",
-      "buffer_post_id": "6a7f60f1fe417788df5efbe3",
-      "posted_at": "2026-08-14T18:39:45.798580+00:00"
     }
   ]
 }
