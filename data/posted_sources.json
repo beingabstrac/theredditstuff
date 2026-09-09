@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/would-you-move-out-over-a-roommate-who-never-cleans",
+      "title": "Would you move out over a roommate who never cleans?",
+      "buffer_post_id": "6aa1ee0f4d817c9d5de61a8e",
+      "posted_at": "2026-09-09T23:38:55.361292+00:00"
+    },
+    {
       "source_url": "curated://work/is-it-rude-to-wear-headphones-at-work-all-day",
       "title": "Is it rude to wear headphones at work all day?",
       "buffer_post_id": "6aa1bd385d9b0554796439b1",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to leave work exactly on time?",
       "buffer_post_id": "6a81063313afe87ec8a8e8e7",
       "posted_at": "2026-08-16T00:37:07.823898+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-rude-to-mute-a-group-chat-without-telling-anyone",
-      "title": "Is it rude to mute a group chat without telling anyone?",
-      "buffer_post_id": "6a80e3a989eb644aed8d9858",
-      "posted_at": "2026-08-15T22:09:45.249677+00:00"
     }
   ]
 }
