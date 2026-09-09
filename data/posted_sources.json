@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-replying-with-just-okay-rude",
+      "title": "Is replying with just okay rude?",
+      "buffer_post_id": "6aa19652d7bd6a6f9ae9771b",
+      "posted_at": "2026-09-09T17:24:34.505965+00:00"
+    },
+    {
       "source_url": "procedural://money/661",
       "title": "Is it normal to skip plans because of cost during a birthday plan?",
       "buffer_post_id": "6aa1522e390198f28f5dd0f7",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather have free food forever or free rent forever?",
       "buffer_post_id": "6a80c7ed13afe87ec8a596da",
       "posted_at": "2026-08-15T20:11:25.385550+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-wrong-to-outgrow-a-friend-quietly",
-      "title": "Is it wrong to outgrow a friend quietly?",
-      "buffer_post_id": "6a808fd45aae4fa473167775",
-      "posted_at": "2026-08-15T16:12:04.686713+00:00"
     }
   ]
 }
