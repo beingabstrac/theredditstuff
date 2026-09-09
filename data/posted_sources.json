@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://money/661",
+      "title": "Is it normal to skip plans because of cost during a birthday plan?",
+      "buffer_post_id": "6aa1522e390198f28f5dd0f7",
+      "posted_at": "2026-09-09T12:33:50.720518+00:00"
+    },
+    {
+      "source_url": "procedural://money/660",
+      "title": "Is it rude to skip plans because of cost during a birthday plan?",
+      "buffer_post_id": "6aa1521b390198f28f5dd031",
+      "posted_at": "2026-09-09T12:33:32.271846+00:00"
+    },
+    {
       "source_url": "curated://restaurant/is-it-rude-to-ask-for-substitutions-at-a-busy-restaurant",
       "title": "Is it rude to ask for substitutions at a busy restaurant?",
       "buffer_post_id": "6aa104e618ef10aea9f50148",
@@ -1187,18 +1199,6 @@
       "title": "Is it wrong to outgrow a friend quietly?",
       "buffer_post_id": "6a808fd45aae4fa473167775",
       "posted_at": "2026-08-15T16:12:04.686713+00:00"
-    },
-    {
-      "source_url": "curated://shopping/would-you-judge-someone-for-arguing-over-a-return",
-      "title": "Would you judge someone for arguing over a return?",
-      "buffer_post_id": "6a8073d55040b1f98bd193f3",
-      "posted_at": "2026-08-15T14:12:37.831551+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-normal-to-compare-prices-in-front-of-friends",
-      "title": "Is it normal to compare prices in front of friends?",
-      "buffer_post_id": "6a8073c633d1df359474f667",
-      "posted_at": "2026-08-15T14:12:22.859374+00:00"
     }
   ]
 }
