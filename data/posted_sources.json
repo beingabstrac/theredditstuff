@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/is-it-rude-to-ask-for-substitutions-at-a-busy-restaurant",
+      "title": "Is it rude to ask for substitutions at a busy restaurant?",
+      "buffer_post_id": "6aa104e618ef10aea9f50148",
+      "posted_at": "2026-09-09T07:04:06.309251+00:00"
+    },
+    {
+      "source_url": "curated://restaurant/is-it-normal-to-share-food-without-asking",
+      "title": "Is it normal to share food without asking?",
+      "buffer_post_id": "6aa104d308ac55119e86568c",
+      "posted_at": "2026-09-09T07:03:47.448417+00:00"
+    },
+    {
       "source_url": "curated://friendship/is-it-rude-to-not-include-every-friend-in-every-hangout",
       "title": "Is it rude to not include every friend in every hangout?",
       "buffer_post_id": "6aa0bd6686309395260089db",
@@ -1187,18 +1199,6 @@
       "title": "Is it normal to compare prices in front of friends?",
       "buffer_post_id": "6a8073c633d1df359474f667",
       "posted_at": "2026-08-15T14:12:22.859374+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-ask-guests-to-leave",
-      "title": "Is it rude to ask guests to leave?",
-      "buffer_post_id": "6a801ffe0bf7953eaac39f9f",
-      "posted_at": "2026-08-15T08:14:55.107670+00:00"
-    },
-    {
-      "source_url": "curated://family/should-parents-call-before-visiting-adult-children",
-      "title": "Should parents call before visiting adult children?",
-      "buffer_post_id": "6a7fe93ff22b84c353a33bd2",
-      "posted_at": "2026-08-15T04:21:19.996374+00:00"
     }
   ]
 }
