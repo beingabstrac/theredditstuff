@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/is-it-rude-to-wear-headphones-at-work-all-day",
+      "title": "Is it rude to wear headphones at work all day?",
+      "buffer_post_id": "6aa1bd385d9b0554796439b1",
+      "posted_at": "2026-09-09T20:10:32.728242+00:00"
+    },
+    {
       "source_url": "curated://texting/is-replying-with-just-okay-rude",
       "title": "Is replying with just okay rude?",
       "buffer_post_id": "6aa19652d7bd6a6f9ae9771b",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to mute a group chat without telling anyone?",
       "buffer_post_id": "6a80e3a989eb644aed8d9858",
       "posted_at": "2026-08-15T22:09:45.249677+00:00"
-    },
-    {
-      "source_url": "fallback://free-food-or-rent",
-      "title": "Would you rather have free food forever or free rent forever?",
-      "buffer_post_id": "6a80c7ed13afe87ec8a596da",
-      "posted_at": "2026-08-15T20:11:25.385550+00:00"
     }
   ]
 }
