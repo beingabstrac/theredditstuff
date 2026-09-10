@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://dating/665",
+      "title": "Would you say something if someone wanted to text after a date when expectations are different?",
+      "buffer_post_id": "6aa252f27b01d9b4920034ee",
+      "posted_at": "2026-09-10T06:49:22.316913+00:00"
+    },
+    {
+      "source_url": "curated://dating/is-checking-your-phone-on-a-date-a-dealbreaker",
+      "title": "Is checking your phone on a date a dealbreaker?",
+      "buffer_post_id": "6aa252dce87001d776aef14d",
+      "posted_at": "2026-09-10T06:49:00.246606+00:00"
+    },
+    {
       "source_url": "curated://family/should-parents-call-before-visiting-adult-children",
       "title": "Should parents call before visiting adult children?",
       "buffer_post_id": "6aa20e175761fd1f97cf83e8",
@@ -1187,18 +1199,6 @@
       "title": "What is a quiet red flag in a friendship?",
       "buffer_post_id": "6a818d16654a1294d2a04ffa",
       "posted_at": "2026-08-16T10:12:39.036484+00:00"
-    },
-    {
-      "source_url": "fallback://apology-with-explaining",
-      "title": "Is an apology real if someone keeps explaining why they did it?",
-      "buffer_post_id": "6a8171de848fb7bebbce577d",
-      "posted_at": "2026-08-16T08:16:30.526735+00:00"
-    },
-    {
-      "source_url": "fallback://family-show-up-without-calling",
-      "title": "Is it rude for family to show up without calling first?",
-      "buffer_post_id": "6a813bcc13afe87ec8ab12f9",
-      "posted_at": "2026-08-16T04:25:48.394838+00:00"
     }
   ]
 }
