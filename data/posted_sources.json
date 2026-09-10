@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/should-you-tell-someone-they-have-food-in-their-teeth",
+      "title": "Should you tell someone they have food in their teeth?",
+      "buffer_post_id": "6aa2a23d68cd79481d7f62a8",
+      "posted_at": "2026-09-10T12:27:41.582178+00:00"
+    },
+    {
       "source_url": "procedural://dating/665",
       "title": "Would you say something if someone wanted to text after a date when expectations are different?",
       "buffer_post_id": "6aa252f27b01d9b4920034ee",
@@ -1193,12 +1199,6 @@
       "title": "Is it annoying when people test products and do not buy them?",
       "buffer_post_id": "6a81c569f4405f5c090b4b7f",
       "posted_at": "2026-08-16T14:12:57.543064+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-quiet-red-flag-in-a-friendship",
-      "title": "What is a quiet red flag in a friendship?",
-      "buffer_post_id": "6a818d16654a1294d2a04ffa",
-      "posted_at": "2026-08-16T10:12:39.036484+00:00"
     }
   ]
 }
