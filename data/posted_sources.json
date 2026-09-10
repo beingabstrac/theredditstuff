@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-have-free-groceries-or-free-takeout",
+      "title": "Would you rather have free groceries or free takeout?",
+      "buffer_post_id": "6aa30f1d816445bddc3f0106",
+      "posted_at": "2026-09-10T20:12:14.129254+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/667",
       "title": "Is it normal to trust your first impression when everyone else ignores it?",
       "buffer_post_id": "6aa2e7b529a1282253417e21",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to send dry replies while still posting online?",
       "buffer_post_id": "6a823536acf3e75953ab114e",
       "posted_at": "2026-08-16T22:09:58.652726+00:00"
-    },
-    {
-      "source_url": "fallback://thoughtful-cheap-vs-expensive-lazy",
-      "title": "Would you rather receive a thoughtful cheap gift or an expensive lazy one?",
-      "buffer_post_id": "6a82190acb308e1e8d941511",
-      "posted_at": "2026-08-16T20:09:47.016733+00:00"
     }
   ]
 }
