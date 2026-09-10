@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/should-parents-call-before-visiting-adult-children",
+      "title": "Should parents call before visiting adult children?",
+      "buffer_post_id": "6aa20e175761fd1f97cf83e8",
+      "posted_at": "2026-09-10T01:55:35.319702+00:00"
+    },
+    {
       "source_url": "curated://roommates/would-you-move-out-over-a-roommate-who-never-cleans",
       "title": "Would you move out over a roommate who never cleans?",
       "buffer_post_id": "6aa1ee0f4d817c9d5de61a8e",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude for family to show up without calling first?",
       "buffer_post_id": "6a813bcc13afe87ec8ab12f9",
       "posted_at": "2026-08-16T04:25:48.394838+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-rude-to-leave-work-exactly-on-time",
-      "title": "Is it rude to leave work exactly on time?",
-      "buffer_post_id": "6a81063313afe87ec8a8e8e7",
-      "posted_at": "2026-08-16T00:37:07.823898+00:00"
     }
   ]
 }
