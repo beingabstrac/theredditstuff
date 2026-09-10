@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/is-it-annoying-when-people-test-products-and-do-not-buy-them",
+      "title": "Is it annoying when people test products and do not buy them?",
+      "buffer_post_id": "6aa33e0e71ba1c02cced6025",
+      "posted_at": "2026-09-10T23:32:30.390015+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-have-free-groceries-or-free-takeout",
       "title": "Would you rather have free groceries or free takeout?",
       "buffer_post_id": "6aa30f1d816445bddc3f0106",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird when coworkers act like work is family?",
       "buffer_post_id": "6a825759a207c7c8594877e1",
       "posted_at": "2026-08-17T00:35:37.558841+00:00"
-    },
-    {
-      "source_url": "procedural://texting/469",
-      "title": "Is it normal to send dry replies while still posting online?",
-      "buffer_post_id": "6a823536acf3e75953ab114e",
-      "posted_at": "2026-08-16T22:09:58.652726+00:00"
     }
   ]
 }
