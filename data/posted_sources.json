@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://red_flags/667",
+      "title": "Is it normal to trust your first impression when everyone else ignores it?",
+      "buffer_post_id": "6aa2e7b529a1282253417e21",
+      "posted_at": "2026-09-10T17:24:05.578627+00:00"
+    },
+    {
+      "source_url": "curated://red_flags/what-is-a-quiet-red-flag-in-a-friendship",
+      "title": "What is a quiet red flag in a friendship?",
+      "buffer_post_id": "6aa2e79eb6c84269284e5e73",
+      "posted_at": "2026-09-10T17:23:42.353487+00:00"
+    },
+    {
       "source_url": "curated://etiquette/should-you-tell-someone-they-have-food-in-their-teeth",
       "title": "Should you tell someone they have food in their teeth?",
       "buffer_post_id": "6aa2a23d68cd79481d7f62a8",
@@ -1187,18 +1199,6 @@
       "title": "Would you rather receive a thoughtful cheap gift or an expensive lazy one?",
       "buffer_post_id": "6a82190acb308e1e8d941511",
       "posted_at": "2026-08-16T20:09:47.016733+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-weird-when-friends-keep-score-of-favors",
-      "title": "Is it weird when friends keep score of favors?",
-      "buffer_post_id": "6a81e12e3486edd56d154e43",
-      "posted_at": "2026-08-16T16:11:26.613937+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-annoying-when-people-test-products-and-do-not-buy-them",
-      "title": "Is it annoying when people test products and do not buy them?",
-      "buffer_post_id": "6a81c569f4405f5c090b4b7f",
-      "posted_at": "2026-08-16T14:12:57.543064+00:00"
     }
   ]
 }
