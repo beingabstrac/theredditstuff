@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/is-it-fair-to-cancel-on-friends-for-alone-time",
+      "title": "Is it fair to cancel on friends for alone time?",
+      "buffer_post_id": "6aa35f6074b1f1d0cccf5109",
+      "posted_at": "2026-09-11T01:54:40.489412+00:00"
+    },
+    {
       "source_url": "curated://shopping/is-it-annoying-when-people-test-products-and-do-not-buy-them",
       "title": "Is it annoying when people test products and do not buy them?",
       "buffer_post_id": "6aa33e0e71ba1c02cced6025",
@@ -1193,12 +1199,6 @@
       "title": "Should family get free help just because they are family?",
       "buffer_post_id": "6a828ea6a506cb19dd642b2f",
       "posted_at": "2026-08-17T04:31:34.796665+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-weird-when-coworkers-act-like-work-is-family",
-      "title": "Is it weird when coworkers act like work is family?",
-      "buffer_post_id": "6a825759a207c7c8594877e1",
-      "posted_at": "2026-08-17T00:35:37.558841+00:00"
     }
   ]
 }
