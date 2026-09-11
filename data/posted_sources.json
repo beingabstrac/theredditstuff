@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://thoughtful-cheap-vs-expensive-lazy",
+      "title": "Would you rather receive a thoughtful cheap gift or an expensive lazy one?",
+      "buffer_post_id": "6aa3f34c262bdff0e87a4cf9",
+      "posted_at": "2026-09-11T12:25:48.377537+00:00"
+    },
+    {
       "source_url": "curated://restaurant/is-it-rude-to-stay-at-a-table-long-after-eating",
       "title": "Is it rude to stay at a table long after eating?",
       "buffer_post_id": "6aa3a42e816445bddc4b942f",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to leave unwanted items anywhere in a store?",
       "buffer_post_id": "6a8317ec01a6c9dff41eacee",
       "posted_at": "2026-08-17T14:17:17.170119+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-small-lie-tells-you-a-lot-about-someone",
-      "title": "What small lie tells you a lot about someone?",
-      "buffer_post_id": "6a82e0aa38d70a7ff5c62ec7",
-      "posted_at": "2026-08-17T10:21:30.837694+00:00"
     }
   ]
 }
