@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/is-it-annoying-when-coworkers-ask-questions-they-could-search",
+      "title": "Is it annoying when coworkers ask questions they could search?",
+      "buffer_post_id": "6aa4604ecb62fc78b502307f",
+      "posted_at": "2026-09-11T20:10:55.097346+00:00"
+    },
+    {
       "source_url": "curated://texting/is-it-weird-to-text-someone-only-when-you-need-something",
       "title": "Is it weird to text someone only when you need something?",
       "buffer_post_id": "6aa43969c38efd44b0761882",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to reply late without explaining why?",
       "buffer_post_id": "6a8387722485bd5f3ffc99be",
       "posted_at": "2026-08-17T22:13:06.478337+00:00"
-    },
-    {
-      "source_url": "fallback://refuse-lending-family-money",
-      "title": "Is it wrong to refuse lending money to family?",
-      "buffer_post_id": "6a836bbd87edd9b4df342657",
-      "posted_at": "2026-08-17T20:14:53.975956+00:00"
     }
   ]
 }
