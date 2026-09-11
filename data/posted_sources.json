@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/is-it-rude-to-stay-at-a-table-long-after-eating",
+      "title": "Is it rude to stay at a table long after eating?",
+      "buffer_post_id": "6aa3a42e816445bddc4b942f",
+      "posted_at": "2026-09-11T06:48:14.370895+00:00"
+    },
+    {
+      "source_url": "curated://restaurant/would-you-split-appetizers-if-you-did-not-eat-them",
+      "title": "Would you split appetizers if you did not eat them?",
+      "buffer_post_id": "6aa3a419816445bddc4b9325",
+      "posted_at": "2026-09-11T06:47:53.805859+00:00"
+    },
+    {
       "source_url": "curated://friendship/is-it-fair-to-cancel-on-friends-for-alone-time",
       "title": "Is it fair to cancel on friends for alone time?",
       "buffer_post_id": "6aa35f6074b1f1d0cccf5109",
@@ -1187,18 +1199,6 @@
       "title": "What small lie tells you a lot about someone?",
       "buffer_post_id": "6a82e0aa38d70a7ff5c62ec7",
       "posted_at": "2026-08-17T10:21:30.837694+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-fair-to-need-alone-time-in-a-relationship",
-      "title": "Is it fair to need alone time in a relationship?",
-      "buffer_post_id": "6a82aab5acf3e75953b1082a",
-      "posted_at": "2026-08-17T06:31:17.976979+00:00"
-    },
-    {
-      "source_url": "curated://family/should-family-get-free-help-just-because-they-are-family",
-      "title": "Should family get free help just because they are family?",
-      "buffer_post_id": "6a828ea6a506cb19dd642b2f",
-      "posted_at": "2026-08-17T04:31:34.796665+00:00"
     }
   ]
 }
