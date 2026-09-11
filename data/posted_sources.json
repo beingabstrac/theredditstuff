@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://normal-house-weird-elsewhere",
+      "title": "What is normal in your house but weird everywhere else?",
+      "buffer_post_id": "6aa4916607d009223c65ee37",
+      "posted_at": "2026-09-11T23:40:22.701801+00:00"
+    },
+    {
       "source_url": "curated://work/is-it-annoying-when-coworkers-ask-questions-they-could-search",
       "title": "Is it annoying when coworkers ask questions they could search?",
       "buffer_post_id": "6aa4604ecb62fc78b502307f",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to avoid your roommate in your own home?",
       "buffer_post_id": "6a83c7be33ec6735e910fee2",
       "posted_at": "2026-08-18T02:47:26.648621+00:00"
-    },
-    {
-      "source_url": "procedural://texting/481",
-      "title": "Is it normal to reply late without explaining why?",
-      "buffer_post_id": "6a8387722485bd5f3ffc99be",
-      "posted_at": "2026-08-17T22:13:06.478337+00:00"
     }
   ]
 }
