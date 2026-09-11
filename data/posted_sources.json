@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-it-weird-to-text-someone-only-when-you-need-something",
+      "title": "Is it weird to text someone only when you need something?",
+      "buffer_post_id": "6aa43969c38efd44b0761882",
+      "posted_at": "2026-09-11T17:24:57.818763+00:00"
+    },
+    {
+      "source_url": "curated://texting/is-it-rude-to-mute-a-group-chat-without-telling-anyone",
+      "title": "Is it rude to mute a group chat without telling anyone?",
+      "buffer_post_id": "6aa43959c38efd44b07617b1",
+      "posted_at": "2026-09-11T17:24:41.861504+00:00"
+    },
+    {
       "source_url": "fallback://thoughtful-cheap-vs-expensive-lazy",
       "title": "Would you rather receive a thoughtful cheap gift or an expensive lazy one?",
       "buffer_post_id": "6aa3f34c262bdff0e87a4cf9",
@@ -1187,18 +1199,6 @@
       "title": "Is it wrong to refuse lending money to family?",
       "buffer_post_id": "6a836bbd87edd9b4df342657",
       "posted_at": "2026-08-17T20:14:53.975956+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/478",
-      "title": "Is it weird to expect friends to remember details after months of imbalance?",
-      "buffer_post_id": "6a83337a185705c23247df2c",
-      "posted_at": "2026-08-17T16:14:50.643264+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-rude-to-leave-unwanted-items-anywhere-in-a-store",
-      "title": "Is it rude to leave unwanted items anywhere in a store?",
-      "buffer_post_id": "6a8317ec01a6c9dff41eacee",
-      "posted_at": "2026-08-17T14:17:17.170119+00:00"
     }
   ]
 }
