@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://red_flags/what-small-lie-tells-you-a-lot-about-someone",
+      "title": "What small lie tells you a lot about someone?",
+      "buffer_post_id": "6aa562fd66679b076f0f8ee1",
+      "posted_at": "2026-09-12T14:34:37.397099+00:00"
+    },
+    {
       "source_url": "curated://etiquette/should-people-take-their-shoes-off-in-every-home",
       "title": "Should people take their shoes off in every home?",
       "buffer_post_id": "6aa53ba73da5f871532c6e31",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to ask for borrowed money back?",
       "buffer_post_id": "6a84bc7d4cc5b353b07f6406",
       "posted_at": "2026-08-18T20:11:41.549073+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/489",
-      "title": "Should people be able to block an aisle with friends nearby?",
-      "buffer_post_id": "6a846a90980531e504ef990c",
-      "posted_at": "2026-08-18T14:22:08.656056+00:00"
     }
   ]
 }
