@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://dating/677",
+      "title": "Would you say something if someone wanted to split the bill if trust already exists?",
+      "buffer_post_id": "6aa4f694232b849fea40fbe0",
+      "posted_at": "2026-09-12T06:52:04.239366+00:00"
+    },
+    {
+      "source_url": "curated://dating/is-it-fair-to-need-alone-time-in-a-relationship",
+      "title": "Is it fair to need alone time in a relationship?",
+      "buffer_post_id": "6aa4f6852bf0da839a6cf9cf",
+      "posted_at": "2026-09-12T06:51:50.126216+00:00"
+    },
+    {
       "source_url": "fallback://family-show-up-without-calling",
       "title": "Is it rude for family to show up without calling first?",
       "buffer_post_id": "6aa4b1f4aa296f331c80634f",
@@ -1187,18 +1199,6 @@
       "title": "What small thing makes you silently judge a person?",
       "buffer_post_id": "6a843134033c29724fcc9d24",
       "posted_at": "2026-08-18T10:17:24.243684+00:00"
-    },
-    {
-      "source_url": "fallback://rude-pretend-honest",
-      "title": "What is rude but people pretend is just being honest?",
-      "buffer_post_id": "6a8416579163f06cd6080973",
-      "posted_at": "2026-08-18T08:22:47.800452+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-fair-to-set-boundaries-with-relatives-who-mean-well",
-      "title": "Is it fair to set boundaries with relatives who mean well?",
-      "buffer_post_id": "6a83de8c33ec6735e9122140",
-      "posted_at": "2026-08-18T04:24:44.733834+00:00"
     }
   ]
 }
