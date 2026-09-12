@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://early-or-on-time",
+      "title": "Would you rather always be early or always be exactly on time?",
+      "buffer_post_id": "6aa592a0eba7bc5677818bd4",
+      "posted_at": "2026-09-12T17:57:52.629999+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-small-lie-tells-you-a-lot-about-someone",
       "title": "What small lie tells you a lot about someone?",
       "buffer_post_id": "6aa562fd66679b076f0f8ee1",
@@ -1193,12 +1199,6 @@
       "title": "Would you stop inviting a friend who never pays on time?",
       "buffer_post_id": "6a84bc9057fccd2c75f0f495",
       "posted_at": "2026-08-18T20:12:00.448030+00:00"
-    },
-    {
-      "source_url": "fallback://ask-borrowed-money-back",
-      "title": "Is it rude to ask for borrowed money back?",
-      "buffer_post_id": "6a84bc7d4cc5b353b07f6406",
-      "posted_at": "2026-08-18T20:11:41.549073+00:00"
     }
   ]
 }
