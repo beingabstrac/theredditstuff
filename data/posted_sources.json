@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://family-show-up-without-calling",
+      "title": "Is it rude for family to show up without calling first?",
+      "buffer_post_id": "6aa4b1f4aa296f331c80634f",
+      "posted_at": "2026-09-12T01:59:16.635802+00:00"
+    },
+    {
       "source_url": "fallback://normal-house-weird-elsewhere",
       "title": "What is normal in your house but weird everywhere else?",
       "buffer_post_id": "6aa4916607d009223c65ee37",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to set boundaries with relatives who mean well?",
       "buffer_post_id": "6a83de8c33ec6735e9122140",
       "posted_at": "2026-08-18T04:24:44.733834+00:00"
-    },
-    {
-      "source_url": "curated://roommates/is-it-normal-to-avoid-your-roommate-in-your-own-home",
-      "title": "Is it normal to avoid your roommate in your own home?",
-      "buffer_post_id": "6a83c7be33ec6735e910fee2",
-      "posted_at": "2026-08-18T02:47:26.648621+00:00"
     }
   ]
 }
