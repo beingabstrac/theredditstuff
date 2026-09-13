@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://restaurant-hard-to-be-around",
+      "title": "What restaurant behavior tells you someone is hard to be around?",
+      "buffer_post_id": "6aa601fd66679b076f1c7531",
+      "posted_at": "2026-09-13T01:53:01.995207+00:00"
+    },
+    {
       "source_url": "curated://friendship/is-it-wrong-to-outgrow-a-friend-quietly",
       "title": "Is it wrong to outgrow a friend quietly?",
       "buffer_post_id": "6aa5e12966679b076f1a3a35",
@@ -1193,12 +1199,6 @@
       "title": "Is it wrong to skip family events because you need rest?",
       "buffer_post_id": "6a8530544cc5b353b0863f88",
       "posted_at": "2026-08-19T04:25:56.190385+00:00"
-    },
-    {
-      "source_url": "procedural://work/494",
-      "title": "Would you judge someone for choosing to say no to last minute tasks while on vacation?",
-      "buffer_post_id": "6a84fa438a0a45b02c5cf93f",
-      "posted_at": "2026-08-19T00:35:15.704581+00:00"
     }
   ]
 }
