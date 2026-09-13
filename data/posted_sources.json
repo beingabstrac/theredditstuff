@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/is-it-weird-when-coworkers-act-like-work-is-family",
+      "title": "Is it weird when coworkers act like work is family?",
+      "buffer_post_id": "6aa6d8681f8cf810a118aa04",
+      "posted_at": "2026-09-13T17:07:52.212757+00:00"
+    },
+    {
       "source_url": "fallback://phone-on-table-dinner",
       "title": "Is it rude to put your phone on the table during dinner?",
       "buffer_post_id": "6aa69d64ef4d6e3778cb81de",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to use coupons on a date?",
       "buffer_post_id": "6a860fb59de0c4814a7a4ec8",
       "posted_at": "2026-08-19T20:19:01.471075+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/should-friends-wait-until-everyone-has-food-before-eating",
-      "title": "Should friends wait until everyone has food before eating?",
-      "buffer_post_id": "6a85f3539ec2305146f61750",
-      "posted_at": "2026-08-19T18:17:55.718112+00:00"
     }
   ]
 }
