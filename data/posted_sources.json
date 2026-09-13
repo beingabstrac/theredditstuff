@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/is-it-fair-to-set-boundaries-with-relatives-who-mean-well",
+      "title": "Is it fair to set boundaries with relatives who mean well?",
+      "buffer_post_id": "6aa71e01eba7bc5677a30a82",
+      "posted_at": "2026-09-13T22:04:50.035240+00:00"
+    },
+    {
       "source_url": "curated://roommates/would-you-label-your-food-in-a-shared-fridge",
       "title": "Would you label your food in a shared fridge?",
       "buffer_post_id": "6aa7008deba7bc5677a05de3",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to skip optional meetings while on vacation?",
       "buffer_post_id": "6a864c084a4d2574b5c59425",
       "posted_at": "2026-08-20T00:36:24.813559+00:00"
-    },
-    {
-      "source_url": "curated://texting/should-read-receipts-be-turned-off-by-default",
-      "title": "Should read receipts be turned off by default?",
-      "buffer_post_id": "6a862aa6f451974f18a97718",
-      "posted_at": "2026-08-19T22:13:58.466447+00:00"
     }
   ]
 }
