@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/would-you-label-your-food-in-a-shared-fridge",
+      "title": "Would you label your food in a shared fridge?",
+      "buffer_post_id": "6aa7008deba7bc5677a05de3",
+      "posted_at": "2026-09-13T19:59:10.048943+00:00"
+    },
+    {
       "source_url": "curated://work/is-it-weird-when-coworkers-act-like-work-is-family",
       "title": "Is it weird when coworkers act like work is family?",
       "buffer_post_id": "6aa6d8681f8cf810a118aa04",
@@ -1193,12 +1199,6 @@
       "title": "Should read receipts be turned off by default?",
       "buffer_post_id": "6a862aa6f451974f18a97718",
       "posted_at": "2026-08-19T22:13:58.466447+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-rude-to-use-coupons-on-a-date",
-      "title": "Is it rude to use coupons on a date?",
-      "buffer_post_id": "6a860fb59de0c4814a7a4ec8",
-      "posted_at": "2026-08-19T20:19:01.471075+00:00"
     }
   ]
 }
