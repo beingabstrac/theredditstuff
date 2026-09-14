@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "fallback://small-workplace-habit-annoyed",
+      "title": "What small workplace habit makes everyone secretly annoyed?",
+      "buffer_post_id": "6aa81af14dc1c7ffb05bd856",
+      "posted_at": "2026-09-14T16:04:02.274809+00:00"
+    },
+    {
+      "source_url": "curated://red_flags/what-small-thing-makes-you-silently-judge-a-person",
+      "title": "What small thing makes you silently judge a person?",
+      "buffer_post_id": "6aa81ad743be6142268b929b",
+      "posted_at": "2026-09-14T16:03:36.026741+00:00"
+    },
+    {
+      "source_url": "curated://red_flags/what-behavior-makes-someone-seem-exhausting",
+      "title": "What behavior makes someone seem exhausting?",
+      "buffer_post_id": "6aa81ac843be6142268b8fae",
+      "posted_at": "2026-09-14T16:03:20.946364+00:00"
+    },
+    {
       "source_url": "fallback://rude-pretend-honest",
       "title": "What is rude but people pretend is just being honest?",
       "buffer_post_id": "6aa7bcc2ba0c45f3d2a61e08",
@@ -1181,24 +1199,6 @@
       "title": "Is splitting every bill exactly fair or annoying?",
       "buffer_post_id": "6a8760c1434e939bf5a74780",
       "posted_at": "2026-08-20T20:17:05.698384+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-rude-to-stop-reaching-out-first-and-see-what-happens",
-      "title": "Is it rude to stop reaching out first and see what happens?",
-      "buffer_post_id": "6a872999ca8e6cdb1794a0ed",
-      "posted_at": "2026-08-20T16:21:45.215390+00:00"
-    },
-    {
-      "source_url": "curated://shopping/would-you-leave-a-store-if-the-music-is-too-loud",
-      "title": "Would you leave a store if the music is too loud?",
-      "buffer_post_id": "6a870e1cb40a3556113f7258",
-      "posted_at": "2026-08-20T14:24:29.040497+00:00"
-    },
-    {
-      "source_url": "fallback://small-workplace-habit-annoyed",
-      "title": "What small workplace habit makes everyone secretly annoyed?",
-      "buffer_post_id": "6a86d4ac9d8b5661e841c962",
-      "posted_at": "2026-08-20T10:19:24.778752+00:00"
     }
   ]
 }
