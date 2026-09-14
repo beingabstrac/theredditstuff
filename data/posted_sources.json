@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-know-what-people-think-of-you-or-never-care",
+      "title": "Would you rather know what people think of you or never care?",
+      "buffer_post_id": "6aa862653379ae521a5c3252",
+      "posted_at": "2026-09-14T21:08:53.585052+00:00"
+    },
+    {
       "source_url": "fallback://small-workplace-habit-annoyed",
       "title": "What small workplace habit makes everyone secretly annoyed?",
       "buffer_post_id": "6aa81af14dc1c7ffb05bd856",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to end a text conversation by reacting instead of replying?",
       "buffer_post_id": "6a877c954d7448d186a56dd4",
       "posted_at": "2026-08-20T22:15:49.188725+00:00"
-    },
-    {
-      "source_url": "curated://money/is-splitting-every-bill-exactly-fair-or-annoying",
-      "title": "Is splitting every bill exactly fair or annoying?",
-      "buffer_post_id": "6a8760c1434e939bf5a74780",
-      "posted_at": "2026-08-20T20:17:05.698384+00:00"
     }
   ]
 }
