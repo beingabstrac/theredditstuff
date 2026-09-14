@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://rude-pretend-honest",
+      "title": "What is rude but people pretend is just being honest?",
+      "buffer_post_id": "6aa7bcc2ba0c45f3d2a61e08",
+      "posted_at": "2026-09-14T09:22:10.924492+00:00"
+    },
+    {
+      "source_url": "fallback://apology-with-explaining",
+      "title": "Is an apology real if someone keeps explaining why they did it?",
+      "buffer_post_id": "6aa7bcacba0c45f3d2a61d0e",
+      "posted_at": "2026-09-14T09:21:49.101828+00:00"
+    },
+    {
       "source_url": "curated://dating/is-it-normal-to-keep-some-friendships-private-from-your-partner",
       "title": "Is it normal to keep some friendships private from your partner?",
       "buffer_post_id": "6aa7579dea4032c0149c6cc8",
@@ -1187,18 +1199,6 @@
       "title": "What small workplace habit makes everyone secretly annoyed?",
       "buffer_post_id": "6a86d4ac9d8b5661e841c962",
       "posted_at": "2026-08-20T10:19:24.778752+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-normal-to-take-leftovers-from-a-party",
-      "title": "Is it normal to take leftovers from a party?",
-      "buffer_post_id": "6a86b9ad34a1034a3c520b36",
-      "posted_at": "2026-08-20T08:24:13.797465+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-rude-to-leave-a-family-gathering-early",
-      "title": "Is it rude to leave a family gathering early?",
-      "buffer_post_id": "6a8681f15bebcc0cdc29e19b",
-      "posted_at": "2026-08-20T04:26:25.317472+00:00"
     }
   ]
 }
