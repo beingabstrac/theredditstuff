@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/is-it-normal-to-keep-some-friendships-private-from-your-partner",
+      "title": "Is it normal to keep some friendships private from your partner?",
+      "buffer_post_id": "6aa7579dea4032c0149c6cc8",
+      "posted_at": "2026-09-14T02:10:37.656229+00:00"
+    },
+    {
       "source_url": "curated://family/is-it-fair-to-set-boundaries-with-relatives-who-mean-well",
       "title": "Is it fair to set boundaries with relatives who mean well?",
       "buffer_post_id": "6aa71e01eba7bc5677a30a82",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to leave a family gathering early?",
       "buffer_post_id": "6a8681f15bebcc0cdc29e19b",
       "posted_at": "2026-08-20T04:26:25.317472+00:00"
-    },
-    {
-      "source_url": "procedural://work/506",
-      "title": "Would you judge someone for choosing to skip optional meetings while on vacation?",
-      "buffer_post_id": "6a864c084a4d2574b5c59425",
-      "posted_at": "2026-08-20T00:36:24.813559+00:00"
     }
   ]
 }
