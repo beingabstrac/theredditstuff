@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/is-it-rude-to-stop-reaching-out-first-and-see-what-happens",
+      "title": "Is it rude to stop reaching out first and see what happens?",
+      "buffer_post_id": "6aa8ec33bb9b8eb965a2b278",
+      "posted_at": "2026-09-15T06:56:51.702038+00:00"
+    },
+    {
+      "source_url": "curated://friendship/should-friends-remember-small-details-about-your-life",
+      "title": "Should friends remember small details about your life?",
+      "buffer_post_id": "6aa8ec1ea283eff81a59d588",
+      "posted_at": "2026-09-15T06:56:30.966413+00:00"
+    },
+    {
+      "source_url": "curated://friendship/is-it-weird-when-friends-keep-score-of-favors",
+      "title": "Is it weird when friends keep score of favors?",
+      "buffer_post_id": "6aa8ec0efa1b0cab28ab2cee",
+      "posted_at": "2026-09-15T06:56:14.557777+00:00"
+    },
+    {
       "source_url": "curated://shopping/would-you-judge-someone-for-arguing-over-a-return",
       "title": "Would you judge someone for arguing over a return?",
       "buffer_post_id": "6aa88b899dd9674a3dc90969",
@@ -1181,24 +1199,6 @@
       "title": "Is it normal to trust your first impression in a friendship?",
       "buffer_post_id": "6a88261ddc319146a278fd27",
       "posted_at": "2026-08-21T10:19:10.075955+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-arrive-early-to-someone-house",
-      "title": "Is it rude to arrive early to someone house?",
-      "buffer_post_id": "6a880bb25d32580681ede44e",
-      "posted_at": "2026-08-21T08:26:26.218556+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-normal-to-hide-small-purchases-from-family-judgment",
-      "title": "Is it normal to hide small purchases from family judgment?",
-      "buffer_post_id": "6a87d3e35d32580681ea7e2f",
-      "posted_at": "2026-08-21T04:28:19.260936+00:00"
-    },
-    {
-      "source_url": "procedural://work/518",
-      "title": "Would you judge someone for choosing to mute work apps while on vacation?",
-      "buffer_post_id": "6a879dd42c87911adc7168de",
-      "posted_at": "2026-08-21T00:37:40.914724+00:00"
     }
   ]
 }
