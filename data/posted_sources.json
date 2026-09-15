@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-it-rude-to-end-a-text-conversation-by-reacting-instead-of-replying",
+      "title": "Is it rude to end a text conversation by reacting instead of replying?",
+      "buffer_post_id": "6aa9ac2bcbdb75b5668200a3",
+      "posted_at": "2026-09-15T20:35:55.494879+00:00"
+    },
+    {
       "source_url": "fallback://refuse-lending-family-money",
       "title": "Is it wrong to refuse lending money to family?",
       "buffer_post_id": "6aa9852b28cae1bb91967b69",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to reply late after making plans?",
       "buffer_post_id": "6a88cd625b4a6e681b323449",
       "posted_at": "2026-08-21T22:12:50.609840+00:00"
-    },
-    {
-      "source_url": "curated://money/should-friends-pay-you-back-immediately-or-is-later-fine",
-      "title": "Should friends pay you back immediately or is later fine?",
-      "buffer_post_id": "6a88b172b1e0795f7f63179c",
-      "posted_at": "2026-08-21T20:13:38.948882+00:00"
     }
   ]
 }
