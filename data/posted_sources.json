@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/would-you-judge-someone-for-arguing-over-a-return",
+      "title": "Would you judge someone for arguing over a return?",
+      "buffer_post_id": "6aa88b899dd9674a3dc90969",
+      "posted_at": "2026-09-15T00:04:25.517120+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-know-what-people-think-of-you-or-never-care",
       "title": "Would you rather know what people think of you or never care?",
       "buffer_post_id": "6aa862653379ae521a5c3252",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to mute work apps while on vacation?",
       "buffer_post_id": "6a879dd42c87911adc7168de",
       "posted_at": "2026-08-21T00:37:40.914724+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-rude-to-end-a-text-conversation-by-reacting-instead-of-replying",
-      "title": "Is it rude to end a text conversation by reacting instead of replying?",
-      "buffer_post_id": "6a877c954d7448d186a56dd4",
-      "posted_at": "2026-08-20T22:15:49.188725+00:00"
     }
   ]
 }
