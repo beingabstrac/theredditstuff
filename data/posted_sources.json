@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/should-meetings-have-to-prove-they-are-necessary",
+      "title": "Should meetings have to prove they are necessary?",
+      "buffer_post_id": "6aa9d967501861120db0d985",
+      "posted_at": "2026-09-15T23:48:55.364282+00:00"
+    },
+    {
       "source_url": "curated://texting/is-it-rude-to-end-a-text-conversation-by-reacting-instead-of-replying",
       "title": "Is it rude to end a text conversation by reacting instead of replying?",
       "buffer_post_id": "6aa9ac2bcbdb75b5668200a3",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to ignore work messages when coworkers keep doing it?",
       "buffer_post_id": "6a88eec8859b98c365e36677",
       "posted_at": "2026-08-22T00:35:20.894960+00:00"
-    },
-    {
-      "source_url": "procedural://texting/529",
-      "title": "Is it normal to reply late after making plans?",
-      "buffer_post_id": "6a88cd625b4a6e681b323449",
-      "posted_at": "2026-08-21T22:12:50.609840+00:00"
     }
   ]
 }
