@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://restaurant/695",
+      "title": "Would you say something if someone wanted to take a call at dinner when one person picked the place?",
+      "buffer_post_id": "6aa940ff564ba52318a61b1b",
+      "posted_at": "2026-09-15T12:58:39.408795+00:00"
+    },
+    {
+      "source_url": "curated://restaurant/should-friends-wait-until-everyone-has-food-before-eating",
+      "title": "Should friends wait until everyone has food before eating?",
+      "buffer_post_id": "6aa940eb71adc71e5723c091",
+      "posted_at": "2026-09-15T12:58:19.930784+00:00"
+    },
+    {
       "source_url": "curated://friendship/is-it-rude-to-stop-reaching-out-first-and-see-what-happens",
       "title": "Is it rude to stop reaching out first and see what happens?",
       "buffer_post_id": "6aa8ec33bb9b8eb965a2b278",
@@ -1187,18 +1199,6 @@
       "title": "Would you stay friends with someone who never celebrates you?",
       "buffer_post_id": "6a887a971b38003a90d011b4",
       "posted_at": "2026-08-21T16:19:35.822392+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-rude-to-browse-a-small-shop-and-buy-nothing",
-      "title": "Is it rude to browse a small shop and buy nothing?",
-      "buffer_post_id": "6a885f735b4a6e681b2b3cdd",
-      "posted_at": "2026-08-21T14:23:47.351811+00:00"
-    },
-    {
-      "source_url": "procedural://red_flags/523",
-      "title": "Is it normal to trust your first impression in a friendship?",
-      "buffer_post_id": "6a88261ddc319146a278fd27",
-      "posted_at": "2026-08-21T10:19:10.075955+00:00"
     }
   ]
 }
