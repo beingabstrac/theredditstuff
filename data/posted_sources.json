@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-rude-to-arrive-early-to-someone-house",
+      "title": "Is it rude to arrive early to someone house?",
+      "buffer_post_id": "6aaae9fec25469e84e43271e",
+      "posted_at": "2026-09-16T19:11:59.062994+00:00"
+    },
+    {
+      "source_url": "curated://etiquette/is-it-rude-to-ask-someone-why-they-are-quiet",
+      "title": "Is it rude to ask someone why they are quiet?",
+      "buffer_post_id": "6aaae9ecb13f5ce19450fe2c",
+      "posted_at": "2026-09-16T19:11:40.529110+00:00"
+    },
+    {
       "source_url": "procedural://dating/702",
       "title": "Is it rude to share locations if trust already exists?",
       "buffer_post_id": "6aaaa764cc0de450ad7623d7",
@@ -1187,18 +1199,6 @@
       "title": "Does dry texting always mean someone is not interested?",
       "buffer_post_id": "6a8a1e70dc319146a299f2d3",
       "posted_at": "2026-08-22T22:10:56.266313+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-awkward-to-say-a-restaurant-is-too-expensive",
-      "title": "Is it awkward to say a restaurant is too expensive?",
-      "buffer_post_id": "6a8a0264dd02437c219ede87",
-      "posted_at": "2026-08-22T20:11:16.690854+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/538",
-      "title": "Is it weird to ask before venting when everyone is busy?",
-      "buffer_post_id": "6a89ca22dc319146a2946785",
-      "posted_at": "2026-08-22T16:11:14.756310+00:00"
     }
   ]
 }
