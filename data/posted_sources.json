@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://red_flags/703",
+      "title": "Is it normal to notice constant interrupting after it happens twice?",
+      "buffer_post_id": "6aab17fa80b24cdcb5f77794",
+      "posted_at": "2026-09-16T22:28:10.363253+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-rude-to-arrive-early-to-someone-house",
       "title": "Is it rude to arrive early to someone house?",
       "buffer_post_id": "6aaae9fec25469e84e43271e",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to say no to last minute tasks when coworkers keep doing it?",
       "buffer_post_id": "6a8a410cdeb4b57dfeacf6fc",
       "posted_at": "2026-08-23T00:38:36.368141+00:00"
-    },
-    {
-      "source_url": "curated://texting/does-dry-texting-always-mean-someone-is-not-interested",
-      "title": "Does dry texting always mean someone is not interested?",
-      "buffer_post_id": "6a8a1e70dc319146a299f2d3",
-      "posted_at": "2026-08-22T22:10:56.266313+00:00"
     }
   ]
 }
