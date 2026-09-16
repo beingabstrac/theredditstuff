@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://dating/702",
+      "title": "Is it rude to share locations if trust already exists?",
+      "buffer_post_id": "6aaaa764cc0de450ad7623d7",
+      "posted_at": "2026-09-16T14:27:49.094694+00:00"
+    },
+    {
+      "source_url": "procedural://dating/701",
+      "title": "Would you say something if someone wanted to cancel a date if trust already exists?",
+      "buffer_post_id": "6aaaa75346828b0472732d1b",
+      "posted_at": "2026-09-16T14:27:31.461469+00:00"
+    },
+    {
       "source_url": "curated://family/should-family-get-free-help-just-because-they-are-family",
       "title": "Should family get free help just because they are family?",
       "buffer_post_id": "6aaa598167088e4b2a0da2fe",
@@ -1187,18 +1199,6 @@
       "title": "Is it weird to ask before venting when everyone is busy?",
       "buffer_post_id": "6a89ca22dc319146a2946785",
       "posted_at": "2026-08-22T16:11:14.756310+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/537",
-      "title": "Should people be able to block an aisle if staff have to fix it?",
-      "buffer_post_id": "6a89adff37caa42812cd8780",
-      "posted_at": "2026-08-22T14:11:12.097358+00:00"
-    },
-    {
-      "source_url": "procedural://red_flags/535",
-      "title": "Is it normal to notice how someone treats staff before anything serious happens?",
-      "buffer_post_id": "6a897613dc319146a28e5931",
-      "posted_at": "2026-08-22T10:12:35.603160+00:00"
     }
   ]
 }
