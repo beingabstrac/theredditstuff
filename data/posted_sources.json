@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/should-roommates-ask-before-changing-the-thermostat",
+      "title": "Should roommates ask before changing the thermostat?",
+      "buffer_post_id": "6aa9fa81c9dce8b453163aea",
+      "posted_at": "2026-09-16T02:10:09.737204+00:00"
+    },
+    {
       "source_url": "curated://work/should-meetings-have-to-prove-they-are-necessary",
       "title": "Should meetings have to prove they are necessary?",
       "buffer_post_id": "6aa9d967501861120db0d985",
@@ -1193,12 +1199,6 @@
       "title": "Would you refuse to host relatives who overstay?",
       "buffer_post_id": "6a8923e1dc319146a289896d",
       "posted_at": "2026-08-22T04:21:53.303764+00:00"
-    },
-    {
-      "source_url": "procedural://work/530",
-      "title": "Would you judge someone for choosing to ignore work messages when coworkers keep doing it?",
-      "buffer_post_id": "6a88eec8859b98c365e36677",
-      "posted_at": "2026-08-22T00:35:20.894960+00:00"
     }
   ]
 }
