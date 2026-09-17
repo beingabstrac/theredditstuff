@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-be-liked-by-everyone-or-respected-by-everyone",
+      "title": "Would you rather be liked by everyone or respected by everyone?",
+      "buffer_post_id": "6aab4cfc74a50499382f96e2",
+      "posted_at": "2026-09-17T02:14:20.541825+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/703",
       "title": "Is it normal to notice constant interrupting after it happens twice?",
       "buffer_post_id": "6aab17fa80b24cdcb5f77794",
@@ -1193,12 +1199,6 @@
       "title": "Would you correct family when they embarrass you in public?",
       "buffer_post_id": "6a8a7688dd02437c21a50ccf",
       "posted_at": "2026-08-23T04:26:49.058886+00:00"
-    },
-    {
-      "source_url": "procedural://work/542",
-      "title": "Would you judge someone for choosing to say no to last minute tasks when coworkers keep doing it?",
-      "buffer_post_id": "6a8a410cdeb4b57dfeacf6fc",
-      "posted_at": "2026-08-23T00:38:36.368141+00:00"
     }
   ]
 }
