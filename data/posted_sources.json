@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/would-you-leave-a-store-if-the-music-is-too-loud",
+      "title": "Would you leave a store if the music is too loud?",
+      "buffer_post_id": "6aababffb033fd1da1571d0c",
+      "posted_at": "2026-09-17T08:59:43.782500+00:00"
+    },
+    {
+      "source_url": "curated://shopping/is-it-rude-to-browse-a-small-shop-and-buy-nothing",
+      "title": "Is it rude to browse a small shop and buy nothing?",
+      "buffer_post_id": "6aababf23bff2bf63c35bb84",
+      "posted_at": "2026-09-17T08:59:31.019862+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-be-liked-by-everyone-or-respected-by-everyone",
       "title": "Would you rather be liked by everyone or respected by everyone?",
       "buffer_post_id": "6aab4cfc74a50499382f96e2",
@@ -1187,18 +1199,6 @@
       "title": "Is it normal to pull back after one weird moment before anything serious happens?",
       "buffer_post_id": "6a8ac7b8dd02437c21a996c7",
       "posted_at": "2026-08-23T10:13:12.944839+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/should-people-ask-before-taking-photos-of-friends",
-      "title": "Should people ask before taking photos of friends?",
-      "buffer_post_id": "6a8aac8bbc455ba248eb4f10",
-      "posted_at": "2026-08-23T08:17:16.095642+00:00"
-    },
-    {
-      "source_url": "curated://family/would-you-correct-family-when-they-embarrass-you-in-public",
-      "title": "Would you correct family when they embarrass you in public?",
-      "buffer_post_id": "6a8a7688dd02437c21a50ccf",
-      "posted_at": "2026-08-23T04:26:49.058886+00:00"
     }
   ]
 }
