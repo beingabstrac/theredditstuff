@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/should-friends-pay-you-back-immediately-or-is-later-fine",
+      "title": "Should friends pay you back immediately or is later fine?",
+      "buffer_post_id": "6aac6a4e7ef8244029319d95",
+      "posted_at": "2026-09-17T22:31:42.450897+00:00"
+    },
+    {
       "source_url": "procedural://restaurant/708",
       "title": "Is it rude to start a tipping debate when one person picked the place?",
       "buffer_post_id": "6aac3e4f7dfa05f625c42d62",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to skip optional meetings when coworkers keep doing it?",
       "buffer_post_id": "6a8b9241f2c8b8596025db32",
       "posted_at": "2026-08-24T00:37:21.886786+00:00"
-    },
-    {
-      "source_url": "fallback://left-on-read-vs-late",
-      "title": "Is leaving someone on read worse than replying late?",
-      "buffer_post_id": "6a8b6ff253c54dc08761cf6a",
-      "posted_at": "2026-08-23T22:10:58.753878+00:00"
     }
   ]
 }
