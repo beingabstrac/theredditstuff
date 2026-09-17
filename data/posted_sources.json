@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://friendship-one-sided",
+      "title": "What makes a friendship start feeling one-sided?",
+      "buffer_post_id": "6aabf9d183868cb1933ad701",
+      "posted_at": "2026-09-17T14:31:45.829784+00:00"
+    },
+    {
+      "source_url": "curated://friendship/should-friends-invite-partners-to-every-plan",
+      "title": "Should friends invite partners to every plan?",
+      "buffer_post_id": "6aabf9c571168e80be88b390",
+      "posted_at": "2026-09-17T14:31:33.799889+00:00"
+    },
+    {
       "source_url": "curated://shopping/would-you-leave-a-store-if-the-music-is-too-loud",
       "title": "Would you leave a store if the music is too loud?",
       "buffer_post_id": "6aababffb033fd1da1571d0c",
@@ -1187,18 +1199,6 @@
       "title": "Is it weird to keep score of favors when everyone is busy?",
       "buffer_post_id": "6a8b1be7dd02437c21af409e",
       "posted_at": "2026-08-23T16:12:23.532669+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/549",
-      "title": "Should people be able to argue over a return if staff have to fix it?",
-      "buffer_post_id": "6a8afffedd02437c21ad7459",
-      "posted_at": "2026-08-23T14:13:18.940937+00:00"
-    },
-    {
-      "source_url": "procedural://red_flags/547",
-      "title": "Is it normal to pull back after one weird moment before anything serious happens?",
-      "buffer_post_id": "6a8ac7b8dd02437c21a996c7",
-      "posted_at": "2026-08-23T10:13:12.944839+00:00"
     }
   ]
 }
