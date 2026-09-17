@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://restaurant/708",
+      "title": "Is it rude to start a tipping debate when one person picked the place?",
+      "buffer_post_id": "6aac3e4f7dfa05f625c42d62",
+      "posted_at": "2026-09-17T19:23:59.582666+00:00"
+    },
+    {
+      "source_url": "procedural://restaurant/707",
+      "title": "Would you say something if someone wanted to order the cheapest thing when one person picked the place?",
+      "buffer_post_id": "6aac3e3e5de9b79c96eeb669",
+      "posted_at": "2026-09-17T19:23:42.946411+00:00"
+    },
+    {
       "source_url": "fallback://friendship-one-sided",
       "title": "What makes a friendship start feeling one-sided?",
       "buffer_post_id": "6aabf9d183868cb1933ad701",
@@ -1187,18 +1199,6 @@
       "title": "Is leaving someone on read worse than replying late?",
       "buffer_post_id": "6a8b6ff253c54dc08761cf6a",
       "posted_at": "2026-08-23T22:10:58.753878+00:00"
-    },
-    {
-      "source_url": "curated://money/should-the-person-who-picked-the-expensive-place-pay-more",
-      "title": "Should the person who picked the expensive place pay more?",
-      "buffer_post_id": "6a8b53b44ae7c07fd3d750c7",
-      "posted_at": "2026-08-23T20:10:28.966447+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/550",
-      "title": "Is it weird to keep score of favors when everyone is busy?",
-      "buffer_post_id": "6a8b1be7dd02437c21af409e",
-      "posted_at": "2026-08-23T16:12:23.532669+00:00"
     }
   ]
 }
