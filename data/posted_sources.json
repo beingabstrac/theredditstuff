@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/should-read-receipts-be-turned-off-by-default",
+      "title": "Should read receipts be turned off by default?",
+      "buffer_post_id": "6aac9b573193d9f800287afc",
+      "posted_at": "2026-09-18T02:00:55.690448+00:00"
+    },
+    {
       "source_url": "curated://money/should-friends-pay-you-back-immediately-or-is-later-fine",
       "title": "Should friends pay you back immediately or is later fine?",
       "buffer_post_id": "6aac6a4e7ef8244029319d95",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to refuse a family favor when they mean well?",
       "buffer_post_id": "6a8bc9e1a3b8277a83a571eb",
       "posted_at": "2026-08-24T04:34:41.438593+00:00"
-    },
-    {
-      "source_url": "procedural://work/554",
-      "title": "Would you judge someone for choosing to skip optional meetings when coworkers keep doing it?",
-      "buffer_post_id": "6a8b9241f2c8b8596025db32",
-      "posted_at": "2026-08-24T00:37:21.886786+00:00"
     }
   ]
 }
