@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/is-it-normal-to-hide-small-purchases-from-family-judgment",
+      "title": "Is it normal to hide small purchases from family judgment?",
+      "buffer_post_id": "6aad734f9e7fdc60ebc92dce",
+      "posted_at": "2026-09-18T17:22:23.568762+00:00"
+    },
+    {
+      "source_url": "curated://family/is-it-rude-to-leave-a-family-gathering-early",
+      "title": "Is it rude to leave a family gathering early?",
+      "buffer_post_id": "6aad7342a8ad4ba21679f2ab",
+      "posted_at": "2026-09-18T17:22:11.085071+00:00"
+    },
+    {
       "source_url": "fallback://roommate-habit-move-out",
       "title": "What roommate habit would make you move out immediately?",
       "buffer_post_id": "6aad2e2bd7a2d94521e6a7d1",
@@ -1187,18 +1199,6 @@
       "title": "Would you remind someone about five dollars they owe you?",
       "buffer_post_id": "6a8ca7062a0955d667d62e4d",
       "posted_at": "2026-08-24T20:18:14.300826+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/562",
-      "title": "Is it weird to tell a friend they are draining when everyone is busy?",
-      "buffer_post_id": "6a8c70006162eddfa9bfcccc",
-      "posted_at": "2026-08-24T16:23:28.611730+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/561",
-      "title": "Should people be able to leave a cart behind if staff have to fix it?",
-      "buffer_post_id": "6a8c55ca4820b3999b3fa224",
-      "posted_at": "2026-08-24T14:31:39.088997+00:00"
     }
   ]
 }
