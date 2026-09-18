@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-normal-to-take-leftovers-from-a-party",
+      "title": "Is it normal to take leftovers from a party?",
+      "buffer_post_id": "6aadcce1a4c300df32a1bdd4",
+      "posted_at": "2026-09-18T23:44:33.333079+00:00"
+    },
+    {
       "source_url": "curated://dating/would-you-be-bothered-if-your-partner-liked-an-ex-post",
       "title": "Would you be bothered if your partner liked an ex post?",
       "buffer_post_id": "6aad99df560f708e81429f69",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to mute work apps when coworkers keep doing it?",
       "buffer_post_id": "6a8ce3879bf578c9ef1b9e63",
       "posted_at": "2026-08-25T00:36:23.295555+00:00"
-    },
-    {
-      "source_url": "fallback://couples-phone-passwords",
-      "title": "Should couples share phone passwords or is that weird?",
-      "buffer_post_id": "6a8cc2749bf578c9ef196202",
-      "posted_at": "2026-08-24T22:15:16.407215+00:00"
     }
   ]
 }
