@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://roommate-habit-move-out",
+      "title": "What roommate habit would make you move out immediately?",
+      "buffer_post_id": "6aad2e2bd7a2d94521e6a7d1",
+      "posted_at": "2026-09-18T12:27:23.796508+00:00"
+    },
+    {
       "source_url": "curated://work/should-coworkers-reply-during-lunch-breaks",
       "title": "Should coworkers reply during lunch breaks?",
       "buffer_post_id": "6aace3c8a3c30a520d1f67dc",
@@ -1193,12 +1199,6 @@
       "title": "Should people be able to leave a cart behind if staff have to fix it?",
       "buffer_post_id": "6a8c55ca4820b3999b3fa224",
       "posted_at": "2026-08-24T14:31:39.088997+00:00"
-    },
-    {
-      "source_url": "procedural://red_flags/559",
-      "title": "Is it normal to notice constant interrupting before anything serious happens?",
-      "buffer_post_id": "6a8c1c8feb530dcb04678cae",
-      "posted_at": "2026-08-24T10:27:27.549187+00:00"
     }
   ]
 }
