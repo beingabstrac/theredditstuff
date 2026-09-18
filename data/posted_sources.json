@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/should-coworkers-reply-during-lunch-breaks",
+      "title": "Should coworkers reply during lunch breaks?",
+      "buffer_post_id": "6aace3c8a3c30a520d1f67dc",
+      "posted_at": "2026-09-18T07:10:00.762178+00:00"
+    },
+    {
+      "source_url": "curated://work/is-it-rude-to-leave-work-exactly-on-time",
+      "title": "Is it rude to leave work exactly on time?",
+      "buffer_post_id": "6aace3be0b965a56a588ac90",
+      "posted_at": "2026-09-18T07:09:50.366060+00:00"
+    },
+    {
       "source_url": "curated://texting/should-read-receipts-be-turned-off-by-default",
       "title": "Should read receipts be turned off by default?",
       "buffer_post_id": "6aac9b573193d9f800287afc",
@@ -1187,18 +1199,6 @@
       "title": "Is it normal to notice constant interrupting before anything serious happens?",
       "buffer_post_id": "6a8c1c8feb530dcb04678cae",
       "posted_at": "2026-08-24T10:27:27.549187+00:00"
-    },
-    {
-      "source_url": "curated://dating/would-you-be-bothered-if-your-partner-liked-an-ex-post",
-      "title": "Would you be bothered if your partner liked an ex post?",
-      "buffer_post_id": "6a8be60da3b8277a83a70814",
-      "posted_at": "2026-08-24T06:34:53.742491+00:00"
-    },
-    {
-      "source_url": "procedural://family/556",
-      "title": "Is it weird to refuse a family favor when they mean well?",
-      "buffer_post_id": "6a8bc9e1a3b8277a83a571eb",
-      "posted_at": "2026-08-24T04:34:41.438593+00:00"
     }
   ]
 }
