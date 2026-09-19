@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://restaurant/719",
+      "title": "Would you say something if someone wanted to share food without asking when one person picked the place?",
+      "buffer_post_id": "6aaee61794a070da3351af7f",
+      "posted_at": "2026-09-19T19:44:23.246992+00:00"
+    },
+    {
       "source_url": "curated://friendship/would-you-stay-friends-with-someone-who-never-celebrates-you",
       "title": "Would you stay friends with someone who never celebrates you?",
       "buffer_post_id": "6aaebddf4594e3153f3ba971",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to not reply to texts for hours?",
       "buffer_post_id": "6a8e140a4236595eb3cba5f0",
       "posted_at": "2026-08-25T22:15:39.157888+00:00"
-    },
-    {
-      "source_url": "fallback://split-bill-evenly",
-      "title": "Would you split the bill evenly if one friend ordered way more?",
-      "buffer_post_id": "6a8df836e08d06ae6750481e",
-      "posted_at": "2026-08-25T20:16:54.520122+00:00"
     }
   ]
 }
