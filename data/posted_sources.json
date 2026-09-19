@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/would-you-stay-friends-with-someone-who-never-celebrates-you",
+      "title": "Would you stay friends with someone who never celebrates you?",
+      "buffer_post_id": "6aaebddf4594e3153f3ba971",
+      "posted_at": "2026-09-19T16:52:47.834101+00:00"
+    },
+    {
       "source_url": "procedural://shopping/717",
       "title": "Should people be able to take a call in line when the line is long?",
       "buffer_post_id": "6aae8f14076fd8348fca6240",
@@ -1193,12 +1199,6 @@
       "title": "Would you split the bill evenly if one friend ordered way more?",
       "buffer_post_id": "6a8df836e08d06ae6750481e",
       "posted_at": "2026-08-25T20:16:54.520122+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/574",
-      "title": "Is it weird to expect friends to remember details when everyone is busy?",
-      "buffer_post_id": "6a8dc1bececd7e25c00d0a44",
-      "posted_at": "2026-08-25T16:24:30.561558+00:00"
     }
   ]
 }
