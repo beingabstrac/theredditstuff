@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://red_flags/715",
+      "title": "Is it normal to trust your first impression after it happens twice?",
+      "buffer_post_id": "6aadedd265e5b8cd5b25ff26",
+      "posted_at": "2026-09-19T02:05:06.551321+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-normal-to-take-leftovers-from-a-party",
       "title": "Is it normal to take leftovers from a party?",
       "buffer_post_id": "6aadcce1a4c300df32a1bdd4",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to stop explaining every plan when they mean well?",
       "buffer_post_id": "6a8d19f4b23d1307623a8232",
       "posted_at": "2026-08-25T04:28:36.602251+00:00"
-    },
-    {
-      "source_url": "procedural://work/566",
-      "title": "Would you judge someone for choosing to mute work apps when coworkers keep doing it?",
-      "buffer_post_id": "6a8ce3879bf578c9ef1b9e63",
-      "posted_at": "2026-08-25T00:36:23.295555+00:00"
     }
   ]
 }
