@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/is-it-rude-to-use-coupons-on-a-date",
+      "title": "Is it rude to use coupons on a date?",
+      "buffer_post_id": "6aaf04883916ba5b752fb099",
+      "posted_at": "2026-09-19T21:54:16.596868+00:00"
+    },
+    {
       "source_url": "procedural://restaurant/719",
       "title": "Would you say something if someone wanted to share food without asking when one person picked the place?",
       "buffer_post_id": "6aaee61794a070da3351af7f",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to ignore work messages at a new job?",
       "buffer_post_id": "6a8e353d6e7257c67e79c167",
       "posted_at": "2026-08-26T00:37:17.414522+00:00"
-    },
-    {
-      "source_url": "fallback://reply-to-texts-hours",
-      "title": "Is it normal to not reply to texts for hours?",
-      "buffer_post_id": "6a8e140a4236595eb3cba5f0",
-      "posted_at": "2026-08-25T22:15:39.157888+00:00"
     }
   ]
 }
