@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://would_you_rather/716",
+      "title": "Would you rather get honest advice or quiet support in your current life?",
+      "buffer_post_id": "6aae463b560f708e815246cc",
+      "posted_at": "2026-09-19T08:22:19.996519+00:00"
+    },
+    {
+      "source_url": "curated://would_you_rather/would-you-rather-never-do-laundry-or-never-wash-dishes",
+      "title": "Would you rather never do laundry or never wash dishes?",
+      "buffer_post_id": "6aae46281e8bdcdb523e00a3",
+      "posted_at": "2026-09-19T08:22:00.713136+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/715",
       "title": "Is it normal to trust your first impression after it happens twice?",
       "buffer_post_id": "6aadedd265e5b8cd5b25ff26",
@@ -1187,18 +1199,6 @@
       "title": "What harmless habit makes you instantly judge someone?",
       "buffer_post_id": "6a8d6cb31cdd120f4e10564c",
       "posted_at": "2026-08-25T10:21:39.706210+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/should-guests-help-clean-up-without-being-asked",
-      "title": "Should guests help clean up without being asked?",
-      "buffer_post_id": "6a8d525c5dbd4b6c9d67e9f8",
-      "posted_at": "2026-08-25T08:29:16.579425+00:00"
-    },
-    {
-      "source_url": "procedural://family/568",
-      "title": "Is it weird to stop explaining every plan when they mean well?",
-      "buffer_post_id": "6a8d19f4b23d1307623a8232",
-      "posted_at": "2026-08-25T04:28:36.602251+00:00"
     }
   ]
 }
