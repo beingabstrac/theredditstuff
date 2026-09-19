@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/717",
+      "title": "Should people be able to take a call in line when the line is long?",
+      "buffer_post_id": "6aae8f14076fd8348fca6240",
+      "posted_at": "2026-09-19T13:33:09.067478+00:00"
+    },
+    {
+      "source_url": "curated://shopping/is-it-normal-to-compare-prices-in-front-of-friends",
+      "title": "Is it normal to compare prices in front of friends?",
+      "buffer_post_id": "6aae8f08560f708e815abda6",
+      "posted_at": "2026-09-19T13:32:56.805057+00:00"
+    },
+    {
       "source_url": "procedural://would_you_rather/716",
       "title": "Would you rather get honest advice or quiet support in your current life?",
       "buffer_post_id": "6aae463b560f708e815246cc",
@@ -1187,18 +1199,6 @@
       "title": "Is it weird to expect friends to remember details when everyone is busy?",
       "buffer_post_id": "6a8dc1bececd7e25c00d0a44",
       "posted_at": "2026-08-25T16:24:30.561558+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/573",
-      "title": "Should people be able to take a call in line if staff have to fix it?",
-      "buffer_post_id": "6a8da7ee5f0792e3d620af9d",
-      "posted_at": "2026-08-25T14:34:22.321668+00:00"
-    },
-    {
-      "source_url": "fallback://harmless-habit-judge",
-      "title": "What harmless habit makes you instantly judge someone?",
-      "buffer_post_id": "6a8d6cb31cdd120f4e10564c",
-      "posted_at": "2026-08-25T10:21:39.706210+00:00"
     }
   ]
 }
