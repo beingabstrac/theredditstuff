@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://red_flags/what-harmless-habit-makes-someone-hard-to-trust",
+      "title": "What harmless habit makes someone hard to trust?",
+      "buffer_post_id": "6ab057e7b07e536c5a1d8a9b",
+      "posted_at": "2026-09-20T22:02:15.775236+00:00"
+    },
+    {
       "source_url": "curated://etiquette/should-people-ask-before-taking-photos-of-friends",
       "title": "Should people ask before taking photos of friends?",
       "buffer_post_id": "6ab03a79ca3da6544358d2df",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to send only voice notes during a busy workday?",
       "buffer_post_id": "6a8fcc6435e45d032c2dfd5e",
       "posted_at": "2026-08-27T05:34:28.212583+00:00"
-    },
-    {
-      "source_url": "fallback://everyday-expensive",
-      "title": "What everyday thing became expensive for no good reason?",
-      "buffer_post_id": "6a8f6a1df7cda5d0e56d5a10",
-      "posted_at": "2026-08-26T22:35:09.695376+00:00"
     }
   ]
 }
