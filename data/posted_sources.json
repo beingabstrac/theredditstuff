@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-it-rude-for-roommates-to-use-your-food-without-asking",
+      "title": "Is it rude for roommates to use your food without asking?",
+      "buffer_post_id": "6aaf9f314594e3153f4fe998",
+      "posted_at": "2026-09-20T08:54:10.074819+00:00"
+    },
+    {
+      "source_url": "curated://roommates/is-it-normal-to-avoid-your-roommate-in-your-own-home",
+      "title": "Is it normal to avoid your roommate in your own home?",
+      "buffer_post_id": "6aaf9f2313d908add214632c",
+      "posted_at": "2026-09-20T08:53:55.639362+00:00"
+    },
+    {
       "source_url": "procedural://work/722",
       "title": "Would you judge someone for choosing to ignore work messages if the manager expects it?",
       "buffer_post_id": "6aaf407e4594e3153f47242e",
@@ -1187,18 +1199,6 @@
       "title": "What harmless habit makes someone hard to trust?",
       "buffer_post_id": "6a8ebeb464b654d2c8f65c3f",
       "posted_at": "2026-08-26T10:23:48.394688+00:00"
-    },
-    {
-      "source_url": "fallback://complain-loud-neighbors",
-      "title": "Is it petty to complain about loud neighbors?",
-      "buffer_post_id": "6a8ea46649c110258ff862bf",
-      "posted_at": "2026-08-26T08:31:34.489068+00:00"
-    },
-    {
-      "source_url": "procedural://family/580",
-      "title": "Is it weird to set boundaries after repeated comments?",
-      "buffer_post_id": "6a8e6bf148c24ff777b6fa0f",
-      "posted_at": "2026-08-26T04:30:41.207870+00:00"
     }
   ]
 }
