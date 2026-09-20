@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://dating/725",
+      "title": "Would you say something if someone wanted to split the bill before it becomes a pattern?",
+      "buffer_post_id": "6ab0125012a7a16e8100e29c",
+      "posted_at": "2026-09-20T17:05:20.309037+00:00"
+    },
+    {
       "source_url": "curated://family/would-you-correct-family-when-they-embarrass-you-in-public",
       "title": "Would you correct family when they embarrass you in public?",
       "buffer_post_id": "6aafe40635dc00a609730134",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to order the cheapest thing on the menu?",
       "buffer_post_id": "6a8f3ecca35e3b8c4e8026ba",
       "posted_at": "2026-08-26T19:30:21.202683+00:00"
-    },
-    {
-      "source_url": "curated://friendship/would-you-tell-a-friend-they-are-draining-to-be-around",
-      "title": "Would you tell a friend they are draining to be around?",
-      "buffer_post_id": "6a8f173067e50744e7ba3dea",
-      "posted_at": "2026-08-26T16:41:21.064213+00:00"
     }
   ]
 }
