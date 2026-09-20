@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/722",
+      "title": "Would you judge someone for choosing to ignore work messages if the manager expects it?",
+      "buffer_post_id": "6aaf407e4594e3153f47242e",
+      "posted_at": "2026-09-20T02:10:07.460617+00:00"
+    },
+    {
       "source_url": "curated://money/is-it-rude-to-use-coupons-on-a-date",
       "title": "Is it rude to use coupons on a date?",
       "buffer_post_id": "6aaf04883916ba5b752fb099",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to set boundaries after repeated comments?",
       "buffer_post_id": "6a8e6bf148c24ff777b6fa0f",
       "posted_at": "2026-08-26T04:30:41.207870+00:00"
-    },
-    {
-      "source_url": "procedural://work/578",
-      "title": "Would you judge someone for choosing to ignore work messages at a new job?",
-      "buffer_post_id": "6a8e353d6e7257c67e79c167",
-      "posted_at": "2026-08-26T00:37:17.414522+00:00"
     }
   ]
 }
