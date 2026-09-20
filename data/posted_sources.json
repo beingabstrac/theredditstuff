@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/would-you-correct-family-when-they-embarrass-you-in-public",
+      "title": "Would you correct family when they embarrass you in public?",
+      "buffer_post_id": "6aafe40635dc00a609730134",
+      "posted_at": "2026-09-20T13:47:51.017185+00:00"
+    },
+    {
+      "source_url": "curated://family/would-you-refuse-to-host-relatives-who-overstay",
+      "title": "Would you refuse to host relatives who overstay?",
+      "buffer_post_id": "6aafe3fa82c417da848871df",
+      "posted_at": "2026-09-20T13:47:38.347544+00:00"
+    },
+    {
       "source_url": "curated://roommates/is-it-rude-for-roommates-to-use-your-food-without-asking",
       "title": "Is it rude for roommates to use your food without asking?",
       "buffer_post_id": "6aaf9f314594e3153f4fe998",
@@ -1187,18 +1199,6 @@
       "title": "Would you tell a friend they are draining to be around?",
       "buffer_post_id": "6a8f173067e50744e7ba3dea",
       "posted_at": "2026-08-26T16:41:21.064213+00:00"
-    },
-    {
-      "source_url": "curated://shopping/should-people-bag-their-own-groceries-when-the-line-is-long",
-      "title": "Should people bag their own groceries when the line is long?",
-      "buffer_post_id": "6a8ef979721680f0dd8dda13",
-      "posted_at": "2026-08-26T14:34:33.467832+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-harmless-habit-makes-someone-hard-to-trust",
-      "title": "What harmless habit makes someone hard to trust?",
-      "buffer_post_id": "6a8ebeb464b654d2c8f65c3f",
-      "posted_at": "2026-08-26T10:23:48.394688+00:00"
     }
   ]
 }
