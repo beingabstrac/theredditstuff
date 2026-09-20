@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/should-people-ask-before-taking-photos-of-friends",
+      "title": "Should people ask before taking photos of friends?",
+      "buffer_post_id": "6ab03a79ca3da6544358d2df",
+      "posted_at": "2026-09-20T19:56:42.014740+00:00"
+    },
+    {
       "source_url": "procedural://dating/725",
       "title": "Would you say something if someone wanted to split the bill before it becomes a pattern?",
       "buffer_post_id": "6ab0125012a7a16e8100e29c",
@@ -1193,12 +1199,6 @@
       "title": "What everyday thing became expensive for no good reason?",
       "buffer_post_id": "6a8f6a1df7cda5d0e56d5a10",
       "posted_at": "2026-08-26T22:35:09.695376+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-weird-to-order-the-cheapest-thing-on-the-menu",
-      "title": "Is it weird to order the cheapest thing on the menu?",
-      "buffer_post_id": "6a8f3ecca35e3b8c4e8026ba",
-      "posted_at": "2026-08-26T19:30:21.202683+00:00"
     }
   ]
 }
