@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/729",
+      "title": "Should people be able to block an aisle after changing your mind?",
+      "buffer_post_id": "6ab0f7ab8320039c5ec68cf4",
+      "posted_at": "2026-09-21T09:23:55.211506+00:00"
+    },
+    {
+      "source_url": "curated://shopping/should-people-bag-their-own-groceries-when-the-line-is-long",
+      "title": "Should people bag their own groceries when the line is long?",
+      "buffer_post_id": "6ab0f79e678b629523534006",
+      "posted_at": "2026-09-21T09:23:43.021997+00:00"
+    },
+    {
       "source_url": "procedural://would_you_rather/728",
       "title": "Would you rather always be early or exactly on time if money was still the same?",
       "buffer_post_id": "6ab092169644849c89a7c414",
@@ -1187,18 +1199,6 @@
       "title": "Would you judge someone for choosing to say no to last minute tasks at a new job?",
       "buffer_post_id": "6a906da5e1ff4f94894adbbd",
       "posted_at": "2026-08-27T17:02:29.471198+00:00"
-    },
-    {
-      "source_url": "fallback://ignore-work-after-hours",
-      "title": "Is it fair to ignore work messages after hours?",
-      "buffer_post_id": "6a906d8aad439ded2ea0a5a0",
-      "posted_at": "2026-08-27T17:02:02.348504+00:00"
-    },
-    {
-      "source_url": "procedural://texting/590",
-      "title": "Would you judge someone for choosing to send only voice notes during a busy workday?",
-      "buffer_post_id": "6a8fcc7635e45d032c2dfe36",
-      "posted_at": "2026-08-27T05:34:47.047154+00:00"
     }
   ]
 }
