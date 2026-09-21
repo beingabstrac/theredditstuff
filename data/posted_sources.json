@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://would_you_rather/728",
+      "title": "Would you rather always be early or exactly on time if money was still the same?",
+      "buffer_post_id": "6ab092169644849c89a7c414",
+      "posted_at": "2026-09-21T02:10:30.925183+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-harmless-habit-makes-someone-hard-to-trust",
       "title": "What harmless habit makes someone hard to trust?",
       "buffer_post_id": "6ab057e7b07e536c5a1d8a9b",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to send only voice notes during a busy workday?",
       "buffer_post_id": "6a8fcc7635e45d032c2dfe36",
       "posted_at": "2026-08-27T05:34:47.047154+00:00"
-    },
-    {
-      "source_url": "procedural://texting/589",
-      "title": "Is it normal to send only voice notes during a busy workday?",
-      "buffer_post_id": "6a8fcc6435e45d032c2dfd5e",
-      "posted_at": "2026-08-27T05:34:28.212583+00:00"
     }
   ]
 }
