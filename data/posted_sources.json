@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/is-it-awkward-to-say-a-restaurant-is-too-expensive",
+      "title": "Is it awkward to say a restaurant is too expensive?",
+      "buffer_post_id": "6ab1ca14826cfc54b8607220",
+      "posted_at": "2026-09-22T00:21:40.424905+00:00"
+    },
+    {
       "source_url": "curated://restaurant/is-it-weird-to-order-the-cheapest-thing-on-the-menu",
       "title": "Is it weird to order the cheapest thing on the menu?",
       "buffer_post_id": "6ab19fc01177eabccaef0dee",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to split utilities evenly if one person is always home?",
       "buffer_post_id": "6a90ea0cb12b8efbe733ec67",
       "posted_at": "2026-08-28T01:53:16.256386+00:00"
-    },
-    {
-      "source_url": "curated://roommates/is-leaving-dishes-overnight-normal-or-gross",
-      "title": "Is leaving dishes overnight normal or gross?",
-      "buffer_post_id": "6a90e9f8ae8294e4836c6f21",
-      "posted_at": "2026-08-28T01:52:57.061471+00:00"
     }
   ]
 }
