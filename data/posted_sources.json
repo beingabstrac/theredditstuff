@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/736",
+      "title": "Is it weird to not answer calls immediately if they get offended?",
+      "buffer_post_id": "6ab2e700636742671cde90d6",
+      "posted_at": "2026-09-22T20:37:21.147386+00:00"
+    },
+    {
       "source_url": "curated://roommates/is-leaving-dishes-overnight-normal-or-gross",
       "title": "Is leaving dishes overnight normal or gross?",
       "buffer_post_id": "6ab2bf9c3940995ca1565679",
@@ -1193,12 +1199,6 @@
       "title": "Should you text right after a good date?",
       "buffer_post_id": "6a9216eac4c3aa938d8a6af6",
       "posted_at": "2026-08-28T23:16:59.099071+00:00"
-    },
-    {
-      "source_url": "curated://dating/should-couples-share-locations-with-each-other",
-      "title": "Should couples share locations with each other?",
-      "buffer_post_id": "6a9216dbc4c3aa938d8a6a51",
-      "posted_at": "2026-08-28T23:16:43.436956+00:00"
     }
   ]
 }
