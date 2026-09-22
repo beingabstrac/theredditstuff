@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/734",
+      "title": "Would you judge someone for choosing to say no to last minute tasks if the manager expects it?",
+      "buffer_post_id": "6ab27ac62f30e64179d75e19",
+      "posted_at": "2026-09-22T12:55:35.005745+00:00"
+    },
+    {
+      "source_url": "fallback://ignore-work-after-hours",
+      "title": "Is it fair to ignore work messages after hours?",
+      "buffer_post_id": "6ab27ab38920619c8e5b45eb",
+      "posted_at": "2026-09-22T12:55:15.993274+00:00"
+    },
+    {
       "source_url": "curated://texting/does-dry-texting-always-mean-someone-is-not-interested",
       "title": "Does dry texting always mean someone is not interested?",
       "buffer_post_id": "6ab227b19609314f621b8e4a",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude to split the bill on a first date?",
       "buffer_post_id": "6a9216c89426246f671b5631",
       "posted_at": "2026-08-28T23:16:24.777659+00:00"
-    },
-    {
-      "source_url": "procedural://family/595",
-      "title": "Is it normal to ask family to call first after repeated comments?",
-      "buffer_post_id": "6a918d941093ae12df433601",
-      "posted_at": "2026-08-28T13:31:00.790592+00:00"
-    },
-    {
-      "source_url": "procedural://family/594",
-      "title": "Is it rude to ask family to call first after repeated comments?",
-      "buffer_post_id": "6a918d87dae2bc15a5ad8183",
-      "posted_at": "2026-08-28T13:30:47.257357+00:00"
     }
   ]
 }
