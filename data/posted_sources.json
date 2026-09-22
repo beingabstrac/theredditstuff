@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-leaving-dishes-overnight-normal-or-gross",
+      "title": "Is leaving dishes overnight normal or gross?",
+      "buffer_post_id": "6ab2bf9c3940995ca1565679",
+      "posted_at": "2026-09-22T17:49:17.265956+00:00"
+    },
+    {
       "source_url": "procedural://work/734",
       "title": "Would you judge someone for choosing to say no to last minute tasks if the manager expects it?",
       "buffer_post_id": "6ab27ac62f30e64179d75e19",
@@ -1193,12 +1199,6 @@
       "title": "Should couples share locations with each other?",
       "buffer_post_id": "6a9216dbc4c3aa938d8a6a51",
       "posted_at": "2026-08-28T23:16:43.436956+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-rude-to-split-the-bill-on-a-first-date",
-      "title": "Is it rude to split the bill on a first date?",
-      "buffer_post_id": "6a9216c89426246f671b5631",
-      "posted_at": "2026-08-28T23:16:24.777659+00:00"
     }
   ]
 }
