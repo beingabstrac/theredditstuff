@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/742",
+      "title": "Is it weird to keep score of favors if it feels one-sided?",
+      "buffer_post_id": "6ab4537bfa1e50c3ab31eb4b",
+      "posted_at": "2026-09-23T22:32:28.129428+00:00"
+    },
+    {
       "source_url": "procedural://shopping/742",
       "title": "Is it weird to argue over a return after changing your mind?",
       "buffer_post_id": "6ab426142ed4dc0831d60c16",
@@ -1193,12 +1199,6 @@
       "title": "Should the person who chose the restaurant handle the booking?",
       "buffer_post_id": "6a93918df7f5d8f78d0e9946",
       "posted_at": "2026-08-30T02:12:29.694282+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/598",
-      "title": "Is it weird to keep score of favors if they never ask about you?",
-      "buffer_post_id": "6a9357d5ba5ed85198073521",
-      "posted_at": "2026-08-29T22:06:13.616948+00:00"
     }
   ]
 }
