@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://red_flags/739",
+      "title": "Is it normal to pull back after one weird moment without overthinking it?",
+      "buffer_post_id": "6ab393e2344004e7d4353e2b",
+      "posted_at": "2026-09-23T08:54:58.911172+00:00"
+    },
+    {
+      "source_url": "fallback://harmless-habit-judge",
+      "title": "What harmless habit makes you instantly judge someone?",
+      "buffer_post_id": "6ab393d54d5794f6ec09d59f",
+      "posted_at": "2026-09-23T08:54:45.738208+00:00"
+    },
+    {
       "source_url": "fallback://complain-loud-neighbors",
       "title": "Is it petty to complain about loud neighbors?",
       "buffer_post_id": "6ab33663557b1c68e6c11a70",
@@ -1187,18 +1199,6 @@
       "title": "What is a red flag at dinner with someone?",
       "buffer_post_id": "6a92c8abaa187a14a5f094ca",
       "posted_at": "2026-08-29T11:55:23.541446+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-everyday-behavior-feels-selfish-immediately",
-      "title": "What everyday behavior feels selfish immediately?",
-      "buffer_post_id": "6a92c89c9e5f3621e7265f20",
-      "posted_at": "2026-08-29T11:55:08.505628+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-normal-to-not-offer-guests-a-drink",
-      "title": "Is it normal to not offer guests a drink?",
-      "buffer_post_id": "6a9262a43a3b8905af265363",
-      "posted_at": "2026-08-29T04:40:04.517123+00:00"
     }
   ]
 }
