@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://would_you_rather/741",
+      "title": "Would you rather have one close friend or many casual friends if money was still the same?",
+      "buffer_post_id": "6ab3e2a667b4b0ab58a02ee7",
+      "posted_at": "2026-09-23T14:31:02.477095+00:00"
+    },
+    {
+      "source_url": "procedural://would_you_rather/740",
+      "title": "Would you rather have one close friend or many casual friends if money was still the same?",
+      "buffer_post_id": "6ab3e299d1d84858efc8a5f1",
+      "posted_at": "2026-09-23T14:30:49.698006+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/739",
       "title": "Is it normal to pull back after one weird moment without overthinking it?",
       "buffer_post_id": "6ab393e2344004e7d4353e2b",
@@ -1187,18 +1199,6 @@
       "title": "Would you rather get honest advice or comforting support?",
       "buffer_post_id": "6a93009c73b542df4dddd769",
       "posted_at": "2026-08-29T15:54:04.505669+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-always-know-when-someone-is-lying-or-always-sound-believable",
-      "title": "Would you rather always know when someone is lying or always sound believable?",
-      "buffer_post_id": "6a93009073b542df4dddd6f0",
-      "posted_at": "2026-08-29T15:53:52.479667+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-red-flag-at-dinner-with-someone",
-      "title": "What is a red flag at dinner with someone?",
-      "buffer_post_id": "6a92c8abaa187a14a5f094ca",
-      "posted_at": "2026-08-29T11:55:23.541446+00:00"
     }
   ]
 }
