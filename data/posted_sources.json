@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://complain-loud-neighbors",
+      "title": "Is it petty to complain about loud neighbors?",
+      "buffer_post_id": "6ab33663557b1c68e6c11a70",
+      "posted_at": "2026-09-23T02:16:03.249044+00:00"
+    },
+    {
       "source_url": "curated://dating/should-couples-share-locations-with-each-other",
       "title": "Should couples share locations with each other?",
       "buffer_post_id": "6ab3153f340f92dcbe192c4c",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to not offer guests a drink?",
       "buffer_post_id": "6a9262a43a3b8905af265363",
       "posted_at": "2026-08-29T04:40:04.517123+00:00"
-    },
-    {
-      "source_url": "fallback://invite-yourself-plans",
-      "title": "Is it weird to invite yourself to plans you heard about?",
-      "buffer_post_id": "6a926290e959557ce555837a",
-      "posted_at": "2026-08-29T04:39:44.318176+00:00"
     }
   ]
 }
