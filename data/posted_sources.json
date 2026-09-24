@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://everyday-expensive",
+      "title": "What everyday thing became expensive for no good reason?",
+      "buffer_post_id": "6ab4e489521044626febbc23",
+      "posted_at": "2026-09-24T08:51:21.978818+00:00"
+    },
+    {
+      "source_url": "fallback://split-bill-evenly",
+      "title": "Would you split the bill evenly if one friend ordered way more?",
+      "buffer_post_id": "6ab4e46fccbef1e0a54c3117",
+      "posted_at": "2026-09-24T08:50:55.891859+00:00"
+    },
+    {
       "source_url": "procedural://restaurant/743",
       "title": "Would you say something if someone wanted to take a call at dinner without making dinner tense?",
       "buffer_post_id": "6ab484a8ccbef1e0a541941e",
@@ -1187,18 +1199,6 @@
       "title": "Is it fair to skip a birthday dinner because it costs too much?",
       "buffer_post_id": "6a93f906883d90b51c4711ec",
       "posted_at": "2026-08-30T09:33:58.714983+00:00"
-    },
-    {
-      "source_url": "fallback://lend-money-friend-owes",
-      "title": "Would you lend money to a friend who still owes other people?",
-      "buffer_post_id": "6a93f8f924c2007a004666e4",
-      "posted_at": "2026-08-30T09:33:45.816678+00:00"
-    },
-    {
-      "source_url": "fallback://check-split-bill",
-      "title": "Is it rude to check the bill when someone else said they split it already?",
-      "buffer_post_id": "6a93f8e4f7f5d8f78d156161",
-      "posted_at": "2026-08-30T09:33:25.078653+00:00"
     }
   ]
 }
