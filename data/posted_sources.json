@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://restaurant/743",
+      "title": "Would you say something if someone wanted to take a call at dinner without making dinner tense?",
+      "buffer_post_id": "6ab484a8ccbef1e0a541941e",
+      "posted_at": "2026-09-24T02:02:16.771180+00:00"
+    },
+    {
       "source_url": "procedural://friendship/742",
       "title": "Is it weird to keep score of favors if it feels one-sided?",
       "buffer_post_id": "6ab4537bfa1e50c3ab31eb4b",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to check the bill when someone else said they split it already?",
       "buffer_post_id": "6a93f8e4f7f5d8f78d156161",
       "posted_at": "2026-08-30T09:33:25.078653+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/should-the-person-who-chose-the-restaurant-handle-the-booking",
-      "title": "Should the person who chose the restaurant handle the booking?",
-      "buffer_post_id": "6a93918df7f5d8f78d0e9946",
-      "posted_at": "2026-08-30T02:12:29.694282+00:00"
     }
   ]
 }
