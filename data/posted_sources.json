@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/would-you-confront-a-roommate-about-smell",
+      "title": "Would you confront a roommate about smell?",
+      "buffer_post_id": "6ab5a8f6c16e7f804a50f060",
+      "posted_at": "2026-09-24T22:49:27.071216+00:00"
+    },
+    {
       "source_url": "curated://work/is-it-fair-to-say-no-to-last-minute-work",
       "title": "Is it fair to say no to last minute work?",
       "buffer_post_id": "6ab57bbda074a75427c745a5",
@@ -1193,12 +1199,6 @@
       "title": "Is it wrong to not lend family your car?",
       "buffer_post_id": "6a94e1f289479b733db77570",
       "posted_at": "2026-08-31T02:07:46.417476+00:00"
-    },
-    {
-      "source_url": "fallback://house-guest-red-flag",
-      "title": "What house guest behavior is an instant red flag?",
-      "buffer_post_id": "6a94aaec6bbc8c9a02f80e8c",
-      "posted_at": "2026-08-30T22:13:00.336263+00:00"
     }
   ]
 }
