@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/is-it-fair-to-say-no-to-last-minute-work",
+      "title": "Is it fair to say no to last minute work?",
+      "buffer_post_id": "6ab57bbda074a75427c745a5",
+      "posted_at": "2026-09-24T19:36:29.439534+00:00"
+    },
+    {
+      "source_url": "procedural://work/746",
+      "title": "Would you judge someone for choosing to skip optional meetings if the manager expects it?",
+      "buffer_post_id": "6ab57ba1f80e442e5206b17a",
+      "posted_at": "2026-09-24T19:36:01.642088+00:00"
+    },
+    {
       "source_url": "procedural://texting/745",
       "title": "Is it normal to double text when nothing is urgent?",
       "buffer_post_id": "6ab5343907a561292b167902",
@@ -1187,18 +1199,6 @@
       "title": "What house guest behavior is an instant red flag?",
       "buffer_post_id": "6a94aaec6bbc8c9a02f80e8c",
       "posted_at": "2026-08-30T22:13:00.336263+00:00"
-    },
-    {
-      "source_url": "procedural://work/602",
-      "title": "Would you judge someone for choosing to skip optional meetings at a new job?",
-      "buffer_post_id": "6a947c98d076c0e583621c27",
-      "posted_at": "2026-08-30T18:55:21.003597+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-fair-to-say-no-to-last-minute-work",
-      "title": "Is it fair to say no to last minute work?",
-      "buffer_post_id": "6a947c87d58664eabd7b148e",
-      "posted_at": "2026-08-30T18:55:03.324286+00:00"
     }
   ]
 }
