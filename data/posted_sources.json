@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://invite-yourself-plans",
+      "title": "Is it weird to invite yourself to plans you heard about?",
+      "buffer_post_id": "6ab68a62a8082582dff8d7e8",
+      "posted_at": "2026-09-25T14:51:14.564547+00:00"
+    },
+    {
+      "source_url": "curated://etiquette/is-it-rude-to-ask-guests-to-leave",
+      "title": "Is it rude to ask guests to leave?",
+      "buffer_post_id": "6ab68a4a71974318268ab68c",
+      "posted_at": "2026-09-25T14:50:50.698563+00:00"
+    },
+    {
       "source_url": "curated://dating/is-it-rude-to-split-the-bill-on-a-first-date",
       "title": "Is it rude to split the bill on a first date?",
       "buffer_post_id": "6ab63aa7607bee5b032e31d5",
@@ -1187,18 +1199,6 @@
       "title": "Is it weird to bring your own food to someone house?",
       "buffer_post_id": "6a95c6a926fd9f0535851e70",
       "posted_at": "2026-08-31T18:23:37.281294+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-play-videos-out-loud-in-public",
-      "title": "Is it rude to play videos out loud in public?",
-      "buffer_post_id": "6a95c68fbc8169016ae9bd77",
-      "posted_at": "2026-08-31T18:23:12.203461+00:00"
-    },
-    {
-      "source_url": "procedural://dating/605",
-      "title": "Would you say something if someone wanted to cancel a date after one awkward moment?",
-      "buffer_post_id": "6a955419a2be5e67b3cb0d83",
-      "posted_at": "2026-08-31T10:14:49.308374+00:00"
     }
   ]
 }
