@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/748",
+      "title": "Is it weird to refuse a family favor if they get offended?",
+      "buffer_post_id": "6ab5da328c95968bb028bbfd",
+      "posted_at": "2026-09-25T02:19:31.170188+00:00"
+    },
+    {
       "source_url": "curated://roommates/would-you-confront-a-roommate-about-smell",
       "title": "Would you confront a roommate about smell?",
       "buffer_post_id": "6ab5a8f6c16e7f804a50f060",
@@ -1193,12 +1199,6 @@
       "title": "What texting habit is a dating red flag?",
       "buffer_post_id": "6a9553df2986185ba1833f0f",
       "posted_at": "2026-08-31T10:13:51.427405+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-wrong-to-not-lend-family-your-car",
-      "title": "Is it wrong to not lend family your car?",
-      "buffer_post_id": "6a94e1f289479b733db77570",
-      "posted_at": "2026-08-31T02:07:46.417476+00:00"
     }
   ]
 }
