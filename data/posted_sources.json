@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/is-it-rude-to-split-the-bill-on-a-first-date",
+      "title": "Is it rude to split the bill on a first date?",
+      "buffer_post_id": "6ab63aa7607bee5b032e31d5",
+      "posted_at": "2026-09-25T09:11:03.978307+00:00"
+    },
+    {
+      "source_url": "curated://dating/should-you-text-right-after-a-good-date",
+      "title": "Should you text right after a good date?",
+      "buffer_post_id": "6ab63a96607bee5b032e30c2",
+      "posted_at": "2026-09-25T09:10:46.528959+00:00"
+    },
+    {
       "source_url": "procedural://family/748",
       "title": "Is it weird to refuse a family favor if they get offended?",
       "buffer_post_id": "6ab5da328c95968bb028bbfd",
@@ -1187,18 +1199,6 @@
       "title": "Would you say something if someone wanted to cancel a date after one awkward moment?",
       "buffer_post_id": "6a955419a2be5e67b3cb0d83",
       "posted_at": "2026-08-31T10:14:49.308374+00:00"
-    },
-    {
-      "source_url": "fallback://tell-friend-partner-flirting",
-      "title": "Would you tell your friend if their partner was flirting with someone else?",
-      "buffer_post_id": "6a9554002986185ba1834119",
-      "posted_at": "2026-08-31T10:14:24.392603+00:00"
-    },
-    {
-      "source_url": "fallback://dating-texting-red-flag",
-      "title": "What texting habit is a dating red flag?",
-      "buffer_post_id": "6a9553df2986185ba1833f0f",
-      "posted_at": "2026-08-31T10:13:51.427405+00:00"
     }
   ]
 }
