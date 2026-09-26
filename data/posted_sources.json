@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://restaurant/755",
+      "title": "Would you say something if someone wanted to order the cheapest thing without making dinner tense?",
+      "buffer_post_id": "6ab7cf5b3d66d464e5b1d4fe",
+      "posted_at": "2026-09-26T13:57:47.396451+00:00"
+    },
+    {
+      "source_url": "curated://restaurant/should-the-person-who-chose-the-restaurant-handle-the-booking",
+      "title": "Should the person who chose the restaurant handle the booking?",
+      "buffer_post_id": "6ab7cf490f79a37c5d2fff93",
+      "posted_at": "2026-09-26T13:57:30.170532+00:00"
+    },
+    {
       "source_url": "procedural://friendship/755",
       "title": "Would you say something if someone wanted to tell a friend they are draining if it feels one-sided?",
       "buffer_post_id": "6ab7886ff59168c9753ba725",
@@ -1187,18 +1199,6 @@
       "title": "Is it embarrassing when someone complains loudly at dinner?",
       "buffer_post_id": "6a97204e621c4f647bd4c884",
       "posted_at": "2026-09-01T18:58:22.757634+00:00"
-    },
-    {
-      "source_url": "curated://friendship/should-friends-ask-before-venting",
-      "title": "Should friends ask before venting?",
-      "buffer_post_id": "6a96dfeb68a18cc49914bfc6",
-      "posted_at": "2026-09-01T14:23:39.309631+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-normal-for-friendships-to-fade-without-a-fight",
-      "title": "Is it normal for friendships to fade without a fight?",
-      "buffer_post_id": "6a96dfdbb4426bdd0294bcf5",
-      "posted_at": "2026-09-01T14:23:23.746243+00:00"
     }
   ]
 }
