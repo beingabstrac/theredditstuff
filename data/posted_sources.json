@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://check-split-bill",
+      "title": "Is it rude to check the bill when someone else said they split it already?",
+      "buffer_post_id": "6ab80229ccccb9429c3525e8",
+      "posted_at": "2026-09-26T17:34:33.753147+00:00"
+    },
+    {
       "source_url": "procedural://restaurant/755",
       "title": "Would you say something if someone wanted to order the cheapest thing without making dinner tense?",
       "buffer_post_id": "6ab7cf5b3d66d464e5b1d4fe",
@@ -1193,12 +1199,6 @@
       "title": "Would you go back to a place your friend hated?",
       "buffer_post_id": "6a97206c12353bde621e9896",
       "posted_at": "2026-09-01T18:58:52.338426+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-embarrassing-when-someone-complains-loudly-at-dinner",
-      "title": "Is it embarrassing when someone complains loudly at dinner?",
-      "buffer_post_id": "6a97204e621c4f647bd4c884",
-      "posted_at": "2026-09-01T18:58:22.757634+00:00"
     }
   ]
 }
