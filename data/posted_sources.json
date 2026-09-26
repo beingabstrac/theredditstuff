@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/is-blocking-an-aisle-with-a-cart-a-major-offense",
+      "title": "Is blocking an aisle with a cart a major offense?",
+      "buffer_post_id": "6ab72ce3f59168c9753258e8",
+      "posted_at": "2026-09-26T02:24:35.838074+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-always-know-when-someone-is-lying-or-always-sound-believable",
       "title": "Would you rather always know when someone is lying or always sound believable?",
       "buffer_post_id": "6ab6fbe7f59168c9752d68b3",
@@ -1193,12 +1199,6 @@
       "title": "Should delivery fees make you stop ordering food?",
       "buffer_post_id": "6a9693ec6ce1b05b193980fa",
       "posted_at": "2026-09-01T08:59:25.114848+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-always-get-the-last-word-or-never-need-it",
-      "title": "Would you rather always get the last word or never need it?",
-      "buffer_post_id": "6a9638477f35fa8ffd75b155",
-      "posted_at": "2026-09-01T02:28:23.466549+00:00"
     }
   ]
 }
