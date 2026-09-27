@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://red_flags/what-is-a-green-flag-people-do-not-talk-about-enough",
+      "title": "What is a green flag people do not talk about enough?",
+      "buffer_post_id": "6ab99b2f82dee5c85bcd2015",
+      "posted_at": "2026-09-27T22:39:43.787554+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-rude-to-play-videos-out-loud-in-public",
       "title": "Is it rude to play videos out loud in public?",
       "buffer_post_id": "6ab96e12612c9e6ac9312abe",
@@ -1193,12 +1199,6 @@
       "title": "What normal habit becomes annoying very fast?",
       "buffer_post_id": "6a98d385fed7717ad382e94a",
       "posted_at": "2026-09-03T01:55:17.536169+00:00"
-    },
-    {
-      "source_url": "fallback://self-care-avoidance",
-      "title": "What do people call self-care that is actually avoidance?",
-      "buffer_post_id": "6a98b40d99622a9a0a548742",
-      "posted_at": "2026-09-02T23:41:02.182695+00:00"
     }
   ]
 }
