@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/758",
+      "title": "Would you judge someone for choosing to mute work apps if the manager expects it?",
+      "buffer_post_id": "6ab85cb00f79a37c5d3f6603",
+      "posted_at": "2026-09-27T00:00:48.431052+00:00"
+    },
+    {
       "source_url": "curated://texting/is-sending-voice-notes-instead-of-texting-annoying",
       "title": "Is sending voice notes instead of texting annoying?",
       "buffer_post_id": "6ab828f505811e573737964e",
@@ -1193,12 +1199,6 @@
       "title": "Should plans be confirmed again the day of?",
       "buffer_post_id": "6a9780a8b025b625550446a9",
       "posted_at": "2026-09-02T01:49:28.279319+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-rude-to-ask-the-price-before-agreeing-to-plans",
-      "title": "Is it rude to ask the price before agreeing to plans?",
-      "buffer_post_id": "6a974d8a3bb977dabf68efb2",
-      "posted_at": "2026-09-01T22:11:22.865151+00:00"
     }
   ]
 }
