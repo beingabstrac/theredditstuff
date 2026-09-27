@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-rude-to-play-videos-out-loud-in-public",
+      "title": "Is it rude to play videos out loud in public?",
+      "buffer_post_id": "6ab96e12612c9e6ac9312abe",
+      "posted_at": "2026-09-27T19:27:14.663342+00:00"
+    },
+    {
       "source_url": "fallback://tell-friend-partner-flirting",
       "title": "Would you tell your friend if their partner was flirting with someone else?",
       "buffer_post_id": "6ab93d1f1bf030e330ad62c8",
@@ -1193,12 +1199,6 @@
       "title": "What do people call self-care that is actually avoidance?",
       "buffer_post_id": "6a98b40d99622a9a0a548742",
       "posted_at": "2026-09-02T23:41:02.182695+00:00"
-    },
-    {
-      "source_url": "curated://dating/would-you-tell-someone-their-dating-standards-are-unrealistic",
-      "title": "Would you tell someone their dating standards are unrealistic?",
-      "buffer_post_id": "6a9883be09ad463a84405759",
-      "posted_at": "2026-09-02T20:14:54.282486+00:00"
     }
   ]
 }
