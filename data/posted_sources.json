@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://house-guest-red-flag",
+      "title": "What house guest behavior is an instant red flag?",
+      "buffer_post_id": "6ab899320f79a37c5d44fe10",
+      "posted_at": "2026-09-27T04:18:59.048151+00:00"
+    },
+    {
+      "source_url": "curated://roommates/is-it-fair-to-split-utilities-evenly-if-one-person-is-always-home",
+      "title": "Is it fair to split utilities evenly if one person is always home?",
+      "buffer_post_id": "6ab8992105811e573742547b",
+      "posted_at": "2026-09-27T04:18:41.845459+00:00"
+    },
+    {
       "source_url": "procedural://work/758",
       "title": "Would you judge someone for choosing to mute work apps if the manager expects it?",
       "buffer_post_id": "6ab85cb00f79a37c5d3f6603",
@@ -1187,18 +1199,6 @@
       "title": "Would you tell a coworker they are talking too loudly?",
       "buffer_post_id": "6a97c3b84ef402cb9b13cf54",
       "posted_at": "2026-09-02T06:35:36.899567+00:00"
-    },
-    {
-      "source_url": "curated://work/would-you-cover-for-a-coworker-who-is-always-late",
-      "title": "Would you cover for a coworker who is always late?",
-      "buffer_post_id": "6a97c3a4143685ad4343a6a1",
-      "posted_at": "2026-09-02T06:35:16.437263+00:00"
-    },
-    {
-      "source_url": "curated://texting/should-plans-be-confirmed-again-the-day-of",
-      "title": "Should plans be confirmed again the day of?",
-      "buffer_post_id": "6a9780a8b025b625550446a9",
-      "posted_at": "2026-09-02T01:49:28.279319+00:00"
     }
   ]
 }
