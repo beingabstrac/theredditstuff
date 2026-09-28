@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/765",
+      "title": "Should people be able to take a call in line after changing your mind?",
+      "buffer_post_id": "6aba3eb96bc8e702c3574221",
+      "posted_at": "2026-09-28T10:17:29.617593+00:00"
+    },
+    {
+      "source_url": "curated://shopping/should-people-return-carts-every-single-time",
+      "title": "Should people return carts every single time?",
+      "buffer_post_id": "6aba3ea7885a9579049f7ac5",
+      "posted_at": "2026-09-28T10:17:11.254781+00:00"
+    },
+    {
+      "source_url": "curated://shopping/should-delivery-fees-make-you-stop-ordering-food",
+      "title": "Should delivery fees make you stop ordering food?",
+      "buffer_post_id": "6aba3e92a9444d6e844123ef",
+      "posted_at": "2026-09-28T10:16:50.761638+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-get-honest-advice-or-comforting-support",
       "title": "Would you rather get honest advice or comforting support?",
       "buffer_post_id": "6ab9cfd654f1e60c7e832aed",
@@ -1181,24 +1199,6 @@
       "title": "Is it weird to expect friends to remember details if they never ask about you?",
       "buffer_post_id": "6a99ad1842022427f5919d7b",
       "posted_at": "2026-09-03T17:23:36.863783+00:00"
-    },
-    {
-      "source_url": "curated://shopping/would-you-say-something-to-someone-cutting-a-line",
-      "title": "Would you say something to someone cutting a line?",
-      "buffer_post_id": "6a9965fd70cb410f0b07687f",
-      "posted_at": "2026-09-03T12:20:14.070748+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-never-wait-in-lines-or-never-sit-in-traffic",
-      "title": "Would you rather never wait in lines or never sit in traffic?",
-      "buffer_post_id": "6a99160217a39ba7aab1a42b",
-      "posted_at": "2026-09-03T06:38:58.772578+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-one-perfect-friend-or-many-casual-friends",
-      "title": "Would you rather have one perfect friend or many casual friends?",
-      "buffer_post_id": "6a9915f3b513357a056b0fd0",
-      "posted_at": "2026-09-03T06:38:43.522144+00:00"
     }
   ]
 }
