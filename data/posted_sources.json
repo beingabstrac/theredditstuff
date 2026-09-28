@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/766",
+      "title": "Is it weird to expect friends to remember details if it feels one-sided?",
+      "buffer_post_id": "6abab7fa1de5273001a103a6",
+      "posted_at": "2026-09-28T18:54:50.316066+00:00"
+    },
+    {
+      "source_url": "curated://friendship/should-friends-ask-before-venting",
+      "title": "Should friends ask before venting?",
+      "buffer_post_id": "6abab7eac23da36df5643711",
+      "posted_at": "2026-09-28T18:54:34.515250+00:00"
+    },
+    {
+      "source_url": "curated://friendship/is-it-normal-for-friendships-to-fade-without-a-fight",
+      "title": "Is it normal for friendships to fade without a fight?",
+      "buffer_post_id": "6abab7ddaea1cdc4315744d8",
+      "posted_at": "2026-09-28T18:54:21.319081+00:00"
+    },
+    {
       "source_url": "procedural://shopping/765",
       "title": "Should people be able to take a call in line after changing your mind?",
       "buffer_post_id": "6aba3eb96bc8e702c3574221",
@@ -1181,24 +1199,6 @@
       "title": "Is lending small amounts of money to friends worth the risk?",
       "buffer_post_id": "6a9a05373c620187850f6c3a",
       "posted_at": "2026-09-03T23:39:36.028548+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-rude-to-take-a-call-during-dinner",
-      "title": "Is it rude to take a call during dinner?",
-      "buffer_post_id": "6a99d55b7820340df41c3596",
-      "posted_at": "2026-09-03T20:15:23.140377+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/623",
-      "title": "Would you say something if someone wanted to expect friends to remember details if they never ask about you?",
-      "buffer_post_id": "6a99ad3fbf8c68433e7c88c3",
-      "posted_at": "2026-09-03T17:24:16.697695+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/622",
-      "title": "Is it weird to expect friends to remember details if they never ask about you?",
-      "buffer_post_id": "6a99ad1842022427f5919d7b",
-      "posted_at": "2026-09-03T17:23:36.863783+00:00"
     }
   ]
 }
