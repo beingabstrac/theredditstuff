@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/is-it-rude-to-ask-the-price-before-agreeing-to-plans",
+      "title": "Is it rude to ask the price before agreeing to plans?",
+      "buffer_post_id": "6abb6b0ab6b2614895957b64",
+      "posted_at": "2026-09-29T07:38:50.675482+00:00"
+    },
+    {
+      "source_url": "curated://money/would-you-remind-someone-about-five-dollars-they-owe-you",
+      "title": "Would you remind someone about five dollars they owe you?",
+      "buffer_post_id": "6abb6afd85cca6b1298203c6",
+      "posted_at": "2026-09-29T07:38:37.884997+00:00"
+    },
+    {
+      "source_url": "fallback://lend-money-friend-owes",
+      "title": "Would you lend money to a friend who still owes other people?",
+      "buffer_post_id": "6abb6aec320ca548b4dfe35f",
+      "posted_at": "2026-09-29T07:38:21.368842+00:00"
+    },
+    {
       "source_url": "curated://restaurant/would-you-go-back-to-a-place-your-friend-hated",
       "title": "Would you go back to a place your friend hated?",
       "buffer_post_id": "6abb002693a81b612b53ee47",
@@ -1181,24 +1199,6 @@
       "title": "Is it rude to take long showers when you share a bathroom?",
       "buffer_post_id": "6a9ab79400f893faf312adb4",
       "posted_at": "2026-09-04T12:20:36.349686+00:00"
-    },
-    {
-      "source_url": "curated://work/should-people-be-praised-for-working-late",
-      "title": "Should people be praised for working late?",
-      "buffer_post_id": "6a9a684182940622ebb6fa75",
-      "posted_at": "2026-09-04T06:42:09.322891+00:00"
-    },
-    {
-      "source_url": "curated://work/what-office-habit-makes-a-normal-day-worse",
-      "title": "What office habit makes a normal day worse?",
-      "buffer_post_id": "6a9a683282940622ebb6f98b",
-      "posted_at": "2026-09-04T06:41:54.926840+00:00"
-    },
-    {
-      "source_url": "curated://texting/should-people-explain-why-they-reply-late",
-      "title": "Should people explain why they reply late?",
-      "buffer_post_id": "6a9a23b33c6201878511bd60",
-      "posted_at": "2026-09-04T01:49:39.625689+00:00"
     }
   ]
 }
