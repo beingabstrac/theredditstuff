@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/would-you-go-back-to-a-place-your-friend-hated",
+      "title": "Would you go back to a place your friend hated?",
+      "buffer_post_id": "6abb002693a81b612b53ee47",
+      "posted_at": "2026-09-29T00:02:46.863206+00:00"
+    },
+    {
       "source_url": "procedural://friendship/766",
       "title": "Is it weird to expect friends to remember details if it feels one-sided?",
       "buffer_post_id": "6abab7fa1de5273001a103a6",
@@ -1193,12 +1199,6 @@
       "title": "Should people explain why they reply late?",
       "buffer_post_id": "6a9a23b33c6201878511bd60",
       "posted_at": "2026-09-04T01:49:39.625689+00:00"
-    },
-    {
-      "source_url": "curated://money/is-lending-small-amounts-of-money-to-friends-worth-the-risk",
-      "title": "Is lending small amounts of money to friends worth the risk?",
-      "buffer_post_id": "6a9a05373c620187850f6c3a",
-      "posted_at": "2026-09-03T23:39:36.028548+00:00"
     }
   ]
 }
