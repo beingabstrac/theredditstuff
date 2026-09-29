@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/should-people-explain-why-they-reply-late",
+      "title": "Should people explain why they reply late?",
+      "buffer_post_id": "6abbcaa37bfef1f43c1f6245",
+      "posted_at": "2026-09-29T14:26:43.603062+00:00"
+    },
+    {
+      "source_url": "curated://texting/should-plans-be-confirmed-again-the-day-of",
+      "title": "Should plans be confirmed again the day of?",
+      "buffer_post_id": "6abbca93c09056a6cd22870e",
+      "posted_at": "2026-09-29T14:26:27.659266+00:00"
+    },
+    {
       "source_url": "curated://money/is-it-rude-to-ask-the-price-before-agreeing-to-plans",
       "title": "Is it rude to ask the price before agreeing to plans?",
       "buffer_post_id": "6abb6b0ab6b2614895957b64",
@@ -1187,18 +1199,6 @@
       "title": "Would you say something if someone wanted to set boundaries without feeling guilty?",
       "buffer_post_id": "6a9afcb8c513903fea2b9202",
       "posted_at": "2026-09-04T17:15:36.567138+00:00"
-    },
-    {
-      "source_url": "procedural://family/628",
-      "title": "Is it weird to set boundaries without feeling guilty?",
-      "buffer_post_id": "6a9afca2c513903fea2b8f70",
-      "posted_at": "2026-09-04T17:15:14.161845+00:00"
-    },
-    {
-      "source_url": "curated://roommates/is-it-rude-to-take-long-showers-when-you-share-a-bathroom",
-      "title": "Is it rude to take long showers when you share a bathroom?",
-      "buffer_post_id": "6a9ab79400f893faf312adb4",
-      "posted_at": "2026-09-04T12:20:36.349686+00:00"
     }
   ]
 }
