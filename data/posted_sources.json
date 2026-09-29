@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/would-you-cover-for-a-coworker-who-is-always-late",
+      "title": "Would you cover for a coworker who is always late?",
+      "buffer_post_id": "6abc1d79f3db08ac9266aead",
+      "posted_at": "2026-09-29T20:20:09.549775+00:00"
+    },
+    {
+      "source_url": "curated://work/should-people-be-praised-for-working-late",
+      "title": "Should people be praised for working late?",
+      "buffer_post_id": "6abc1d64d3050be9e3742b9e",
+      "posted_at": "2026-09-29T20:19:48.907254+00:00"
+    },
+    {
       "source_url": "curated://texting/should-people-explain-why-they-reply-late",
       "title": "Should people explain why they reply late?",
       "buffer_post_id": "6abbcaa37bfef1f43c1f6245",
@@ -1187,18 +1199,6 @@
       "title": "What small lie does everyone tell?",
       "buffer_post_id": "6a9b42029ca05109bec88f02",
       "posted_at": "2026-09-04T22:11:14.101202+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-rude-to-cancel-a-date-because-you-are-tired",
-      "title": "Is it rude to cancel a date because you are tired?",
-      "buffer_post_id": "6a9b2382b6e1228b36af8b93",
-      "posted_at": "2026-09-04T20:01:07.468613+00:00"
-    },
-    {
-      "source_url": "procedural://family/629",
-      "title": "Would you say something if someone wanted to set boundaries without feeling guilty?",
-      "buffer_post_id": "6a9afcb8c513903fea2b9202",
-      "posted_at": "2026-09-04T17:15:36.567138+00:00"
     }
   ]
 }
