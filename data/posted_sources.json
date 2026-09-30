@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/should-guests-help-clean-up-without-being-asked",
+      "title": "Should guests help clean up without being asked?",
+      "buffer_post_id": "6abd6fdbf245fa4cd5308372",
+      "posted_at": "2026-09-30T20:23:55.797540+00:00"
+    },
+    {
+      "source_url": "curated://etiquette/is-it-normal-to-not-offer-guests-a-drink",
+      "title": "Is it normal to not offer guests a drink?",
+      "buffer_post_id": "6abd6fd001f18483b9ef8da7",
+      "posted_at": "2026-09-30T20:23:44.170789+00:00"
+    },
+    {
       "source_url": "curated://dating/is-it-rude-to-cancel-a-date-because-you-are-tired",
       "title": "Is it rude to cancel a date because you are tired?",
       "buffer_post_id": "6abd1b86c709482b474d43e7",
@@ -1187,18 +1199,6 @@
       "title": "Is double texting desperate or normal?",
       "buffer_post_id": "6a9c8dbe85ccb3a22c0abb2c",
       "posted_at": "2026-09-05T21:46:38.295258+00:00"
-    },
-    {
-      "source_url": "curated://money/should-couples-split-everything-fifty-fifty-if-incomes-are-different",
-      "title": "Should couples split everything fifty fifty if incomes are different?",
-      "buffer_post_id": "6a9c703385ccb3a22c090ce7",
-      "posted_at": "2026-09-05T19:40:35.669987+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/would-you-judge-someone-for-being-picky-at-restaurants",
-      "title": "Would you judge someone for being picky at restaurants?",
-      "buffer_post_id": "6a9c55c4fba008bcd54ecbfe",
-      "posted_at": "2026-09-05T17:47:48.146589+00:00"
     }
   ]
 }
