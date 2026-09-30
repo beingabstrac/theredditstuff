@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-it-rude-to-take-long-showers-when-you-share-a-bathroom",
+      "title": "Is it rude to take long showers when you share a bathroom?",
+      "buffer_post_id": "6abc5d14f3db08ac926e18e9",
+      "posted_at": "2026-09-30T00:51:32.639746+00:00"
+    },
+    {
+      "source_url": "curated://roommates/is-it-rude-to-leave-laundry-in-the-machine-for-hours",
+      "title": "Is it rude to leave laundry in the machine for hours?",
+      "buffer_post_id": "6abc5d02a1ba5ce146e28655",
+      "posted_at": "2026-09-30T00:51:14.683349+00:00"
+    },
+    {
       "source_url": "curated://work/would-you-cover-for-a-coworker-who-is-always-late",
       "title": "Would you cover for a coworker who is always late?",
       "buffer_post_id": "6abc1d79f3db08ac9266aead",
@@ -1187,18 +1199,6 @@
       "title": "Would you rather have unlimited free coffee or unlimited free rides?",
       "buffer_post_id": "6a9bb67d9ca05109bed09355",
       "posted_at": "2026-09-05T06:28:13.555326+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-small-sign-someone-lacks-self-awareness",
-      "title": "What is a small sign someone lacks self awareness?",
-      "buffer_post_id": "6a9b757fb6e1228b36b55a93",
-      "posted_at": "2026-09-05T01:50:55.776660+00:00"
-    },
-    {
-      "source_url": "fallback://small-lie-everyone-tells",
-      "title": "What small lie does everyone tell?",
-      "buffer_post_id": "6a9b42029ca05109bec88f02",
-      "posted_at": "2026-09-04T22:11:14.101202+00:00"
     }
   ]
 }
