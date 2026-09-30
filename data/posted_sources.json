@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/is-it-rude-to-cancel-a-date-because-you-are-tired",
+      "title": "Is it rude to cancel a date because you are tired?",
+      "buffer_post_id": "6abd1b86c709482b474d43e7",
+      "posted_at": "2026-09-30T14:24:06.625167+00:00"
+    },
+    {
+      "source_url": "curated://dating/would-you-tell-someone-their-dating-standards-are-unrealistic",
+      "title": "Would you tell someone their dating standards are unrealistic?",
+      "buffer_post_id": "6abd1b72da5180c12bff08ec",
+      "posted_at": "2026-09-30T14:23:46.913460+00:00"
+    },
+    {
       "source_url": "curated://family/would-you-tell-family-to-stop-commenting-on-your-life",
       "title": "Would you tell family to stop commenting on your life?",
       "buffer_post_id": "6abcbcf8a1ba5ce146ee95b0",
@@ -1187,18 +1199,6 @@
       "title": "Would you judge someone for being picky at restaurants?",
       "buffer_post_id": "6a9c55c4fba008bcd54ecbfe",
       "posted_at": "2026-09-05T17:47:48.146589+00:00"
-    },
-    {
-      "source_url": "curated://friendship/would-you-confront-a-friend-who-only-talks-about-themselves",
-      "title": "Would you confront a friend who only talks about themselves?",
-      "buffer_post_id": "6a9c228bfba008bcd549f329",
-      "posted_at": "2026-09-05T14:09:15.447352+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/633",
-      "title": "Should people be able to block an aisle without noticing others?",
-      "buffer_post_id": "6a9bfcd8bf4ba461730343e3",
-      "posted_at": "2026-09-05T11:28:24.991695+00:00"
     }
   ]
 }
