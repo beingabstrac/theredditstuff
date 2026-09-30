@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/would-you-tell-family-to-stop-commenting-on-your-life",
+      "title": "Would you tell family to stop commenting on your life?",
+      "buffer_post_id": "6abcbcf8a1ba5ce146ee95b0",
+      "posted_at": "2026-09-30T07:40:40.432647+00:00"
+    },
+    {
+      "source_url": "curated://family/should-adults-have-to-explain-every-plan-to-their-parents",
+      "title": "Should adults have to explain every plan to their parents?",
+      "buffer_post_id": "6abcbce7c595610f202e7b58",
+      "posted_at": "2026-09-30T07:40:23.662367+00:00"
+    },
+    {
       "source_url": "curated://roommates/is-it-rude-to-take-long-showers-when-you-share-a-bathroom",
       "title": "Is it rude to take long showers when you share a bathroom?",
       "buffer_post_id": "6abc5d14f3db08ac926e18e9",
@@ -1187,18 +1199,6 @@
       "title": "Should people be able to block an aisle without noticing others?",
       "buffer_post_id": "6a9bfcd8bf4ba461730343e3",
       "posted_at": "2026-09-05T11:28:24.991695+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-rude-to-take-forever-at-self-checkout",
-      "title": "Is it rude to take forever at self checkout?",
-      "buffer_post_id": "6a9bfcb98219c85cc85ddb76",
-      "posted_at": "2026-09-05T11:27:54.027043+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-unlimited-free-coffee-or-unlimited-free-rides",
-      "title": "Would you rather have unlimited free coffee or unlimited free rides?",
-      "buffer_post_id": "6a9bb67d9ca05109bed09355",
-      "posted_at": "2026-09-05T06:28:13.555326+00:00"
     }
   ]
 }
