@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-always-get-the-last-word-or-never-need-it",
+      "title": "Would you rather always get the last word or never need it?",
+      "buffer_post_id": "6abe1278457c6cadda38efed",
+      "posted_at": "2026-10-01T07:57:44.577261+00:00"
+    },
+    {
+      "source_url": "curated://would_you_rather/would-you-rather-have-unlimited-free-coffee-or-unlimited-free-rides",
+      "title": "Would you rather have unlimited free coffee or unlimited free rides?",
+      "buffer_post_id": "6abe126bbb0abb08f8d46a83",
+      "posted_at": "2026-10-01T07:57:31.581216+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-normal-habit-becomes-annoying-very-fast",
       "title": "What normal habit becomes annoying very fast?",
       "buffer_post_id": "6abdaf6626106f733269c12d",
@@ -1187,18 +1199,6 @@
       "title": "Should partners have access to each other social media?",
       "buffer_post_id": "6a9d53316acbdfc9ed9d0990",
       "posted_at": "2026-09-06T11:49:05.909893+00:00"
-    },
-    {
-      "source_url": "procedural://family/640",
-      "title": "Is it weird to not answer calls immediately without feeling guilty?",
-      "buffer_post_id": "6a9d0a356aba2748320140ee",
-      "posted_at": "2026-09-06T06:37:41.534440+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-rude-to-not-answer-family-calls-immediately",
-      "title": "Is it rude to not answer family calls immediately?",
-      "buffer_post_id": "6a9d0a20b20157dc6b9eb83e",
-      "posted_at": "2026-09-06T06:37:20.321376+00:00"
     }
   ]
 }
