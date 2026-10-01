@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/would-you-say-something-to-someone-cutting-a-line",
+      "title": "Would you say something to someone cutting a line?",
+      "buffer_post_id": "6abe756cdab61c9bf24786b9",
+      "posted_at": "2026-10-01T14:59:56.530956+00:00"
+    },
+    {
+      "source_url": "curated://shopping/is-it-rude-to-take-forever-at-self-checkout",
+      "title": "Is it rude to take forever at self checkout?",
+      "buffer_post_id": "6abe755dc8228ea6fd479cfe",
+      "posted_at": "2026-10-01T14:59:41.440515+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-always-get-the-last-word-or-never-need-it",
       "title": "Would you rather always get the last word or never need it?",
       "buffer_post_id": "6abe1278457c6cadda38efed",
@@ -1187,18 +1199,6 @@
       "title": "What habit makes someone look inconsiderate?",
       "buffer_post_id": "6a9da82c6acbdfc9eda571c6",
       "posted_at": "2026-09-06T17:51:40.225233+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-cancel-plans-by-text",
-      "title": "Is it rude to cancel plans by text?",
-      "buffer_post_id": "6a9d79b805c83fb1f621c069",
-      "posted_at": "2026-09-06T14:33:28.455906+00:00"
-    },
-    {
-      "source_url": "curated://dating/should-partners-have-access-to-each-other-social-media",
-      "title": "Should partners have access to each other social media?",
-      "buffer_post_id": "6a9d53316acbdfc9ed9d0990",
-      "posted_at": "2026-09-06T11:49:05.909893+00:00"
     }
   ]
 }
