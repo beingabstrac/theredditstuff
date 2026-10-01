@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/778",
+      "title": "Is it weird to ask before venting in a close friendship?",
+      "buffer_post_id": "6abec4f645400a0e30f9f40f",
+      "posted_at": "2026-10-01T20:39:18.243915+00:00"
+    },
+    {
+      "source_url": "curated://friendship/would-you-confront-a-friend-who-only-talks-about-themselves",
+      "title": "Would you confront a friend who only talks about themselves?",
+      "buffer_post_id": "6abec4e48bccc8e641598a7b",
+      "posted_at": "2026-10-01T20:39:00.545202+00:00"
+    },
+    {
       "source_url": "curated://shopping/would-you-say-something-to-someone-cutting-a-line",
       "title": "Would you say something to someone cutting a line?",
       "buffer_post_id": "6abe756cdab61c9bf24786b9",
@@ -1187,18 +1199,6 @@
       "title": "Should people be able to argue over a return without noticing others?",
       "buffer_post_id": "6a9ddffc20f5ae4508aba569",
       "posted_at": "2026-09-06T21:49:48.367467+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-always-be-overdressed-or-always-be-underdressed",
-      "title": "Would you rather always be overdressed or always be underdressed?",
-      "buffer_post_id": "6a9dc2535c2ba4d1541ba91f",
-      "posted_at": "2026-09-06T19:43:15.374009+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-habit-makes-someone-look-inconsiderate",
-      "title": "What habit makes someone look inconsiderate?",
-      "buffer_post_id": "6a9da82c6acbdfc9eda571c6",
-      "posted_at": "2026-09-06T17:51:40.225233+00:00"
     }
   ]
 }
