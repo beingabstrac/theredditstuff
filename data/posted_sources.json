@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/would-you-stop-inviting-a-friend-who-never-pays-on-time",
+      "title": "Would you stop inviting a friend who never pays on time?",
+      "buffer_post_id": "6abf60ac63de9e09a292726d",
+      "posted_at": "2026-10-02T07:43:40.822667+00:00"
+    },
+    {
+      "source_url": "curated://money/is-splitting-every-bill-exactly-fair-or-annoying",
+      "title": "Is splitting every bill exactly fair or annoying?",
+      "buffer_post_id": "6abf609c45400a0e30100c2b",
+      "posted_at": "2026-10-02T07:43:24.839220+00:00"
+    },
+    {
       "source_url": "curated://restaurant/would-you-judge-someone-for-being-picky-at-restaurants",
       "title": "Would you judge someone for being picky at restaurants?",
       "buffer_post_id": "6abf04ccc07bdc2fc2648712",
@@ -1187,18 +1199,6 @@
       "title": "What makes a group chat instantly annoying?",
       "buffer_post_id": "6a9ec03f4b8bc1154d2b8080",
       "posted_at": "2026-09-07T13:46:40.080544+00:00"
-    },
-    {
-      "source_url": "procedural://money/648",
-      "title": "Is it rude to refuse to lend money during a birthday plan?",
-      "buffer_post_id": "6a9e5d8dffe4128b1f9d6771",
-      "posted_at": "2026-09-07T06:45:33.205066+00:00"
-    },
-    {
-      "source_url": "curated://money/would-you-charge-a-friend-for-gas-on-a-short-ride",
-      "title": "Would you charge a friend for gas on a short ride?",
-      "buffer_post_id": "6a9e5d793533dee3ad190df7",
-      "posted_at": "2026-09-07T06:45:13.464006+00:00"
     }
   ]
 }
