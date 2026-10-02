@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://group-chat-annoying",
+      "title": "What makes a group chat instantly annoying?",
+      "buffer_post_id": "6abfbd090adf17f48c4dc710",
+      "posted_at": "2026-10-02T14:17:45.444060+00:00"
+    },
+    {
+      "source_url": "curated://texting/is-double-texting-desperate-or-normal",
+      "title": "Is double texting desperate or normal?",
+      "buffer_post_id": "6abfbcf55f7061ee2f1906fe",
+      "posted_at": "2026-10-02T14:17:26.113079+00:00"
+    },
+    {
       "source_url": "curated://money/would-you-stop-inviting-a-friend-who-never-pays-on-time",
       "title": "Would you stop inviting a friend who never pays on time?",
       "buffer_post_id": "6abf60ac63de9e09a292726d",
@@ -1187,18 +1199,6 @@
       "title": "Is it fair to ignore messages during vacation?",
       "buffer_post_id": "6a9f02551d17e4bff020dfd1",
       "posted_at": "2026-09-07T18:28:37.541482+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-normal-to-take-a-day-to-reply-to-casual-messages",
-      "title": "Is it normal to take a day to reply to casual messages?",
-      "buffer_post_id": "6a9ec05a6d520c4771018cfa",
-      "posted_at": "2026-09-07T13:47:07.052805+00:00"
-    },
-    {
-      "source_url": "fallback://group-chat-annoying",
-      "title": "What makes a group chat instantly annoying?",
-      "buffer_post_id": "6a9ec03f4b8bc1154d2b8080",
-      "posted_at": "2026-09-07T13:46:40.080544+00:00"
     }
   ]
 }
