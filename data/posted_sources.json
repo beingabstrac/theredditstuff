@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/is-it-weird-to-ask-about-money-early-in-dating",
+      "title": "Is it weird to ask about money early in dating?",
+      "buffer_post_id": "6ac0fa093bfd38430fe0d82f",
+      "posted_at": "2026-10-03T12:50:17.573397+00:00"
+    },
+    {
+      "source_url": "curated://dating/should-partners-have-access-to-each-other-social-media",
+      "title": "Should partners have access to each other social media?",
+      "buffer_post_id": "6ac0f9fdfec5913394760110",
+      "posted_at": "2026-10-03T12:50:05.315311+00:00"
+    },
+    {
       "source_url": "procedural://family/784",
       "title": "Is it weird to not answer calls immediately with relatives?",
       "buffer_post_id": "6ac0ab6ae22a2e5172b70073",
@@ -1187,18 +1199,6 @@
       "title": "What everyday behavior makes you lose respect for someone?",
       "buffer_post_id": "6aa0488ea590708a601ad848",
       "posted_at": "2026-09-08T17:40:30.366580+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-tiny-behavior-is-an-instant-red-flag",
-      "title": "What tiny behavior is an instant red flag?",
-      "buffer_post_id": "6aa048704b871f274d101489",
-      "posted_at": "2026-09-08T17:40:00.943547+00:00"
-    },
-    {
-      "source_url": "fallback://cancel-plans-tired",
-      "title": "Is cancelling plans because you are tired a valid reason?",
-      "buffer_post_id": "6a9ffe00ba897c4764339b71",
-      "posted_at": "2026-09-08T12:22:25.011542+00:00"
     }
   ]
 }
