@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/784",
+      "title": "Is it weird to not answer calls immediately with relatives?",
+      "buffer_post_id": "6ac0ab6ae22a2e5172b70073",
+      "posted_at": "2026-10-03T07:14:50.287125+00:00"
+    },
+    {
+      "source_url": "curated://family/is-it-rude-to-not-answer-family-calls-immediately",
+      "title": "Is it rude to not answer family calls immediately?",
+      "buffer_post_id": "6ac0ab59ca55406b4b26ad61",
+      "posted_at": "2026-10-03T07:14:33.709621+00:00"
+    },
+    {
       "source_url": "curated://roommates/should-quiet-hours-exist-in-shared-apartments",
       "title": "Should quiet hours exist in shared apartments?",
       "buffer_post_id": "6ac0510e724c7034229bf045",
@@ -1187,18 +1199,6 @@
       "title": "Is cancelling plans because you are tired a valid reason?",
       "buffer_post_id": "6a9ffe00ba897c4764339b71",
       "posted_at": "2026-09-08T12:22:25.011542+00:00"
-    },
-    {
-      "source_url": "curated://dating/would-you-date-someone-who-is-always-late",
-      "title": "Would you date someone who is always late?",
-      "buffer_post_id": "6a9fae987eee3ace70b77e90",
-      "posted_at": "2026-09-08T06:43:36.990573+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-weird-to-ask-about-money-early-in-dating",
-      "title": "Is it weird to ask about money early in dating?",
-      "buffer_post_id": "6a9fae86bfce41cfe2ffc936",
-      "posted_at": "2026-09-08T06:43:18.647272+00:00"
     }
   ]
 }
