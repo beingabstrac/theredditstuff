@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://red_flags/what-habit-makes-someone-look-inconsiderate",
+      "title": "What habit makes someone look inconsiderate?",
+      "buffer_post_id": "6ac1634faa79e514b9fe032b",
+      "posted_at": "2026-10-03T20:19:27.765044+00:00"
+    },
+    {
       "source_url": "fallback://small-lie-everyone-tells",
       "title": "What small lie does everyone tell?",
       "buffer_post_id": "6ac13e3b814d657011cf57a1",
@@ -1193,12 +1199,6 @@
       "title": "Should people be able to leave a cart behind without noticing others?",
       "buffer_post_id": "6aa09df33bd0dd9ef31f5099",
       "posted_at": "2026-09-08T23:44:52.167169+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-a-quiet-neighbor-or-a-helpful-neighbor",
-      "title": "Would you rather have a quiet neighbor or a helpful neighbor?",
-      "buffer_post_id": "6aa06f7ae5d2fcbf7f6bfcd2",
-      "posted_at": "2026-09-08T20:26:34.714089+00:00"
     }
   ]
 }
