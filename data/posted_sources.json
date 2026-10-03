@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/should-quiet-hours-exist-in-shared-apartments",
+      "title": "Should quiet hours exist in shared apartments?",
+      "buffer_post_id": "6ac0510e724c7034229bf045",
+      "posted_at": "2026-10-03T00:49:18.383238+00:00"
+    },
+    {
+      "source_url": "curated://roommates/should-roommates-warn-before-bringing-guests-over",
+      "title": "Should roommates warn before bringing guests over?",
+      "buffer_post_id": "6ac050fcad2f47bd7d4d8bdd",
+      "posted_at": "2026-10-03T00:49:00.485028+00:00"
+    },
+    {
       "source_url": "curated://work/would-you-tell-a-coworker-they-are-talking-too-loudly",
       "title": "Would you tell a coworker they are talking too loudly?",
       "buffer_post_id": "6ac011149df0308ea07d9cb4",
@@ -1187,18 +1199,6 @@
       "title": "Is it weird to ask about money early in dating?",
       "buffer_post_id": "6a9fae86bfce41cfe2ffc936",
       "posted_at": "2026-09-08T06:43:18.647272+00:00"
-    },
-    {
-      "source_url": "procedural://family/652",
-      "title": "Is it weird to refuse a family favor without feeling guilty?",
-      "buffer_post_id": "6a9f6aa5ff0db23b220cd14c",
-      "posted_at": "2026-09-08T01:53:41.987248+00:00"
-    },
-    {
-      "source_url": "curated://roommates/should-quiet-hours-exist-in-shared-apartments",
-      "title": "Should quiet hours exist in shared apartments?",
-      "buffer_post_id": "6a9f3960dddc9257172ef12c",
-      "posted_at": "2026-09-07T22:23:28.418627+00:00"
     }
   ]
 }
