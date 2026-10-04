@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/is-it-normal-to-share-food-without-asking",
+      "title": "Is it normal to share food without asking?",
+      "buffer_post_id": "6ac292e963761da98b5680c3",
+      "posted_at": "2026-10-04T17:54:49.470644+00:00"
+    },
+    {
       "source_url": "procedural://friendship/790",
       "title": "Is it weird to keep score of favors in a close friendship?",
       "buffer_post_id": "6ac2559ffb26f2c2fb613545",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to wear headphones at work all day?",
       "buffer_post_id": "6aa1bd385d9b0554796439b1",
       "posted_at": "2026-09-09T20:10:32.728242+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-replying-with-just-okay-rude",
-      "title": "Is replying with just okay rude?",
-      "buffer_post_id": "6aa19652d7bd6a6f9ae9771b",
-      "posted_at": "2026-09-09T17:24:34.505965+00:00"
     }
   ]
 }
