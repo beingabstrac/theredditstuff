@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-never-wait-in-lines-or-never-sit-in-traffic",
+      "title": "Would you rather never wait in lines or never sit in traffic?",
+      "buffer_post_id": "6ac19a18aa79e514b904fc2c",
+      "posted_at": "2026-10-04T00:13:12.293126+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-habit-makes-someone-look-inconsiderate",
       "title": "What habit makes someone look inconsiderate?",
       "buffer_post_id": "6ac1634faa79e514b9fe032b",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to not include every friend in every hangout?",
       "buffer_post_id": "6aa0bd6686309395260089db",
       "posted_at": "2026-09-09T01:59:02.543465+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/657",
-      "title": "Should people be able to leave a cart behind without noticing others?",
-      "buffer_post_id": "6aa09df33bd0dd9ef31f5099",
-      "posted_at": "2026-09-08T23:44:52.167169+00:00"
     }
   ]
 }
