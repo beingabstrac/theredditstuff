@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/790",
+      "title": "Is it weird to keep score of favors in a close friendship?",
+      "buffer_post_id": "6ac2559ffb26f2c2fb613545",
+      "posted_at": "2026-10-04T13:33:20.013804+00:00"
+    },
+    {
+      "source_url": "curated://friendship/is-it-rude-to-not-include-every-friend-in-every-hangout",
+      "title": "Is it rude to not include every friend in every hangout?",
+      "buffer_post_id": "6ac25594365aeab50be4038f",
+      "posted_at": "2026-10-04T13:33:09.168562+00:00"
+    },
+    {
       "source_url": "procedural://shopping/791",
       "title": "Would you say something if someone wanted to argue over a return in a busy store?",
       "buffer_post_id": "6ac20153ad7fd83bc5160372",
@@ -1187,18 +1199,6 @@
       "title": "Is replying with just okay rude?",
       "buffer_post_id": "6aa19652d7bd6a6f9ae9771b",
       "posted_at": "2026-09-09T17:24:34.505965+00:00"
-    },
-    {
-      "source_url": "procedural://money/661",
-      "title": "Is it normal to skip plans because of cost during a birthday plan?",
-      "buffer_post_id": "6aa1522e390198f28f5dd0f7",
-      "posted_at": "2026-09-09T12:33:50.720518+00:00"
-    },
-    {
-      "source_url": "procedural://money/660",
-      "title": "Is it rude to skip plans because of cost during a birthday plan?",
-      "buffer_post_id": "6aa1521b390198f28f5dd031",
-      "posted_at": "2026-09-09T12:33:32.271846+00:00"
     }
   ]
 }
