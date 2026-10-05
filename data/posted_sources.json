@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/796",
+      "title": "Is it weird to refuse a family favor with relatives?",
+      "buffer_post_id": "6ac43269032d0529987157f0",
+      "posted_at": "2026-10-05T23:27:37.800398+00:00"
+    },
+    {
+      "source_url": "curated://family/should-parents-call-before-visiting-adult-children",
+      "title": "Should parents call before visiting adult children?",
+      "buffer_post_id": "6ac4325aacc08dcd5e984ac1",
+      "posted_at": "2026-10-05T23:27:22.738785+00:00"
+    },
+    {
       "source_url": "procedural://roommates/795",
       "title": "Should people be able to avoid your roommate in a shared apartment?",
       "buffer_post_id": "6ac3d18004f79165c6d09ec9",
@@ -1187,18 +1199,6 @@
       "title": "Is it fair to cancel on friends for alone time?",
       "buffer_post_id": "6aa35f6074b1f1d0cccf5109",
       "posted_at": "2026-09-11T01:54:40.489412+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-annoying-when-people-test-products-and-do-not-buy-them",
-      "title": "Is it annoying when people test products and do not buy them?",
-      "buffer_post_id": "6aa33e0e71ba1c02cced6025",
-      "posted_at": "2026-09-10T23:32:30.390015+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-free-groceries-or-free-takeout",
-      "title": "Would you rather have free groceries or free takeout?",
-      "buffer_post_id": "6aa30f1d816445bddc3f0106",
-      "posted_at": "2026-09-10T20:12:14.129254+00:00"
     }
   ]
 }
