@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://roommates/795",
+      "title": "Should people be able to avoid your roommate in a shared apartment?",
+      "buffer_post_id": "6ac3d18004f79165c6d09ec9",
+      "posted_at": "2026-10-05T16:34:08.887094+00:00"
+    },
+    {
+      "source_url": "fallback://headphones-at-home-rude",
+      "title": "Is it rude to wear headphones at home when someone is talking nearby?",
+      "buffer_post_id": "6ac3d16c04f79165c6d09d28",
+      "posted_at": "2026-10-05T16:33:48.487395+00:00"
+    },
+    {
+      "source_url": "curated://roommates/would-you-move-out-over-a-roommate-who-never-cleans",
+      "title": "Would you move out over a roommate who never cleans?",
+      "buffer_post_id": "6ac3d14fd394a1ebb7baf0b4",
+      "posted_at": "2026-10-05T16:33:19.506233+00:00"
+    },
+    {
       "source_url": "procedural://work/794",
       "title": "Would you judge someone for choosing to skip optional meetings after hours?",
       "buffer_post_id": "6ac3572dd467abe8cfdd9031",
@@ -1181,24 +1199,6 @@
       "title": "Would you rather have free groceries or free takeout?",
       "buffer_post_id": "6aa30f1d816445bddc3f0106",
       "posted_at": "2026-09-10T20:12:14.129254+00:00"
-    },
-    {
-      "source_url": "procedural://red_flags/667",
-      "title": "Is it normal to trust your first impression when everyone else ignores it?",
-      "buffer_post_id": "6aa2e7b529a1282253417e21",
-      "posted_at": "2026-09-10T17:24:05.578627+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-quiet-red-flag-in-a-friendship",
-      "title": "What is a quiet red flag in a friendship?",
-      "buffer_post_id": "6aa2e79eb6c84269284e5e73",
-      "posted_at": "2026-09-10T17:23:42.353487+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/should-you-tell-someone-they-have-food-in-their-teeth",
-      "title": "Should you tell someone they have food in their teeth?",
-      "buffer_post_id": "6aa2a23d68cd79481d7f62a8",
-      "posted_at": "2026-09-10T12:27:41.582178+00:00"
     }
   ]
 }
