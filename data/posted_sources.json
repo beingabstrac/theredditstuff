@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://shopping-habit-annoys",
+      "title": "What shopping habit instantly annoys you?",
+      "buffer_post_id": "6ac531128815e4f75705fd9c",
+      "posted_at": "2026-10-06T17:34:10.973656+00:00"
+    },
+    {
+      "source_url": "curated://red_flags/what-is-a-quiet-red-flag-in-a-friendship",
+      "title": "What is a quiet red flag in a friendship?",
+      "buffer_post_id": "6ac5310161c22f8369be8689",
+      "posted_at": "2026-10-06T17:33:53.851216+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-weird-to-bring-your-own-food-to-someone-house",
       "title": "Is it weird to bring your own food to someone house?",
       "buffer_post_id": "6ac4d3221f4877dee465f3c3",
@@ -1187,18 +1199,6 @@
       "title": "Is it annoying when coworkers ask questions they could search?",
       "buffer_post_id": "6aa4604ecb62fc78b502307f",
       "posted_at": "2026-09-11T20:10:55.097346+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-weird-to-text-someone-only-when-you-need-something",
-      "title": "Is it weird to text someone only when you need something?",
-      "buffer_post_id": "6aa43969c38efd44b0761882",
-      "posted_at": "2026-09-11T17:24:57.818763+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-rude-to-mute-a-group-chat-without-telling-anyone",
-      "title": "Is it rude to mute a group chat without telling anyone?",
-      "buffer_post_id": "6aa43959c38efd44b07617b1",
-      "posted_at": "2026-09-11T17:24:41.861504+00:00"
     }
   ]
 }
