@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/is-checking-your-phone-on-a-date-a-dealbreaker",
+      "title": "Is checking your phone on a date a dealbreaker?",
+      "buffer_post_id": "6ac46e0e98d02b181e1f2f32",
+      "posted_at": "2026-10-06T03:42:06.953777+00:00"
+    },
+    {
+      "source_url": "curated://dating/would-you-date-someone-who-is-always-late",
+      "title": "Would you date someone who is always late?",
+      "buffer_post_id": "6ac46e00acc08dcd5ea07437",
+      "posted_at": "2026-10-06T03:41:52.947769+00:00"
+    },
+    {
       "source_url": "procedural://family/796",
       "title": "Is it weird to refuse a family favor with relatives?",
       "buffer_post_id": "6ac43269032d0529987157f0",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude to stay at a table long after eating?",
       "buffer_post_id": "6aa3a42e816445bddc4b942f",
       "posted_at": "2026-09-11T06:48:14.370895+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/would-you-split-appetizers-if-you-did-not-eat-them",
-      "title": "Would you split appetizers if you did not eat them?",
-      "buffer_post_id": "6aa3a419816445bddc4b9325",
-      "posted_at": "2026-09-11T06:47:53.805859+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-fair-to-cancel-on-friends-for-alone-time",
-      "title": "Is it fair to cancel on friends for alone time?",
-      "buffer_post_id": "6aa35f6074b1f1d0cccf5109",
-      "posted_at": "2026-09-11T01:54:40.489412+00:00"
     }
   ]
 }
