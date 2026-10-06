@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-have-free-groceries-or-free-takeout",
+      "title": "Would you rather have free groceries or free takeout?",
+      "buffer_post_id": "6ac56f459833100fb59680d5",
+      "posted_at": "2026-10-06T21:59:33.776545+00:00"
+    },
+    {
+      "source_url": "curated://would_you_rather/would-you-rather-have-a-quiet-neighbor-or-a-helpful-neighbor",
+      "title": "Would you rather have a quiet neighbor or a helpful neighbor?",
+      "buffer_post_id": "6ac56f359833100fb5967ef2",
+      "posted_at": "2026-10-06T21:59:17.439242+00:00"
+    },
+    {
       "source_url": "fallback://shopping-habit-annoys",
       "title": "What shopping habit instantly annoys you?",
       "buffer_post_id": "6ac531128815e4f75705fd9c",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude for family to show up without calling first?",
       "buffer_post_id": "6aa4b1f4aa296f331c80634f",
       "posted_at": "2026-09-12T01:59:16.635802+00:00"
-    },
-    {
-      "source_url": "fallback://normal-house-weird-elsewhere",
-      "title": "What is normal in your house but weird everywhere else?",
-      "buffer_post_id": "6aa4916607d009223c65ee37",
-      "posted_at": "2026-09-11T23:40:22.701801+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-annoying-when-coworkers-ask-questions-they-could-search",
-      "title": "Is it annoying when coworkers ask questions they could search?",
-      "buffer_post_id": "6aa4604ecb62fc78b502307f",
-      "posted_at": "2026-09-11T20:10:55.097346+00:00"
     }
   ]
 }
