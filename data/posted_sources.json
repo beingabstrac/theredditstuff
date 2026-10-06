@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-weird-to-bring-your-own-food-to-someone-house",
+      "title": "Is it weird to bring your own food to someone house?",
+      "buffer_post_id": "6ac4d3221f4877dee465f3c3",
+      "posted_at": "2026-10-06T10:53:22.895380+00:00"
+    },
+    {
+      "source_url": "curated://etiquette/is-it-rude-to-cancel-plans-by-text",
+      "title": "Is it rude to cancel plans by text?",
+      "buffer_post_id": "6ac4d314532d7f13bdaee362",
+      "posted_at": "2026-10-06T10:53:08.336195+00:00"
+    },
+    {
       "source_url": "curated://dating/is-checking-your-phone-on-a-date-a-dealbreaker",
       "title": "Is checking your phone on a date a dealbreaker?",
       "buffer_post_id": "6ac46e0e98d02b181e1f2f32",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude to mute a group chat without telling anyone?",
       "buffer_post_id": "6aa43959c38efd44b07617b1",
       "posted_at": "2026-09-11T17:24:41.861504+00:00"
-    },
-    {
-      "source_url": "fallback://thoughtful-cheap-vs-expensive-lazy",
-      "title": "Would you rather receive a thoughtful cheap gift or an expensive lazy one?",
-      "buffer_post_id": "6aa3f34c262bdff0e87a4cf9",
-      "posted_at": "2026-09-11T12:25:48.377537+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-rude-to-stay-at-a-table-long-after-eating",
-      "title": "Is it rude to stay at a table long after eating?",
-      "buffer_post_id": "6aa3a42e816445bddc4b942f",
-      "posted_at": "2026-09-11T06:48:14.370895+00:00"
     }
   ]
 }
