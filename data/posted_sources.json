@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/is-it-annoying-when-people-test-products-and-do-not-buy-them",
+      "title": "Is it annoying when people test products and do not buy them?",
+      "buffer_post_id": "6ac59ca4c22c37a573b1346d",
+      "posted_at": "2026-10-07T01:13:08.736890+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-have-free-groceries-or-free-takeout",
       "title": "Would you rather have free groceries or free takeout?",
       "buffer_post_id": "6ac56f459833100fb59680d5",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to need alone time in a relationship?",
       "buffer_post_id": "6aa4f6852bf0da839a6cf9cf",
       "posted_at": "2026-09-12T06:51:50.126216+00:00"
-    },
-    {
-      "source_url": "fallback://family-show-up-without-calling",
-      "title": "Is it rude for family to show up without calling first?",
-      "buffer_post_id": "6aa4b1f4aa296f331c80634f",
-      "posted_at": "2026-09-12T01:59:16.635802+00:00"
     }
   ]
 }
