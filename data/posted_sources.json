@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/is-it-rude-to-ask-for-substitutions-at-a-busy-restaurant",
+      "title": "Is it rude to ask for substitutions at a busy restaurant?",
+      "buffer_post_id": "6ac65ca5a91c545235ecad4c",
+      "posted_at": "2026-10-07T14:52:21.585087+00:00"
+    },
+    {
+      "source_url": "curated://restaurant/would-you-split-appetizers-if-you-did-not-eat-them",
+      "title": "Would you split appetizers if you did not eat them?",
+      "buffer_post_id": "6ac65c96b49b56203131d611",
+      "posted_at": "2026-10-07T14:52:06.348100+00:00"
+    },
+    {
       "source_url": "procedural://friendship/802",
       "title": "Is it weird to tell a friend they are draining in a close friendship?",
       "buffer_post_id": "6ac5fa265355110416267ce8",
@@ -1187,18 +1199,6 @@
       "title": "Would you rather always be early or always be exactly on time?",
       "buffer_post_id": "6aa592a0eba7bc5677818bd4",
       "posted_at": "2026-09-12T17:57:52.629999+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-small-lie-tells-you-a-lot-about-someone",
-      "title": "What small lie tells you a lot about someone?",
-      "buffer_post_id": "6aa562fd66679b076f0f8ee1",
-      "posted_at": "2026-09-12T14:34:37.397099+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/should-people-take-their-shoes-off-in-every-home",
-      "title": "Should people take their shoes off in every home?",
-      "buffer_post_id": "6aa53ba73da5f871532c6e31",
-      "posted_at": "2026-09-12T11:46:47.206631+00:00"
     }
   ]
 }
