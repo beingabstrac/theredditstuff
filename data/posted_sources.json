@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://thoughtful-cheap-vs-expensive-lazy",
+      "title": "Would you rather receive a thoughtful cheap gift or an expensive lazy one?",
+      "buffer_post_id": "6ac6b163fe0b47947a01454a",
+      "posted_at": "2026-10-07T20:53:55.166043+00:00"
+    },
+    {
+      "source_url": "curated://money/would-you-charge-a-friend-for-gas-on-a-short-ride",
+      "title": "Would you charge a friend for gas on a short ride?",
+      "buffer_post_id": "6ac6b14d4fd14839c7264300",
+      "posted_at": "2026-10-07T20:53:33.868905+00:00"
+    },
+    {
       "source_url": "curated://restaurant/is-it-rude-to-ask-for-substitutions-at-a-busy-restaurant",
       "title": "Is it rude to ask for substitutions at a busy restaurant?",
       "buffer_post_id": "6ac65ca5a91c545235ecad4c",
@@ -1187,18 +1199,6 @@
       "title": "Is it wrong to outgrow a friend quietly?",
       "buffer_post_id": "6aa5e12966679b076f1a3a35",
       "posted_at": "2026-09-12T23:32:57.288895+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-rude-to-leave-unwanted-items-anywhere-in-a-store",
-      "title": "Is it rude to leave unwanted items anywhere in a store?",
-      "buffer_post_id": "6aa5aff77da3ee968d037ed2",
-      "posted_at": "2026-09-12T20:03:03.130964+00:00"
-    },
-    {
-      "source_url": "fallback://early-or-on-time",
-      "title": "Would you rather always be early or always be exactly on time?",
-      "buffer_post_id": "6aa592a0eba7bc5677818bd4",
-      "posted_at": "2026-09-12T17:57:52.629999+00:00"
     }
   ]
 }
