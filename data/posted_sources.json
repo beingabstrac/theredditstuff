@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/802",
+      "title": "Is it weird to tell a friend they are draining in a close friendship?",
+      "buffer_post_id": "6ac5fa265355110416267ce8",
+      "posted_at": "2026-10-07T07:52:06.944148+00:00"
+    },
+    {
+      "source_url": "curated://friendship/is-it-fair-to-cancel-on-friends-for-alone-time",
+      "title": "Is it fair to cancel on friends for alone time?",
+      "buffer_post_id": "6ac5fa18df05c83428da11a6",
+      "posted_at": "2026-10-07T07:51:52.838644+00:00"
+    },
+    {
       "source_url": "curated://shopping/is-it-annoying-when-people-test-products-and-do-not-buy-them",
       "title": "Is it annoying when people test products and do not buy them?",
       "buffer_post_id": "6ac59ca4c22c37a573b1346d",
@@ -1187,18 +1199,6 @@
       "title": "Should people take their shoes off in every home?",
       "buffer_post_id": "6aa53ba73da5f871532c6e31",
       "posted_at": "2026-09-12T11:46:47.206631+00:00"
-    },
-    {
-      "source_url": "procedural://dating/677",
-      "title": "Would you say something if someone wanted to split the bill if trust already exists?",
-      "buffer_post_id": "6aa4f694232b849fea40fbe0",
-      "posted_at": "2026-09-12T06:52:04.239366+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-fair-to-need-alone-time-in-a-relationship",
-      "title": "Is it fair to need alone time in a relationship?",
-      "buffer_post_id": "6aa4f6852bf0da839a6cf9cf",
-      "posted_at": "2026-09-12T06:51:50.126216+00:00"
     }
   ]
 }
