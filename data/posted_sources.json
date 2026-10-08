@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-it-weird-to-text-someone-only-when-you-need-something",
+      "title": "Is it weird to text someone only when you need something?",
+      "buffer_post_id": "6ac6f1372977c961bdbfff07",
+      "posted_at": "2026-10-08T01:26:15.413619+00:00"
+    },
+    {
+      "source_url": "curated://texting/is-it-rude-to-mute-a-group-chat-without-telling-anyone",
+      "title": "Is it rude to mute a group chat without telling anyone?",
+      "buffer_post_id": "6ac6f123365feab0d7378721",
+      "posted_at": "2026-10-08T01:25:55.871529+00:00"
+    },
+    {
       "source_url": "fallback://thoughtful-cheap-vs-expensive-lazy",
       "title": "Would you rather receive a thoughtful cheap gift or an expensive lazy one?",
       "buffer_post_id": "6ac6b163fe0b47947a01454a",
@@ -1187,18 +1199,6 @@
       "title": "Would you rather have free food forever or free rent forever?",
       "buffer_post_id": "6aa649367da3ee968d0e88db",
       "posted_at": "2026-09-13T06:56:54.818286+00:00"
-    },
-    {
-      "source_url": "fallback://restaurant-hard-to-be-around",
-      "title": "What restaurant behavior tells you someone is hard to be around?",
-      "buffer_post_id": "6aa601fd66679b076f1c7531",
-      "posted_at": "2026-09-13T01:53:01.995207+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-wrong-to-outgrow-a-friend-quietly",
-      "title": "Is it wrong to outgrow a friend quietly?",
-      "buffer_post_id": "6aa5e12966679b076f1a3a35",
-      "posted_at": "2026-09-12T23:32:57.288895+00:00"
     }
   ]
 }
