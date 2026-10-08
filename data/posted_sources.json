@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/808",
+      "title": "Is it weird to stop explaining every plan with relatives?",
+      "buffer_post_id": "6ac81b497d9f9f33011911fa",
+      "posted_at": "2026-10-08T22:38:01.284494+00:00"
+    },
+    {
+      "source_url": "fallback://family-show-up-without-calling",
+      "title": "Is it rude for family to show up without calling first?",
+      "buffer_post_id": "6ac81b397d9f9f3301191107",
+      "posted_at": "2026-10-08T22:37:45.223186+00:00"
+    },
+    {
       "source_url": "procedural://roommates/808",
       "title": "Is it weird to split chores exactly in a shared apartment?",
       "buffer_post_id": "6ac7cd5809bc40afed25a810",
@@ -1187,18 +1199,6 @@
       "title": "Is it normal to keep some friendships private from your partner?",
       "buffer_post_id": "6aa7579dea4032c0149c6cc8",
       "posted_at": "2026-09-14T02:10:37.656229+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-fair-to-set-boundaries-with-relatives-who-mean-well",
-      "title": "Is it fair to set boundaries with relatives who mean well?",
-      "buffer_post_id": "6aa71e01eba7bc5677a30a82",
-      "posted_at": "2026-09-13T22:04:50.035240+00:00"
-    },
-    {
-      "source_url": "curated://roommates/would-you-label-your-food-in-a-shared-fridge",
-      "title": "Would you label your food in a shared fridge?",
-      "buffer_post_id": "6aa7008deba7bc5677a05de3",
-      "posted_at": "2026-09-13T19:59:10.048943+00:00"
     }
   ]
 }
