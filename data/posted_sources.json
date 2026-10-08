@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://roommates/808",
+      "title": "Is it weird to split chores exactly in a shared apartment?",
+      "buffer_post_id": "6ac7cd5809bc40afed25a810",
+      "posted_at": "2026-10-08T17:05:28.643610+00:00"
+    },
+    {
+      "source_url": "procedural://roommates/807",
+      "title": "Should people be able to split chores exactly in a shared apartment?",
+      "buffer_post_id": "6ac7cd4abd4a8a33e12dc114",
+      "posted_at": "2026-10-08T17:05:14.713387+00:00"
+    },
+    {
+      "source_url": "fallback://normal-house-weird-elsewhere",
+      "title": "What is normal in your house but weird everywhere else?",
+      "buffer_post_id": "6ac7cd3609bc40afed259e76",
+      "posted_at": "2026-10-08T17:04:55.443312+00:00"
+    },
+    {
       "source_url": "procedural://work/806",
       "title": "Would you judge someone for choosing to mute work apps after hours?",
       "buffer_post_id": "6ac752ecd45e2f82629a6f17",
@@ -1181,24 +1199,6 @@
       "title": "Would you label your food in a shared fridge?",
       "buffer_post_id": "6aa7008deba7bc5677a05de3",
       "posted_at": "2026-09-13T19:59:10.048943+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-weird-when-coworkers-act-like-work-is-family",
-      "title": "Is it weird when coworkers act like work is family?",
-      "buffer_post_id": "6aa6d8681f8cf810a118aa04",
-      "posted_at": "2026-09-13T17:07:52.212757+00:00"
-    },
-    {
-      "source_url": "fallback://phone-on-table-dinner",
-      "title": "Is it rude to put your phone on the table during dinner?",
-      "buffer_post_id": "6aa69d64ef4d6e3778cb81de",
-      "posted_at": "2026-09-13T12:56:04.657910+00:00"
-    },
-    {
-      "source_url": "curated://texting/would-you-be-upset-if-someone-watched-your-story-but-ignored-your-text",
-      "title": "Would you be upset if someone watched your story but ignored your text?",
-      "buffer_post_id": "6aa69d56bcabda92e1aec8af",
-      "posted_at": "2026-09-13T12:55:50.488158+00:00"
     }
   ]
 }
