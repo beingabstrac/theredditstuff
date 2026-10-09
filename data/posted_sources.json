@@ -1,6 +1,30 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-know-what-people-think-of-you-or-never-care",
+      "title": "Would you rather know what people think of you or never care?",
+      "buffer_post_id": "6ac963d5c4de2d2b1209010c",
+      "posted_at": "2026-10-09T21:59:49.984637+00:00"
+    },
+    {
+      "source_url": "curated://would_you_rather/would-you-rather-always-be-overdressed-or-always-be-underdressed",
+      "title": "Would you rather always be overdressed or always be underdressed?",
+      "buffer_post_id": "6ac963c8ed92ed8fa5abcde2",
+      "posted_at": "2026-10-09T21:59:36.416111+00:00"
+    },
+    {
+      "source_url": "fallback://early-or-on-time",
+      "title": "Would you rather always be early or always be exactly on time?",
+      "buffer_post_id": "6ac963bbc4de2d2b1208ff34",
+      "posted_at": "2026-10-09T21:59:23.488253+00:00"
+    },
+    {
+      "source_url": "curated://would_you_rather/would-you-rather-have-one-perfect-friend-or-many-casual-friends",
+      "title": "Would you rather have one perfect friend or many casual friends?",
+      "buffer_post_id": "6ac963a0ed92ed8fa5abc92d",
+      "posted_at": "2026-10-09T21:58:56.438653+00:00"
+    },
+    {
       "source_url": "fallback://cancel-plans-tired",
       "title": "Is cancelling plans because you are tired a valid reason?",
       "buffer_post_id": "6ac8c94a33f2b9fa81350d4f",
@@ -1175,30 +1199,6 @@
       "title": "Is it weird when friends keep score of favors?",
       "buffer_post_id": "6aa8ec0efa1b0cab28ab2cee",
       "posted_at": "2026-09-15T06:56:14.557777+00:00"
-    },
-    {
-      "source_url": "curated://shopping/would-you-judge-someone-for-arguing-over-a-return",
-      "title": "Would you judge someone for arguing over a return?",
-      "buffer_post_id": "6aa88b899dd9674a3dc90969",
-      "posted_at": "2026-09-15T00:04:25.517120+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-know-what-people-think-of-you-or-never-care",
-      "title": "Would you rather know what people think of you or never care?",
-      "buffer_post_id": "6aa862653379ae521a5c3252",
-      "posted_at": "2026-09-14T21:08:53.585052+00:00"
-    },
-    {
-      "source_url": "fallback://small-workplace-habit-annoyed",
-      "title": "What small workplace habit makes everyone secretly annoyed?",
-      "buffer_post_id": "6aa81af14dc1c7ffb05bd856",
-      "posted_at": "2026-09-14T16:04:02.274809+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-small-thing-makes-you-silently-judge-a-person",
-      "title": "What small thing makes you silently judge a person?",
-      "buffer_post_id": "6aa81ad743be6142268b929b",
-      "posted_at": "2026-09-14T16:03:36.026741+00:00"
     }
   ]
 }
