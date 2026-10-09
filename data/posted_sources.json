@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://cancel-plans-tired",
+      "title": "Is cancelling plans because you are tired a valid reason?",
+      "buffer_post_id": "6ac8c94a33f2b9fa81350d4f",
+      "posted_at": "2026-10-09T11:00:26.788696+00:00"
+    },
+    {
+      "source_url": "fallback://self-care-avoidance",
+      "title": "What do people call self-care that is actually avoidance?",
+      "buffer_post_id": "6ac8c92f33f2b9fa8134da49",
+      "posted_at": "2026-10-09T10:59:59.648429+00:00"
+    },
+    {
       "source_url": "curated://dating/is-it-normal-to-keep-some-friendships-private-from-your-partner",
       "title": "Is it normal to keep some friendships private from your partner?",
       "buffer_post_id": "6ac85fcf9db755aaaac25fb8",
@@ -1187,18 +1199,6 @@
       "title": "What small thing makes you silently judge a person?",
       "buffer_post_id": "6aa81ad743be6142268b929b",
       "posted_at": "2026-09-14T16:03:36.026741+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-behavior-makes-someone-seem-exhausting",
-      "title": "What behavior makes someone seem exhausting?",
-      "buffer_post_id": "6aa81ac843be6142268b8fae",
-      "posted_at": "2026-09-14T16:03:20.946364+00:00"
-    },
-    {
-      "source_url": "fallback://rude-pretend-honest",
-      "title": "What is rude but people pretend is just being honest?",
-      "buffer_post_id": "6aa7bcc2ba0c45f3d2a61e08",
-      "posted_at": "2026-09-14T09:22:10.924492+00:00"
     }
   ]
 }
