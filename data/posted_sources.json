@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/is-it-normal-to-keep-some-friendships-private-from-your-partner",
+      "title": "Is it normal to keep some friendships private from your partner?",
+      "buffer_post_id": "6ac85fcf9db755aaaac25fb8",
+      "posted_at": "2026-10-09T03:30:24.015024+00:00"
+    },
+    {
+      "source_url": "curated://dating/is-it-fair-to-need-alone-time-in-a-relationship",
+      "title": "Is it fair to need alone time in a relationship?",
+      "buffer_post_id": "6ac85fc39db755aaaac256ec",
+      "posted_at": "2026-10-09T03:30:12.167778+00:00"
+    },
+    {
       "source_url": "procedural://family/808",
       "title": "Is it weird to stop explaining every plan with relatives?",
       "buffer_post_id": "6ac81b497d9f9f33011911fa",
@@ -1187,18 +1199,6 @@
       "title": "What is rude but people pretend is just being honest?",
       "buffer_post_id": "6aa7bcc2ba0c45f3d2a61e08",
       "posted_at": "2026-09-14T09:22:10.924492+00:00"
-    },
-    {
-      "source_url": "fallback://apology-with-explaining",
-      "title": "Is an apology real if someone keeps explaining why they did it?",
-      "buffer_post_id": "6aa7bcacba0c45f3d2a61d0e",
-      "posted_at": "2026-09-14T09:21:49.101828+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-normal-to-keep-some-friendships-private-from-your-partner",
-      "title": "Is it normal to keep some friendships private from your partner?",
-      "buffer_post_id": "6aa7579dea4032c0149c6cc8",
-      "posted_at": "2026-09-14T02:10:37.656229+00:00"
     }
   ]
 }
