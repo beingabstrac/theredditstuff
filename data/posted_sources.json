@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-replying-with-just-okay-rude",
+      "title": "Is replying with just okay rude?",
+      "buffer_post_id": "6acac45abba9419ccb19d8a1",
+      "posted_at": "2026-10-10T23:03:54.352597+00:00"
+    },
+    {
       "source_url": "fallback://refuse-lending-family-money",
       "title": "Is it wrong to refuse lending money to family?",
       "buffer_post_id": "6aca9413b07d37ac978496ac",
@@ -1193,12 +1199,6 @@
       "title": "Should roommates ask before changing the thermostat?",
       "buffer_post_id": "6aa9fa81c9dce8b453163aea",
       "posted_at": "2026-09-16T02:10:09.737204+00:00"
-    },
-    {
-      "source_url": "curated://work/should-meetings-have-to-prove-they-are-necessary",
-      "title": "Should meetings have to prove they are necessary?",
-      "buffer_post_id": "6aa9d967501861120db0d985",
-      "posted_at": "2026-09-15T23:48:55.364282+00:00"
     }
   ]
 }
