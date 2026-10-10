@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/should-friends-remember-small-details-about-your-life",
+      "title": "Should friends remember small details about your life?",
+      "buffer_post_id": "6ac9eed4b07d37ac976561b6",
+      "posted_at": "2026-10-10T07:52:52.383750+00:00"
+    },
+    {
+      "source_url": "curated://friendship/is-it-wrong-to-outgrow-a-friend-quietly",
+      "title": "Is it wrong to outgrow a friend quietly?",
+      "buffer_post_id": "6ac9eec5f91f772d45862704",
+      "posted_at": "2026-10-10T07:52:38.390125+00:00"
+    },
+    {
       "source_url": "curated://shopping/would-you-judge-someone-for-arguing-over-a-return",
       "title": "Would you judge someone for arguing over a return?",
       "buffer_post_id": "6ac99549d9cab260a7aba071",
@@ -1187,18 +1199,6 @@
       "title": "Should friends wait until everyone has food before eating?",
       "buffer_post_id": "6aa940eb71adc71e5723c091",
       "posted_at": "2026-09-15T12:58:19.930784+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-rude-to-stop-reaching-out-first-and-see-what-happens",
-      "title": "Is it rude to stop reaching out first and see what happens?",
-      "buffer_post_id": "6aa8ec33bb9b8eb965a2b278",
-      "posted_at": "2026-09-15T06:56:51.702038+00:00"
-    },
-    {
-      "source_url": "curated://friendship/should-friends-remember-small-details-about-your-life",
-      "title": "Should friends remember small details about your life?",
-      "buffer_post_id": "6aa8ec1ea283eff81a59d588",
-      "posted_at": "2026-09-15T06:56:30.966413+00:00"
     }
   ]
 }
