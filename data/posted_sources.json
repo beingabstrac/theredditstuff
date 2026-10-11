@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://roommates/819",
+      "title": "Should people be able to label your food after it keeps happening?",
+      "buffer_post_id": "6acb6403bba9419ccb312dcf",
+      "posted_at": "2026-10-11T10:25:07.898779+00:00"
+    },
+    {
+      "source_url": "curated://roommates/would-you-label-your-food-in-a-shared-fridge",
+      "title": "Would you label your food in a shared fridge?",
+      "buffer_post_id": "6acb63f9c4de2d2b12593309",
+      "posted_at": "2026-10-11T10:24:57.374422+00:00"
+    },
+    {
+      "source_url": "curated://roommates/should-roommates-ask-before-changing-the-thermostat",
+      "title": "Should roommates ask before changing the thermostat?",
+      "buffer_post_id": "6acb63e9c4de2d2b12593098",
+      "posted_at": "2026-10-11T10:24:41.892267+00:00"
+    },
+    {
       "source_url": "curated://work/is-it-weird-when-coworkers-act-like-work-is-family",
       "title": "Is it weird when coworkers act like work is family?",
       "buffer_post_id": "6acaf797b07d37ac97924d51",
@@ -1181,24 +1199,6 @@
       "title": "Is it rude to share locations if trust already exists?",
       "buffer_post_id": "6aaaa764cc0de450ad7623d7",
       "posted_at": "2026-09-16T14:27:49.094694+00:00"
-    },
-    {
-      "source_url": "procedural://dating/701",
-      "title": "Would you say something if someone wanted to cancel a date if trust already exists?",
-      "buffer_post_id": "6aaaa75346828b0472732d1b",
-      "posted_at": "2026-09-16T14:27:31.461469+00:00"
-    },
-    {
-      "source_url": "curated://family/should-family-get-free-help-just-because-they-are-family",
-      "title": "Should family get free help just because they are family?",
-      "buffer_post_id": "6aaa598167088e4b2a0da2fe",
-      "posted_at": "2026-09-16T08:55:29.595948+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-wrong-to-skip-family-events-because-you-need-rest",
-      "title": "Is it wrong to skip family events because you need rest?",
-      "buffer_post_id": "6aaa59701a351dbc7c703fcf",
-      "posted_at": "2026-09-16T08:55:13.289186+00:00"
     }
   ]
 }
