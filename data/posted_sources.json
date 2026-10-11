@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/is-it-wrong-to-skip-family-events-because-you-need-rest",
+      "title": "Is it wrong to skip family events because you need rest?",
+      "buffer_post_id": "6acbbff4fa026cfb810b1c94",
+      "posted_at": "2026-10-11T16:57:24.949449+00:00"
+    },
+    {
+      "source_url": "curated://family/is-it-fair-to-set-boundaries-with-relatives-who-mean-well",
+      "title": "Is it fair to set boundaries with relatives who mean well?",
+      "buffer_post_id": "6acbbfe5fa026cfb810b1848",
+      "posted_at": "2026-10-11T16:57:09.292819+00:00"
+    },
+    {
       "source_url": "procedural://roommates/819",
       "title": "Should people be able to label your food after it keeps happening?",
       "buffer_post_id": "6acb6403bba9419ccb312dcf",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude to arrive early to someone house?",
       "buffer_post_id": "6aaae9fec25469e84e43271e",
       "posted_at": "2026-09-16T19:11:59.062994+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-ask-someone-why-they-are-quiet",
-      "title": "Is it rude to ask someone why they are quiet?",
-      "buffer_post_id": "6aaae9ecb13f5ce19450fe2c",
-      "posted_at": "2026-09-16T19:11:40.529110+00:00"
-    },
-    {
-      "source_url": "procedural://dating/702",
-      "title": "Is it rude to share locations if trust already exists?",
-      "buffer_post_id": "6aaaa764cc0de450ad7623d7",
-      "posted_at": "2026-09-16T14:27:49.094694+00:00"
     }
   ]
 }
