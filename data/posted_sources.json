@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://dating/821",
+      "title": "Would you say something if someone wanted to split the bill in a serious relationship?",
+      "buffer_post_id": "6acbfb75fa026cfb81164304",
+      "posted_at": "2026-10-11T21:11:17.783325+00:00"
+    },
+    {
       "source_url": "curated://family/is-it-wrong-to-skip-family-events-because-you-need-rest",
       "title": "Is it wrong to skip family events because you need rest?",
       "buffer_post_id": "6acbbff4fa026cfb810b1c94",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to notice constant interrupting after it happens twice?",
       "buffer_post_id": "6aab17fa80b24cdcb5f77794",
       "posted_at": "2026-09-16T22:28:10.363253+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-arrive-early-to-someone-house",
-      "title": "Is it rude to arrive early to someone house?",
-      "buffer_post_id": "6aaae9fec25469e84e43271e",
-      "posted_at": "2026-09-16T19:11:59.062994+00:00"
     }
   ]
 }
