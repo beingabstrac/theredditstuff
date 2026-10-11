@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/is-it-weird-when-coworkers-act-like-work-is-family",
+      "title": "Is it weird when coworkers act like work is family?",
+      "buffer_post_id": "6acaf797b07d37ac97924d51",
+      "posted_at": "2026-10-11T02:42:31.347345+00:00"
+    },
+    {
       "source_url": "curated://texting/is-replying-with-just-okay-rude",
       "title": "Is replying with just okay rude?",
       "buffer_post_id": "6acac45abba9419ccb19d8a1",
@@ -1193,12 +1199,6 @@
       "title": "Is it wrong to skip family events because you need rest?",
       "buffer_post_id": "6aaa59701a351dbc7c703fcf",
       "posted_at": "2026-09-16T08:55:13.289186+00:00"
-    },
-    {
-      "source_url": "curated://roommates/should-roommates-ask-before-changing-the-thermostat",
-      "title": "Should roommates ask before changing the thermostat?",
-      "buffer_post_id": "6aa9fa81c9dce8b453163aea",
-      "posted_at": "2026-09-16T02:10:09.737204+00:00"
     }
   ]
 }
