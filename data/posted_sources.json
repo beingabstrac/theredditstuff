@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-rude-to-ask-someone-why-they-are-quiet",
+      "title": "Is it rude to ask someone why they are quiet?",
+      "buffer_post_id": "6acc2ebd63ff33d8c99f95ce",
+      "posted_at": "2026-10-12T00:50:05.978237+00:00"
+    },
+    {
+      "source_url": "fallback://apology-with-explaining",
+      "title": "Is an apology real if someone keeps explaining why they did it?",
+      "buffer_post_id": "6acc2e8963ff33d8c99f91c3",
+      "posted_at": "2026-10-12T00:49:13.571510+00:00"
+    },
+    {
       "source_url": "procedural://dating/821",
       "title": "Would you say something if someone wanted to split the bill in a serious relationship?",
       "buffer_post_id": "6acbfb75fa026cfb81164304",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude to browse a small shop and buy nothing?",
       "buffer_post_id": "6aababf23bff2bf63c35bb84",
       "posted_at": "2026-09-17T08:59:31.019862+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-be-liked-by-everyone-or-respected-by-everyone",
-      "title": "Would you rather be liked by everyone or respected by everyone?",
-      "buffer_post_id": "6aab4cfc74a50499382f96e2",
-      "posted_at": "2026-09-17T02:14:20.541825+00:00"
-    },
-    {
-      "source_url": "procedural://red_flags/703",
-      "title": "Is it normal to notice constant interrupting after it happens twice?",
-      "buffer_post_id": "6aab17fa80b24cdcb5f77794",
-      "posted_at": "2026-09-16T22:28:10.363253+00:00"
     }
   ]
 }
