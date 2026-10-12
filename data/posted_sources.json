@@ -1,6 +1,30 @@
 {
   "posted": [
     {
+      "source_url": "procedural://would_you_rather/826",
+      "title": "Would you rather always be early or exactly on time if you had to choose today?",
+      "buffer_post_id": "6acd353bae14ce433eb42e90",
+      "posted_at": "2026-10-12T19:30:03.378447+00:00"
+    },
+    {
+      "source_url": "procedural://would_you_rather/825",
+      "title": "Would you rather always be early or exactly on time if you had to choose today?",
+      "buffer_post_id": "6acd3531ebe016d7f5fcf0c8",
+      "posted_at": "2026-10-12T19:29:53.392672+00:00"
+    },
+    {
+      "source_url": "procedural://would_you_rather/824",
+      "title": "Would you rather always be early or exactly on time if you had to choose today?",
+      "buffer_post_id": "6acd3527c5e6eb637a19ff4c",
+      "posted_at": "2026-10-12T19:29:43.567715+00:00"
+    },
+    {
+      "source_url": "curated://would_you_rather/would-you-rather-be-liked-by-everyone-or-respected-by-everyone",
+      "title": "Would you rather be liked by everyone or respected by everyone?",
+      "buffer_post_id": "6acd351dae14ce433eb42ad1",
+      "posted_at": "2026-10-12T19:29:33.735234+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-behavior-makes-someone-seem-exhausting",
       "title": "What behavior makes someone seem exhausting?",
       "buffer_post_id": "6acc97015feb3462de972ce1",
@@ -1175,30 +1199,6 @@
       "title": "Should friends pay you back immediately or is later fine?",
       "buffer_post_id": "6aac6a4e7ef8244029319d95",
       "posted_at": "2026-09-17T22:31:42.450897+00:00"
-    },
-    {
-      "source_url": "procedural://restaurant/708",
-      "title": "Is it rude to start a tipping debate when one person picked the place?",
-      "buffer_post_id": "6aac3e4f7dfa05f625c42d62",
-      "posted_at": "2026-09-17T19:23:59.582666+00:00"
-    },
-    {
-      "source_url": "procedural://restaurant/707",
-      "title": "Would you say something if someone wanted to order the cheapest thing when one person picked the place?",
-      "buffer_post_id": "6aac3e3e5de9b79c96eeb669",
-      "posted_at": "2026-09-17T19:23:42.946411+00:00"
-    },
-    {
-      "source_url": "fallback://friendship-one-sided",
-      "title": "What makes a friendship start feeling one-sided?",
-      "buffer_post_id": "6aabf9d183868cb1933ad701",
-      "posted_at": "2026-09-17T14:31:45.829784+00:00"
-    },
-    {
-      "source_url": "curated://friendship/should-friends-invite-partners-to-every-plan",
-      "title": "Should friends invite partners to every plan?",
-      "buffer_post_id": "6aabf9c571168e80be88b390",
-      "posted_at": "2026-09-17T14:31:33.799889+00:00"
     }
   ]
 }
