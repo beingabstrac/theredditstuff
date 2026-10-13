@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://free-food-or-rent",
+      "title": "Would you rather have free food forever or free rent forever?",
+      "buffer_post_id": "6aceaad0ef524ddfded8d738",
+      "posted_at": "2026-10-13T22:04:00.572621+00:00"
+    },
+    {
+      "source_url": "curated://money/is-lending-small-amounts-of-money-to-friends-worth-the-risk",
+      "title": "Is lending small amounts of money to friends worth the risk?",
+      "buffer_post_id": "6aceaabb633a18cf6f9d62e8",
+      "posted_at": "2026-10-13T22:03:39.590645+00:00"
+    },
+    {
       "source_url": "fallback://restaurant-hard-to-be-around",
       "title": "What restaurant behavior tells you someone is hard to be around?",
       "buffer_post_id": "6ace66e70b1619ab656a438e",
@@ -1187,18 +1199,6 @@
       "title": "Is it normal to trust your first impression after it happens twice?",
       "buffer_post_id": "6aadedd265e5b8cd5b25ff26",
       "posted_at": "2026-09-19T02:05:06.551321+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-normal-to-take-leftovers-from-a-party",
-      "title": "Is it normal to take leftovers from a party?",
-      "buffer_post_id": "6aadcce1a4c300df32a1bdd4",
-      "posted_at": "2026-09-18T23:44:33.333079+00:00"
-    },
-    {
-      "source_url": "curated://dating/would-you-be-bothered-if-your-partner-liked-an-ex-post",
-      "title": "Would you be bothered if your partner liked an ex post?",
-      "buffer_post_id": "6aad99df560f708e81429f69",
-      "posted_at": "2026-09-18T20:06:55.793239+00:00"
     }
   ]
 }
