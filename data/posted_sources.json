@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/would-you-leave-a-store-if-the-music-is-too-loud",
+      "title": "Would you leave a store if the music is too loud?",
+      "buffer_post_id": "6acd8cb9c210c8c6dd43de6e",
+      "posted_at": "2026-10-13T01:43:21.623395+00:00"
+    },
+    {
+      "source_url": "curated://shopping/is-it-rude-to-leave-unwanted-items-anywhere-in-a-store",
+      "title": "Is it rude to leave unwanted items anywhere in a store?",
+      "buffer_post_id": "6acd8ca9aec88be081eec88c",
+      "posted_at": "2026-10-13T01:43:05.751171+00:00"
+    },
+    {
       "source_url": "procedural://would_you_rather/826",
       "title": "Would you rather always be early or exactly on time if you had to choose today?",
       "buffer_post_id": "6acd353bae14ce433eb42e90",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude to leave work exactly on time?",
       "buffer_post_id": "6aace3be0b965a56a588ac90",
       "posted_at": "2026-09-18T07:09:50.366060+00:00"
-    },
-    {
-      "source_url": "curated://texting/should-read-receipts-be-turned-off-by-default",
-      "title": "Should read receipts be turned off by default?",
-      "buffer_post_id": "6aac9b573193d9f800287afc",
-      "posted_at": "2026-09-18T02:00:55.690448+00:00"
-    },
-    {
-      "source_url": "curated://money/should-friends-pay-you-back-immediately-or-is-later-fine",
-      "title": "Should friends pay you back immediately or is later fine?",
-      "buffer_post_id": "6aac6a4e7ef8244029319d95",
-      "posted_at": "2026-09-17T22:31:42.450897+00:00"
     }
   ]
 }
