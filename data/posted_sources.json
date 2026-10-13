@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/is-it-rude-to-stop-reaching-out-first-and-see-what-happens",
+      "title": "Is it rude to stop reaching out first and see what happens?",
+      "buffer_post_id": "6acdee6bca68ebbd369b3d85",
+      "posted_at": "2026-10-13T08:40:12.022729+00:00"
+    },
+    {
+      "source_url": "curated://friendship/should-friends-invite-partners-to-every-plan",
+      "title": "Should friends invite partners to every plan?",
+      "buffer_post_id": "6acdee5fca68ebbd369b3ab7",
+      "posted_at": "2026-10-13T08:39:59.874899+00:00"
+    },
+    {
       "source_url": "curated://shopping/would-you-leave-a-store-if-the-music-is-too-loud",
       "title": "Would you leave a store if the music is too loud?",
       "buffer_post_id": "6acd8cb9c210c8c6dd43de6e",
@@ -1187,18 +1199,6 @@
       "title": "What roommate habit would make you move out immediately?",
       "buffer_post_id": "6aad2e2bd7a2d94521e6a7d1",
       "posted_at": "2026-09-18T12:27:23.796508+00:00"
-    },
-    {
-      "source_url": "curated://work/should-coworkers-reply-during-lunch-breaks",
-      "title": "Should coworkers reply during lunch breaks?",
-      "buffer_post_id": "6aace3c8a3c30a520d1f67dc",
-      "posted_at": "2026-09-18T07:10:00.762178+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-rude-to-leave-work-exactly-on-time",
-      "title": "Is it rude to leave work exactly on time?",
-      "buffer_post_id": "6aace3be0b965a56a588ac90",
-      "posted_at": "2026-09-18T07:09:50.366060+00:00"
     }
   ]
 }
