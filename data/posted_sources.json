@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/is-it-rude-to-leave-work-exactly-on-time",
+      "title": "Is it rude to leave work exactly on time?",
+      "buffer_post_id": "6acf465f8fea659be5b40588",
+      "posted_at": "2026-10-14T09:07:43.934820+00:00"
+    },
+    {
+      "source_url": "curated://work/should-meetings-have-to-prove-they-are-necessary",
+      "title": "Should meetings have to prove they are necessary?",
+      "buffer_post_id": "6acf464e167263592467ff4a",
+      "posted_at": "2026-10-14T09:07:27.497685+00:00"
+    },
+    {
       "source_url": "curated://texting/should-read-receipts-be-turned-off-by-default",
       "title": "Should read receipts be turned off by default?",
       "buffer_post_id": "6acee9dcf847f2ad9ebccf57",
@@ -1187,18 +1199,6 @@
       "title": "Is it normal to compare prices in front of friends?",
       "buffer_post_id": "6aae8f08560f708e815abda6",
       "posted_at": "2026-09-19T13:32:56.805057+00:00"
-    },
-    {
-      "source_url": "procedural://would_you_rather/716",
-      "title": "Would you rather get honest advice or quiet support in your current life?",
-      "buffer_post_id": "6aae463b560f708e815246cc",
-      "posted_at": "2026-09-19T08:22:19.996519+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-never-do-laundry-or-never-wash-dishes",
-      "title": "Would you rather never do laundry or never wash dishes?",
-      "buffer_post_id": "6aae46281e8bdcdb523e00a3",
-      "posted_at": "2026-09-19T08:22:00.713136+00:00"
     }
   ]
 }
