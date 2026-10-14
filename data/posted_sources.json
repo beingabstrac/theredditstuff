@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/should-family-get-free-help-just-because-they-are-family",
+      "title": "Should family get free help just because they are family?",
+      "buffer_post_id": "6acfdcec3166073688d32e63",
+      "posted_at": "2026-10-14T19:50:04.249050+00:00"
+    },
+    {
+      "source_url": "curated://family/is-it-rude-to-leave-a-family-gathering-early",
+      "title": "Is it rude to leave a family gathering early?",
+      "buffer_post_id": "6acfdcd63166073688d32aa7",
+      "posted_at": "2026-10-14T19:49:43.255863+00:00"
+    },
+    {
       "source_url": "procedural://roommates/831",
       "title": "Should people be able to complain about dishes after it keeps happening?",
       "buffer_post_id": "6acf95c1a218947d3043ca2e",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude to use coupons on a date?",
       "buffer_post_id": "6aaf04883916ba5b752fb099",
       "posted_at": "2026-09-19T21:54:16.596868+00:00"
-    },
-    {
-      "source_url": "procedural://restaurant/719",
-      "title": "Would you say something if someone wanted to share food without asking when one person picked the place?",
-      "buffer_post_id": "6aaee61794a070da3351af7f",
-      "posted_at": "2026-09-19T19:44:23.246992+00:00"
-    },
-    {
-      "source_url": "curated://friendship/would-you-stay-friends-with-someone-who-never-celebrates-you",
-      "title": "Would you stay friends with someone who never celebrates you?",
-      "buffer_post_id": "6aaebddf4594e3153f3ba971",
-      "posted_at": "2026-09-19T16:52:47.834101+00:00"
     }
   ]
 }
