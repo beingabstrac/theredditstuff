@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/should-read-receipts-be-turned-off-by-default",
+      "title": "Should read receipts be turned off by default?",
+      "buffer_post_id": "6acee9dcf847f2ad9ebccf57",
+      "posted_at": "2026-10-14T02:33:00.906360+00:00"
+    },
+    {
       "source_url": "fallback://free-food-or-rent",
       "title": "Would you rather have free food forever or free rent forever?",
       "buffer_post_id": "6aceaad0ef524ddfded8d738",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather never do laundry or never wash dishes?",
       "buffer_post_id": "6aae46281e8bdcdb523e00a3",
       "posted_at": "2026-09-19T08:22:00.713136+00:00"
-    },
-    {
-      "source_url": "procedural://red_flags/715",
-      "title": "Is it normal to trust your first impression after it happens twice?",
-      "buffer_post_id": "6aadedd265e5b8cd5b25ff26",
-      "posted_at": "2026-09-19T02:05:06.551321+00:00"
     }
   ]
 }
