@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/would-you-be-bothered-if-your-partner-liked-an-ex-post",
+      "title": "Would you be bothered if your partner liked an ex post?",
+      "buffer_post_id": "6ad006bf097897a778dc7787",
+      "posted_at": "2026-10-14T22:48:31.337506+00:00"
+    },
+    {
       "source_url": "curated://family/should-family-get-free-help-just-because-they-are-family",
       "title": "Should family get free help just because they are family?",
       "buffer_post_id": "6acfdcec3166073688d32e63",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to ignore work messages if the manager expects it?",
       "buffer_post_id": "6aaf407e4594e3153f47242e",
       "posted_at": "2026-09-20T02:10:07.460617+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-rude-to-use-coupons-on-a-date",
-      "title": "Is it rude to use coupons on a date?",
-      "buffer_post_id": "6aaf04883916ba5b752fb099",
-      "posted_at": "2026-09-19T21:54:16.596868+00:00"
     }
   ]
 }
