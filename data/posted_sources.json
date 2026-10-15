@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://would_you_rather/836",
+      "title": "Would you rather have one close friend or many casual friends if you had to choose today?",
+      "buffer_post_id": "6ad0e3f152c687f750541e83",
+      "posted_at": "2026-10-15T14:32:18.012133+00:00"
+    },
+    {
+      "source_url": "curated://would_you_rather/would-you-rather-never-do-laundry-or-never-wash-dishes",
+      "title": "Would you rather never do laundry or never wash dishes?",
+      "buffer_post_id": "6ad0e3d84ed96805c7bfbf35",
+      "posted_at": "2026-10-15T14:31:52.133233+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-tiny-behavior-is-an-instant-red-flag",
       "title": "What tiny behavior is an instant red flag?",
       "buffer_post_id": "6ad091956295ecc932f680bd",
@@ -1187,18 +1199,6 @@
       "title": "Would you say something if someone wanted to split the bill before it becomes a pattern?",
       "buffer_post_id": "6ab0125012a7a16e8100e29c",
       "posted_at": "2026-09-20T17:05:20.309037+00:00"
-    },
-    {
-      "source_url": "curated://family/would-you-correct-family-when-they-embarrass-you-in-public",
-      "title": "Would you correct family when they embarrass you in public?",
-      "buffer_post_id": "6aafe40635dc00a609730134",
-      "posted_at": "2026-09-20T13:47:51.017185+00:00"
-    },
-    {
-      "source_url": "curated://family/would-you-refuse-to-host-relatives-who-overstay",
-      "title": "Would you refuse to host relatives who overstay?",
-      "buffer_post_id": "6aafe3fa82c417da848871df",
-      "posted_at": "2026-09-20T13:47:38.347544+00:00"
     }
   ]
 }
