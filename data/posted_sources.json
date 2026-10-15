@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/should-you-tell-someone-they-have-food-in-their-teeth",
+      "title": "Should you tell someone they have food in their teeth?",
+      "buffer_post_id": "6ad036d15f62d3c5af165f36",
+      "posted_at": "2026-10-15T02:13:38.029218+00:00"
+    },
+    {
       "source_url": "curated://dating/would-you-be-bothered-if-your-partner-liked-an-ex-post",
       "title": "Would you be bothered if your partner liked an ex post?",
       "buffer_post_id": "6ad006bf097897a778dc7787",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to avoid your roommate in your own home?",
       "buffer_post_id": "6aaf9f2313d908add214632c",
       "posted_at": "2026-09-20T08:53:55.639362+00:00"
-    },
-    {
-      "source_url": "procedural://work/722",
-      "title": "Would you judge someone for choosing to ignore work messages if the manager expects it?",
-      "buffer_post_id": "6aaf407e4594e3153f47242e",
-      "posted_at": "2026-09-20T02:10:07.460617+00:00"
     }
   ]
 }
