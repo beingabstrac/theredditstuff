@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/is-it-weird-when-friends-keep-score-of-favors",
+      "title": "Is it weird when friends keep score of favors?",
+      "buffer_post_id": "6ad15794a82f34dbe135f442",
+      "posted_at": "2026-10-15T22:45:40.881025+00:00"
+    },
+    {
       "source_url": "curated://shopping/is-it-rude-to-browse-a-small-shop-and-buy-nothing",
       "title": "Is it rude to browse a small shop and buy nothing?",
       "buffer_post_id": "6ad12a897132b787718f85b9",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather always be early or exactly on time if money was still the same?",
       "buffer_post_id": "6ab092169644849c89a7c414",
       "posted_at": "2026-09-21T02:10:30.925183+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-harmless-habit-makes-someone-hard-to-trust",
-      "title": "What harmless habit makes someone hard to trust?",
-      "buffer_post_id": "6ab057e7b07e536c5a1d8a9b",
-      "posted_at": "2026-09-20T22:02:15.775236+00:00"
     }
   ]
 }
