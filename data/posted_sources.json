@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/is-it-rude-to-browse-a-small-shop-and-buy-nothing",
+      "title": "Is it rude to browse a small shop and buy nothing?",
+      "buffer_post_id": "6ad12a897132b787718f85b9",
+      "posted_at": "2026-10-15T19:33:29.671142+00:00"
+    },
+    {
+      "source_url": "curated://shopping/is-it-normal-to-compare-prices-in-front-of-friends",
+      "title": "Is it normal to compare prices in front of friends?",
+      "buffer_post_id": "6ad12a728fb2c19f54dedece",
+      "posted_at": "2026-10-15T19:33:06.480120+00:00"
+    },
+    {
       "source_url": "procedural://would_you_rather/836",
       "title": "Would you rather have one close friend or many casual friends if you had to choose today?",
       "buffer_post_id": "6ad0e3f152c687f750541e83",
@@ -1187,18 +1199,6 @@
       "title": "What harmless habit makes someone hard to trust?",
       "buffer_post_id": "6ab057e7b07e536c5a1d8a9b",
       "posted_at": "2026-09-20T22:02:15.775236+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/should-people-ask-before-taking-photos-of-friends",
-      "title": "Should people ask before taking photos of friends?",
-      "buffer_post_id": "6ab03a79ca3da6544358d2df",
-      "posted_at": "2026-09-20T19:56:42.014740+00:00"
-    },
-    {
-      "source_url": "procedural://dating/725",
-      "title": "Would you say something if someone wanted to split the bill before it becomes a pattern?",
-      "buffer_post_id": "6ab0125012a7a16e8100e29c",
-      "posted_at": "2026-09-20T17:05:20.309037+00:00"
     }
   ]
 }
