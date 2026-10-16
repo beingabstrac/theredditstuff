@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-it-rude-to-end-a-text-conversation-by-reacting-instead-of-replying",
+      "title": "Is it rude to end a text conversation by reacting instead of replying?",
+      "buffer_post_id": "6ad233a21ffe47098035371d",
+      "posted_at": "2026-10-16T14:24:34.814799+00:00"
+    },
+    {
+      "source_url": "curated://texting/would-you-be-upset-if-someone-watched-your-story-but-ignored-your-text",
+      "title": "Would you be upset if someone watched your story but ignored your text?",
+      "buffer_post_id": "6ad23385f24c5797a243f747",
+      "posted_at": "2026-10-16T14:24:05.693296+00:00"
+    },
+    {
       "source_url": "curated://money/should-the-person-who-picked-the-expensive-place-pay-more",
       "title": "Should the person who picked the expensive place pay more?",
       "buffer_post_id": "6ad1e1d0a82f34dbe1527510",
@@ -1187,18 +1199,6 @@
       "title": "Would you say something if someone wanted to ask before venting if it feels one-sided?",
       "buffer_post_id": "6ab155bd7c23cb853924c9b1",
       "posted_at": "2026-09-21T16:05:17.805173+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/730",
-      "title": "Is it weird to ask before venting if it feels one-sided?",
-      "buffer_post_id": "6ab155aac363eed29f42edb3",
-      "posted_at": "2026-09-21T16:04:59.186990+00:00"
-    },
-    {
-      "source_url": "curated://friendship/would-you-tell-a-friend-they-are-draining-to-be-around",
-      "title": "Would you tell a friend they are draining to be around?",
-      "buffer_post_id": "6ab155993411491ae6fba863",
-      "posted_at": "2026-09-21T16:04:42.172951+00:00"
     }
   ]
 }
