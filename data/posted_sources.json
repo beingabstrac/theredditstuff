@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/842",
+      "title": "Would you judge someone for choosing to skip optional meetings during lunch?",
+      "buffer_post_id": "6ad27610e038e7a747d1bbae",
+      "posted_at": "2026-10-16T19:08:00.288589+00:00"
+    },
+    {
+      "source_url": "curated://work/should-coworkers-reply-during-lunch-breaks",
+      "title": "Should coworkers reply during lunch breaks?",
+      "buffer_post_id": "6ad275ef93503c7a0a5b7118",
+      "posted_at": "2026-10-16T19:07:27.868265+00:00"
+    },
+    {
       "source_url": "curated://texting/is-it-rude-to-end-a-text-conversation-by-reacting-instead-of-replying",
       "title": "Is it rude to end a text conversation by reacting instead of replying?",
       "buffer_post_id": "6ad233a21ffe47098035371d",
@@ -1187,18 +1199,6 @@
       "title": "Is it awkward to say a restaurant is too expensive?",
       "buffer_post_id": "6ab1ca14826cfc54b8607220",
       "posted_at": "2026-09-22T00:21:40.424905+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-weird-to-order-the-cheapest-thing-on-the-menu",
-      "title": "Is it weird to order the cheapest thing on the menu?",
-      "buffer_post_id": "6ab19fc01177eabccaef0dee",
-      "posted_at": "2026-09-21T21:21:04.757796+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/731",
-      "title": "Would you say something if someone wanted to ask before venting if it feels one-sided?",
-      "buffer_post_id": "6ab155bd7c23cb853924c9b1",
-      "posted_at": "2026-09-21T16:05:17.805173+00:00"
     }
   ]
 }
