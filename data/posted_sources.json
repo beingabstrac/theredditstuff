@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-it-normal-to-avoid-your-roommate-in-your-own-home",
+      "title": "Is it normal to avoid your roommate in your own home?",
+      "buffer_post_id": "6ad2a2dc1694d771d50bfcfc",
+      "posted_at": "2026-10-16T22:19:09.112609+00:00"
+    },
+    {
       "source_url": "procedural://work/842",
       "title": "Would you judge someone for choosing to skip optional meetings during lunch?",
       "buffer_post_id": "6ad27610e038e7a747d1bbae",
@@ -1193,12 +1199,6 @@
       "title": "Should couples share phone passwords or is that weird?",
       "buffer_post_id": "6ab22789377d336018cc01fd",
       "posted_at": "2026-09-22T07:00:28.750327+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-awkward-to-say-a-restaurant-is-too-expensive",
-      "title": "Is it awkward to say a restaurant is too expensive?",
-      "buffer_post_id": "6ab1ca14826cfc54b8607220",
-      "posted_at": "2026-09-22T00:21:40.424905+00:00"
     }
   ]
 }
