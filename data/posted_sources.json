@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/is-it-normal-to-hide-small-purchases-from-family-judgment",
+      "title": "Is it normal to hide small purchases from family judgment?",
+      "buffer_post_id": "6ad2d64ec34368e4b0a13810",
+      "posted_at": "2026-10-17T01:58:39.161536+00:00"
+    },
+    {
       "source_url": "curated://roommates/is-it-normal-to-avoid-your-roommate-in-your-own-home",
       "title": "Is it normal to avoid your roommate in your own home?",
       "buffer_post_id": "6ad2a2dc1694d771d50bfcfc",
@@ -1193,12 +1199,6 @@
       "title": "Is leaving someone on read worse than replying late?",
       "buffer_post_id": "6ab227a374424003bcac18c8",
       "posted_at": "2026-09-22T07:00:52.151052+00:00"
-    },
-    {
-      "source_url": "fallback://couples-phone-passwords",
-      "title": "Should couples share phone passwords or is that weird?",
-      "buffer_post_id": "6ab22789377d336018cc01fd",
-      "posted_at": "2026-09-22T07:00:28.750327+00:00"
     }
   ]
 }
