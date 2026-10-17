@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/849",
+      "title": "Should people be able to leave a cart behind when people are waiting?",
+      "buffer_post_id": "6ad3edefae173d6e00d5068b",
+      "posted_at": "2026-10-17T21:51:43.445629+00:00"
+    },
+    {
+      "source_url": "curated://shopping/should-people-bag-their-own-groceries-when-the-line-is-long",
+      "title": "Should people bag their own groceries when the line is long?",
+      "buffer_post_id": "6ad3edd7e272c4918fa1cfd4",
+      "posted_at": "2026-10-17T21:51:19.404235+00:00"
+    },
+    {
       "source_url": "procedural://would_you_rather/848",
       "title": "Would you rather be respected or liked if you had to choose today?",
       "buffer_post_id": "6ad3b81b938409f1d099474c",
@@ -1187,18 +1199,6 @@
       "title": "Is it petty to complain about loud neighbors?",
       "buffer_post_id": "6ab33663557b1c68e6c11a70",
       "posted_at": "2026-09-23T02:16:03.249044+00:00"
-    },
-    {
-      "source_url": "curated://dating/should-couples-share-locations-with-each-other",
-      "title": "Should couples share locations with each other?",
-      "buffer_post_id": "6ab3153f340f92dcbe192c4c",
-      "posted_at": "2026-09-22T23:54:39.190857+00:00"
-    },
-    {
-      "source_url": "procedural://family/736",
-      "title": "Is it weird to not answer calls immediately if they get offended?",
-      "buffer_post_id": "6ab2e700636742671cde90d6",
-      "posted_at": "2026-09-22T20:37:21.147386+00:00"
     }
   ]
 }
