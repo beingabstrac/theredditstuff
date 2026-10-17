@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://dating/846",
+      "title": "Is it rude to share locations in a serious relationship?",
+      "buffer_post_id": "6ad31637bd148f7de425e507",
+      "posted_at": "2026-10-17T06:31:19.436242+00:00"
+    },
+    {
+      "source_url": "procedural://dating/845",
+      "title": "Would you say something if someone wanted to cancel a date in a serious relationship?",
+      "buffer_post_id": "6ad316251c7e49ea4c3ea9c1",
+      "posted_at": "2026-10-17T06:31:01.663087+00:00"
+    },
+    {
       "source_url": "curated://family/is-it-normal-to-hide-small-purchases-from-family-judgment",
       "title": "Is it normal to hide small purchases from family judgment?",
       "buffer_post_id": "6ad2d64ec34368e4b0a13810",
@@ -1187,18 +1199,6 @@
       "title": "Is it fair to ignore work messages after hours?",
       "buffer_post_id": "6ab27ab38920619c8e5b45eb",
       "posted_at": "2026-09-22T12:55:15.993274+00:00"
-    },
-    {
-      "source_url": "curated://texting/does-dry-texting-always-mean-someone-is-not-interested",
-      "title": "Does dry texting always mean someone is not interested?",
-      "buffer_post_id": "6ab227b19609314f621b8e4a",
-      "posted_at": "2026-09-22T07:01:06.056010+00:00"
-    },
-    {
-      "source_url": "fallback://left-on-read-vs-late",
-      "title": "Is leaving someone on read worse than replying late?",
-      "buffer_post_id": "6ab227a374424003bcac18c8",
-      "posted_at": "2026-09-22T07:00:52.151052+00:00"
     }
   ]
 }
