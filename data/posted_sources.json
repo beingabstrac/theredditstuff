@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-rude-to-arrive-early-to-someone-house",
+      "title": "Is it rude to arrive early to someone house?",
+      "buffer_post_id": "6ad360e3769b45793475e335",
+      "posted_at": "2026-10-17T11:49:55.759772+00:00"
+    },
+    {
       "source_url": "procedural://dating/846",
       "title": "Is it rude to share locations in a serious relationship?",
       "buffer_post_id": "6ad31637bd148f7de425e507",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to say no to last minute tasks if the manager expects it?",
       "buffer_post_id": "6ab27ac62f30e64179d75e19",
       "posted_at": "2026-09-22T12:55:35.005745+00:00"
-    },
-    {
-      "source_url": "fallback://ignore-work-after-hours",
-      "title": "Is it fair to ignore work messages after hours?",
-      "buffer_post_id": "6ab27ab38920619c8e5b45eb",
-      "posted_at": "2026-09-22T12:55:15.993274+00:00"
     }
   ]
 }
