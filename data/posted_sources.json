@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/is-it-weird-to-order-the-cheapest-thing-on-the-menu",
+      "title": "Is it weird to order the cheapest thing on the menu?",
+      "buffer_post_id": "6ad427a2ae173d6e00e14543",
+      "posted_at": "2026-10-18T01:57:54.992732+00:00"
+    },
+    {
       "source_url": "procedural://shopping/849",
       "title": "Should people be able to leave a cart behind when people are waiting?",
       "buffer_post_id": "6ad3edefae173d6e00d5068b",
@@ -1193,12 +1199,6 @@
       "title": "What harmless habit makes you instantly judge someone?",
       "buffer_post_id": "6ab393d54d5794f6ec09d59f",
       "posted_at": "2026-09-23T08:54:45.738208+00:00"
-    },
-    {
-      "source_url": "fallback://complain-loud-neighbors",
-      "title": "Is it petty to complain about loud neighbors?",
-      "buffer_post_id": "6ab33663557b1c68e6c11a70",
-      "posted_at": "2026-09-23T02:16:03.249044+00:00"
     }
   ]
 }
