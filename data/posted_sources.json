@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/would-you-refuse-to-host-relatives-who-overstay",
+      "title": "Would you refuse to host relatives who overstay?",
+      "buffer_post_id": "6ad541ada48c8f8371b65904",
+      "posted_at": "2026-10-18T22:01:17.874266+00:00"
+    },
+    {
       "source_url": "curated://roommates/is-leaving-dishes-overnight-normal-or-gross",
       "title": "Is leaving dishes overnight normal or gross?",
       "buffer_post_id": "6ad522dbae173d6e0016d566",
@@ -1193,12 +1199,6 @@
       "title": "Would you say something if someone wanted to take a call at dinner without making dinner tense?",
       "buffer_post_id": "6ab484a8ccbef1e0a541941e",
       "posted_at": "2026-09-24T02:02:16.771180+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/742",
-      "title": "Is it weird to keep score of favors if it feels one-sided?",
-      "buffer_post_id": "6ab4537bfa1e50c3ab31eb4b",
-      "posted_at": "2026-09-23T22:32:28.129428+00:00"
     }
   ]
 }
