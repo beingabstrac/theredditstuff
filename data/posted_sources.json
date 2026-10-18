@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/should-couples-split-everything-fifty-fifty-if-incomes-are-different",
+      "title": "Should couples split everything fifty fifty if incomes are different?",
+      "buffer_post_id": "6ad46d076d56c60a73fc7dc9",
+      "posted_at": "2026-10-18T06:53:59.727963+00:00"
+    },
+    {
+      "source_url": "curated://money/is-it-awkward-to-say-a-restaurant-is-too-expensive",
+      "title": "Is it awkward to say a restaurant is too expensive?",
+      "buffer_post_id": "6ad46cfb0b0d72757a0ef052",
+      "posted_at": "2026-10-18T06:53:47.831202+00:00"
+    },
+    {
       "source_url": "curated://restaurant/is-it-weird-to-order-the-cheapest-thing-on-the-menu",
       "title": "Is it weird to order the cheapest thing on the menu?",
       "buffer_post_id": "6ad427a2ae173d6e00e14543",
@@ -1187,18 +1199,6 @@
       "title": "Would you rather have one close friend or many casual friends if money was still the same?",
       "buffer_post_id": "6ab3e299d1d84858efc8a5f1",
       "posted_at": "2026-09-23T14:30:49.698006+00:00"
-    },
-    {
-      "source_url": "procedural://red_flags/739",
-      "title": "Is it normal to pull back after one weird moment without overthinking it?",
-      "buffer_post_id": "6ab393e2344004e7d4353e2b",
-      "posted_at": "2026-09-23T08:54:58.911172+00:00"
-    },
-    {
-      "source_url": "fallback://harmless-habit-judge",
-      "title": "What harmless habit makes you instantly judge someone?",
-      "buffer_post_id": "6ab393d54d5794f6ec09d59f",
-      "posted_at": "2026-09-23T08:54:45.738208+00:00"
     }
   ]
 }
