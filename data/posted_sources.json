@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://left-on-read-vs-late",
+      "title": "Is leaving someone on read worse than replying late?",
+      "buffer_post_id": "6ad4b863ae173d6e00fe4ddd",
+      "posted_at": "2026-10-18T12:15:31.609636+00:00"
+    },
+    {
       "source_url": "curated://money/should-couples-split-everything-fifty-fifty-if-incomes-are-different",
       "title": "Should couples split everything fifty fifty if incomes are different?",
       "buffer_post_id": "6ad46d076d56c60a73fc7dc9",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather have one close friend or many casual friends if money was still the same?",
       "buffer_post_id": "6ab3e2a667b4b0ab58a02ee7",
       "posted_at": "2026-09-23T14:31:02.477095+00:00"
-    },
-    {
-      "source_url": "procedural://would_you_rather/740",
-      "title": "Would you rather have one close friend or many casual friends if money was still the same?",
-      "buffer_post_id": "6ab3e299d1d84858efc8a5f1",
-      "posted_at": "2026-09-23T14:30:49.698006+00:00"
     }
   ]
 }
