@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/should-couples-share-locations-with-each-other",
+      "title": "Should couples share locations with each other?",
+      "buffer_post_id": "6ad57d2c0b0d72757a49fa2f",
+      "posted_at": "2026-10-19T02:15:08.201771+00:00"
+    },
+    {
       "source_url": "curated://family/would-you-refuse-to-host-relatives-who-overstay",
       "title": "Would you refuse to host relatives who overstay?",
       "buffer_post_id": "6ad541ada48c8f8371b65904",
@@ -1193,12 +1199,6 @@
       "title": "Would you split the bill evenly if one friend ordered way more?",
       "buffer_post_id": "6ab4e46fccbef1e0a54c3117",
       "posted_at": "2026-09-24T08:50:55.891859+00:00"
-    },
-    {
-      "source_url": "procedural://restaurant/743",
-      "title": "Would you say something if someone wanted to take a call at dinner without making dinner tense?",
-      "buffer_post_id": "6ab484a8ccbef1e0a541941e",
-      "posted_at": "2026-09-24T02:02:16.771180+00:00"
     }
   ]
 }
