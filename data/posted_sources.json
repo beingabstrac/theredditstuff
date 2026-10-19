@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://would_you_rather/861",
+      "title": "Would you rather get honest advice or quiet support if you had to choose today?",
+      "buffer_post_id": "6ad6909e6c850f9ae36710a1",
+      "posted_at": "2026-10-19T21:50:22.333049+00:00"
+    },
+    {
+      "source_url": "procedural://would_you_rather/860",
+      "title": "Would you rather get honest advice or quiet support if you had to choose today?",
+      "buffer_post_id": "6ad690866834506f8c35493f",
+      "posted_at": "2026-10-19T21:49:58.301983+00:00"
+    },
+    {
       "source_url": "fallback://harmless-habit-judge",
       "title": "What harmless habit makes you instantly judge someone?",
       "buffer_post_id": "6ad648c5d7a5a2882daa473a",
@@ -1187,18 +1199,6 @@
       "title": "Is it weird to refuse a family favor if they get offended?",
       "buffer_post_id": "6ab5da328c95968bb028bbfd",
       "posted_at": "2026-09-25T02:19:31.170188+00:00"
-    },
-    {
-      "source_url": "curated://roommates/would-you-confront-a-roommate-about-smell",
-      "title": "Would you confront a roommate about smell?",
-      "buffer_post_id": "6ab5a8f6c16e7f804a50f060",
-      "posted_at": "2026-09-24T22:49:27.071216+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-fair-to-say-no-to-last-minute-work",
-      "title": "Is it fair to say no to last minute work?",
-      "buffer_post_id": "6ab57bbda074a75427c745a5",
-      "posted_at": "2026-09-24T19:36:29.439534+00:00"
     }
   ]
 }
