@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-normal-to-take-leftovers-from-a-party",
+      "title": "Is it normal to take leftovers from a party?",
+      "buffer_post_id": "6ad5e1dee9d713b42447c9f6",
+      "posted_at": "2026-10-19T09:24:46.341328+00:00"
+    },
+    {
+      "source_url": "curated://etiquette/should-people-take-their-shoes-off-in-every-home",
+      "title": "Should people take their shoes off in every home?",
+      "buffer_post_id": "6ad5e1c6e9d713b42447c736",
+      "posted_at": "2026-10-19T09:24:22.695174+00:00"
+    },
+    {
       "source_url": "curated://dating/should-couples-share-locations-with-each-other",
       "title": "Should couples share locations with each other?",
       "buffer_post_id": "6ad57d2c0b0d72757a49fa2f",
@@ -1187,18 +1199,6 @@
       "title": "Is it normal to not reply to texts for hours?",
       "buffer_post_id": "6ab5341e0516e0ed46ceef10",
       "posted_at": "2026-09-24T14:30:54.310491+00:00"
-    },
-    {
-      "source_url": "fallback://everyday-expensive",
-      "title": "What everyday thing became expensive for no good reason?",
-      "buffer_post_id": "6ab4e489521044626febbc23",
-      "posted_at": "2026-09-24T08:51:21.978818+00:00"
-    },
-    {
-      "source_url": "fallback://split-bill-evenly",
-      "title": "Would you split the bill evenly if one friend ordered way more?",
-      "buffer_post_id": "6ab4e46fccbef1e0a54c3117",
-      "posted_at": "2026-09-24T08:50:55.891859+00:00"
     }
   ]
 }
