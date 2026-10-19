@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "fallback://harmless-habit-judge",
+      "title": "What harmless habit makes you instantly judge someone?",
+      "buffer_post_id": "6ad648c5d7a5a2882daa473a",
+      "posted_at": "2026-10-19T16:43:49.220940+00:00"
+    },
+    {
+      "source_url": "curated://red_flags/what-small-thing-makes-you-silently-judge-a-person",
+      "title": "What small thing makes you silently judge a person?",
+      "buffer_post_id": "6ad64888d7a5a2882daa3907",
+      "posted_at": "2026-10-19T16:42:48.366022+00:00"
+    },
+    {
+      "source_url": "fallback://small-workplace-habit-annoyed",
+      "title": "What small workplace habit makes everyone secretly annoyed?",
+      "buffer_post_id": "6ad648678652c01563b14f8e",
+      "posted_at": "2026-10-19T16:42:16.077351+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-normal-to-take-leftovers-from-a-party",
       "title": "Is it normal to take leftovers from a party?",
       "buffer_post_id": "6ad5e1dee9d713b42447c9f6",
@@ -1181,24 +1199,6 @@
       "title": "Is it fair to say no to last minute work?",
       "buffer_post_id": "6ab57bbda074a75427c745a5",
       "posted_at": "2026-09-24T19:36:29.439534+00:00"
-    },
-    {
-      "source_url": "procedural://work/746",
-      "title": "Would you judge someone for choosing to skip optional meetings if the manager expects it?",
-      "buffer_post_id": "6ab57ba1f80e442e5206b17a",
-      "posted_at": "2026-09-24T19:36:01.642088+00:00"
-    },
-    {
-      "source_url": "procedural://texting/745",
-      "title": "Is it normal to double text when nothing is urgent?",
-      "buffer_post_id": "6ab5343907a561292b167902",
-      "posted_at": "2026-09-24T14:31:21.431660+00:00"
-    },
-    {
-      "source_url": "fallback://reply-to-texts-hours",
-      "title": "Is it normal to not reply to texts for hours?",
-      "buffer_post_id": "6ab5341e0516e0ed46ceef10",
-      "posted_at": "2026-09-24T14:30:54.310491+00:00"
     }
   ]
 }
