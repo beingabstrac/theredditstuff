@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/861",
+      "title": "Should people be able to take a call in line when people are waiting?",
+      "buffer_post_id": "6ad6ba30b81183413da6c55e",
+      "posted_at": "2026-10-20T00:47:44.545963+00:00"
+    },
+    {
       "source_url": "procedural://would_you_rather/861",
       "title": "Would you rather get honest advice or quiet support if you had to choose today?",
       "buffer_post_id": "6ad6909e6c850f9ae36710a1",
@@ -1193,12 +1199,6 @@
       "title": "Should you text right after a good date?",
       "buffer_post_id": "6ab63a96607bee5b032e30c2",
       "posted_at": "2026-09-25T09:10:46.528959+00:00"
-    },
-    {
-      "source_url": "procedural://family/748",
-      "title": "Is it weird to refuse a family favor if they get offended?",
-      "buffer_post_id": "6ab5da328c95968bb028bbfd",
-      "posted_at": "2026-09-25T02:19:31.170188+00:00"
     }
   ]
 }
