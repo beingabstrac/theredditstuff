@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://split-bill-evenly",
+      "title": "Would you split the bill evenly if one friend ordered way more?",
+      "buffer_post_id": "6ad7aedf58633da51389f590",
+      "posted_at": "2026-10-20T18:11:43.778165+00:00"
+    },
+    {
       "source_url": "procedural://restaurant/864",
       "title": "Is it rude to split appetizers when the table is full?",
       "buffer_post_id": "6ad767bfff291a23994e929b",
@@ -1193,12 +1199,6 @@
       "title": "What everyday behavior feels selfish immediately?",
       "buffer_post_id": "6ab6ce4ddffba3cec6e271a4",
       "posted_at": "2026-09-25T19:41:01.866288+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-red-flag-at-dinner-with-someone",
-      "title": "What is a red flag at dinner with someone?",
-      "buffer_post_id": "6ab6ce36b097c5b401a08436",
-      "posted_at": "2026-09-25T19:40:38.446738+00:00"
     }
   ]
 }
