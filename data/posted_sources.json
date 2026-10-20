@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://friendship-one-sided",
+      "title": "What makes a friendship start feeling one-sided?",
+      "buffer_post_id": "6ad70f3ab81183413db79b72",
+      "posted_at": "2026-10-20T06:50:34.202383+00:00"
+    },
+    {
+      "source_url": "curated://friendship/would-you-tell-a-friend-they-are-draining-to-be-around",
+      "title": "Would you tell a friend they are draining to be around?",
+      "buffer_post_id": "6ad70f1eb81183413db79362",
+      "posted_at": "2026-10-20T06:50:06.834357+00:00"
+    },
+    {
       "source_url": "procedural://shopping/861",
       "title": "Should people be able to take a call in line when people are waiting?",
       "buffer_post_id": "6ad6ba30b81183413da6c55e",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude to ask guests to leave?",
       "buffer_post_id": "6ab68a4a71974318268ab68c",
       "posted_at": "2026-09-25T14:50:50.698563+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-rude-to-split-the-bill-on-a-first-date",
-      "title": "Is it rude to split the bill on a first date?",
-      "buffer_post_id": "6ab63aa7607bee5b032e31d5",
-      "posted_at": "2026-09-25T09:11:03.978307+00:00"
-    },
-    {
-      "source_url": "curated://dating/should-you-text-right-after-a-good-date",
-      "title": "Should you text right after a good date?",
-      "buffer_post_id": "6ab63a96607bee5b032e30c2",
-      "posted_at": "2026-09-25T09:10:46.528959+00:00"
     }
   ]
 }
