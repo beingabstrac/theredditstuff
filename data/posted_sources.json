@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://restaurant/864",
+      "title": "Is it rude to split appetizers when the table is full?",
+      "buffer_post_id": "6ad767bfff291a23994e929b",
+      "posted_at": "2026-10-20T13:08:15.892243+00:00"
+    },
+    {
+      "source_url": "procedural://restaurant/863",
+      "title": "Would you say something if someone wanted to share food without asking with friends?",
+      "buffer_post_id": "6ad767a7a154249523d103b6",
+      "posted_at": "2026-10-20T13:07:51.894532+00:00"
+    },
+    {
       "source_url": "fallback://friendship-one-sided",
       "title": "What makes a friendship start feeling one-sided?",
       "buffer_post_id": "6ad70f3ab81183413db79b72",
@@ -1187,18 +1199,6 @@
       "title": "What is a red flag at dinner with someone?",
       "buffer_post_id": "6ab6ce36b097c5b401a08436",
       "posted_at": "2026-09-25T19:40:38.446738+00:00"
-    },
-    {
-      "source_url": "fallback://invite-yourself-plans",
-      "title": "Is it weird to invite yourself to plans you heard about?",
-      "buffer_post_id": "6ab68a62a8082582dff8d7e8",
-      "posted_at": "2026-09-25T14:51:14.564547+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-ask-guests-to-leave",
-      "title": "Is it rude to ask guests to leave?",
-      "buffer_post_id": "6ab68a4a71974318268ab68c",
-      "posted_at": "2026-09-25T14:50:50.698563+00:00"
     }
   ]
 }
