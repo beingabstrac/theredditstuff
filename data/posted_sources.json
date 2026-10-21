@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://invite-yourself-plans",
+      "title": "Is it weird to invite yourself to plans you heard about?",
+      "buffer_post_id": "6ad94257d0598dd30cf9ad9b",
+      "posted_at": "2026-10-21T22:53:11.574610+00:00"
+    },
+    {
       "source_url": "curated://dating/is-it-rude-to-split-the-bill-on-a-first-date",
       "title": "Is it rude to split the bill on a first date?",
       "buffer_post_id": "6ad9169a10f3165f4b74553b",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to split utilities evenly if one person is always home?",
       "buffer_post_id": "6ab8992105811e573742547b",
       "posted_at": "2026-09-27T04:18:41.845459+00:00"
-    },
-    {
-      "source_url": "procedural://work/758",
-      "title": "Would you judge someone for choosing to mute work apps if the manager expects it?",
-      "buffer_post_id": "6ab85cb00f79a37c5d3f6603",
-      "posted_at": "2026-09-27T00:00:48.431052+00:00"
     }
   ]
 }
