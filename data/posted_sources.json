@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-it-rude-for-roommates-to-use-your-food-without-asking",
+      "title": "Is it rude for roommates to use your food without asking?",
+      "buffer_post_id": "6ad87ecad0cc3336f1155ffb",
+      "posted_at": "2026-10-21T08:58:50.972193+00:00"
+    },
+    {
+      "source_url": "curated://roommates/would-you-confront-a-roommate-about-smell",
+      "title": "Would you confront a roommate about smell?",
+      "buffer_post_id": "6ad87ea5d109f3f66b87d606",
+      "posted_at": "2026-10-21T08:58:13.692049+00:00"
+    },
+    {
       "source_url": "curated://work/is-it-fair-to-say-no-to-last-minute-work",
       "title": "Is it fair to say no to last minute work?",
       "buffer_post_id": "6ad8222250009d9e95045097",
@@ -1187,18 +1199,6 @@
       "title": "Should the person who chose the restaurant handle the booking?",
       "buffer_post_id": "6ab7cf490f79a37c5d2fff93",
       "posted_at": "2026-09-26T13:57:30.170532+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/755",
-      "title": "Would you say something if someone wanted to tell a friend they are draining if it feels one-sided?",
-      "buffer_post_id": "6ab7886ff59168c9753ba725",
-      "posted_at": "2026-09-26T08:55:11.994087+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/754",
-      "title": "Is it weird to tell a friend they are draining if it feels one-sided?",
-      "buffer_post_id": "6ab7885af28173fa3f5f5756",
-      "posted_at": "2026-09-26T08:54:50.583996+00:00"
     }
   ]
 }
