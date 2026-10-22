@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://would_you_rather/872",
+      "title": "Would you rather always be early or exactly on time with no explanation?",
+      "buffer_post_id": "6ad9d19a09335c6cc6f704f7",
+      "posted_at": "2026-10-22T09:04:26.794356+00:00"
+    },
+    {
+      "source_url": "curated://would_you_rather/would-you-rather-always-know-when-someone-is-lying-or-always-sound-believable",
+      "title": "Would you rather always know when someone is lying or always sound believable?",
+      "buffer_post_id": "6ad9d18131bddaf9c5d03557",
+      "posted_at": "2026-10-22T09:04:01.563824+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-is-a-red-flag-at-dinner-with-someone",
       "title": "What is a red flag at dinner with someone?",
       "buffer_post_id": "6ad972887dadc432f7365553",
@@ -1187,18 +1199,6 @@
       "title": "Is it weird to stop explaining every plan if they get offended?",
       "buffer_post_id": "6ab8f747612c9e6ac920cdf0",
       "posted_at": "2026-09-27T11:00:23.649452+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-wrong-to-not-lend-family-your-car",
-      "title": "Is it wrong to not lend family your car?",
-      "buffer_post_id": "6ab8f73143493a0ede8b33a8",
-      "posted_at": "2026-09-27T11:00:01.934788+00:00"
-    },
-    {
-      "source_url": "fallback://house-guest-red-flag",
-      "title": "What house guest behavior is an instant red flag?",
-      "buffer_post_id": "6ab899320f79a37c5d44fe10",
-      "posted_at": "2026-09-27T04:18:59.048151+00:00"
     }
   ]
 }
