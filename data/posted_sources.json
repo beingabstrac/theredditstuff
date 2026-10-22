@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/should-the-person-who-chose-the-restaurant-handle-the-booking",
+      "title": "Should the person who chose the restaurant handle the booking?",
+      "buffer_post_id": "6ada93531dc335d347e212ac",
+      "posted_at": "2026-10-22T22:50:59.478118+00:00"
+    },
+    {
       "source_url": "procedural://friendship/874",
       "title": "Is it weird to ask before venting without starting drama?",
       "buffer_post_id": "6ada69e8e391db54dafbe473",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather get honest advice or comforting support?",
       "buffer_post_id": "6ab9cfd654f1e60c7e832aed",
       "posted_at": "2026-09-28T02:24:23.039421+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-green-flag-people-do-not-talk-about-enough",
-      "title": "What is a green flag people do not talk about enough?",
-      "buffer_post_id": "6ab99b2f82dee5c85bcd2015",
-      "posted_at": "2026-09-27T22:39:43.787554+00:00"
     }
   ]
 }
