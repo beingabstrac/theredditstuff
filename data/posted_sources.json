@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/874",
+      "title": "Is it weird to ask before venting without starting drama?",
+      "buffer_post_id": "6ada69e8e391db54dafbe473",
+      "posted_at": "2026-10-22T19:54:16.470935+00:00"
+    },
+    {
+      "source_url": "curated://friendship/would-you-stay-friends-with-someone-who-never-celebrates-you",
+      "title": "Would you stay friends with someone who never celebrates you?",
+      "buffer_post_id": "6ada69cee374ecc98222b52d",
+      "posted_at": "2026-10-22T19:53:50.211940+00:00"
+    },
+    {
       "source_url": "procedural://shopping/873",
       "title": "Should people be able to block an aisle with friends nearby?",
       "buffer_post_id": "6ada2192e8cca8cdcc58aa5b",
@@ -1187,18 +1199,6 @@
       "title": "What is a green flag people do not talk about enough?",
       "buffer_post_id": "6ab99b2f82dee5c85bcd2015",
       "posted_at": "2026-09-27T22:39:43.787554+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-play-videos-out-loud-in-public",
-      "title": "Is it rude to play videos out loud in public?",
-      "buffer_post_id": "6ab96e12612c9e6ac9312abe",
-      "posted_at": "2026-09-27T19:27:14.663342+00:00"
-    },
-    {
-      "source_url": "fallback://tell-friend-partner-flirting",
-      "title": "Would you tell your friend if their partner was flirting with someone else?",
-      "buffer_post_id": "6ab93d1f1bf030e330ad62c8",
-      "posted_at": "2026-09-27T15:58:23.993877+00:00"
     }
   ]
 }
