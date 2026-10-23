@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/is-it-wrong-to-not-lend-family-your-car",
+      "title": "Is it wrong to not lend family your car?",
+      "buffer_post_id": "6adbe3628b3d437ddc8c1190",
+      "posted_at": "2026-10-23T22:44:50.157439+00:00"
+    },
+    {
       "source_url": "fallback://house-guest-red-flag",
       "title": "What house guest behavior is an instant red flag?",
       "buffer_post_id": "6adbb7ad9acae620d815d5bd",
@@ -1193,12 +1199,6 @@
       "title": "Would you lend money to a friend who still owes other people?",
       "buffer_post_id": "6abb6aec320ca548b4dfe35f",
       "posted_at": "2026-09-29T07:38:21.368842+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/would-you-go-back-to-a-place-your-friend-hated",
-      "title": "Would you go back to a place your friend hated?",
-      "buffer_post_id": "6abb002693a81b612b53ee47",
-      "posted_at": "2026-09-29T00:02:46.863206+00:00"
     }
   ]
 }
