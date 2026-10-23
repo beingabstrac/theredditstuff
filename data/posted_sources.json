@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://everyday-expensive",
+      "title": "What everyday thing became expensive for no good reason?",
+      "buffer_post_id": "6adac548cc1b7cdc08c79dba",
+      "posted_at": "2026-10-23T02:24:08.827132+00:00"
+    },
+    {
       "source_url": "curated://restaurant/should-the-person-who-chose-the-restaurant-handle-the-booking",
       "title": "Should the person who chose the restaurant handle the booking?",
       "buffer_post_id": "6ada93531dc335d347e212ac",
@@ -1193,12 +1199,6 @@
       "title": "Should delivery fees make you stop ordering food?",
       "buffer_post_id": "6aba3e92a9444d6e844123ef",
       "posted_at": "2026-09-28T10:16:50.761638+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-get-honest-advice-or-comforting-support",
-      "title": "Would you rather get honest advice or comforting support?",
-      "buffer_post_id": "6ab9cfd654f1e60c7e832aed",
-      "posted_at": "2026-09-28T02:24:23.039421+00:00"
     }
   ]
 }
