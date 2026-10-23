@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://house-guest-red-flag",
+      "title": "What house guest behavior is an instant red flag?",
+      "buffer_post_id": "6adbb7ad9acae620d815d5bd",
+      "posted_at": "2026-10-23T19:38:21.516060+00:00"
+    },
+    {
+      "source_url": "curated://roommates/is-it-fair-to-split-utilities-evenly-if-one-person-is-always-home",
+      "title": "Is it fair to split utilities evenly if one person is always home?",
+      "buffer_post_id": "6adbb78be4be8a4d86223af4",
+      "posted_at": "2026-10-23T19:37:47.807632+00:00"
+    },
+    {
       "source_url": "procedural://work/879",
       "title": "Should people be able to say no to last minute tasks while on vacation?",
       "buffer_post_id": "6adb6ff57af932dee4e594f6",
@@ -1187,18 +1199,6 @@
       "title": "Would you go back to a place your friend hated?",
       "buffer_post_id": "6abb002693a81b612b53ee47",
       "posted_at": "2026-09-29T00:02:46.863206+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/766",
-      "title": "Is it weird to expect friends to remember details if it feels one-sided?",
-      "buffer_post_id": "6abab7fa1de5273001a103a6",
-      "posted_at": "2026-09-28T18:54:50.316066+00:00"
-    },
-    {
-      "source_url": "curated://friendship/should-friends-ask-before-venting",
-      "title": "Should friends ask before venting?",
-      "buffer_post_id": "6abab7eac23da36df5643711",
-      "posted_at": "2026-09-28T18:54:34.515250+00:00"
     }
   ]
 }
