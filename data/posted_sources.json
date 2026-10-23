@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/does-dry-texting-always-mean-someone-is-not-interested",
+      "title": "Does dry texting always mean someone is not interested?",
+      "buffer_post_id": "6adb2106b548d29b7402dc91",
+      "posted_at": "2026-10-23T08:55:34.334278+00:00"
+    },
+    {
+      "source_url": "curated://texting/is-sending-voice-notes-instead-of-texting-annoying",
+      "title": "Is sending voice notes instead of texting annoying?",
+      "buffer_post_id": "6adb20ecb548d29b7402d7f3",
+      "posted_at": "2026-10-23T08:55:08.575069+00:00"
+    },
+    {
       "source_url": "fallback://everyday-expensive",
       "title": "What everyday thing became expensive for no good reason?",
       "buffer_post_id": "6adac548cc1b7cdc08c79dba",
@@ -1187,18 +1199,6 @@
       "title": "Should people be able to take a call in line after changing your mind?",
       "buffer_post_id": "6aba3eb96bc8e702c3574221",
       "posted_at": "2026-09-28T10:17:29.617593+00:00"
-    },
-    {
-      "source_url": "curated://shopping/should-people-return-carts-every-single-time",
-      "title": "Should people return carts every single time?",
-      "buffer_post_id": "6aba3ea7885a9579049f7ac5",
-      "posted_at": "2026-09-28T10:17:11.254781+00:00"
-    },
-    {
-      "source_url": "curated://shopping/should-delivery-fees-make-you-stop-ordering-food",
-      "title": "Should delivery fees make you stop ordering food?",
-      "buffer_post_id": "6aba3e92a9444d6e844123ef",
-      "posted_at": "2026-09-28T10:16:50.761638+00:00"
     }
   ]
 }
