@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/879",
+      "title": "Should people be able to say no to last minute tasks while on vacation?",
+      "buffer_post_id": "6adb6ff57af932dee4e594f6",
+      "posted_at": "2026-10-23T14:32:21.315558+00:00"
+    },
+    {
+      "source_url": "procedural://work/878",
+      "title": "Would you judge someone for choosing to say no to last minute tasks while on vacation?",
+      "buffer_post_id": "6adb6fdc10223fea566b0ee4",
+      "posted_at": "2026-10-23T14:31:56.575827+00:00"
+    },
+    {
       "source_url": "curated://texting/does-dry-texting-always-mean-someone-is-not-interested",
       "title": "Does dry texting always mean someone is not interested?",
       "buffer_post_id": "6adb2106b548d29b7402dc91",
@@ -1187,18 +1199,6 @@
       "title": "Should friends ask before venting?",
       "buffer_post_id": "6abab7eac23da36df5643711",
       "posted_at": "2026-09-28T18:54:34.515250+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-normal-for-friendships-to-fade-without-a-fight",
-      "title": "Is it normal for friendships to fade without a fight?",
-      "buffer_post_id": "6abab7ddaea1cdc4315744d8",
-      "posted_at": "2026-09-28T18:54:21.319081+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/765",
-      "title": "Should people be able to take a call in line after changing your mind?",
-      "buffer_post_id": "6aba3eb96bc8e702c3574221",
-      "posted_at": "2026-09-28T10:17:29.617593+00:00"
     }
   ]
 }
