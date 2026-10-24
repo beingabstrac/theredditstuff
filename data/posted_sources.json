@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://dating-texting-red-flag",
+      "title": "What texting habit is a dating red flag?",
+      "buffer_post_id": "6adc164ce4be8a4d863813e8",
+      "posted_at": "2026-10-24T02:22:04.526305+00:00"
+    },
+    {
       "source_url": "curated://family/is-it-wrong-to-not-lend-family-your-car",
       "title": "Is it wrong to not lend family your car?",
       "buffer_post_id": "6adbe3628b3d437ddc8c1190",
@@ -1193,12 +1199,6 @@
       "title": "Would you remind someone about five dollars they owe you?",
       "buffer_post_id": "6abb6afd85cca6b1298203c6",
       "posted_at": "2026-09-29T07:38:37.884997+00:00"
-    },
-    {
-      "source_url": "fallback://lend-money-friend-owes",
-      "title": "Would you lend money to a friend who still owes other people?",
-      "buffer_post_id": "6abb6aec320ca548b4dfe35f",
-      "posted_at": "2026-09-29T07:38:21.368842+00:00"
     }
   ]
 }
