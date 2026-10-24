@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-rude-to-play-videos-out-loud-in-public",
+      "title": "Is it rude to play videos out loud in public?",
+      "buffer_post_id": "6adc6c573d5b27036b744ff4",
+      "posted_at": "2026-10-24T08:29:11.316876+00:00"
+    },
+    {
+      "source_url": "curated://etiquette/should-people-ask-before-taking-photos-of-friends",
+      "title": "Should people ask before taking photos of friends?",
+      "buffer_post_id": "6adc6c3f3d5b27036b744c44",
+      "posted_at": "2026-10-24T08:28:47.938194+00:00"
+    },
+    {
       "source_url": "fallback://dating-texting-red-flag",
       "title": "What texting habit is a dating red flag?",
       "buffer_post_id": "6adc164ce4be8a4d863813e8",
@@ -1187,18 +1199,6 @@
       "title": "Should plans be confirmed again the day of?",
       "buffer_post_id": "6abbca93c09056a6cd22870e",
       "posted_at": "2026-09-29T14:26:27.659266+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-rude-to-ask-the-price-before-agreeing-to-plans",
-      "title": "Is it rude to ask the price before agreeing to plans?",
-      "buffer_post_id": "6abb6b0ab6b2614895957b64",
-      "posted_at": "2026-09-29T07:38:50.675482+00:00"
-    },
-    {
-      "source_url": "curated://money/would-you-remind-someone-about-five-dollars-they-owe-you",
-      "title": "Would you remind someone about five dollars they owe you?",
-      "buffer_post_id": "6abb6afd85cca6b1298203c6",
-      "posted_at": "2026-09-29T07:38:37.884997+00:00"
     }
   ]
 }
