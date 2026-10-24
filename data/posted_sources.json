@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/should-delivery-fees-make-you-stop-ordering-food",
+      "title": "Should delivery fees make you stop ordering food?",
+      "buffer_post_id": "6add0d95e4be8a4d867633e8",
+      "posted_at": "2026-10-24T19:57:09.744773+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-get-honest-advice-or-comforting-support",
       "title": "Would you rather get honest advice or comforting support?",
       "buffer_post_id": "6adce53b6887a2efc1c978fa",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to leave laundry in the machine for hours?",
       "buffer_post_id": "6abc5d02a1ba5ce146e28655",
       "posted_at": "2026-09-30T00:51:14.683349+00:00"
-    },
-    {
-      "source_url": "curated://work/would-you-cover-for-a-coworker-who-is-always-late",
-      "title": "Would you cover for a coworker who is always late?",
-      "buffer_post_id": "6abc1d79f3db08ac9266aead",
-      "posted_at": "2026-09-29T20:20:09.549775+00:00"
     }
   ]
 }
