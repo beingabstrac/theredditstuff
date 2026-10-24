@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/is-it-normal-for-friendships-to-fade-without-a-fight",
+      "title": "Is it normal for friendships to fade without a fight?",
+      "buffer_post_id": "6add2c95bd33ce99c343cccb",
+      "posted_at": "2026-10-24T22:09:25.330098+00:00"
+    },
+    {
       "source_url": "curated://shopping/should-delivery-fees-make-you-stop-ordering-food",
       "title": "Should delivery fees make you stop ordering food?",
       "buffer_post_id": "6add0d95e4be8a4d867633e8",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to take long showers when you share a bathroom?",
       "buffer_post_id": "6abc5d14f3db08ac926e18e9",
       "posted_at": "2026-09-30T00:51:32.639746+00:00"
-    },
-    {
-      "source_url": "curated://roommates/is-it-rude-to-leave-laundry-in-the-machine-for-hours",
-      "title": "Is it rude to leave laundry in the machine for hours?",
-      "buffer_post_id": "6abc5d02a1ba5ce146e28655",
-      "posted_at": "2026-09-30T00:51:14.683349+00:00"
     }
   ]
 }
