@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/would-you-go-back-to-a-place-your-friend-hated",
+      "title": "Would you go back to a place your friend hated?",
+      "buffer_post_id": "6add64a80b5343d070af8bab",
+      "posted_at": "2026-10-25T02:08:40.220307+00:00"
+    },
+    {
       "source_url": "curated://friendship/is-it-normal-for-friendships-to-fade-without-a-fight",
       "title": "Is it normal for friendships to fade without a fight?",
       "buffer_post_id": "6add2c95bd33ce99c343cccb",
@@ -1193,12 +1199,6 @@
       "title": "Should adults have to explain every plan to their parents?",
       "buffer_post_id": "6abcbce7c595610f202e7b58",
       "posted_at": "2026-09-30T07:40:23.662367+00:00"
-    },
-    {
-      "source_url": "curated://roommates/is-it-rude-to-take-long-showers-when-you-share-a-bathroom",
-      "title": "Is it rude to take long showers when you share a bathroom?",
-      "buffer_post_id": "6abc5d14f3db08ac926e18e9",
-      "posted_at": "2026-09-30T00:51:32.639746+00:00"
     }
   ]
 }
