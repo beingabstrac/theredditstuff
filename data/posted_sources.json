@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://check-split-bill",
+      "title": "Is it rude to check the bill when someone else said they split it already?",
+      "buffer_post_id": "6addc276e4be8a4d869b26dc",
+      "posted_at": "2026-10-25T08:48:54.633926+00:00"
+    },
+    {
+      "source_url": "curated://money/would-you-remind-someone-about-five-dollars-they-owe-you",
+      "title": "Would you remind someone about five dollars they owe you?",
+      "buffer_post_id": "6addc25e0b5343d070c20838",
+      "posted_at": "2026-10-25T08:48:30.490334+00:00"
+    },
+    {
       "source_url": "curated://restaurant/would-you-go-back-to-a-place-your-friend-hated",
       "title": "Would you go back to a place your friend hated?",
       "buffer_post_id": "6add64a80b5343d070af8bab",
@@ -1187,18 +1199,6 @@
       "title": "Would you tell someone their dating standards are unrealistic?",
       "buffer_post_id": "6abd1b72da5180c12bff08ec",
       "posted_at": "2026-09-30T14:23:46.913460+00:00"
-    },
-    {
-      "source_url": "curated://family/would-you-tell-family-to-stop-commenting-on-your-life",
-      "title": "Would you tell family to stop commenting on your life?",
-      "buffer_post_id": "6abcbcf8a1ba5ce146ee95b0",
-      "posted_at": "2026-09-30T07:40:40.432647+00:00"
-    },
-    {
-      "source_url": "curated://family/should-adults-have-to-explain-every-plan-to-their-parents",
-      "title": "Should adults have to explain every plan to their parents?",
-      "buffer_post_id": "6abcbce7c595610f202e7b58",
-      "posted_at": "2026-09-30T07:40:23.662367+00:00"
     }
   ]
 }
