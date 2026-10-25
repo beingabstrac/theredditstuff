@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/should-plans-be-confirmed-again-the-day-of",
+      "title": "Should plans be confirmed again the day of?",
+      "buffer_post_id": "6ade0b963d5b27036bd6214f",
+      "posted_at": "2026-10-25T14:00:54.948995+00:00"
+    },
+    {
+      "source_url": "curated://texting/should-people-explain-why-they-reply-late",
+      "title": "Should people explain why they reply late?",
+      "buffer_post_id": "6ade0b863d5b27036bd618eb",
+      "posted_at": "2026-10-25T14:00:38.825131+00:00"
+    },
+    {
       "source_url": "fallback://check-split-bill",
       "title": "Is it rude to check the bill when someone else said they split it already?",
       "buffer_post_id": "6addc276e4be8a4d869b26dc",
@@ -1187,18 +1199,6 @@
       "title": "Is it normal to not offer guests a drink?",
       "buffer_post_id": "6abd6fd001f18483b9ef8da7",
       "posted_at": "2026-09-30T20:23:44.170789+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-rude-to-cancel-a-date-because-you-are-tired",
-      "title": "Is it rude to cancel a date because you are tired?",
-      "buffer_post_id": "6abd1b86c709482b474d43e7",
-      "posted_at": "2026-09-30T14:24:06.625167+00:00"
-    },
-    {
-      "source_url": "curated://dating/would-you-tell-someone-their-dating-standards-are-unrealistic",
-      "title": "Would you tell someone their dating standards are unrealistic?",
-      "buffer_post_id": "6abd1b72da5180c12bff08ec",
-      "posted_at": "2026-09-30T14:23:46.913460+00:00"
     }
   ]
 }
