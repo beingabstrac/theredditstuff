@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/should-people-be-praised-for-working-late",
+      "title": "Should people be praised for working late?",
+      "buffer_post_id": "6ade3c4b3d5b27036be4118c",
+      "posted_at": "2026-10-25T17:28:43.126013+00:00"
+    },
+    {
       "source_url": "curated://texting/should-plans-be-confirmed-again-the-day-of",
       "title": "Should plans be confirmed again the day of?",
       "buffer_post_id": "6ade0b963d5b27036bd6214f",
@@ -1193,12 +1199,6 @@
       "title": "Should guests help clean up without being asked?",
       "buffer_post_id": "6abd6fdbf245fa4cd5308372",
       "posted_at": "2026-09-30T20:23:55.797540+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-normal-to-not-offer-guests-a-drink",
-      "title": "Is it normal to not offer guests a drink?",
-      "buffer_post_id": "6abd6fd001f18483b9ef8da7",
-      "posted_at": "2026-09-30T20:23:44.170789+00:00"
     }
   ]
 }
