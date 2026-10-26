@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-always-get-the-last-word-or-never-need-it",
+      "title": "Would you rather always get the last word or never need it?",
+      "buffer_post_id": "6adfd1f54e0451e1b8212914",
+      "posted_at": "2026-10-26T22:19:33.440345+00:00"
+    },
+    {
+      "source_url": "curated://would_you_rather/would-you-rather-have-unlimited-free-coffee-or-unlimited-free-rides",
+      "title": "Would you rather have unlimited free coffee or unlimited free rides?",
+      "buffer_post_id": "6adfd1dac26d8b40cc7a4e63",
+      "posted_at": "2026-10-26T22:19:06.373773+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/895",
       "title": "Is it normal to notice constant interrupting in a friendship?",
       "buffer_post_id": "6adf7e4b2bcc043904f993a3",
@@ -1187,18 +1199,6 @@
       "title": "Would you judge someone for being picky at restaurants?",
       "buffer_post_id": "6abf04ccc07bdc2fc2648712",
       "posted_at": "2026-10-02T01:11:40.528371+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-rude-to-take-a-call-during-dinner",
-      "title": "Is it rude to take a call during dinner?",
-      "buffer_post_id": "6abf04bb22215530c70e96c3",
-      "posted_at": "2026-10-02T01:11:24.028958+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/778",
-      "title": "Is it weird to ask before venting in a close friendship?",
-      "buffer_post_id": "6abec4f645400a0e30f9f40f",
-      "posted_at": "2026-10-01T20:39:18.243915+00:00"
     }
   ]
 }
