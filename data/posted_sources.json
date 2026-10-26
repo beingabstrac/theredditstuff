@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://red_flags/895",
+      "title": "Is it normal to notice constant interrupting in a friendship?",
+      "buffer_post_id": "6adf7e4b2bcc043904f993a3",
+      "posted_at": "2026-10-26T16:22:35.521403+00:00"
+    },
+    {
+      "source_url": "curated://red_flags/what-is-a-small-sign-someone-lacks-self-awareness",
+      "title": "What is a small sign someone lacks self awareness?",
+      "buffer_post_id": "6adf7e31fbcc83d9686d490e",
+      "posted_at": "2026-10-26T16:22:09.405483+00:00"
+    },
+    {
+      "source_url": "curated://red_flags/what-normal-habit-becomes-annoying-very-fast",
+      "title": "What normal habit becomes annoying very fast?",
+      "buffer_post_id": "6adf7e1f79dbb5e6f42483a3",
+      "posted_at": "2026-10-26T16:21:51.246246+00:00"
+    },
+    {
       "source_url": "curated://etiquette/should-guests-help-clean-up-without-being-asked",
       "title": "Should guests help clean up without being asked?",
       "buffer_post_id": "6adf1d31865e1471ed598244",
@@ -1181,24 +1199,6 @@
       "title": "Is it weird to ask before venting in a close friendship?",
       "buffer_post_id": "6abec4f645400a0e30f9f40f",
       "posted_at": "2026-10-01T20:39:18.243915+00:00"
-    },
-    {
-      "source_url": "curated://friendship/would-you-confront-a-friend-who-only-talks-about-themselves",
-      "title": "Would you confront a friend who only talks about themselves?",
-      "buffer_post_id": "6abec4e48bccc8e641598a7b",
-      "posted_at": "2026-10-01T20:39:00.545202+00:00"
-    },
-    {
-      "source_url": "curated://shopping/would-you-say-something-to-someone-cutting-a-line",
-      "title": "Would you say something to someone cutting a line?",
-      "buffer_post_id": "6abe756cdab61c9bf24786b9",
-      "posted_at": "2026-10-01T14:59:56.530956+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-rude-to-take-forever-at-self-checkout",
-      "title": "Is it rude to take forever at self checkout?",
-      "buffer_post_id": "6abe755dc8228ea6fd479cfe",
-      "posted_at": "2026-10-01T14:59:41.440515+00:00"
     }
   ]
 }
