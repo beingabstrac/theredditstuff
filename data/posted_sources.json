@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/should-guests-help-clean-up-without-being-asked",
+      "title": "Should guests help clean up without being asked?",
+      "buffer_post_id": "6adf1d31865e1471ed598244",
+      "posted_at": "2026-10-26T09:28:17.256851+00:00"
+    },
+    {
+      "source_url": "curated://etiquette/is-it-normal-to-not-offer-guests-a-drink",
+      "title": "Is it normal to not offer guests a drink?",
+      "buffer_post_id": "6adf1d2178f6291673b9d2f5",
+      "posted_at": "2026-10-26T09:28:01.957237+00:00"
+    },
+    {
       "source_url": "curated://dating/would-you-tell-someone-their-dating-standards-are-unrealistic",
       "title": "Would you tell someone their dating standards are unrealistic?",
       "buffer_post_id": "6adeb671bd33ce99c3a23f2f",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude to take forever at self checkout?",
       "buffer_post_id": "6abe755dc8228ea6fd479cfe",
       "posted_at": "2026-10-01T14:59:41.440515+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-always-get-the-last-word-or-never-need-it",
-      "title": "Would you rather always get the last word or never need it?",
-      "buffer_post_id": "6abe1278457c6cadda38efed",
-      "posted_at": "2026-10-01T07:57:44.577261+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-unlimited-free-coffee-or-unlimited-free-rides",
-      "title": "Would you rather have unlimited free coffee or unlimited free rides?",
-      "buffer_post_id": "6abe126bbb0abb08f8d46a83",
-      "posted_at": "2026-10-01T07:57:31.581216+00:00"
     }
   ]
 }
