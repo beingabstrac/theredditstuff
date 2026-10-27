@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/should-people-return-carts-every-single-time",
+      "title": "Should people return carts every single time?",
+      "buffer_post_id": "6ae01083457d00458c1323ab",
+      "posted_at": "2026-10-27T02:46:27.145298+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-always-get-the-last-word-or-never-need-it",
       "title": "Would you rather always get the last word or never need it?",
       "buffer_post_id": "6adfd1f54e0451e1b8212914",
@@ -1193,12 +1199,6 @@
       "title": "Is splitting every bill exactly fair or annoying?",
       "buffer_post_id": "6abf609c45400a0e30100c2b",
       "posted_at": "2026-10-02T07:43:24.839220+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/would-you-judge-someone-for-being-picky-at-restaurants",
-      "title": "Would you judge someone for being picky at restaurants?",
-      "buffer_post_id": "6abf04ccc07bdc2fc2648712",
-      "posted_at": "2026-10-02T01:11:40.528371+00:00"
     }
   ]
 }
