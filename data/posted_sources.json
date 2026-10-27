@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://lend-money-friend-owes",
+      "title": "Would you lend money to a friend who still owes other people?",
+      "buffer_post_id": "6ae107382d6ce6e7b6e1a1bd",
+      "posted_at": "2026-10-27T20:19:04.620397+00:00"
+    },
+    {
       "source_url": "procedural://restaurant/899",
       "title": "Would you say something if someone wanted to order the cheapest thing when the table is full?",
       "buffer_post_id": "6ae0c52562bedda2a12c0714",
@@ -1193,12 +1199,6 @@
       "title": "Should roommates warn before bringing guests over?",
       "buffer_post_id": "6ac050fcad2f47bd7d4d8bdd",
       "posted_at": "2026-10-03T00:49:00.485028+00:00"
-    },
-    {
-      "source_url": "curated://work/would-you-tell-a-coworker-they-are-talking-too-loudly",
-      "title": "Would you tell a coworker they are talking too loudly?",
-      "buffer_post_id": "6ac011149df0308ea07d9cb4",
-      "posted_at": "2026-10-02T20:16:20.261222+00:00"
     }
   ]
 }
