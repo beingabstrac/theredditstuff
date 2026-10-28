@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-double-texting-desperate-or-normal",
+      "title": "Is double texting desperate or normal?",
+      "buffer_post_id": "6ae146b5f6d6782c599f38e6",
+      "posted_at": "2026-10-28T00:49:57.172216+00:00"
+    },
+    {
+      "source_url": "fallback://group-chat-annoying",
+      "title": "What makes a group chat instantly annoying?",
+      "buffer_post_id": "6ae146998bc396ba2f157221",
+      "posted_at": "2026-10-28T00:49:29.723934+00:00"
+    },
+    {
       "source_url": "fallback://lend-money-friend-owes",
       "title": "Would you lend money to a friend who still owes other people?",
       "buffer_post_id": "6ae107382d6ce6e7b6e1a1bd",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude to not answer family calls immediately?",
       "buffer_post_id": "6ac0ab59ca55406b4b26ad61",
       "posted_at": "2026-10-03T07:14:33.709621+00:00"
-    },
-    {
-      "source_url": "curated://roommates/should-quiet-hours-exist-in-shared-apartments",
-      "title": "Should quiet hours exist in shared apartments?",
-      "buffer_post_id": "6ac0510e724c7034229bf045",
-      "posted_at": "2026-10-03T00:49:18.383238+00:00"
-    },
-    {
-      "source_url": "curated://roommates/should-roommates-warn-before-bringing-guests-over",
-      "title": "Should roommates warn before bringing guests over?",
-      "buffer_post_id": "6ac050fcad2f47bd7d4d8bdd",
-      "posted_at": "2026-10-03T00:49:00.485028+00:00"
     }
   ]
 }
