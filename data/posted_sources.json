@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-it-rude-to-take-long-showers-when-you-share-a-bathroom",
+      "title": "Is it rude to take long showers when you share a bathroom?",
+      "buffer_post_id": "6ae20945fe2b5b085761f201",
+      "posted_at": "2026-10-28T14:40:05.982144+00:00"
+    },
+    {
+      "source_url": "curated://roommates/should-roommates-warn-before-bringing-guests-over",
+      "title": "Should roommates warn before bringing guests over?",
+      "buffer_post_id": "6ae2093500f35d308c80ae1d",
+      "posted_at": "2026-10-28T14:39:49.522656+00:00"
+    },
+    {
       "source_url": "curated://work/what-office-habit-makes-a-normal-day-worse",
       "title": "What office habit makes a normal day worse?",
       "buffer_post_id": "6ae1a738e673d1e58953ad04",
@@ -1187,18 +1199,6 @@
       "title": "What small lie does everyone tell?",
       "buffer_post_id": "6ac13e3b814d657011cf57a1",
       "posted_at": "2026-10-03T17:41:15.502106+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-weird-to-ask-about-money-early-in-dating",
-      "title": "Is it weird to ask about money early in dating?",
-      "buffer_post_id": "6ac0fa093bfd38430fe0d82f",
-      "posted_at": "2026-10-03T12:50:17.573397+00:00"
-    },
-    {
-      "source_url": "curated://dating/should-partners-have-access-to-each-other-social-media",
-      "title": "Should partners have access to each other social media?",
-      "buffer_post_id": "6ac0f9fdfec5913394760110",
-      "posted_at": "2026-10-03T12:50:05.315311+00:00"
     }
   ]
 }
