@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/would-you-tell-family-to-stop-commenting-on-your-life",
+      "title": "Would you tell family to stop commenting on your life?",
+      "buffer_post_id": "6ae25db33e779512a88646b2",
+      "posted_at": "2026-10-28T20:40:19.378103+00:00"
+    },
+    {
+      "source_url": "curated://family/is-it-rude-to-not-answer-family-calls-immediately",
+      "title": "Is it rude to not answer family calls immediately?",
+      "buffer_post_id": "6ae25da73e779512a88643e6",
+      "posted_at": "2026-10-28T20:40:07.313383+00:00"
+    },
+    {
       "source_url": "curated://roommates/is-it-rude-to-take-long-showers-when-you-share-a-bathroom",
       "title": "Is it rude to take long showers when you share a bathroom?",
       "buffer_post_id": "6ae20945fe2b5b085761f201",
@@ -1187,18 +1199,6 @@
       "title": "Would you rather never wait in lines or never sit in traffic?",
       "buffer_post_id": "6ac19a18aa79e514b904fc2c",
       "posted_at": "2026-10-04T00:13:12.293126+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-habit-makes-someone-look-inconsiderate",
-      "title": "What habit makes someone look inconsiderate?",
-      "buffer_post_id": "6ac1634faa79e514b9fe032b",
-      "posted_at": "2026-10-03T20:19:27.765044+00:00"
-    },
-    {
-      "source_url": "fallback://small-lie-everyone-tells",
-      "title": "What small lie does everyone tell?",
-      "buffer_post_id": "6ac13e3b814d657011cf57a1",
-      "posted_at": "2026-10-03T17:41:15.502106+00:00"
     }
   ]
 }
