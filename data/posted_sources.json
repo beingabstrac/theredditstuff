@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/what-office-habit-makes-a-normal-day-worse",
+      "title": "What office habit makes a normal day worse?",
+      "buffer_post_id": "6ae1a738e673d1e58953ad04",
+      "posted_at": "2026-10-28T07:41:44.769585+00:00"
+    },
+    {
+      "source_url": "curated://work/would-you-cover-for-a-coworker-who-is-always-late",
+      "title": "Would you cover for a coworker who is always late?",
+      "buffer_post_id": "6ae1a721e673d1e58953a8ba",
+      "posted_at": "2026-10-28T07:41:21.209817+00:00"
+    },
+    {
       "source_url": "curated://texting/is-double-texting-desperate-or-normal",
       "title": "Is double texting desperate or normal?",
       "buffer_post_id": "6ae146b5f6d6782c599f38e6",
@@ -1187,18 +1199,6 @@
       "title": "Should partners have access to each other social media?",
       "buffer_post_id": "6ac0f9fdfec5913394760110",
       "posted_at": "2026-10-03T12:50:05.315311+00:00"
-    },
-    {
-      "source_url": "procedural://family/784",
-      "title": "Is it weird to not answer calls immediately with relatives?",
-      "buffer_post_id": "6ac0ab6ae22a2e5172b70073",
-      "posted_at": "2026-10-03T07:14:50.287125+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-rude-to-not-answer-family-calls-immediately",
-      "title": "Is it rude to not answer family calls immediately?",
-      "buffer_post_id": "6ac0ab59ca55406b4b26ad61",
-      "posted_at": "2026-10-03T07:14:33.709621+00:00"
     }
   ]
 }
