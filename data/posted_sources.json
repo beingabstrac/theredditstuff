@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://red_flags/907",
+      "title": "Is it normal to trust your first impression in a friendship?",
+      "buffer_post_id": "6ae35bf6f3a8aff3f351fd13",
+      "posted_at": "2026-10-29T14:45:10.731061+00:00"
+    },
+    {
+      "source_url": "curated://red_flags/what-habit-makes-someone-look-inconsiderate",
+      "title": "What habit makes someone look inconsiderate?",
+      "buffer_post_id": "6ae35bd7a87e7858ef1330bf",
+      "posted_at": "2026-10-29T14:44:39.436532+00:00"
+    },
+    {
       "source_url": "fallback://small-lie-everyone-tells",
       "title": "What small lie does everyone tell?",
       "buffer_post_id": "6ae2f9d3b8abb6631d15338e",
@@ -1187,18 +1199,6 @@
       "title": "Is it normal to share food without asking?",
       "buffer_post_id": "6ac292e963761da98b5680c3",
       "posted_at": "2026-10-04T17:54:49.470644+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/790",
-      "title": "Is it weird to keep score of favors in a close friendship?",
-      "buffer_post_id": "6ac2559ffb26f2c2fb613545",
-      "posted_at": "2026-10-04T13:33:20.013804+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-rude-to-not-include-every-friend-in-every-hangout",
-      "title": "Is it rude to not include every friend in every hangout?",
-      "buffer_post_id": "6ac25594365aeab50be4038f",
-      "posted_at": "2026-10-04T13:33:09.168562+00:00"
     }
   ]
 }
