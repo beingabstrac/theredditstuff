@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/is-it-rude-to-cancel-a-date-because-you-are-tired",
+      "title": "Is it rude to cancel a date because you are tired?",
+      "buffer_post_id": "6ae29fb8411377cb91ad50f4",
+      "posted_at": "2026-10-29T01:22:00.999285+00:00"
+    },
+    {
+      "source_url": "curated://dating/is-it-weird-to-ask-about-money-early-in-dating",
+      "title": "Is it weird to ask about money early in dating?",
+      "buffer_post_id": "6ae29faecc91be5434be9fcb",
+      "posted_at": "2026-10-29T01:21:50.148246+00:00"
+    },
+    {
       "source_url": "curated://family/would-you-tell-family-to-stop-commenting-on-your-life",
       "title": "Would you tell family to stop commenting on your life?",
       "buffer_post_id": "6ae25db33e779512a88646b2",
@@ -1187,18 +1199,6 @@
       "title": "Is it weird to argue over a return in a busy store?",
       "buffer_post_id": "6ac201437d53b827e0000b7a",
       "posted_at": "2026-10-04T07:33:23.691708+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/789",
-      "title": "Should people be able to argue over a return in a busy store?",
-      "buffer_post_id": "6ac20136814d657011e87b31",
-      "posted_at": "2026-10-04T07:33:10.964962+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-never-wait-in-lines-or-never-sit-in-traffic",
-      "title": "Would you rather never wait in lines or never sit in traffic?",
-      "buffer_post_id": "6ac19a18aa79e514b904fc2c",
-      "posted_at": "2026-10-04T00:13:12.293126+00:00"
     }
   ]
 }
