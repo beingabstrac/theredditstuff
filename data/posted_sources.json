@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://small-lie-everyone-tells",
+      "title": "What small lie does everyone tell?",
+      "buffer_post_id": "6ae2f9d3b8abb6631d15338e",
+      "posted_at": "2026-10-29T07:46:27.698272+00:00"
+    },
+    {
+      "source_url": "fallback://rude-pretend-honest",
+      "title": "What is rude but people pretend is just being honest?",
+      "buffer_post_id": "6ae2f9a935657f219b340584",
+      "posted_at": "2026-10-29T07:45:46.088237+00:00"
+    },
+    {
       "source_url": "curated://dating/is-it-rude-to-cancel-a-date-because-you-are-tired",
       "title": "Is it rude to cancel a date because you are tired?",
       "buffer_post_id": "6ae29fb8411377cb91ad50f4",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude to not include every friend in every hangout?",
       "buffer_post_id": "6ac25594365aeab50be4038f",
       "posted_at": "2026-10-04T13:33:09.168562+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/791",
-      "title": "Would you say something if someone wanted to argue over a return in a busy store?",
-      "buffer_post_id": "6ac20153ad7fd83bc5160372",
-      "posted_at": "2026-10-04T07:33:39.125752+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/790",
-      "title": "Is it weird to argue over a return in a busy store?",
-      "buffer_post_id": "6ac201437d53b827e0000b7a",
-      "posted_at": "2026-10-04T07:33:23.691708+00:00"
     }
   ]
 }
