@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://would_you_rather/908",
+      "title": "Would you rather get honest advice or quiet support with no explanation?",
+      "buffer_post_id": "6ae3b0264611042f0359473e",
+      "posted_at": "2026-10-29T20:44:22.210744+00:00"
+    },
+    {
+      "source_url": "curated://would_you_rather/would-you-rather-never-wait-in-lines-or-never-sit-in-traffic",
+      "title": "Would you rather never wait in lines or never sit in traffic?",
+      "buffer_post_id": "6ae3b00d0987bc6b11746910",
+      "posted_at": "2026-10-29T20:43:57.540135+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/907",
       "title": "Is it normal to trust your first impression in a friendship?",
       "buffer_post_id": "6ae35bf6f3a8aff3f351fd13",
@@ -1187,18 +1199,6 @@
       "title": "Is it normal to take a day to reply to casual messages?",
       "buffer_post_id": "6ac2ecf05de5ee424c1ddbd2",
       "posted_at": "2026-10-05T00:18:56.312002+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-fair-to-skip-a-birthday-dinner-because-it-costs-too-much",
-      "title": "Is it fair to skip a birthday dinner because it costs too much?",
-      "buffer_post_id": "6ac2b8fe69a169193a4b7837",
-      "posted_at": "2026-10-04T20:37:18.481830+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-normal-to-share-food-without-asking",
-      "title": "Is it normal to share food without asking?",
-      "buffer_post_id": "6ac292e963761da98b5680c3",
-      "posted_at": "2026-10-04T17:54:49.470644+00:00"
     }
   ]
 }
