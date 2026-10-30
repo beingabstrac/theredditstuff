@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/would-you-say-something-to-someone-cutting-a-line",
+      "title": "Would you say something to someone cutting a line?",
+      "buffer_post_id": "6ae3f2194b8768bfb2d288ea",
+      "posted_at": "2026-10-30T01:25:45.676395+00:00"
+    },
+    {
+      "source_url": "curated://shopping/is-it-rude-to-take-forever-at-self-checkout",
+      "title": "Is it rude to take forever at self checkout?",
+      "buffer_post_id": "6ae3f208ba1ca51fd3eb7158",
+      "posted_at": "2026-10-30T01:25:28.713167+00:00"
+    },
+    {
       "source_url": "procedural://would_you_rather/908",
       "title": "Would you rather get honest advice or quiet support with no explanation?",
       "buffer_post_id": "6ae3b0264611042f0359473e",
@@ -1187,18 +1199,6 @@
       "title": "Is it fair to ignore messages during vacation?",
       "buffer_post_id": "6ac3572069a169193a6214dd",
       "posted_at": "2026-10-05T07:52:00.986093+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-rude-to-wear-headphones-at-work-all-day",
-      "title": "Is it rude to wear headphones at work all day?",
-      "buffer_post_id": "6ac3571569a169193a621249",
-      "posted_at": "2026-10-05T07:51:49.792098+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-normal-to-take-a-day-to-reply-to-casual-messages",
-      "title": "Is it normal to take a day to reply to casual messages?",
-      "buffer_post_id": "6ac2ecf05de5ee424c1ddbd2",
-      "posted_at": "2026-10-05T00:18:56.312002+00:00"
     }
   ]
 }
