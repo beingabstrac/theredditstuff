@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://restaurant/911",
+      "title": "Would you say something if someone wanted to share food without asking when the table is full?",
+      "buffer_post_id": "6ae4ac98e266b27191ef3f5c",
+      "posted_at": "2026-10-30T14:41:28.517806+00:00"
+    },
+    {
+      "source_url": "curated://restaurant/is-it-normal-to-share-food-without-asking",
+      "title": "Is it normal to share food without asking?",
+      "buffer_post_id": "6ae4ac81e266b27191ef3733",
+      "posted_at": "2026-10-30T14:41:05.282679+00:00"
+    },
+    {
       "source_url": "procedural://friendship/910",
       "title": "Is it weird to expect friends to remember details without starting drama?",
       "buffer_post_id": "6ae44ccb56e01b9763930c26",
@@ -1187,18 +1199,6 @@
       "title": "Should people be able to avoid your roommate in a shared apartment?",
       "buffer_post_id": "6ac3d18004f79165c6d09ec9",
       "posted_at": "2026-10-05T16:34:08.887094+00:00"
-    },
-    {
-      "source_url": "fallback://headphones-at-home-rude",
-      "title": "Is it rude to wear headphones at home when someone is talking nearby?",
-      "buffer_post_id": "6ac3d16c04f79165c6d09d28",
-      "posted_at": "2026-10-05T16:33:48.487395+00:00"
-    },
-    {
-      "source_url": "curated://roommates/would-you-move-out-over-a-roommate-who-never-cleans",
-      "title": "Would you move out over a roommate who never cleans?",
-      "buffer_post_id": "6ac3d14fd394a1ebb7baf0b4",
-      "posted_at": "2026-10-05T16:33:19.506233+00:00"
     }
   ]
 }
