@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/910",
+      "title": "Is it weird to expect friends to remember details without starting drama?",
+      "buffer_post_id": "6ae44ccb56e01b9763930c26",
+      "posted_at": "2026-10-30T07:52:43.981290+00:00"
+    },
+    {
+      "source_url": "curated://friendship/is-it-rude-to-not-include-every-friend-in-every-hangout",
+      "title": "Is it rude to not include every friend in every hangout?",
+      "buffer_post_id": "6ae44cb74b8768bfb2e7e685",
+      "posted_at": "2026-10-30T07:52:24.106471+00:00"
+    },
+    {
       "source_url": "curated://shopping/would-you-say-something-to-someone-cutting-a-line",
       "title": "Would you say something to someone cutting a line?",
       "buffer_post_id": "6ae3f2194b8768bfb2d288ea",
@@ -1187,18 +1199,6 @@
       "title": "Would you move out over a roommate who never cleans?",
       "buffer_post_id": "6ac3d14fd394a1ebb7baf0b4",
       "posted_at": "2026-10-05T16:33:19.506233+00:00"
-    },
-    {
-      "source_url": "procedural://work/794",
-      "title": "Would you judge someone for choosing to skip optional meetings after hours?",
-      "buffer_post_id": "6ac3572dd467abe8cfdd9031",
-      "posted_at": "2026-10-05T07:52:13.679696+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-fair-to-ignore-messages-during-vacation",
-      "title": "Is it fair to ignore messages during vacation?",
-      "buffer_post_id": "6ac3572069a169193a6214dd",
-      "posted_at": "2026-10-05T07:52:00.986093+00:00"
     }
   ]
 }
