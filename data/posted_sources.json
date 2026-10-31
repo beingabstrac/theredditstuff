@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/should-partners-have-access-to-each-other-social-media",
+      "title": "Should partners have access to each other social media?",
+      "buffer_post_id": "6ae671f837c1acd2a0d62425",
+      "posted_at": "2026-10-31T22:55:52.091312+00:00"
+    },
+    {
+      "source_url": "curated://dating/is-checking-your-phone-on-a-date-a-dealbreaker",
+      "title": "Is checking your phone on a date a dealbreaker?",
+      "buffer_post_id": "6ae671e737c1acd2a0d622f5",
+      "posted_at": "2026-10-31T22:55:35.789176+00:00"
+    },
+    {
       "source_url": "curated://family/should-parents-call-before-visiting-adult-children",
       "title": "Should parents call before visiting adult children?",
       "buffer_post_id": "6ae62fd721c807e9d57aaf56",
@@ -1187,18 +1199,6 @@
       "title": "Is it annoying when people test products and do not buy them?",
       "buffer_post_id": "6ac59ca4c22c37a573b1346d",
       "posted_at": "2026-10-07T01:13:08.736890+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-free-groceries-or-free-takeout",
-      "title": "Would you rather have free groceries or free takeout?",
-      "buffer_post_id": "6ac56f459833100fb59680d5",
-      "posted_at": "2026-10-06T21:59:33.776545+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-a-quiet-neighbor-or-a-helpful-neighbor",
-      "title": "Would you rather have a quiet neighbor or a helpful neighbor?",
-      "buffer_post_id": "6ac56f359833100fb5967ef2",
-      "posted_at": "2026-10-06T21:59:17.439242+00:00"
     }
   ]
 }
