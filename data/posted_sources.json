@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/should-parents-call-before-visiting-adult-children",
+      "title": "Should parents call before visiting adult children?",
+      "buffer_post_id": "6ae62fd721c807e9d57aaf56",
+      "posted_at": "2026-10-31T18:13:44.039819+00:00"
+    },
+    {
       "source_url": "curated://roommates/should-quiet-hours-exist-in-shared-apartments",
       "title": "Should quiet hours exist in shared apartments?",
       "buffer_post_id": "6ae5f474cf3a3112f3a63e63",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather have a quiet neighbor or a helpful neighbor?",
       "buffer_post_id": "6ac56f359833100fb5967ef2",
       "posted_at": "2026-10-06T21:59:17.439242+00:00"
-    },
-    {
-      "source_url": "fallback://shopping-habit-annoys",
-      "title": "What shopping habit instantly annoys you?",
-      "buffer_post_id": "6ac531128815e4f75705fd9c",
-      "posted_at": "2026-10-06T17:34:10.973656+00:00"
     }
   ]
 }
