@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/should-quiet-hours-exist-in-shared-apartments",
+      "title": "Should quiet hours exist in shared apartments?",
+      "buffer_post_id": "6ae5f474cf3a3112f3a63e63",
+      "posted_at": "2026-10-31T14:00:20.340905+00:00"
+    },
+    {
+      "source_url": "fallback://headphones-at-home-rude",
+      "title": "Is it rude to wear headphones at home when someone is talking nearby?",
+      "buffer_post_id": "6ae5f45a1ee172cd6da4e2bb",
+      "posted_at": "2026-10-31T13:59:54.823875+00:00"
+    },
+    {
       "source_url": "curated://work/is-it-rude-to-wear-headphones-at-work-all-day",
       "title": "Is it rude to wear headphones at work all day?",
       "buffer_post_id": "6ae59bad1891472093bd9940",
@@ -1187,18 +1199,6 @@
       "title": "What shopping habit instantly annoys you?",
       "buffer_post_id": "6ac531128815e4f75705fd9c",
       "posted_at": "2026-10-06T17:34:10.973656+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-quiet-red-flag-in-a-friendship",
-      "title": "What is a quiet red flag in a friendship?",
-      "buffer_post_id": "6ac5310161c22f8369be8689",
-      "posted_at": "2026-10-06T17:33:53.851216+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-weird-to-bring-your-own-food-to-someone-house",
-      "title": "Is it weird to bring your own food to someone house?",
-      "buffer_post_id": "6ac4d3221f4877dee465f3c3",
-      "posted_at": "2026-10-06T10:53:22.895380+00:00"
     }
   ]
 }
