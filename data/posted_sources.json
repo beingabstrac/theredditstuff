@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/is-it-rude-to-wear-headphones-at-work-all-day",
+      "title": "Is it rude to wear headphones at work all day?",
+      "buffer_post_id": "6ae59bad1891472093bd9940",
+      "posted_at": "2026-10-31T07:41:33.405635+00:00"
+    },
+    {
+      "source_url": "curated://work/is-it-fair-to-ignore-messages-during-vacation",
+      "title": "Is it fair to ignore messages during vacation?",
+      "buffer_post_id": "6ae59b9a1891472093bd968c",
+      "posted_at": "2026-10-31T07:41:15.032836+00:00"
+    },
+    {
       "source_url": "fallback://reply-to-texts-hours",
       "title": "Is it normal to not reply to texts for hours?",
       "buffer_post_id": "6ae540a0eaa24d6f9a4b93e1",
@@ -1187,18 +1199,6 @@
       "title": "Is it weird to bring your own food to someone house?",
       "buffer_post_id": "6ac4d3221f4877dee465f3c3",
       "posted_at": "2026-10-06T10:53:22.895380+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-cancel-plans-by-text",
-      "title": "Is it rude to cancel plans by text?",
-      "buffer_post_id": "6ac4d314532d7f13bdaee362",
-      "posted_at": "2026-10-06T10:53:08.336195+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-checking-your-phone-on-a-date-a-dealbreaker",
-      "title": "Is checking your phone on a date a dealbreaker?",
-      "buffer_post_id": "6ac46e0e98d02b181e1f2f32",
-      "posted_at": "2026-10-06T03:42:06.953777+00:00"
     }
   ]
 }
