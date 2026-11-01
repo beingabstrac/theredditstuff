@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/is-it-annoying-when-people-test-products-and-do-not-buy-them",
+      "title": "Is it annoying when people test products and do not buy them?",
+      "buffer_post_id": "6ae7aeff48ce42a6b42993d5",
+      "posted_at": "2026-11-01T21:28:32.133976+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-have-free-groceries-or-free-takeout",
       "title": "Would you rather have free groceries or free takeout?",
       "buffer_post_id": "6ae775614c17af1b87123ae6",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to mute a group chat without telling anyone?",
       "buffer_post_id": "6ac6f123365feab0d7378721",
       "posted_at": "2026-10-08T01:25:55.871529+00:00"
-    },
-    {
-      "source_url": "fallback://thoughtful-cheap-vs-expensive-lazy",
-      "title": "Would you rather receive a thoughtful cheap gift or an expensive lazy one?",
-      "buffer_post_id": "6ac6b163fe0b47947a01454a",
-      "posted_at": "2026-10-07T20:53:55.166043+00:00"
     }
   ]
 }
