@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://red_flags/919",
+      "title": "Is it normal to notice how someone treats staff before anything serious happens?",
+      "buffer_post_id": "6ae71a29cf3a3112f3f164f5",
+      "posted_at": "2026-11-01T10:53:29.531780+00:00"
+    },
+    {
+      "source_url": "fallback://shopping-habit-annoys",
+      "title": "What shopping habit instantly annoys you?",
+      "buffer_post_id": "6ae71a17ab019b9087545294",
+      "posted_at": "2026-11-01T10:53:11.378519+00:00"
+    },
+    {
+      "source_url": "curated://red_flags/what-is-a-quiet-red-flag-in-a-friendship",
+      "title": "What is a quiet red flag in a friendship?",
+      "buffer_post_id": "6ae71a00ab019b9087544e9c",
+      "posted_at": "2026-11-01T10:52:48.766961+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-rude-to-cancel-plans-by-text",
       "title": "Is it rude to cancel plans by text?",
       "buffer_post_id": "6ae6ab401ee172cd6dd6a01c",
@@ -1181,24 +1199,6 @@
       "title": "Is it rude to ask for substitutions at a busy restaurant?",
       "buffer_post_id": "6ac65ca5a91c545235ecad4c",
       "posted_at": "2026-10-07T14:52:21.585087+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/would-you-split-appetizers-if-you-did-not-eat-them",
-      "title": "Would you split appetizers if you did not eat them?",
-      "buffer_post_id": "6ac65c96b49b56203131d611",
-      "posted_at": "2026-10-07T14:52:06.348100+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/802",
-      "title": "Is it weird to tell a friend they are draining in a close friendship?",
-      "buffer_post_id": "6ac5fa265355110416267ce8",
-      "posted_at": "2026-10-07T07:52:06.944148+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-fair-to-cancel-on-friends-for-alone-time",
-      "title": "Is it fair to cancel on friends for alone time?",
-      "buffer_post_id": "6ac5fa18df05c83428da11a6",
-      "posted_at": "2026-10-07T07:51:52.838644+00:00"
     }
   ]
 }
