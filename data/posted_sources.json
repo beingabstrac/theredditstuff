@@ -1,6 +1,30 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/is-it-fair-to-skip-a-birthday-dinner-because-it-costs-too-much",
+      "title": "Is it fair to skip a birthday dinner because it costs too much?",
+      "buffer_post_id": "6ae8ea68ff93b610bb965cff",
+      "posted_at": "2026-11-02T19:54:16.973697+00:00"
+    },
+    {
+      "source_url": "curated://money/is-splitting-every-bill-exactly-fair-or-annoying",
+      "title": "Is splitting every bill exactly fair or annoying?",
+      "buffer_post_id": "6ae8ea4e02371b91fa50cdb0",
+      "posted_at": "2026-11-02T19:53:51.040546+00:00"
+    },
+    {
+      "source_url": "fallback://thoughtful-cheap-vs-expensive-lazy",
+      "title": "Would you rather receive a thoughtful cheap gift or an expensive lazy one?",
+      "buffer_post_id": "6ae8ea3ffb05897d9d38eb88",
+      "posted_at": "2026-11-02T19:53:35.921986+00:00"
+    },
+    {
+      "source_url": "curated://money/would-you-charge-a-friend-for-gas-on-a-short-ride",
+      "title": "Would you charge a friend for gas on a short ride?",
+      "buffer_post_id": "6ae8ea199299fa2e5005b5d4",
+      "posted_at": "2026-11-02T19:52:57.999719+00:00"
+    },
+    {
       "source_url": "curated://restaurant/would-you-split-appetizers-if-you-did-not-eat-them",
       "title": "Would you split appetizers if you did not eat them?",
       "buffer_post_id": "6ae84b3376279ec7eba13ffc",
@@ -1175,30 +1199,6 @@
       "title": "Is it weird to stop explaining every plan with relatives?",
       "buffer_post_id": "6ac81b497d9f9f33011911fa",
       "posted_at": "2026-10-08T22:38:01.284494+00:00"
-    },
-    {
-      "source_url": "fallback://family-show-up-without-calling",
-      "title": "Is it rude for family to show up without calling first?",
-      "buffer_post_id": "6ac81b397d9f9f3301191107",
-      "posted_at": "2026-10-08T22:37:45.223186+00:00"
-    },
-    {
-      "source_url": "procedural://roommates/808",
-      "title": "Is it weird to split chores exactly in a shared apartment?",
-      "buffer_post_id": "6ac7cd5809bc40afed25a810",
-      "posted_at": "2026-10-08T17:05:28.643610+00:00"
-    },
-    {
-      "source_url": "procedural://roommates/807",
-      "title": "Should people be able to split chores exactly in a shared apartment?",
-      "buffer_post_id": "6ac7cd4abd4a8a33e12dc114",
-      "posted_at": "2026-10-08T17:05:14.713387+00:00"
-    },
-    {
-      "source_url": "fallback://normal-house-weird-elsewhere",
-      "title": "What is normal in your house but weird everywhere else?",
-      "buffer_post_id": "6ac7cd3609bc40afed259e76",
-      "posted_at": "2026-10-08T17:04:55.443312+00:00"
     }
   ]
 }
