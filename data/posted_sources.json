@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/would-you-split-appetizers-if-you-did-not-eat-them",
+      "title": "Would you split appetizers if you did not eat them?",
+      "buffer_post_id": "6ae84b3376279ec7eba13ffc",
+      "posted_at": "2026-11-02T08:34:59.706517+00:00"
+    },
+    {
+      "source_url": "curated://restaurant/is-it-rude-to-ask-for-substitutions-at-a-busy-restaurant",
+      "title": "Is it rude to ask for substitutions at a busy restaurant?",
+      "buffer_post_id": "6ae84b2664604db3144e13e2",
+      "posted_at": "2026-11-02T08:34:46.396199+00:00"
+    },
+    {
       "source_url": "procedural://friendship/922",
       "title": "Is it weird to ask before venting when everyone is busy?",
       "buffer_post_id": "6ae7e24d902c3fb1dec91b46",
@@ -1187,18 +1199,6 @@
       "title": "What is normal in your house but weird everywhere else?",
       "buffer_post_id": "6ac7cd3609bc40afed259e76",
       "posted_at": "2026-10-08T17:04:55.443312+00:00"
-    },
-    {
-      "source_url": "procedural://work/806",
-      "title": "Would you judge someone for choosing to mute work apps after hours?",
-      "buffer_post_id": "6ac752ecd45e2f82629a6f17",
-      "posted_at": "2026-10-08T08:23:08.215279+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-annoying-when-coworkers-ask-questions-they-could-search",
-      "title": "Is it annoying when coworkers ask questions they could search?",
-      "buffer_post_id": "6ac752e0c12914bfe5f4ee5d",
-      "posted_at": "2026-10-08T08:22:56.677297+00:00"
     }
   ]
 }
