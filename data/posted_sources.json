@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/922",
+      "title": "Is it weird to ask before venting when everyone is busy?",
+      "buffer_post_id": "6ae7e24d902c3fb1dec91b46",
+      "posted_at": "2026-11-02T01:07:25.641054+00:00"
+    },
+    {
+      "source_url": "curated://friendship/is-it-fair-to-cancel-on-friends-for-alone-time",
+      "title": "Is it fair to cancel on friends for alone time?",
+      "buffer_post_id": "6ae7e235d016796999fe5ec5",
+      "posted_at": "2026-11-02T01:07:01.252482+00:00"
+    },
+    {
       "source_url": "curated://shopping/is-it-annoying-when-people-test-products-and-do-not-buy-them",
       "title": "Is it annoying when people test products and do not buy them?",
       "buffer_post_id": "6ae7aeff48ce42a6b42993d5",
@@ -1187,18 +1199,6 @@
       "title": "Is it annoying when coworkers ask questions they could search?",
       "buffer_post_id": "6ac752e0c12914bfe5f4ee5d",
       "posted_at": "2026-10-08T08:22:56.677297+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-weird-to-text-someone-only-when-you-need-something",
-      "title": "Is it weird to text someone only when you need something?",
-      "buffer_post_id": "6ac6f1372977c961bdbfff07",
-      "posted_at": "2026-10-08T01:26:15.413619+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-rude-to-mute-a-group-chat-without-telling-anyone",
-      "title": "Is it rude to mute a group chat without telling anyone?",
-      "buffer_post_id": "6ac6f123365feab0d7378721",
-      "posted_at": "2026-10-08T01:25:55.871529+00:00"
     }
   ]
 }
