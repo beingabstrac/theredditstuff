@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://roommates/927",
+      "title": "Should people be able to complain about dishes with a close friend roommate?",
+      "buffer_post_id": "6aea19622ea34807059cf52e",
+      "posted_at": "2026-11-03T17:26:58.997390+00:00"
+    },
+    {
+      "source_url": "fallback://normal-house-weird-elsewhere",
+      "title": "What is normal in your house but weird everywhere else?",
+      "buffer_post_id": "6aea1948be501cd7c1bae0ef",
+      "posted_at": "2026-11-03T17:26:32.799408+00:00"
+    },
+    {
+      "source_url": "curated://roommates/would-you-move-out-over-a-roommate-who-never-cleans",
+      "title": "Would you move out over a roommate who never cleans?",
+      "buffer_post_id": "6aea19142ea34807059ce1f1",
+      "posted_at": "2026-11-03T17:25:40.234198+00:00"
+    },
+    {
       "source_url": "curated://work/is-it-annoying-when-coworkers-ask-questions-they-could-search",
       "title": "Is it annoying when coworkers ask questions they could search?",
       "buffer_post_id": "6ae99fc4c54a95d99b1fb792",
@@ -1181,24 +1199,6 @@
       "title": "Would you rather always be overdressed or always be underdressed?",
       "buffer_post_id": "6ac963c8ed92ed8fa5abcde2",
       "posted_at": "2026-10-09T21:59:36.416111+00:00"
-    },
-    {
-      "source_url": "fallback://early-or-on-time",
-      "title": "Would you rather always be early or always be exactly on time?",
-      "buffer_post_id": "6ac963bbc4de2d2b1208ff34",
-      "posted_at": "2026-10-09T21:59:23.488253+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-one-perfect-friend-or-many-casual-friends",
-      "title": "Would you rather have one perfect friend or many casual friends?",
-      "buffer_post_id": "6ac963a0ed92ed8fa5abc92d",
-      "posted_at": "2026-10-09T21:58:56.438653+00:00"
-    },
-    {
-      "source_url": "fallback://cancel-plans-tired",
-      "title": "Is cancelling plans because you are tired a valid reason?",
-      "buffer_post_id": "6ac8c94a33f2b9fa81350d4f",
-      "posted_at": "2026-10-09T11:00:26.788696+00:00"
     }
   ]
 }
