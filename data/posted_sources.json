@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://work/is-it-annoying-when-coworkers-ask-questions-they-could-search",
+      "title": "Is it annoying when coworkers ask questions they could search?",
+      "buffer_post_id": "6ae99fc4c54a95d99b1fb792",
+      "posted_at": "2026-11-03T08:48:04.993714+00:00"
+    },
+    {
+      "source_url": "curated://work/would-you-tell-a-coworker-they-are-talking-too-loudly",
+      "title": "Would you tell a coworker they are talking too loudly?",
+      "buffer_post_id": "6ae99faf41f5368ea25f73dc",
+      "posted_at": "2026-11-03T08:47:43.634052+00:00"
+    },
+    {
       "source_url": "curated://texting/is-it-rude-to-mute-a-group-chat-without-telling-anyone",
       "title": "Is it rude to mute a group chat without telling anyone?",
       "buffer_post_id": "6ae93f48186a5afbce7a0034",
@@ -1187,18 +1199,6 @@
       "title": "Is cancelling plans because you are tired a valid reason?",
       "buffer_post_id": "6ac8c94a33f2b9fa81350d4f",
       "posted_at": "2026-10-09T11:00:26.788696+00:00"
-    },
-    {
-      "source_url": "fallback://self-care-avoidance",
-      "title": "What do people call self-care that is actually avoidance?",
-      "buffer_post_id": "6ac8c92f33f2b9fa8134da49",
-      "posted_at": "2026-10-09T10:59:59.648429+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-normal-to-keep-some-friendships-private-from-your-partner",
-      "title": "Is it normal to keep some friendships private from your partner?",
-      "buffer_post_id": "6ac85fcf9db755aaaac25fb8",
-      "posted_at": "2026-10-09T03:30:24.015024+00:00"
     }
   ]
 }
