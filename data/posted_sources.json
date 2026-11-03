@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-it-rude-to-mute-a-group-chat-without-telling-anyone",
+      "title": "Is it rude to mute a group chat without telling anyone?",
+      "buffer_post_id": "6ae93f48186a5afbce7a0034",
+      "posted_at": "2026-11-03T01:56:24.377453+00:00"
+    },
+    {
+      "source_url": "curated://texting/is-it-weird-to-text-someone-only-when-you-need-something",
+      "title": "Is it weird to text someone only when you need something?",
+      "buffer_post_id": "6ae93f2d7996caf141c57722",
+      "posted_at": "2026-11-03T01:55:57.498577+00:00"
+    },
+    {
       "source_url": "curated://money/is-it-fair-to-skip-a-birthday-dinner-because-it-costs-too-much",
       "title": "Is it fair to skip a birthday dinner because it costs too much?",
       "buffer_post_id": "6ae8ea68ff93b610bb965cff",
@@ -1187,18 +1199,6 @@
       "title": "Is it normal to keep some friendships private from your partner?",
       "buffer_post_id": "6ac85fcf9db755aaaac25fb8",
       "posted_at": "2026-10-09T03:30:24.015024+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-fair-to-need-alone-time-in-a-relationship",
-      "title": "Is it fair to need alone time in a relationship?",
-      "buffer_post_id": "6ac85fc39db755aaaac256ec",
-      "posted_at": "2026-10-09T03:30:12.167778+00:00"
-    },
-    {
-      "source_url": "procedural://family/808",
-      "title": "Is it weird to stop explaining every plan with relatives?",
-      "buffer_post_id": "6ac81b497d9f9f33011911fa",
-      "posted_at": "2026-10-08T22:38:01.284494+00:00"
     }
   ]
 }
