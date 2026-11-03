@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/928",
+      "title": "Is it weird to not answer calls immediately when they mean well?",
+      "buffer_post_id": "6aea630110b188665aea5988",
+      "posted_at": "2026-11-03T22:41:05.178817+00:00"
+    },
+    {
+      "source_url": "fallback://family-show-up-without-calling",
+      "title": "Is it rude for family to show up without calling first?",
+      "buffer_post_id": "6aea62e210b188665aea53c9",
+      "posted_at": "2026-11-03T22:40:35.138545+00:00"
+    },
+    {
       "source_url": "procedural://roommates/927",
       "title": "Should people be able to complain about dishes with a close friend roommate?",
       "buffer_post_id": "6aea19622ea34807059cf52e",
@@ -1187,18 +1199,6 @@
       "title": "Would you judge someone for arguing over a return?",
       "buffer_post_id": "6ac99549d9cab260a7aba071",
       "posted_at": "2026-10-10T01:30:49.301172+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-know-what-people-think-of-you-or-never-care",
-      "title": "Would you rather know what people think of you or never care?",
-      "buffer_post_id": "6ac963d5c4de2d2b1209010c",
-      "posted_at": "2026-10-09T21:59:49.984637+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-always-be-overdressed-or-always-be-underdressed",
-      "title": "Would you rather always be overdressed or always be underdressed?",
-      "buffer_post_id": "6ac963c8ed92ed8fa5abcde2",
-      "posted_at": "2026-10-09T21:59:36.416111+00:00"
     }
   ]
 }
