@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://dating/is-it-normal-to-keep-some-friendships-private-from-your-partner",
+      "title": "Is it normal to keep some friendships private from your partner?",
+      "buffer_post_id": "6aeaaaa887b7c6d24c8b5279",
+      "posted_at": "2026-11-04T03:46:49.040643+00:00"
+    },
+    {
+      "source_url": "curated://dating/would-you-date-someone-who-is-always-late",
+      "title": "Would you date someone who is always late?",
+      "buffer_post_id": "6aeaaa8b69ad1ef03b75b68d",
+      "posted_at": "2026-11-04T03:46:19.162400+00:00"
+    },
+    {
       "source_url": "procedural://family/928",
       "title": "Is it weird to not answer calls immediately when they mean well?",
       "buffer_post_id": "6aea630110b188665aea5988",
@@ -1187,18 +1199,6 @@
       "title": "Should friends remember small details about your life?",
       "buffer_post_id": "6ac9eed4b07d37ac976561b6",
       "posted_at": "2026-10-10T07:52:52.383750+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-wrong-to-outgrow-a-friend-quietly",
-      "title": "Is it wrong to outgrow a friend quietly?",
-      "buffer_post_id": "6ac9eec5f91f772d45862704",
-      "posted_at": "2026-10-10T07:52:38.390125+00:00"
-    },
-    {
-      "source_url": "curated://shopping/would-you-judge-someone-for-arguing-over-a-return",
-      "title": "Would you judge someone for arguing over a return?",
-      "buffer_post_id": "6ac99549d9cab260a7aba071",
-      "posted_at": "2026-10-10T01:30:49.301172+00:00"
     }
   ]
 }
