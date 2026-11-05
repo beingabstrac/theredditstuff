@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/934",
+      "title": "Is it weird to keep score of favors when everyone is busy?",
+      "buffer_post_id": "6aecc0e8b943974e73160cbb",
+      "posted_at": "2026-11-05T17:46:16.191376+00:00"
+    },
+    {
+      "source_url": "curated://friendship/is-it-wrong-to-outgrow-a-friend-quietly",
+      "title": "Is it wrong to outgrow a friend quietly?",
+      "buffer_post_id": "6aecc0c9eb7f28c390f77fcc",
+      "posted_at": "2026-11-05T17:45:45.214844+00:00"
+    },
+    {
+      "source_url": "curated://friendship/should-friends-remember-small-details-about-your-life",
+      "title": "Should friends remember small details about your life?",
+      "buffer_post_id": "6aecc0a8d7d39142cf51e104",
+      "posted_at": "2026-11-05T17:45:12.475614+00:00"
+    },
+    {
       "source_url": "procedural://shopping/933",
       "title": "Should people be able to argue over a return if staff have to fix it?",
       "buffer_post_id": "6aec415ce22643a987a5ad9b",
@@ -1181,24 +1199,6 @@
       "title": "Would you say something if someone wanted to split the bill in a serious relationship?",
       "buffer_post_id": "6acbfb75fa026cfb81164304",
       "posted_at": "2026-10-11T21:11:17.783325+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-wrong-to-skip-family-events-because-you-need-rest",
-      "title": "Is it wrong to skip family events because you need rest?",
-      "buffer_post_id": "6acbbff4fa026cfb810b1c94",
-      "posted_at": "2026-10-11T16:57:24.949449+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-fair-to-set-boundaries-with-relatives-who-mean-well",
-      "title": "Is it fair to set boundaries with relatives who mean well?",
-      "buffer_post_id": "6acbbfe5fa026cfb810b1848",
-      "posted_at": "2026-10-11T16:57:09.292819+00:00"
-    },
-    {
-      "source_url": "procedural://roommates/819",
-      "title": "Should people be able to label your food after it keeps happening?",
-      "buffer_post_id": "6acb6403bba9419ccb312dcf",
-      "posted_at": "2026-10-11T10:25:07.898779+00:00"
     }
   ]
 }
