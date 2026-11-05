@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/is-it-embarrassing-when-someone-complains-loudly-at-dinner",
+      "title": "Is it embarrassing when someone complains loudly at dinner?",
+      "buffer_post_id": "6aed0a85dbada656bedb0c4a",
+      "posted_at": "2026-11-05T23:00:22.314222+00:00"
+    },
+    {
+      "source_url": "curated://restaurant/should-friends-wait-until-everyone-has-food-before-eating",
+      "title": "Should friends wait until everyone has food before eating?",
+      "buffer_post_id": "6aed0a7186fe9b837959a4c4",
+      "posted_at": "2026-11-05T23:00:02.124012+00:00"
+    },
+    {
       "source_url": "procedural://friendship/934",
       "title": "Is it weird to keep score of favors when everyone is busy?",
       "buffer_post_id": "6aecc0e8b943974e73160cbb",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude to ask someone why they are quiet?",
       "buffer_post_id": "6acc2ebd63ff33d8c99f95ce",
       "posted_at": "2026-10-12T00:50:05.978237+00:00"
-    },
-    {
-      "source_url": "fallback://apology-with-explaining",
-      "title": "Is an apology real if someone keeps explaining why they did it?",
-      "buffer_post_id": "6acc2e8963ff33d8c99f91c3",
-      "posted_at": "2026-10-12T00:49:13.571510+00:00"
-    },
-    {
-      "source_url": "procedural://dating/821",
-      "title": "Would you say something if someone wanted to split the bill in a serious relationship?",
-      "buffer_post_id": "6acbfb75fa026cfb81164304",
-      "posted_at": "2026-10-11T21:11:17.783325+00:00"
     }
   ]
 }
