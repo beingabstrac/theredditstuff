@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/933",
+      "title": "Should people be able to argue over a return if staff have to fix it?",
+      "buffer_post_id": "6aec415ce22643a987a5ad9b",
+      "posted_at": "2026-11-05T08:42:04.554761+00:00"
+    },
+    {
+      "source_url": "curated://shopping/would-you-judge-someone-for-arguing-over-a-return",
+      "title": "Would you judge someone for arguing over a return?",
+      "buffer_post_id": "6aec413f80f7fd053705efbc",
+      "posted_at": "2026-11-05T08:41:36.049930+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-know-what-people-think-of-you-or-never-care",
       "title": "Would you rather know what people think of you or never care?",
       "buffer_post_id": "6aebcf8701b5398f879dcec0",
@@ -1187,18 +1199,6 @@
       "title": "Should people be able to label your food after it keeps happening?",
       "buffer_post_id": "6acb6403bba9419ccb312dcf",
       "posted_at": "2026-10-11T10:25:07.898779+00:00"
-    },
-    {
-      "source_url": "curated://roommates/would-you-label-your-food-in-a-shared-fridge",
-      "title": "Would you label your food in a shared fridge?",
-      "buffer_post_id": "6acb63f9c4de2d2b12593309",
-      "posted_at": "2026-10-11T10:24:57.374422+00:00"
-    },
-    {
-      "source_url": "curated://roommates/should-roommates-ask-before-changing-the-thermostat",
-      "title": "Should roommates ask before changing the thermostat?",
-      "buffer_post_id": "6acb63e9c4de2d2b12593098",
-      "posted_at": "2026-10-11T10:24:41.892267+00:00"
     }
   ]
 }
