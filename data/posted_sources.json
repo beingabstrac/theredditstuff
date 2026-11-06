@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/938",
+      "title": "Would you judge someone for choosing to skip optional meetings when coworkers keep doing it?",
+      "buffer_post_id": "6aee33e2af7e526d43dc7a98",
+      "posted_at": "2026-11-06T20:09:06.701801+00:00"
+    },
+    {
+      "source_url": "curated://work/is-it-weird-when-coworkers-act-like-work-is-family",
+      "title": "Is it weird when coworkers act like work is family?",
+      "buffer_post_id": "6aee33ca9214322f68ac37db",
+      "posted_at": "2026-11-06T20:08:42.185888+00:00"
+    },
+    {
       "source_url": "procedural://texting/938",
       "title": "Would you judge someone for choosing to double text after making plans?",
       "buffer_post_id": "6aedd54be45c1855cb3f1e77",
@@ -1187,18 +1199,6 @@
       "title": "Is it rude to leave unwanted items anywhere in a store?",
       "buffer_post_id": "6acd8ca9aec88be081eec88c",
       "posted_at": "2026-10-13T01:43:05.751171+00:00"
-    },
-    {
-      "source_url": "procedural://would_you_rather/826",
-      "title": "Would you rather always be early or exactly on time if you had to choose today?",
-      "buffer_post_id": "6acd353bae14ce433eb42e90",
-      "posted_at": "2026-10-12T19:30:03.378447+00:00"
-    },
-    {
-      "source_url": "procedural://would_you_rather/825",
-      "title": "Would you rather always be early or exactly on time if you had to choose today?",
-      "buffer_post_id": "6acd3531ebe016d7f5fcf0c8",
-      "posted_at": "2026-10-12T19:29:53.392672+00:00"
     }
   ]
 }
