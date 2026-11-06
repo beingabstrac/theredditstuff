@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://refuse-lending-family-money",
+      "title": "Is it wrong to refuse lending money to family?",
+      "buffer_post_id": "6aed512a07f945cca93ca354",
+      "posted_at": "2026-11-06T04:01:46.865495+00:00"
+    },
+    {
+      "source_url": "fallback://ask-borrowed-money-back",
+      "title": "Is it rude to ask for borrowed money back?",
+      "buffer_post_id": "6aed510986fe9b83796f6654",
+      "posted_at": "2026-11-06T04:01:14.097123+00:00"
+    },
+    {
       "source_url": "curated://restaurant/is-it-embarrassing-when-someone-complains-loudly-at-dinner",
       "title": "Is it embarrassing when someone complains loudly at dinner?",
       "buffer_post_id": "6aed0a85dbada656bedb0c4a",
@@ -1187,18 +1199,6 @@
       "title": "What behavior makes someone seem exhausting?",
       "buffer_post_id": "6acc97015feb3462de972ce1",
       "posted_at": "2026-10-12T08:14:57.627807+00:00"
-    },
-    {
-      "source_url": "fallback://everyday-lose-respect",
-      "title": "What everyday behavior makes you lose respect for someone?",
-      "buffer_post_id": "6acc96f15feb3462de972bc7",
-      "posted_at": "2026-10-12T08:14:41.829991+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-ask-someone-why-they-are-quiet",
-      "title": "Is it rude to ask someone why they are quiet?",
-      "buffer_post_id": "6acc2ebd63ff33d8c99f95ce",
-      "posted_at": "2026-10-12T00:50:05.978237+00:00"
     }
   ]
 }
