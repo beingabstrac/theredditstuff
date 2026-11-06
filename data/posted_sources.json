@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://texting/938",
+      "title": "Would you judge someone for choosing to double text after making plans?",
+      "buffer_post_id": "6aedd54be45c1855cb3f1e77",
+      "posted_at": "2026-11-06T13:25:31.920034+00:00"
+    },
+    {
+      "source_url": "procedural://texting/937",
+      "title": "Is it normal to double text after making plans?",
+      "buffer_post_id": "6aedd5290b0f6e64a0c0423d",
+      "posted_at": "2026-11-06T13:24:57.394699+00:00"
+    },
+    {
+      "source_url": "curated://texting/is-replying-with-just-okay-rude",
+      "title": "Is replying with just okay rude?",
+      "buffer_post_id": "6aedd50e730edf821ad018a7",
+      "posted_at": "2026-11-06T13:24:30.469354+00:00"
+    },
+    {
       "source_url": "fallback://refuse-lending-family-money",
       "title": "Is it wrong to refuse lending money to family?",
       "buffer_post_id": "6aed512a07f945cca93ca354",
@@ -1181,24 +1199,6 @@
       "title": "Would you rather always be early or exactly on time if you had to choose today?",
       "buffer_post_id": "6acd3531ebe016d7f5fcf0c8",
       "posted_at": "2026-10-12T19:29:53.392672+00:00"
-    },
-    {
-      "source_url": "procedural://would_you_rather/824",
-      "title": "Would you rather always be early or exactly on time if you had to choose today?",
-      "buffer_post_id": "6acd3527c5e6eb637a19ff4c",
-      "posted_at": "2026-10-12T19:29:43.567715+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-be-liked-by-everyone-or-respected-by-everyone",
-      "title": "Would you rather be liked by everyone or respected by everyone?",
-      "buffer_post_id": "6acd351dae14ce433eb42ad1",
-      "posted_at": "2026-10-12T19:29:33.735234+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-behavior-makes-someone-seem-exhausting",
-      "title": "What behavior makes someone seem exhausting?",
-      "buffer_post_id": "6acc97015feb3462de972ce1",
-      "posted_at": "2026-10-12T08:14:57.627807+00:00"
     }
   ]
 }
