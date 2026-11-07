@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/is-it-fair-to-set-boundaries-with-relatives-who-mean-well",
+      "title": "Is it fair to set boundaries with relatives who mean well?",
+      "buffer_post_id": "6aeeda04d6bbae6fa171d9e2",
+      "posted_at": "2026-11-07T07:57:56.434891+00:00"
+    },
+    {
+      "source_url": "curated://family/is-it-wrong-to-skip-family-events-because-you-need-rest",
+      "title": "Is it wrong to skip family events because you need rest?",
+      "buffer_post_id": "6aeed9e9004e4879a73fb18a",
+      "posted_at": "2026-11-07T07:57:29.690560+00:00"
+    },
+    {
       "source_url": "curated://roommates/would-you-label-your-food-in-a-shared-fridge",
       "title": "Would you label your food in a shared fridge?",
       "buffer_post_id": "6aee7e3ba7751de7c9bb8be2",
@@ -1187,18 +1199,6 @@
       "title": "Should people tip more if they make a mess?",
       "buffer_post_id": "6ace66c511032ccdb8c2549e",
       "posted_at": "2026-10-13T17:13:42.230929+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-rude-to-stop-reaching-out-first-and-see-what-happens",
-      "title": "Is it rude to stop reaching out first and see what happens?",
-      "buffer_post_id": "6acdee6bca68ebbd369b3d85",
-      "posted_at": "2026-10-13T08:40:12.022729+00:00"
-    },
-    {
-      "source_url": "curated://friendship/should-friends-invite-partners-to-every-plan",
-      "title": "Should friends invite partners to every plan?",
-      "buffer_post_id": "6acdee5fca68ebbd369b3ab7",
-      "posted_at": "2026-10-13T08:39:59.874899+00:00"
     }
   ]
 }
