@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://red_flags/what-behavior-makes-someone-seem-exhausting",
+      "title": "What behavior makes someone seem exhausting?",
+      "buffer_post_id": "6aefb0a6229bf05daf7c3dc2",
+      "posted_at": "2026-11-07T23:13:42.782442+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-rude-to-ask-someone-why-they-are-quiet",
       "title": "Is it rude to ask someone why they are quiet?",
       "buffer_post_id": "6aef7f8251492b796ef873e4",
@@ -1193,12 +1199,6 @@
       "title": "Should read receipts be turned off by default?",
       "buffer_post_id": "6acee9dcf847f2ad9ebccf57",
       "posted_at": "2026-10-14T02:33:00.906360+00:00"
-    },
-    {
-      "source_url": "fallback://free-food-or-rent",
-      "title": "Would you rather have free food forever or free rent forever?",
-      "buffer_post_id": "6aceaad0ef524ddfded8d738",
-      "posted_at": "2026-10-13T22:04:00.572621+00:00"
     }
   ]
 }
