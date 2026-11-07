@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "fallback://tell-friend-partner-flirting",
+      "title": "Would you tell your friend if their partner was flirting with someone else?",
+      "buffer_post_id": "6aef371ed6bbae6fa191c5b1",
+      "posted_at": "2026-11-07T14:35:10.583958+00:00"
+    },
+    {
+      "source_url": "curated://dating/is-it-fair-to-need-alone-time-in-a-relationship",
+      "title": "Is it fair to need alone time in a relationship?",
+      "buffer_post_id": "6aef36df004e4879a760243d",
+      "posted_at": "2026-11-07T14:34:07.709131+00:00"
+    },
+    {
       "source_url": "curated://family/is-it-fair-to-set-boundaries-with-relatives-who-mean-well",
       "title": "Is it fair to set boundaries with relatives who mean well?",
       "buffer_post_id": "6aeeda04d6bbae6fa171d9e2",
@@ -1187,18 +1199,6 @@
       "title": "What restaurant behavior tells you someone is hard to be around?",
       "buffer_post_id": "6ace66e70b1619ab656a438e",
       "posted_at": "2026-10-13T17:14:15.504288+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-rude-to-stay-at-a-table-long-after-eating",
-      "title": "Is it rude to stay at a table long after eating?",
-      "buffer_post_id": "6ace66d50b1619ab656a4096",
-      "posted_at": "2026-10-13T17:13:57.705670+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/should-people-tip-more-if-they-make-a-mess",
-      "title": "Should people tip more if they make a mess?",
-      "buffer_post_id": "6ace66c511032ccdb8c2549e",
-      "posted_at": "2026-10-13T17:13:42.230929+00:00"
     }
   ]
 }
