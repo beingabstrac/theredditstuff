@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/would-you-label-your-food-in-a-shared-fridge",
+      "title": "Would you label your food in a shared fridge?",
+      "buffer_post_id": "6aee7e3ba7751de7c9bb8be2",
+      "posted_at": "2026-11-07T01:26:19.987073+00:00"
+    },
+    {
+      "source_url": "curated://roommates/should-roommates-ask-before-changing-the-thermostat",
+      "title": "Should roommates ask before changing the thermostat?",
+      "buffer_post_id": "6aee7e18af7e526d43f237e7",
+      "posted_at": "2026-11-07T01:25:44.185415+00:00"
+    },
+    {
       "source_url": "procedural://work/938",
       "title": "Would you judge someone for choosing to skip optional meetings when coworkers keep doing it?",
       "buffer_post_id": "6aee33e2af7e526d43dc7a98",
@@ -1187,18 +1199,6 @@
       "title": "Should friends invite partners to every plan?",
       "buffer_post_id": "6acdee5fca68ebbd369b3ab7",
       "posted_at": "2026-10-13T08:39:59.874899+00:00"
-    },
-    {
-      "source_url": "curated://shopping/would-you-leave-a-store-if-the-music-is-too-loud",
-      "title": "Would you leave a store if the music is too loud?",
-      "buffer_post_id": "6acd8cb9c210c8c6dd43de6e",
-      "posted_at": "2026-10-13T01:43:21.623395+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-rude-to-leave-unwanted-items-anywhere-in-a-store",
-      "title": "Is it rude to leave unwanted items anywhere in a store?",
-      "buffer_post_id": "6acd8ca9aec88be081eec88c",
-      "posted_at": "2026-10-13T01:43:05.751171+00:00"
     }
   ]
 }
