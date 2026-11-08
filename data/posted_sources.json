@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/945",
+      "title": "Should people be able to leave a cart behind if staff have to fix it?",
+      "buffer_post_id": "6af05457004e4879a7af8f59",
+      "posted_at": "2026-11-08T10:52:07.710955+00:00"
+    },
+    {
+      "source_url": "curated://shopping/is-it-rude-to-leave-unwanted-items-anywhere-in-a-store",
+      "title": "Is it rude to leave unwanted items anywhere in a store?",
+      "buffer_post_id": "6af0544151492b796e314f92",
+      "posted_at": "2026-11-08T10:51:45.969122+00:00"
+    },
+    {
+      "source_url": "curated://shopping/would-you-leave-a-store-if-the-music-is-too-loud",
+      "title": "Would you leave a store if the music is too loud?",
+      "buffer_post_id": "6af0542f004e4879a7af839f",
+      "posted_at": "2026-11-08T10:51:27.943637+00:00"
+    },
+    {
       "source_url": "curated://would_you_rather/would-you-rather-have-one-perfect-friend-or-many-casual-friends",
       "title": "Would you rather have one perfect friend or many casual friends?",
       "buffer_post_id": "6aefe799004e4879a7928eca",
@@ -1181,24 +1199,6 @@
       "title": "Should people be able to complain about dishes after it keeps happening?",
       "buffer_post_id": "6acf95c1a218947d3043ca2e",
       "posted_at": "2026-10-14T14:46:25.449784+00:00"
-    },
-    {
-      "source_url": "fallback://roommate-habit-move-out",
-      "title": "What roommate habit would make you move out immediately?",
-      "buffer_post_id": "6acf95af38098deaf9e52057",
-      "posted_at": "2026-10-14T14:46:08.207150+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-rude-to-leave-work-exactly-on-time",
-      "title": "Is it rude to leave work exactly on time?",
-      "buffer_post_id": "6acf465f8fea659be5b40588",
-      "posted_at": "2026-10-14T09:07:43.934820+00:00"
-    },
-    {
-      "source_url": "curated://work/should-meetings-have-to-prove-they-are-necessary",
-      "title": "Should meetings have to prove they are necessary?",
-      "buffer_post_id": "6acf464e167263592467ff4a",
-      "posted_at": "2026-10-14T09:07:27.497685+00:00"
     }
   ]
 }
