@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://restaurant/should-people-tip-more-if-they-make-a-mess",
+      "title": "Should people tip more if they make a mess?",
+      "buffer_post_id": "6af0e944d6bbae6fa11183ef",
+      "posted_at": "2026-11-08T21:27:32.962936+00:00"
+    },
+    {
       "source_url": "curated://friendship/should-friends-invite-partners-to-every-plan",
       "title": "Should friends invite partners to every plan?",
       "buffer_post_id": "6af0afb7562f2e6de9d0321e",
@@ -1193,12 +1199,6 @@
       "title": "Would you be bothered if your partner liked an ex post?",
       "buffer_post_id": "6ad006bf097897a778dc7787",
       "posted_at": "2026-10-14T22:48:31.337506+00:00"
-    },
-    {
-      "source_url": "curated://family/should-family-get-free-help-just-because-they-are-family",
-      "title": "Should family get free help just because they are family?",
-      "buffer_post_id": "6acfdcec3166073688d32e63",
-      "posted_at": "2026-10-14T19:50:04.249050+00:00"
     }
   ]
 }
