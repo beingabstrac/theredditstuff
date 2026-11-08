@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-have-one-perfect-friend-or-many-casual-friends",
+      "title": "Would you rather have one perfect friend or many casual friends?",
+      "buffer_post_id": "6aefe799004e4879a7928eca",
+      "posted_at": "2026-11-08T03:08:09.146973+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-behavior-makes-someone-seem-exhausting",
       "title": "What behavior makes someone seem exhausting?",
       "buffer_post_id": "6aefb0a6229bf05daf7c3dc2",
@@ -1193,12 +1199,6 @@
       "title": "Should meetings have to prove they are necessary?",
       "buffer_post_id": "6acf464e167263592467ff4a",
       "posted_at": "2026-10-14T09:07:27.497685+00:00"
-    },
-    {
-      "source_url": "curated://texting/should-read-receipts-be-turned-off-by-default",
-      "title": "Should read receipts be turned off by default?",
-      "buffer_post_id": "6acee9dcf847f2ad9ebccf57",
-      "posted_at": "2026-10-14T02:33:00.906360+00:00"
     }
   ]
 }
