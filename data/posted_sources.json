@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/should-friends-invite-partners-to-every-plan",
+      "title": "Should friends invite partners to every plan?",
+      "buffer_post_id": "6af0afb7562f2e6de9d0321e",
+      "posted_at": "2026-11-08T17:21:59.576913+00:00"
+    },
+    {
+      "source_url": "curated://friendship/is-it-rude-to-stop-reaching-out-first-and-see-what-happens",
+      "title": "Is it rude to stop reaching out first and see what happens?",
+      "buffer_post_id": "6af0af9d9214322f68689472",
+      "posted_at": "2026-11-08T17:21:33.468782+00:00"
+    },
+    {
       "source_url": "procedural://shopping/945",
       "title": "Should people be able to leave a cart behind if staff have to fix it?",
       "buffer_post_id": "6af05457004e4879a7af8f59",
@@ -1187,18 +1199,6 @@
       "title": "Should family get free help just because they are family?",
       "buffer_post_id": "6acfdcec3166073688d32e63",
       "posted_at": "2026-10-14T19:50:04.249050+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-rude-to-leave-a-family-gathering-early",
-      "title": "Is it rude to leave a family gathering early?",
-      "buffer_post_id": "6acfdcd63166073688d32aa7",
-      "posted_at": "2026-10-14T19:49:43.255863+00:00"
-    },
-    {
-      "source_url": "procedural://roommates/831",
-      "title": "Should people be able to complain about dishes after it keeps happening?",
-      "buffer_post_id": "6acf95c1a218947d3043ca2e",
-      "posted_at": "2026-10-14T14:46:25.449784+00:00"
     }
   ]
 }
