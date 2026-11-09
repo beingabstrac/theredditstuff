@@ -1,6 +1,30 @@
 {
   "posted": [
     {
+      "source_url": "procedural://work/951",
+      "title": "Should people be able to mute work apps when coworkers keep doing it?",
+      "buffer_post_id": "6af22a5e0606df2887a35cb1",
+      "posted_at": "2026-11-09T20:17:34.782938+00:00"
+    },
+    {
+      "source_url": "procedural://work/950",
+      "title": "Would you judge someone for choosing to mute work apps when coworkers keep doing it?",
+      "buffer_post_id": "6af22a48398ae91929acf4fb",
+      "posted_at": "2026-11-09T20:17:12.510559+00:00"
+    },
+    {
+      "source_url": "curated://work/should-meetings-have-to-prove-they-are-necessary",
+      "title": "Should meetings have to prove they are necessary?",
+      "buffer_post_id": "6af22a270606df2887a3447b",
+      "posted_at": "2026-11-09T20:16:39.981881+00:00"
+    },
+    {
+      "source_url": "curated://work/is-it-rude-to-leave-work-exactly-on-time",
+      "title": "Is it rude to leave work exactly on time?",
+      "buffer_post_id": "6af22a0a391eeaff33251aa0",
+      "posted_at": "2026-11-09T20:16:10.312132+00:00"
+    },
+    {
       "source_url": "procedural://texting/949",
       "title": "Is it normal to send dry replies after making plans?",
       "buffer_post_id": "6af18950e44ddbb57c44b67e",
@@ -1175,30 +1199,6 @@
       "title": "Is it weird when friends keep score of favors?",
       "buffer_post_id": "6ad15794a82f34dbe135f442",
       "posted_at": "2026-10-15T22:45:40.881025+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-rude-to-browse-a-small-shop-and-buy-nothing",
-      "title": "Is it rude to browse a small shop and buy nothing?",
-      "buffer_post_id": "6ad12a897132b787718f85b9",
-      "posted_at": "2026-10-15T19:33:29.671142+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-normal-to-compare-prices-in-front-of-friends",
-      "title": "Is it normal to compare prices in front of friends?",
-      "buffer_post_id": "6ad12a728fb2c19f54dedece",
-      "posted_at": "2026-10-15T19:33:06.480120+00:00"
-    },
-    {
-      "source_url": "procedural://would_you_rather/836",
-      "title": "Would you rather have one close friend or many casual friends if you had to choose today?",
-      "buffer_post_id": "6ad0e3f152c687f750541e83",
-      "posted_at": "2026-10-15T14:32:18.012133+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-never-do-laundry-or-never-wash-dishes",
-      "title": "Would you rather never do laundry or never wash dishes?",
-      "buffer_post_id": "6ad0e3d84ed96805c7bfbf35",
-      "posted_at": "2026-10-15T14:31:52.133233+00:00"
     }
   ]
 }
