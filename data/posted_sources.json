@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://texting/949",
+      "title": "Is it normal to send dry replies after making plans?",
+      "buffer_post_id": "6af18950e44ddbb57c44b67e",
+      "posted_at": "2026-11-09T08:50:24.623890+00:00"
+    },
+    {
+      "source_url": "curated://texting/should-read-receipts-be-turned-off-by-default",
+      "title": "Should read receipts be turned off by default?",
+      "buffer_post_id": "6af189437522f65ac0d0a8ad",
+      "posted_at": "2026-11-09T08:50:11.928554+00:00"
+    },
+    {
       "source_url": "curated://money/is-lending-small-amounts-of-money-to-friends-worth-the-risk",
       "title": "Is lending small amounts of money to friends worth the risk?",
       "buffer_post_id": "6af11f6251492b796e71542d",
@@ -1187,18 +1199,6 @@
       "title": "Would you rather never do laundry or never wash dishes?",
       "buffer_post_id": "6ad0e3d84ed96805c7bfbf35",
       "posted_at": "2026-10-15T14:31:52.133233+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-tiny-behavior-is-an-instant-red-flag",
-      "title": "What tiny behavior is an instant red flag?",
-      "buffer_post_id": "6ad091956295ecc932f680bd",
-      "posted_at": "2026-10-15T08:40:53.625487+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-small-lie-tells-you-a-lot-about-someone",
-      "title": "What small lie tells you a lot about someone?",
-      "buffer_post_id": "6ad0917b5ca32ad3c7eddc16",
-      "posted_at": "2026-10-15T08:40:27.211701+00:00"
     }
   ]
 }
