@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://dating/954",
+      "title": "Is it rude to notice a small red flag without making it a big deal?",
+      "buffer_post_id": "6af36a8e736c651a43063ed4",
+      "posted_at": "2026-11-10T19:03:42.465396+00:00"
+    },
+    {
+      "source_url": "procedural://dating/953",
+      "title": "Would you say something if someone wanted to text after a date without making it a big deal?",
+      "buffer_post_id": "6af36a6d42d1993c828e6a94",
+      "posted_at": "2026-11-10T19:03:09.168285+00:00"
+    },
+    {
+      "source_url": "curated://dating/would-you-be-bothered-if-your-partner-liked-an-ex-post",
+      "title": "Would you be bothered if your partner liked an ex post?",
+      "buffer_post_id": "6af36a4c42d1993c828e5f2b",
+      "posted_at": "2026-11-10T19:02:36.566410+00:00"
+    },
+    {
       "source_url": "procedural://family/952",
       "title": "Is it weird to stop explaining every plan when they mean well?",
       "buffer_post_id": "6af306d3b77a05a0562e6533",
@@ -1181,24 +1199,6 @@
       "title": "Should coworkers reply during lunch breaks?",
       "buffer_post_id": "6ad275ef93503c7a0a5b7118",
       "posted_at": "2026-10-16T19:07:27.868265+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-rude-to-end-a-text-conversation-by-reacting-instead-of-replying",
-      "title": "Is it rude to end a text conversation by reacting instead of replying?",
-      "buffer_post_id": "6ad233a21ffe47098035371d",
-      "posted_at": "2026-10-16T14:24:34.814799+00:00"
-    },
-    {
-      "source_url": "curated://texting/would-you-be-upset-if-someone-watched-your-story-but-ignored-your-text",
-      "title": "Would you be upset if someone watched your story but ignored your text?",
-      "buffer_post_id": "6ad23385f24c5797a243f747",
-      "posted_at": "2026-10-16T14:24:05.693296+00:00"
-    },
-    {
-      "source_url": "curated://money/should-the-person-who-picked-the-expensive-place-pay-more",
-      "title": "Should the person who picked the expensive place pay more?",
-      "buffer_post_id": "6ad1e1d0a82f34dbe1527510",
-      "posted_at": "2026-10-16T08:35:29.079276+00:00"
     }
   ]
 }
