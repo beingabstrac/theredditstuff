@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/952",
+      "title": "Is it weird to stop explaining every plan when they mean well?",
+      "buffer_post_id": "6af306d3b77a05a0562e6533",
+      "posted_at": "2026-11-10T11:58:11.326257+00:00"
+    },
+    {
+      "source_url": "curated://family/is-it-rude-to-leave-a-family-gathering-early",
+      "title": "Is it rude to leave a family gathering early?",
+      "buffer_post_id": "6af306b907659da4c6d74783",
+      "posted_at": "2026-11-10T11:57:45.143971+00:00"
+    },
+    {
+      "source_url": "curated://family/should-family-get-free-help-just-because-they-are-family",
+      "title": "Should family get free help just because they are family?",
+      "buffer_post_id": "6af3069c5799f4c24ff2ee59",
+      "posted_at": "2026-11-10T11:57:16.971968+00:00"
+    },
+    {
       "source_url": "procedural://work/951",
       "title": "Should people be able to mute work apps when coworkers keep doing it?",
       "buffer_post_id": "6af22a5e0606df2887a35cb1",
@@ -1181,24 +1199,6 @@
       "title": "Should the person who picked the expensive place pay more?",
       "buffer_post_id": "6ad1e1d0a82f34dbe1527510",
       "posted_at": "2026-10-16T08:35:29.079276+00:00"
-    },
-    {
-      "source_url": "curated://money/should-friends-pay-you-back-immediately-or-is-later-fine",
-      "title": "Should friends pay you back immediately or is later fine?",
-      "buffer_post_id": "6ad1e1b94ed7d375a450e0d4",
-      "posted_at": "2026-10-16T08:35:05.950598+00:00"
-    },
-    {
-      "source_url": "procedural://restaurant/839",
-      "title": "Would you say something if someone wanted to take a call at dinner with friends?",
-      "buffer_post_id": "6ad18630e991a49db3c35a27",
-      "posted_at": "2026-10-16T02:04:32.185402+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-weird-when-friends-keep-score-of-favors",
-      "title": "Is it weird when friends keep score of favors?",
-      "buffer_post_id": "6ad15794a82f34dbe135f442",
-      "posted_at": "2026-10-15T22:45:40.881025+00:00"
     }
   ]
 }
