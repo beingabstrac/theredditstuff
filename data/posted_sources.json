@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "curated://would_you_rather/would-you-rather-always-be-overdressed-or-always-be-underdressed",
+      "title": "Would you rather always be overdressed or always be underdressed?",
+      "buffer_post_id": "6af4a6e728e2cd1b31f4d69b",
+      "posted_at": "2026-11-11T17:33:27.525759+00:00"
+    },
+    {
+      "source_url": "curated://would_you_rather/would-you-rather-be-liked-by-everyone-or-respected-by-everyone",
+      "title": "Would you rather be liked by everyone or respected by everyone?",
+      "buffer_post_id": "6af4a6d8bb8fd1acf44f8e50",
+      "posted_at": "2026-11-11T17:33:12.800606+00:00"
+    },
+    {
+      "source_url": "curated://would_you_rather/would-you-rather-never-do-laundry-or-never-wash-dishes",
+      "title": "Would you rather never do laundry or never wash dishes?",
+      "buffer_post_id": "6af4a6caafe96d2e4a0f4cc3",
+      "posted_at": "2026-11-11T17:32:58.275035+00:00"
+    },
+    {
       "source_url": "fallback://everyday-lose-respect",
       "title": "What everyday behavior makes you lose respect for someone?",
       "buffer_post_id": "6af428f760e4cf0fafb3ab9c",
@@ -1181,24 +1199,6 @@
       "title": "What harmless habit makes someone hard to trust?",
       "buffer_post_id": "6ad387c1769b4579348025d1",
       "posted_at": "2026-10-17T14:35:46.105400+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-arrive-early-to-someone-house",
-      "title": "Is it rude to arrive early to someone house?",
-      "buffer_post_id": "6ad360e3769b45793475e335",
-      "posted_at": "2026-10-17T11:49:55.759772+00:00"
-    },
-    {
-      "source_url": "procedural://dating/846",
-      "title": "Is it rude to share locations in a serious relationship?",
-      "buffer_post_id": "6ad31637bd148f7de425e507",
-      "posted_at": "2026-10-17T06:31:19.436242+00:00"
-    },
-    {
-      "source_url": "procedural://dating/845",
-      "title": "Would you say something if someone wanted to cancel a date in a serious relationship?",
-      "buffer_post_id": "6ad316251c7e49ea4c3ea9c1",
-      "posted_at": "2026-10-17T06:31:01.663087+00:00"
     }
   ]
 }
