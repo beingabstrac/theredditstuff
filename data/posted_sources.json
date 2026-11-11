@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/should-you-tell-someone-they-have-food-in-their-teeth",
+      "title": "Should you tell someone they have food in their teeth?",
+      "buffer_post_id": "6af3b43fb1cf2566f7b7501f",
+      "posted_at": "2026-11-11T00:18:07.662845+00:00"
+    },
+    {
       "source_url": "procedural://dating/954",
       "title": "Is it rude to notice a small red flag without making it a big deal?",
       "buffer_post_id": "6af36a8e736c651a43063ed4",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to skip optional meetings during lunch?",
       "buffer_post_id": "6ad27610e038e7a747d1bbae",
       "posted_at": "2026-10-16T19:08:00.288589+00:00"
-    },
-    {
-      "source_url": "curated://work/should-coworkers-reply-during-lunch-breaks",
-      "title": "Should coworkers reply during lunch breaks?",
-      "buffer_post_id": "6ad275ef93503c7a0a5b7118",
-      "posted_at": "2026-10-16T19:07:27.868265+00:00"
     }
   ]
 }
