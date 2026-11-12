@@ -1,6 +1,18 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/958",
+      "title": "Is it weird to expect friends to remember details when everyone is busy?",
+      "buffer_post_id": "6af5448a3d8c751bfd15dd8d",
+      "posted_at": "2026-11-12T04:46:02.428549+00:00"
+    },
+    {
+      "source_url": "curated://friendship/is-it-weird-when-friends-keep-score-of-favors",
+      "title": "Is it weird when friends keep score of favors?",
+      "buffer_post_id": "6af54477bc9f3773a1bfb0c0",
+      "posted_at": "2026-11-12T04:45:43.546500+00:00"
+    },
+    {
       "source_url": "curated://shopping/is-it-rude-to-browse-a-small-shop-and-buy-nothing",
       "title": "Is it rude to browse a small shop and buy nothing?",
       "buffer_post_id": "6af4ff09304f8985c471a7de",
@@ -1187,18 +1199,6 @@
       "title": "Is it weird to order the cheapest thing on the menu?",
       "buffer_post_id": "6ad427a2ae173d6e00e14543",
       "posted_at": "2026-10-18T01:57:54.992732+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/849",
-      "title": "Should people be able to leave a cart behind when people are waiting?",
-      "buffer_post_id": "6ad3edefae173d6e00d5068b",
-      "posted_at": "2026-10-17T21:51:43.445629+00:00"
-    },
-    {
-      "source_url": "curated://shopping/should-people-bag-their-own-groceries-when-the-line-is-long",
-      "title": "Should people bag their own groceries when the line is long?",
-      "buffer_post_id": "6ad3edd7e272c4918fa1cfd4",
-      "posted_at": "2026-10-17T21:51:19.404235+00:00"
     }
   ]
 }
