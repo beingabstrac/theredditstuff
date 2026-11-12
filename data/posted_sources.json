@@ -1,6 +1,24 @@
 {
   "posted": [
     {
+      "source_url": "fallback://restaurant-hard-to-be-around",
+      "title": "What restaurant behavior tells you someone is hard to be around?",
+      "buffer_post_id": "6af5c94a9984f61a541720ec",
+      "posted_at": "2026-11-12T14:12:26.364144+00:00"
+    },
+    {
+      "source_url": "curated://restaurant/is-it-weird-to-order-the-cheapest-thing-on-the-menu",
+      "title": "Is it weird to order the cheapest thing on the menu?",
+      "buffer_post_id": "6af5c92453c46c7311ddb2f4",
+      "posted_at": "2026-11-12T14:11:48.124435+00:00"
+    },
+    {
+      "source_url": "curated://restaurant/is-it-rude-to-stay-at-a-table-long-after-eating",
+      "title": "Is it rude to stay at a table long after eating?",
+      "buffer_post_id": "6af5c90ae7d7941c3fa5639d",
+      "posted_at": "2026-11-12T14:11:22.246073+00:00"
+    },
+    {
       "source_url": "procedural://friendship/958",
       "title": "Is it weird to expect friends to remember details when everyone is busy?",
       "buffer_post_id": "6af5448a3d8c751bfd15dd8d",
@@ -1181,24 +1199,6 @@
       "title": "Is leaving someone on read worse than replying late?",
       "buffer_post_id": "6ad4b863ae173d6e00fe4ddd",
       "posted_at": "2026-10-18T12:15:31.609636+00:00"
-    },
-    {
-      "source_url": "curated://money/should-couples-split-everything-fifty-fifty-if-incomes-are-different",
-      "title": "Should couples split everything fifty fifty if incomes are different?",
-      "buffer_post_id": "6ad46d076d56c60a73fc7dc9",
-      "posted_at": "2026-10-18T06:53:59.727963+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-awkward-to-say-a-restaurant-is-too-expensive",
-      "title": "Is it awkward to say a restaurant is too expensive?",
-      "buffer_post_id": "6ad46cfb0b0d72757a0ef052",
-      "posted_at": "2026-10-18T06:53:47.831202+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-weird-to-order-the-cheapest-thing-on-the-menu",
-      "title": "Is it weird to order the cheapest thing on the menu?",
-      "buffer_post_id": "6ad427a2ae173d6e00e14543",
-      "posted_at": "2026-10-18T01:57:54.992732+00:00"
     }
   ]
 }
