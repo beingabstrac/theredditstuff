@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/970",
+      "title": "Is it weird to ask before venting if they never ask about you?",
+      "buffer_post_id": "6af734a338a1decc74947699",
+      "posted_at": "2026-11-13T16:02:43.417819+00:00"
+    },
+    {
       "source_url": "curated://shopping/should-people-bag-their-own-groceries-when-the-line-is-long",
       "title": "Should people bag their own groceries when the line is long?",
       "buffer_post_id": "6af718791cbca7cd9c3d71ba",
@@ -1193,12 +1199,6 @@
       "title": "What small thing makes you silently judge a person?",
       "buffer_post_id": "6ad64888d7a5a2882daa3907",
       "posted_at": "2026-10-19T16:42:48.366022+00:00"
-    },
-    {
-      "source_url": "fallback://small-workplace-habit-annoyed",
-      "title": "What small workplace habit makes everyone secretly annoyed?",
-      "buffer_post_id": "6ad648678652c01563b14f8e",
-      "posted_at": "2026-10-19T16:42:16.077351+00:00"
     }
   ]
 }
