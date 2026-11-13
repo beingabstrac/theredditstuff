@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/would-you-be-upset-if-someone-watched-your-story-but-ignored-your-text",
+      "title": "Would you be upset if someone watched your story but ignored your text?",
+      "buffer_post_id": "6af788e578196a0a97234e47",
+      "posted_at": "2026-11-13T22:02:14.202804+00:00"
+    },
+    {
       "source_url": "curated://money/should-couples-split-everything-fifty-fifty-if-incomes-are-different",
       "title": "Should couples split everything fifty fifty if incomes are different?",
       "buffer_post_id": "6af76cf54b28296eb110d738",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather get honest advice or quiet support if you had to choose today?",
       "buffer_post_id": "6ad690866834506f8c35493f",
       "posted_at": "2026-10-19T21:49:58.301983+00:00"
-    },
-    {
-      "source_url": "fallback://harmless-habit-judge",
-      "title": "What harmless habit makes you instantly judge someone?",
-      "buffer_post_id": "6ad648c5d7a5a2882daa473a",
-      "posted_at": "2026-10-19T16:43:49.220940+00:00"
     }
   ]
 }
