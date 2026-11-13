@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/should-people-bag-their-own-groceries-when-the-line-is-long",
+      "title": "Should people bag their own groceries when the line is long?",
+      "buffer_post_id": "6af718791cbca7cd9c3d71ba",
+      "posted_at": "2026-11-13T14:02:33.946438+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-harmless-habit-makes-someone-hard-to-trust",
       "title": "What harmless habit makes someone hard to trust?",
       "buffer_post_id": "6af6e029bcd7cfc9abb48f75",
@@ -1193,12 +1199,6 @@
       "title": "What small workplace habit makes everyone secretly annoyed?",
       "buffer_post_id": "6ad648678652c01563b14f8e",
       "posted_at": "2026-10-19T16:42:16.077351+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-normal-to-take-leftovers-from-a-party",
-      "title": "Is it normal to take leftovers from a party?",
-      "buffer_post_id": "6ad5e1dee9d713b42447c9f6",
-      "posted_at": "2026-10-19T09:24:46.341328+00:00"
     }
   ]
 }
