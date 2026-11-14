@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://small-workplace-habit-annoyed",
+      "title": "What small workplace habit makes everyone secretly annoyed?",
+      "buffer_post_id": "6af831b64b28296eb14c35cd",
+      "posted_at": "2026-11-14T10:02:30.494697+00:00"
+    },
+    {
       "source_url": "curated://etiquette/should-people-take-their-shoes-off-in-every-home",
       "title": "Should people take their shoes off in every home?",
       "buffer_post_id": "6af8159378196a0a974c71b7",
@@ -1193,12 +1199,6 @@
       "title": "What makes a friendship start feeling one-sided?",
       "buffer_post_id": "6ad70f3ab81183413db79b72",
       "posted_at": "2026-10-20T06:50:34.202383+00:00"
-    },
-    {
-      "source_url": "curated://friendship/would-you-tell-a-friend-they-are-draining-to-be-around",
-      "title": "Would you tell a friend they are draining to be around?",
-      "buffer_post_id": "6ad70f1eb81183413db79362",
-      "posted_at": "2026-10-20T06:50:06.834357+00:00"
     }
   ]
 }
