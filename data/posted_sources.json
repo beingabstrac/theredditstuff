@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://friendship-one-sided",
+      "title": "What makes a friendship start feeling one-sided?",
+      "buffer_post_id": "6af8860a918fe79d2e8be808",
+      "posted_at": "2026-11-14T16:02:18.707454+00:00"
+    },
+    {
       "source_url": "procedural://shopping/981",
       "title": "Should people be able to argue over a return during checkout?",
       "buffer_post_id": "6af86a04e86a5789a6aee574",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to split appetizers when the table is full?",
       "buffer_post_id": "6ad767bfff291a23994e929b",
       "posted_at": "2026-10-20T13:08:15.892243+00:00"
-    },
-    {
-      "source_url": "procedural://restaurant/863",
-      "title": "Would you say something if someone wanted to share food without asking with friends?",
-      "buffer_post_id": "6ad767a7a154249523d103b6",
-      "posted_at": "2026-10-20T13:07:51.894532+00:00"
     }
   ]
 }
