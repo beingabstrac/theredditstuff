@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/is-it-rude-to-use-coupons-on-a-date",
+      "title": "Is it rude to use coupons on a date?",
+      "buffer_post_id": "6af8be69e5a113497aa5f868",
+      "posted_at": "2026-11-14T20:02:50.148306+00:00"
+    },
+    {
       "source_url": "fallback://friendship-one-sided",
       "title": "What makes a friendship start feeling one-sided?",
       "buffer_post_id": "6af8860a918fe79d2e8be808",
@@ -1193,12 +1199,6 @@
       "title": "Would you split the bill evenly if one friend ordered way more?",
       "buffer_post_id": "6ad7aedf58633da51389f590",
       "posted_at": "2026-10-20T18:11:43.778165+00:00"
-    },
-    {
-      "source_url": "procedural://restaurant/864",
-      "title": "Is it rude to split appetizers when the table is full?",
-      "buffer_post_id": "6ad767bfff291a23994e929b",
-      "posted_at": "2026-10-20T13:08:15.892243+00:00"
     }
   ]
 }
