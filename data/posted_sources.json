@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/should-people-take-their-shoes-off-in-every-home",
+      "title": "Should people take their shoes off in every home?",
+      "buffer_post_id": "6af8159378196a0a974c71b7",
+      "posted_at": "2026-11-14T08:02:27.366335+00:00"
+    },
+    {
       "source_url": "curated://family/would-you-refuse-to-host-relatives-who-overstay",
       "title": "Would you refuse to host relatives who overstay?",
       "buffer_post_id": "6af7dd8878196a0a973c2c88",
@@ -1193,12 +1199,6 @@
       "title": "Would you tell a friend they are draining to be around?",
       "buffer_post_id": "6ad70f1eb81183413db79362",
       "posted_at": "2026-10-20T06:50:06.834357+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/861",
-      "title": "Should people be able to take a call in line when people are waiting?",
-      "buffer_post_id": "6ad6ba30b81183413da6c55e",
-      "posted_at": "2026-10-20T00:47:44.545963+00:00"
     }
   ]
 }
