@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/would-you-refuse-to-host-relatives-who-overstay",
+      "title": "Would you refuse to host relatives who overstay?",
+      "buffer_post_id": "6af7dd8878196a0a973c2c88",
+      "posted_at": "2026-11-14T04:03:20.217652+00:00"
+    },
+    {
       "source_url": "curated://roommates/is-leaving-dishes-overnight-normal-or-gross",
       "title": "Is leaving dishes overnight normal or gross?",
       "buffer_post_id": "6af7c1834b28296eb12b5023",
@@ -1193,12 +1199,6 @@
       "title": "Should people be able to take a call in line when people are waiting?",
       "buffer_post_id": "6ad6ba30b81183413da6c55e",
       "posted_at": "2026-10-20T00:47:44.545963+00:00"
-    },
-    {
-      "source_url": "procedural://would_you_rather/861",
-      "title": "Would you rather get honest advice or quiet support if you had to choose today?",
-      "buffer_post_id": "6ad6909e6c850f9ae36710a1",
-      "posted_at": "2026-10-19T21:50:22.333049+00:00"
     }
   ]
 }
