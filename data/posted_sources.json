@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/981",
+      "title": "Should people be able to argue over a return during checkout?",
+      "buffer_post_id": "6af86a04e86a5789a6aee574",
+      "posted_at": "2026-11-14T14:02:44.820826+00:00"
+    },
+    {
       "source_url": "fallback://small-workplace-habit-annoyed",
       "title": "What small workplace habit makes everyone secretly annoyed?",
       "buffer_post_id": "6af831b64b28296eb14c35cd",
@@ -1193,12 +1199,6 @@
       "title": "Would you say something if someone wanted to share food without asking with friends?",
       "buffer_post_id": "6ad767a7a154249523d103b6",
       "posted_at": "2026-10-20T13:07:51.894532+00:00"
-    },
-    {
-      "source_url": "fallback://friendship-one-sided",
-      "title": "What makes a friendship start feeling one-sided?",
-      "buffer_post_id": "6ad70f3ab81183413db79b72",
-      "posted_at": "2026-10-20T06:50:34.202383+00:00"
     }
   ]
 }
