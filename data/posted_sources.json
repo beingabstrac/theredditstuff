@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/988",
+      "title": "Is it weird to refuse a family favor after repeated comments?",
+      "buffer_post_id": "6af92ee9b9a106584c876461",
+      "posted_at": "2026-11-15T04:02:49.443220+00:00"
+    },
+    {
       "source_url": "fallback://roommate-habit-move-out",
       "title": "What roommate habit would make you move out immediately?",
       "buffer_post_id": "6af9132676c23bf1c751f72d",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to say no to last minute work?",
       "buffer_post_id": "6ad8222250009d9e95045097",
       "posted_at": "2026-10-21T02:23:30.164613+00:00"
-    },
-    {
-      "source_url": "fallback://phone-on-table-dinner",
-      "title": "Is it rude to put your phone on the table during dinner?",
-      "buffer_post_id": "6ad7efb2294af05c91bbdd7a",
-      "posted_at": "2026-10-20T22:48:18.489094+00:00"
     }
   ]
 }
