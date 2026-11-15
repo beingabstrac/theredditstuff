@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://roommate-habit-move-out",
+      "title": "What roommate habit would make you move out immediately?",
+      "buffer_post_id": "6af9132676c23bf1c751f72d",
+      "posted_at": "2026-11-15T02:04:23.133723+00:00"
+    },
+    {
       "source_url": "curated://texting/is-it-rude-to-end-a-text-conversation-by-reacting-instead-of-replying",
       "title": "Is it rude to end a text conversation by reacting instead of replying?",
       "buffer_post_id": "6af8da76b9a106584c7093eb",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to put your phone on the table during dinner?",
       "buffer_post_id": "6ad7efb2294af05c91bbdd7a",
       "posted_at": "2026-10-20T22:48:18.489094+00:00"
-    },
-    {
-      "source_url": "fallback://couples-phone-passwords",
-      "title": "Should couples share phone passwords or is that weird?",
-      "buffer_post_id": "6ad7ef8c8e50122a680d6d17",
-      "posted_at": "2026-10-20T22:47:40.206066+00:00"
     }
   ]
 }
