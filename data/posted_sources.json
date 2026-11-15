@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-normal-to-take-leftovers-from-a-party",
+      "title": "Is it normal to take leftovers from a party?",
+      "buffer_post_id": "6af9672e76c23bf1c76792de",
+      "posted_at": "2026-11-15T08:02:54.641652+00:00"
+    },
+    {
       "source_url": "procedural://family/988",
       "title": "Is it weird to refuse a family favor after repeated comments?",
       "buffer_post_id": "6af92ee9b9a106584c876461",
@@ -1193,12 +1199,6 @@
       "title": "Would you confront a roommate about smell?",
       "buffer_post_id": "6ad87ea5d109f3f66b87d606",
       "posted_at": "2026-10-21T08:58:13.692049+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-fair-to-say-no-to-last-minute-work",
-      "title": "Is it fair to say no to last minute work?",
-      "buffer_post_id": "6ad8222250009d9e95045097",
-      "posted_at": "2026-10-21T02:23:30.164613+00:00"
     }
   ]
 }
