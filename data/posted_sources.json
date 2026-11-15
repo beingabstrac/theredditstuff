@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/993",
+      "title": "Should people be able to leave a cart behind during checkout?",
+      "buffer_post_id": "6af9bb71e5a113497aef9fae",
+      "posted_at": "2026-11-15T14:02:26.071311+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-small-thing-makes-you-silently-judge-a-person",
       "title": "What small thing makes you silently judge a person?",
       "buffer_post_id": "6af98325918fe79d2ed611e6",
@@ -1193,12 +1199,6 @@
       "title": "Would you correct family when they embarrass you in public?",
       "buffer_post_id": "6ad8d005b7c8e274e0309cb4",
       "posted_at": "2026-10-21T14:45:25.783206+00:00"
-    },
-    {
-      "source_url": "curated://roommates/is-it-rude-for-roommates-to-use-your-food-without-asking",
-      "title": "Is it rude for roommates to use your food without asking?",
-      "buffer_post_id": "6ad87ecad0cc3336f1155ffb",
-      "posted_at": "2026-10-21T08:58:50.972193+00:00"
     }
   ]
 }
