@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/would-you-tell-a-friend-they-are-draining-to-be-around",
+      "title": "Would you tell a friend they are draining to be around?",
+      "buffer_post_id": "6af9d77f16191f4f5d2d9113",
+      "posted_at": "2026-11-15T16:02:07.665160+00:00"
+    },
+    {
       "source_url": "procedural://shopping/993",
       "title": "Should people be able to leave a cart behind during checkout?",
       "buffer_post_id": "6af9bb71e5a113497aef9fae",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to set boundaries during holidays?",
       "buffer_post_id": "6ad8d022ef858ef2b980d206",
       "posted_at": "2026-10-21T14:45:54.845152+00:00"
-    },
-    {
-      "source_url": "curated://family/would-you-correct-family-when-they-embarrass-you-in-public",
-      "title": "Would you correct family when they embarrass you in public?",
-      "buffer_post_id": "6ad8d005b7c8e274e0309cb4",
-      "posted_at": "2026-10-21T14:45:25.783206+00:00"
     }
   ]
 }
