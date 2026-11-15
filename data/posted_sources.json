@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://left-on-read-vs-late",
+      "title": "Is leaving someone on read worse than replying late?",
+      "buffer_post_id": "6afa2bf960a910801c4e565e",
+      "posted_at": "2026-11-15T22:02:33.129692+00:00"
+    },
+    {
       "source_url": "fallback://split-bill-evenly",
       "title": "Would you split the bill evenly if one friend ordered way more?",
       "buffer_post_id": "6afa0ffc4f0276ab945d8ce2",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to split the bill on a first date?",
       "buffer_post_id": "6ad9169a10f3165f4b74553b",
       "posted_at": "2026-10-21T19:46:34.639550+00:00"
-    },
-    {
-      "source_url": "curated://dating/should-you-text-right-after-a-good-date",
-      "title": "Should you text right after a good date?",
-      "buffer_post_id": "6ad916766f7e62fb4f15acf9",
-      "posted_at": "2026-10-21T19:45:58.662217+00:00"
     }
   ]
 }
