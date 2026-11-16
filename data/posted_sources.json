@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://money/1008",
+      "title": "Is it rude to ask the price during a birthday plan?",
+      "buffer_post_id": "6afb61883509d4c5b87eb974",
+      "posted_at": "2026-11-16T20:03:20.908964+00:00"
+    },
+    {
       "source_url": "procedural://friendship/1006",
       "title": "Is it weird to expect friends to remember details if they never ask about you?",
       "buffer_post_id": "6afb29350db12e0a127aa76a",
@@ -1193,12 +1199,6 @@
       "title": "Would you stay friends with someone who never celebrates you?",
       "buffer_post_id": "6ada69cee374ecc98222b52d",
       "posted_at": "2026-10-22T19:53:50.211940+00:00"
-    },
-    {
-      "source_url": "procedural://shopping/873",
-      "title": "Should people be able to block an aisle with friends nearby?",
-      "buffer_post_id": "6ada2192e8cca8cdcc58aa5b",
-      "posted_at": "2026-10-22T14:45:38.304824+00:00"
     }
   ]
 }
