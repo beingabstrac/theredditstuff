@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/1005",
+      "title": "Should people be able to take a call in line during checkout?",
+      "buffer_post_id": "6afb0ef825e0ca60eeff039b",
+      "posted_at": "2026-11-16T14:11:05.031534+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-is-a-red-flag-at-dinner-with-someone",
       "title": "What is a red flag at dinner with someone?",
       "buffer_post_id": "6afad4c206e1675856e2724f",
@@ -1193,12 +1199,6 @@
       "title": "Is blocking an aisle with a cart a major offense?",
       "buffer_post_id": "6ada217ae8cca8cdcc58a4fc",
       "posted_at": "2026-10-22T14:45:14.672891+00:00"
-    },
-    {
-      "source_url": "procedural://would_you_rather/872",
-      "title": "Would you rather always be early or exactly on time with no explanation?",
-      "buffer_post_id": "6ad9d19a09335c6cc6f704f7",
-      "posted_at": "2026-10-22T09:04:26.794356+00:00"
     }
   ]
 }
