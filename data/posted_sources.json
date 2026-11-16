@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://phone-on-table-dinner",
+      "title": "Is it rude to put your phone on the table during dinner?",
+      "buffer_post_id": "6afb7d57a72a48ff3c6ac7c7",
+      "posted_at": "2026-11-16T22:01:59.427854+00:00"
+    },
+    {
       "source_url": "procedural://money/1008",
       "title": "Is it rude to ask the price during a birthday plan?",
       "buffer_post_id": "6afb61883509d4c5b87eb974",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to ask before venting without starting drama?",
       "buffer_post_id": "6ada69e8e391db54dafbe473",
       "posted_at": "2026-10-22T19:54:16.470935+00:00"
-    },
-    {
-      "source_url": "curated://friendship/would-you-stay-friends-with-someone-who-never-celebrates-you",
-      "title": "Would you stay friends with someone who never celebrates you?",
-      "buffer_post_id": "6ada69cee374ecc98222b52d",
-      "posted_at": "2026-10-22T19:53:50.211940+00:00"
     }
   ]
 }
