@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://complain-loud-neighbors",
+      "title": "Is it petty to complain about loud neighbors?",
+      "buffer_post_id": "6afabaa260a910801c7bb1c8",
+      "posted_at": "2026-11-16T08:11:14.526911+00:00"
+    },
+    {
       "source_url": "curated://family/would-you-correct-family-when-they-embarrass-you-in-public",
       "title": "Would you correct family when they embarrass you in public?",
       "buffer_post_id": "6afa8078ff465c57dacfac43",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather always know when someone is lying or always sound believable?",
       "buffer_post_id": "6ad9d18131bddaf9c5d03557",
       "posted_at": "2026-10-22T09:04:01.563824+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-red-flag-at-dinner-with-someone",
-      "title": "What is a red flag at dinner with someone?",
-      "buffer_post_id": "6ad972887dadc432f7365553",
-      "posted_at": "2026-10-22T02:18:48.684597+00:00"
     }
   ]
 }
