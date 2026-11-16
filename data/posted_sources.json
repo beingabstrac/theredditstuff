@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/would-you-confront-a-roommate-about-smell",
+      "title": "Would you confront a roommate about smell?",
+      "buffer_post_id": "6afa648206e1675856bd6766",
+      "posted_at": "2026-11-16T02:03:46.550396+00:00"
+    },
+    {
       "source_url": "fallback://left-on-read-vs-late",
       "title": "Is leaving someone on read worse than replying late?",
       "buffer_post_id": "6afa2bf960a910801c4e565e",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to invite yourself to plans you heard about?",
       "buffer_post_id": "6ad94257d0598dd30cf9ad9b",
       "posted_at": "2026-10-21T22:53:11.574610+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-rude-to-split-the-bill-on-a-first-date",
-      "title": "Is it rude to split the bill on a first date?",
-      "buffer_post_id": "6ad9169a10f3165f4b74553b",
-      "posted_at": "2026-10-21T19:46:34.639550+00:00"
     }
   ]
 }
