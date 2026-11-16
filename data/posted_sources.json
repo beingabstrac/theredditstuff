@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/1006",
+      "title": "Is it weird to expect friends to remember details if they never ask about you?",
+      "buffer_post_id": "6afb29350db12e0a127aa76a",
+      "posted_at": "2026-11-16T16:03:02.058107+00:00"
+    },
+    {
       "source_url": "procedural://shopping/1005",
       "title": "Should people be able to take a call in line during checkout?",
       "buffer_post_id": "6afb0ef825e0ca60eeff039b",
@@ -1193,12 +1199,6 @@
       "title": "Should people be able to block an aisle with friends nearby?",
       "buffer_post_id": "6ada2192e8cca8cdcc58aa5b",
       "posted_at": "2026-10-22T14:45:38.304824+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-blocking-an-aisle-with-a-cart-a-major-offense",
-      "title": "Is blocking an aisle with a cart a major offense?",
-      "buffer_post_id": "6ada217ae8cca8cdcc58a4fc",
-      "posted_at": "2026-10-22T14:45:14.672891+00:00"
     }
   ]
 }
