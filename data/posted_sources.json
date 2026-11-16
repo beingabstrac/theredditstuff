@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/would-you-correct-family-when-they-embarrass-you-in-public",
+      "title": "Would you correct family when they embarrass you in public?",
+      "buffer_post_id": "6afa8078ff465c57dacfac43",
+      "posted_at": "2026-11-16T04:03:04.744263+00:00"
+    },
+    {
       "source_url": "curated://roommates/would-you-confront-a-roommate-about-smell",
       "title": "Would you confront a roommate about smell?",
       "buffer_post_id": "6afa648206e1675856bd6766",
@@ -1193,12 +1199,6 @@
       "title": "What is a red flag at dinner with someone?",
       "buffer_post_id": "6ad972887dadc432f7365553",
       "posted_at": "2026-10-22T02:18:48.684597+00:00"
-    },
-    {
-      "source_url": "fallback://invite-yourself-plans",
-      "title": "Is it weird to invite yourself to plans you heard about?",
-      "buffer_post_id": "6ad94257d0598dd30cf9ad9b",
-      "posted_at": "2026-10-21T22:53:11.574610+00:00"
     }
   ]
 }
