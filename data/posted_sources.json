@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://red_flags/what-is-a-red-flag-at-dinner-with-someone",
+      "title": "What is a red flag at dinner with someone?",
+      "buffer_post_id": "6afad4c206e1675856e2724f",
+      "posted_at": "2026-11-16T10:02:42.800469+00:00"
+    },
+    {
       "source_url": "fallback://complain-loud-neighbors",
       "title": "Is it petty to complain about loud neighbors?",
       "buffer_post_id": "6afabaa260a910801c7bb1c8",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather always be early or exactly on time with no explanation?",
       "buffer_post_id": "6ad9d19a09335c6cc6f704f7",
       "posted_at": "2026-10-22T09:04:26.794356+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-always-know-when-someone-is-lying-or-always-sound-believable",
-      "title": "Would you rather always know when someone is lying or always sound believable?",
-      "buffer_post_id": "6ad9d18131bddaf9c5d03557",
-      "posted_at": "2026-10-22T09:04:01.563824+00:00"
     }
   ]
 }
