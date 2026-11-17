@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-it-rude-for-roommates-to-use-your-food-without-asking",
+      "title": "Is it rude for roommates to use your food without asking?",
+      "buffer_post_id": "6afbb61af83aaca8f3a13e5a",
+      "posted_at": "2026-11-17T02:04:10.622572+00:00"
+    },
+    {
       "source_url": "fallback://phone-on-table-dinner",
       "title": "Is it rude to put your phone on the table during dinner?",
       "buffer_post_id": "6afb7d57a72a48ff3c6ac7c7",
@@ -1193,12 +1199,6 @@
       "title": "Should the person who chose the restaurant handle the booking?",
       "buffer_post_id": "6ada93531dc335d347e212ac",
       "posted_at": "2026-10-22T22:50:59.478118+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/874",
-      "title": "Is it weird to ask before venting without starting drama?",
-      "buffer_post_id": "6ada69e8e391db54dafbe473",
-      "posted_at": "2026-10-22T19:54:16.470935+00:00"
     }
   ]
 }
