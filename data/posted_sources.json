@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://invite-yourself-plans",
+      "title": "Is it weird to invite yourself to plans you heard about?",
+      "buffer_post_id": "6afc0a31fc96379b07d98f9d",
+      "posted_at": "2026-11-17T08:02:57.393253+00:00"
+    },
+    {
       "source_url": "procedural://family/1012",
       "title": "Is it weird to set boundaries without feeling guilty?",
       "buffer_post_id": "6afbd1e2f83aaca8f3a97910",
@@ -1193,12 +1199,6 @@
       "title": "Is sending voice notes instead of texting annoying?",
       "buffer_post_id": "6adb20ecb548d29b7402d7f3",
       "posted_at": "2026-10-23T08:55:08.575069+00:00"
-    },
-    {
-      "source_url": "fallback://everyday-expensive",
-      "title": "What everyday thing became expensive for no good reason?",
-      "buffer_post_id": "6adac548cc1b7cdc08c79dba",
-      "posted_at": "2026-10-23T02:24:08.827132+00:00"
     }
   ]
 }
