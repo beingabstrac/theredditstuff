@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-sending-voice-notes-instead-of-texting-annoying",
+      "title": "Is sending voice notes instead of texting annoying?",
+      "buffer_post_id": "6afccefc8e2194ed03284b26",
+      "posted_at": "2026-11-17T22:02:36.943837+00:00"
+    },
+    {
       "source_url": "fallback://everyday-expensive",
       "title": "What everyday thing became expensive for no good reason?",
       "buffer_post_id": "6afcb2e757c8fecbcd192a38",
@@ -1193,12 +1199,6 @@
       "title": "What house guest behavior is an instant red flag?",
       "buffer_post_id": "6adbb7ad9acae620d815d5bd",
       "posted_at": "2026-10-23T19:38:21.516060+00:00"
-    },
-    {
-      "source_url": "curated://roommates/is-it-fair-to-split-utilities-evenly-if-one-person-is-always-home",
-      "title": "Is it fair to split utilities evenly if one person is always home?",
-      "buffer_post_id": "6adbb78be4be8a4d86223af4",
-      "posted_at": "2026-10-23T19:37:47.807632+00:00"
     }
   ]
 }
