@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://everyday-expensive",
+      "title": "What everyday thing became expensive for no good reason?",
+      "buffer_post_id": "6afcb2e757c8fecbcd192a38",
+      "posted_at": "2026-11-17T20:02:47.546229+00:00"
+    },
+    {
       "source_url": "curated://friendship/would-you-stay-friends-with-someone-who-never-celebrates-you",
       "title": "Would you stay friends with someone who never celebrates you?",
       "buffer_post_id": "6afc7a9e0ec7d2b0822d109d",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to split utilities evenly if one person is always home?",
       "buffer_post_id": "6adbb78be4be8a4d86223af4",
       "posted_at": "2026-10-23T19:37:47.807632+00:00"
-    },
-    {
-      "source_url": "procedural://work/879",
-      "title": "Should people be able to say no to last minute tasks while on vacation?",
-      "buffer_post_id": "6adb6ff57af932dee4e594f6",
-      "posted_at": "2026-10-23T14:32:21.315558+00:00"
     }
   ]
 }
