@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/is-blocking-an-aisle-with-a-cart-a-major-offense",
+      "title": "Is blocking an aisle with a cart a major offense?",
+      "buffer_post_id": "6afc5e835d2c5e5b756e295e",
+      "posted_at": "2026-11-17T14:02:43.638970+00:00"
+    },
+    {
       "source_url": "fallback://harmless-habit-judge",
       "title": "What harmless habit makes you instantly judge someone?",
       "buffer_post_id": "6afc26381d0f4cca06143366",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for choosing to say no to last minute tasks while on vacation?",
       "buffer_post_id": "6adb6fdc10223fea566b0ee4",
       "posted_at": "2026-10-23T14:31:56.575827+00:00"
-    },
-    {
-      "source_url": "curated://texting/does-dry-texting-always-mean-someone-is-not-interested",
-      "title": "Does dry texting always mean someone is not interested?",
-      "buffer_post_id": "6adb2106b548d29b7402dc91",
-      "posted_at": "2026-10-23T08:55:34.334278+00:00"
     }
   ]
 }
