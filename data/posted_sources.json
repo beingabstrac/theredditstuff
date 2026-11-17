@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/1012",
+      "title": "Is it weird to set boundaries without feeling guilty?",
+      "buffer_post_id": "6afbd1e2f83aaca8f3a97910",
+      "posted_at": "2026-11-17T04:02:42.755785+00:00"
+    },
+    {
       "source_url": "curated://roommates/is-it-rude-for-roommates-to-use-your-food-without-asking",
       "title": "Is it rude for roommates to use your food without asking?",
       "buffer_post_id": "6afbb61af83aaca8f3a13e5a",
@@ -1193,12 +1199,6 @@
       "title": "What everyday thing became expensive for no good reason?",
       "buffer_post_id": "6adac548cc1b7cdc08c79dba",
       "posted_at": "2026-10-23T02:24:08.827132+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/should-the-person-who-chose-the-restaurant-handle-the-booking",
-      "title": "Should the person who chose the restaurant handle the booking?",
-      "buffer_post_id": "6ada93531dc335d347e212ac",
-      "posted_at": "2026-10-22T22:50:59.478118+00:00"
     }
   ]
 }
