@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://red_flags/1027",
+      "title": "Is it normal to pull back after one weird moment when everyone else ignores it?",
+      "buffer_post_id": "6afd77bca0f5d4cfabcf5342",
+      "posted_at": "2026-11-18T10:02:37.034478+00:00"
+    },
+    {
       "source_url": "fallback://cancel-plans-tired",
       "title": "Is cancelling plans because you are tired a valid reason?",
       "buffer_post_id": "6afd5baa0f01b387a168c335",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to play videos out loud in public?",
       "buffer_post_id": "6adc6c573d5b27036b744ff4",
       "posted_at": "2026-10-24T08:29:11.316876+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/should-people-ask-before-taking-photos-of-friends",
-      "title": "Should people ask before taking photos of friends?",
-      "buffer_post_id": "6adc6c3f3d5b27036b744c44",
-      "posted_at": "2026-10-24T08:28:47.938194+00:00"
     }
   ]
 }
