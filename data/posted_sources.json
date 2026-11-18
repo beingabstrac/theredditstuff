@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/1024",
+      "title": "Is it weird to not answer calls immediately without feeling guilty?",
+      "buffer_post_id": "6afd236c9f3765f6ab2dbe06",
+      "posted_at": "2026-11-18T04:02:52.904688+00:00"
+    },
+    {
       "source_url": "curated://roommates/is-it-fair-to-split-utilities-evenly-if-one-person-is-always-home",
       "title": "Is it fair to split utilities evenly if one person is always home?",
       "buffer_post_id": "6afd0791bb12698d158d9e97",
@@ -1193,12 +1199,6 @@
       "title": "What texting habit is a dating red flag?",
       "buffer_post_id": "6adc164ce4be8a4d863813e8",
       "posted_at": "2026-10-24T02:22:04.526305+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-wrong-to-not-lend-family-your-car",
-      "title": "Is it wrong to not lend family your car?",
-      "buffer_post_id": "6adbe3628b3d437ddc8c1190",
-      "posted_at": "2026-10-23T22:44:50.157439+00:00"
     }
   ]
 }
