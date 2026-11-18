@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/1030",
+      "title": "Is it weird to keep score of favors after they cancel often?",
+      "buffer_post_id": "6afdcc1fff73344f88f920bb",
+      "posted_at": "2026-11-18T16:02:39.392903+00:00"
+    },
+    {
       "source_url": "procedural://shopping/1029",
       "title": "Should people be able to argue over a return without noticing others?",
       "buffer_post_id": "6afdb3bc6c30c3c86289f2dc",
@@ -1193,12 +1199,6 @@
       "title": "What everyday behavior feels selfish immediately?",
       "buffer_post_id": "6adcb5f90b5343d07086addc",
       "posted_at": "2026-10-24T13:43:21.944767+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-green-flag-people-do-not-talk-about-enough",
-      "title": "What is a green flag people do not talk about enough?",
-      "buffer_post_id": "6adcb5e80b5343d07086a958",
-      "posted_at": "2026-10-24T13:43:05.093461+00:00"
     }
   ]
 }
