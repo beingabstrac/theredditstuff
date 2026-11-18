@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-it-fair-to-split-utilities-evenly-if-one-person-is-always-home",
+      "title": "Is it fair to split utilities evenly if one person is always home?",
+      "buffer_post_id": "6afd0791bb12698d158d9e97",
+      "posted_at": "2026-11-18T02:04:02.248781+00:00"
+    },
+    {
       "source_url": "curated://texting/is-sending-voice-notes-instead-of-texting-annoying",
       "title": "Is sending voice notes instead of texting annoying?",
       "buffer_post_id": "6afccefc8e2194ed03284b26",
@@ -1193,12 +1199,6 @@
       "title": "Is it wrong to not lend family your car?",
       "buffer_post_id": "6adbe3628b3d437ddc8c1190",
       "posted_at": "2026-10-23T22:44:50.157439+00:00"
-    },
-    {
-      "source_url": "fallback://house-guest-red-flag",
-      "title": "What house guest behavior is an instant red flag?",
-      "buffer_post_id": "6adbb7ad9acae620d815d5bd",
-      "posted_at": "2026-10-23T19:38:21.516060+00:00"
     }
   ]
 }
