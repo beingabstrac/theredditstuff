@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://money/1032",
+      "title": "Is it rude to refuse to lend money during a birthday plan?",
+      "buffer_post_id": "6afe047261c30f01f6cda913",
+      "posted_at": "2026-11-18T20:02:58.469885+00:00"
+    },
+    {
       "source_url": "procedural://friendship/1030",
       "title": "Is it weird to keep score of favors after they cancel often?",
       "buffer_post_id": "6afdcc1fff73344f88f920bb",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather get honest advice or comforting support?",
       "buffer_post_id": "6adce53b6887a2efc1c978fa",
       "posted_at": "2026-10-24T17:05:00.083312+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-everyday-behavior-feels-selfish-immediately",
-      "title": "What everyday behavior feels selfish immediately?",
-      "buffer_post_id": "6adcb5f90b5343d07086addc",
-      "posted_at": "2026-10-24T13:43:21.944767+00:00"
     }
   ]
 }
