@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/1029",
+      "title": "Should people be able to argue over a return without noticing others?",
+      "buffer_post_id": "6afdb3bc6c30c3c86289f2dc",
+      "posted_at": "2026-11-18T14:18:36.388025+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/1027",
       "title": "Is it normal to pull back after one weird moment when everyone else ignores it?",
       "buffer_post_id": "6afd77bca0f5d4cfabcf5342",
@@ -1193,12 +1199,6 @@
       "title": "What is a green flag people do not talk about enough?",
       "buffer_post_id": "6adcb5e80b5343d07086a958",
       "posted_at": "2026-10-24T13:43:05.093461+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-play-videos-out-loud-in-public",
-      "title": "Is it rude to play videos out loud in public?",
-      "buffer_post_id": "6adc6c573d5b27036b744ff4",
-      "posted_at": "2026-10-24T08:29:11.316876+00:00"
     }
   ]
 }
