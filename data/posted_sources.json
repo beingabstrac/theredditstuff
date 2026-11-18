@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://cancel-plans-tired",
+      "title": "Is cancelling plans because you are tired a valid reason?",
+      "buffer_post_id": "6afd5baa0f01b387a168c335",
+      "posted_at": "2026-11-18T08:02:50.174753+00:00"
+    },
+    {
       "source_url": "procedural://family/1024",
       "title": "Is it weird to not answer calls immediately without feeling guilty?",
       "buffer_post_id": "6afd236c9f3765f6ab2dbe06",
@@ -1193,12 +1199,6 @@
       "title": "Should people ask before taking photos of friends?",
       "buffer_post_id": "6adc6c3f3d5b27036b744c44",
       "posted_at": "2026-10-24T08:28:47.938194+00:00"
-    },
-    {
-      "source_url": "fallback://dating-texting-red-flag",
-      "title": "What texting habit is a dating red flag?",
-      "buffer_post_id": "6adc164ce4be8a4d863813e8",
-      "posted_at": "2026-10-24T02:22:04.526305+00:00"
     }
   ]
 }
