@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/does-dry-texting-always-mean-someone-is-not-interested",
+      "title": "Does dry texting always mean someone is not interested?",
+      "buffer_post_id": "6afe2062e323f2e92a7eb93f",
+      "posted_at": "2026-11-18T22:02:10.294281+00:00"
+    },
+    {
       "source_url": "procedural://money/1032",
       "title": "Is it rude to refuse to lend money during a birthday plan?",
       "buffer_post_id": "6afe047261c30f01f6cda913",
@@ -1193,12 +1199,6 @@
       "title": "Should delivery fees make you stop ordering food?",
       "buffer_post_id": "6add0d95e4be8a4d867633e8",
       "posted_at": "2026-10-24T19:57:09.744773+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-get-honest-advice-or-comforting-support",
-      "title": "Would you rather get honest advice or comforting support?",
-      "buffer_post_id": "6adce53b6887a2efc1c978fa",
-      "posted_at": "2026-10-24T17:05:00.083312+00:00"
     }
   ]
 }
