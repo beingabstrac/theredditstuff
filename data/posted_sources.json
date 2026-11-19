@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/should-delivery-fees-make-you-stop-ordering-food",
+      "title": "Should delivery fees make you stop ordering food?",
+      "buffer_post_id": "6aff0172fd08883b646dcbe0",
+      "posted_at": "2026-11-19T14:02:26.346108+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-is-a-green-flag-people-do-not-talk-about-enough",
       "title": "What is a green flag people do not talk about enough?",
       "buffer_post_id": "6afec93a8b1643f1258173d5",
@@ -1193,12 +1199,6 @@
       "title": "Should people explain why they reply late?",
       "buffer_post_id": "6ade0b863d5b27036bd618eb",
       "posted_at": "2026-10-25T14:00:38.825131+00:00"
-    },
-    {
-      "source_url": "fallback://check-split-bill",
-      "title": "Is it rude to check the bill when someone else said they split it already?",
-      "buffer_post_id": "6addc276e4be8a4d869b26dc",
-      "posted_at": "2026-10-25T08:48:54.633926+00:00"
     }
   ]
 }
