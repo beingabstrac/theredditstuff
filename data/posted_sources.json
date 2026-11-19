@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/is-it-normal-for-friendships-to-fade-without-a-fight",
+      "title": "Is it normal for friendships to fade without a fight?",
+      "buffer_post_id": "6aff1d9ff996b44ffbc5148e",
+      "posted_at": "2026-11-19T16:02:39.252841+00:00"
+    },
+    {
       "source_url": "curated://shopping/should-delivery-fees-make-you-stop-ordering-food",
       "title": "Should delivery fees make you stop ordering food?",
       "buffer_post_id": "6aff0172fd08883b646dcbe0",
@@ -1193,12 +1199,6 @@
       "title": "Should plans be confirmed again the day of?",
       "buffer_post_id": "6ade0b963d5b27036bd6214f",
       "posted_at": "2026-10-25T14:00:54.948995+00:00"
-    },
-    {
-      "source_url": "curated://texting/should-people-explain-why-they-reply-late",
-      "title": "Should people explain why they reply late?",
-      "buffer_post_id": "6ade0b863d5b27036bd618eb",
-      "posted_at": "2026-10-25T14:00:38.825131+00:00"
     }
   ]
 }
