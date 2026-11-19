@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/is-it-wrong-to-not-lend-family-your-car",
+      "title": "Is it wrong to not lend family your car?",
+      "buffer_post_id": "6afe74e6749099bdc70b4137",
+      "posted_at": "2026-11-19T04:02:46.804144+00:00"
+    },
+    {
       "source_url": "fallback://house-guest-red-flag",
       "title": "What house guest behavior is an instant red flag?",
       "buffer_post_id": "6afe58f0749099bdc7016156",
@@ -1193,12 +1199,6 @@
       "title": "Would you go back to a place your friend hated?",
       "buffer_post_id": "6add64a80b5343d070af8bab",
       "posted_at": "2026-10-25T02:08:40.220307+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-normal-for-friendships-to-fade-without-a-fight",
-      "title": "Is it normal for friendships to fade without a fight?",
-      "buffer_post_id": "6add2c95bd33ce99c343cccb",
-      "posted_at": "2026-10-24T22:09:25.330098+00:00"
     }
   ]
 }
