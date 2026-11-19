@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/should-people-ask-before-taking-photos-of-friends",
+      "title": "Should people ask before taking photos of friends?",
+      "buffer_post_id": "6afeaf95aeba4abfb1f82ecc",
+      "posted_at": "2026-11-19T08:13:09.422792+00:00"
+    },
+    {
       "source_url": "curated://family/is-it-wrong-to-not-lend-family-your-car",
       "title": "Is it wrong to not lend family your car?",
       "buffer_post_id": "6afe74e6749099bdc70b4137",
@@ -1193,12 +1199,6 @@
       "title": "Would you remind someone about five dollars they owe you?",
       "buffer_post_id": "6addc25e0b5343d070c20838",
       "posted_at": "2026-10-25T08:48:30.490334+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/would-you-go-back-to-a-place-your-friend-hated",
-      "title": "Would you go back to a place your friend hated?",
-      "buffer_post_id": "6add64a80b5343d070af8bab",
-      "posted_at": "2026-10-25T02:08:40.220307+00:00"
     }
   ]
 }
