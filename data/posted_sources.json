@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/should-people-explain-why-they-reply-late",
+      "title": "Should people explain why they reply late?",
+      "buffer_post_id": "6aff71ed0c7aa10395617404",
+      "posted_at": "2026-11-19T22:02:21.881725+00:00"
+    },
+    {
       "source_url": "fallback://check-split-bill",
       "title": "Is it rude to check the bill when someone else said they split it already?",
       "buffer_post_id": "6aff55e850f2c65930156e2c",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to leave laundry in the machine for hours?",
       "buffer_post_id": "6ade61740b5343d070ed1b0c",
       "posted_at": "2026-10-25T20:07:16.946125+00:00"
-    },
-    {
-      "source_url": "curated://work/should-people-be-praised-for-working-late",
-      "title": "Should people be praised for working late?",
-      "buffer_post_id": "6ade3c4b3d5b27036be4118c",
-      "posted_at": "2026-10-25T17:28:43.126013+00:00"
     }
   ]
 }
