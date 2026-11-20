@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/would-you-remind-someone-about-five-dollars-they-owe-you",
+      "title": "Would you remind someone about five dollars they owe you?",
+      "buffer_post_id": "6b00a745e3772ee0cf629df0",
+      "posted_at": "2026-11-20T20:02:13.826829+00:00"
+    },
+    {
       "source_url": "procedural://friendship/1054",
       "title": "Is it weird to expect friends to remember details after they cancel often?",
       "buffer_post_id": "6b006f4ec9797a17652ad98d",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to notice constant interrupting in a friendship?",
       "buffer_post_id": "6adf7e4b2bcc043904f993a3",
       "posted_at": "2026-10-26T16:22:35.521403+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-is-a-small-sign-someone-lacks-self-awareness",
-      "title": "What is a small sign someone lacks self awareness?",
-      "buffer_post_id": "6adf7e31fbcc83d9686d490e",
-      "posted_at": "2026-10-26T16:22:09.405483+00:00"
     }
   ]
 }
