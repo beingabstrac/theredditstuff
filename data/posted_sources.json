@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/1048",
+      "title": "Is it weird to stop explaining every plan without feeling guilty?",
+      "buffer_post_id": "6affc6540f5eda1a57bdb096",
+      "posted_at": "2026-11-20T04:02:28.546084+00:00"
+    },
+    {
       "source_url": "procedural://roommates/1047",
       "title": "Should people be able to split chores exactly without sounding controlling?",
       "buffer_post_id": "6affaa690f5eda1a57b2c704",
@@ -1193,12 +1199,6 @@
       "title": "Would you tell someone their dating standards are unrealistic?",
       "buffer_post_id": "6adeb671bd33ce99c3a23f2f",
       "posted_at": "2026-10-26T02:09:53.940438+00:00"
-    },
-    {
-      "source_url": "curated://family/should-adults-have-to-explain-every-plan-to-their-parents",
-      "title": "Should adults have to explain every plan to their parents?",
-      "buffer_post_id": "6ade937ebd33ce99c3996880",
-      "posted_at": "2026-10-25T23:40:54.499702+00:00"
     }
   ]
 }
