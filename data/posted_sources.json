@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://roommates/1047",
+      "title": "Should people be able to split chores exactly without sounding controlling?",
+      "buffer_post_id": "6affaa690f5eda1a57b2c704",
+      "posted_at": "2026-11-20T02:03:21.522003+00:00"
+    },
+    {
       "source_url": "curated://texting/should-people-explain-why-they-reply-late",
       "title": "Should people explain why they reply late?",
       "buffer_post_id": "6aff71ed0c7aa10395617404",
@@ -1193,12 +1199,6 @@
       "title": "Should adults have to explain every plan to their parents?",
       "buffer_post_id": "6ade937ebd33ce99c3996880",
       "posted_at": "2026-10-25T23:40:54.499702+00:00"
-    },
-    {
-      "source_url": "curated://roommates/is-it-rude-to-leave-laundry-in-the-machine-for-hours",
-      "title": "Is it rude to leave laundry in the machine for hours?",
-      "buffer_post_id": "6ade61740b5343d070ed1b0c",
-      "posted_at": "2026-10-25T20:07:16.946125+00:00"
     }
   ]
 }
