@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/should-plans-be-confirmed-again-the-day-of",
+      "title": "Should plans be confirmed again the day of?",
+      "buffer_post_id": "6b00c361d9cbb430a1fce803",
+      "posted_at": "2026-11-20T22:02:09.651947+00:00"
+    },
+    {
       "source_url": "curated://money/would-you-remind-someone-about-five-dollars-they-owe-you",
       "title": "Would you remind someone about five dollars they owe you?",
       "buffer_post_id": "6b00a745e3772ee0cf629df0",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather have unlimited free coffee or unlimited free rides?",
       "buffer_post_id": "6adfd1dac26d8b40cc7a4e63",
       "posted_at": "2026-10-26T22:19:06.373773+00:00"
-    },
-    {
-      "source_url": "procedural://red_flags/895",
-      "title": "Is it normal to notice constant interrupting in a friendship?",
-      "buffer_post_id": "6adf7e4b2bcc043904f993a3",
-      "posted_at": "2026-10-26T16:22:35.521403+00:00"
     }
   ]
 }
