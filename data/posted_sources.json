@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/1053",
+      "title": "Should people be able to take a call in line without noticing others?",
+      "buffer_post_id": "6b0052e67efc64d5e4249f2c",
+      "posted_at": "2026-11-20T14:02:14.282610+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-everyday-behavior-feels-selfish-immediately",
       "title": "What everyday behavior feels selfish immediately?",
       "buffer_post_id": "6b001a9e29e3b73db7386e2c",
@@ -1193,12 +1199,6 @@
       "title": "What normal habit becomes annoying very fast?",
       "buffer_post_id": "6adf7e1f79dbb5e6f42483a3",
       "posted_at": "2026-10-26T16:21:51.246246+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/should-guests-help-clean-up-without-being-asked",
-      "title": "Should guests help clean up without being asked?",
-      "buffer_post_id": "6adf1d31865e1471ed598244",
-      "posted_at": "2026-10-26T09:28:17.256851+00:00"
     }
   ]
 }
