@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/1054",
+      "title": "Is it weird to expect friends to remember details after they cancel often?",
+      "buffer_post_id": "6b006f4ec9797a17652ad98d",
+      "posted_at": "2026-11-20T16:03:26.568030+00:00"
+    },
+    {
       "source_url": "procedural://shopping/1053",
       "title": "Should people be able to take a call in line without noticing others?",
       "buffer_post_id": "6b0052e67efc64d5e4249f2c",
@@ -1193,12 +1199,6 @@
       "title": "What is a small sign someone lacks self awareness?",
       "buffer_post_id": "6adf7e31fbcc83d9686d490e",
       "posted_at": "2026-10-26T16:22:09.405483+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-normal-habit-becomes-annoying-very-fast",
-      "title": "What normal habit becomes annoying very fast?",
-      "buffer_post_id": "6adf7e1f79dbb5e6f42483a3",
-      "posted_at": "2026-10-26T16:21:51.246246+00:00"
     }
   ]
 }
