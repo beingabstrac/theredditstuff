@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://money/1068",
+      "title": "Is it rude to remind someone they owe money after it happened twice?",
+      "buffer_post_id": "6b01f8c08bd84d5966159899",
+      "posted_at": "2026-11-21T20:02:08.964511+00:00"
+    },
+    {
       "source_url": "curated://friendship/would-you-confront-a-friend-who-only-talks-about-themselves",
       "title": "Would you confront a friend who only talks about themselves?",
       "buffer_post_id": "6b01c099d864a011055947aa",
@@ -1193,12 +1199,6 @@
       "title": "Would you say something if someone wanted to order the cheapest thing when the table is full?",
       "buffer_post_id": "6ae0c52562bedda2a12c0714",
       "posted_at": "2026-10-27T15:37:09.912454+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/would-you-judge-someone-for-being-picky-at-restaurants",
-      "title": "Would you judge someone for being picky at restaurants?",
-      "buffer_post_id": "6ae0c50c9831dde0a0e2665d",
-      "posted_at": "2026-10-27T15:36:44.731220+00:00"
     }
   ]
 }
