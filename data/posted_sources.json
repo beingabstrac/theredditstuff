@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/should-adults-have-to-explain-every-plan-to-their-parents",
+      "title": "Should adults have to explain every plan to their parents?",
+      "buffer_post_id": "6b0117c720a2d09a0ad03bd1",
+      "posted_at": "2026-11-21T04:02:15.938715+00:00"
+    },
+    {
       "source_url": "curated://roommates/is-it-rude-to-leave-laundry-in-the-machine-for-hours",
       "title": "Is it rude to leave laundry in the machine for hours?",
       "buffer_post_id": "6b00fbe69ffbc8503cef0162",
@@ -1193,12 +1199,6 @@
       "title": "Should people return carts every single time?",
       "buffer_post_id": "6ae01083457d00458c1323ab",
       "posted_at": "2026-10-27T02:46:27.145298+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-always-get-the-last-word-or-never-need-it",
-      "title": "Would you rather always get the last word or never need it?",
-      "buffer_post_id": "6adfd1f54e0451e1b8212914",
-      "posted_at": "2026-10-26T22:19:33.440345+00:00"
     }
   ]
 }
