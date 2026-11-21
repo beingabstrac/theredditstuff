@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/should-guests-help-clean-up-without-being-asked",
+      "title": "Should guests help clean up without being asked?",
+      "buffer_post_id": "6b01502420a2d09a0ae2d74a",
+      "posted_at": "2026-11-21T08:02:44.214454+00:00"
+    },
+    {
       "source_url": "curated://family/should-adults-have-to-explain-every-plan-to-their-parents",
       "title": "Should adults have to explain every plan to their parents?",
       "buffer_post_id": "6b0117c720a2d09a0ad03bd1",
@@ -1193,12 +1199,6 @@
       "title": "Would you confront a friend who only talks about themselves?",
       "buffer_post_id": "6ae06e0b2464aa57c857941d",
       "posted_at": "2026-10-27T09:25:31.441909+00:00"
-    },
-    {
-      "source_url": "curated://shopping/should-people-return-carts-every-single-time",
-      "title": "Should people return carts every single time?",
-      "buffer_post_id": "6ae01083457d00458c1323ab",
-      "posted_at": "2026-10-27T02:46:27.145298+00:00"
     }
   ]
 }
