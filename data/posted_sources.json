@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/would-you-confront-a-friend-who-only-talks-about-themselves",
+      "title": "Would you confront a friend who only talks about themselves?",
+      "buffer_post_id": "6b01c099d864a011055947aa",
+      "posted_at": "2026-11-21T16:02:33.219038+00:00"
+    },
+    {
       "source_url": "curated://shopping/should-people-return-carts-every-single-time",
       "title": "Should people return carts every single time?",
       "buffer_post_id": "6b01a46d0247969092d884c9",
@@ -1193,12 +1199,6 @@
       "title": "Would you judge someone for being picky at restaurants?",
       "buffer_post_id": "6ae0c50c9831dde0a0e2665d",
       "posted_at": "2026-10-27T15:36:44.731220+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-rude-to-take-a-call-during-dinner",
-      "title": "Is it rude to take a call during dinner?",
-      "buffer_post_id": "6ae0c4f624d07dab298d111f",
-      "posted_at": "2026-10-27T15:36:22.293141+00:00"
     }
   ]
 }
