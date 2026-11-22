@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-double-texting-desperate-or-normal",
+      "title": "Is double texting desperate or normal?",
+      "buffer_post_id": "6b036652c72676f5e9636154",
+      "posted_at": "2026-11-22T22:01:54.886302+00:00"
+    },
+    {
       "source_url": "fallback://lend-money-friend-owes",
       "title": "Would you lend money to a friend who still owes other people?",
       "buffer_post_id": "6b034a53d864a01105efff63",
@@ -1193,12 +1199,6 @@
       "title": "Would you tell family to stop commenting on your life?",
       "buffer_post_id": "6ae25db33e779512a88646b2",
       "posted_at": "2026-10-28T20:40:19.378103+00:00"
-    },
-    {
-      "source_url": "curated://family/is-it-rude-to-not-answer-family-calls-immediately",
-      "title": "Is it rude to not answer family calls immediately?",
-      "buffer_post_id": "6ae25da73e779512a88643e6",
-      "posted_at": "2026-10-28T20:40:07.313383+00:00"
     }
   ]
 }
