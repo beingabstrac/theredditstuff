@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/1077",
+      "title": "Should people be able to argue over a return when the line is long?",
+      "buffer_post_id": "6b02f5f0d5eabfb8ccb1e810",
+      "posted_at": "2026-11-22T14:02:24.338311+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-is-a-small-sign-someone-lacks-self-awareness",
       "title": "What is a small sign someone lacks self awareness?",
       "buffer_post_id": "6b02bda7cc364169c143d99d",
@@ -1193,12 +1199,6 @@
       "title": "Should roommates warn before bringing guests over?",
       "buffer_post_id": "6ae2093500f35d308c80ae1d",
       "posted_at": "2026-10-28T14:39:49.522656+00:00"
-    },
-    {
-      "source_url": "curated://work/what-office-habit-makes-a-normal-day-worse",
-      "title": "What office habit makes a normal day worse?",
-      "buffer_post_id": "6ae1a738e673d1e58953ad04",
-      "posted_at": "2026-10-28T07:41:44.769585+00:00"
     }
   ]
 }
