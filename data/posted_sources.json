@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://roommates/1071",
+      "title": "Should people be able to complain about dishes when guests stay late?",
+      "buffer_post_id": "6b024d84846b0ee907523f6b",
+      "posted_at": "2026-11-22T02:03:48.840492+00:00"
+    },
+    {
       "source_url": "fallback://couples-phone-passwords",
       "title": "Should couples share phone passwords or is that weird?",
       "buffer_post_id": "6b0214f1cc364169c10a69ec",
@@ -1193,12 +1199,6 @@
       "title": "What makes a group chat instantly annoying?",
       "buffer_post_id": "6ae146998bc396ba2f157221",
       "posted_at": "2026-10-28T00:49:29.723934+00:00"
-    },
-    {
-      "source_url": "fallback://lend-money-friend-owes",
-      "title": "Would you lend money to a friend who still owes other people?",
-      "buffer_post_id": "6ae107382d6ce6e7b6e1a1bd",
-      "posted_at": "2026-10-27T20:19:04.620397+00:00"
     }
   ]
 }
