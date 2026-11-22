@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-rude-to-ask-guests-to-leave",
+      "title": "Is it rude to ask guests to leave?",
+      "buffer_post_id": "6b02a198cc364169c139c76b",
+      "posted_at": "2026-11-22T08:02:32.539514+00:00"
+    },
+    {
       "source_url": "procedural://family/1072",
       "title": "Is it weird to not answer calls immediately when you need rest?",
       "buffer_post_id": "6b026959d5eabfb8cc7e9863",
@@ -1193,12 +1199,6 @@
       "title": "Would you cover for a coworker who is always late?",
       "buffer_post_id": "6ae1a721e673d1e58953a8ba",
       "posted_at": "2026-10-28T07:41:21.209817+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-double-texting-desperate-or-normal",
-      "title": "Is double texting desperate or normal?",
-      "buffer_post_id": "6ae146b5f6d6782c599f38e6",
-      "posted_at": "2026-10-28T00:49:57.172216+00:00"
     }
   ]
 }
