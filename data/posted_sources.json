@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/should-friends-ask-before-venting",
+      "title": "Should friends ask before venting?",
+      "buffer_post_id": "6b031229c72676f5e93fa827",
+      "posted_at": "2026-11-22T16:02:49.482125+00:00"
+    },
+    {
       "source_url": "procedural://shopping/1077",
       "title": "Should people be able to argue over a return when the line is long?",
       "buffer_post_id": "6b02f5f0d5eabfb8ccb1e810",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to take long showers when you share a bathroom?",
       "buffer_post_id": "6ae20945fe2b5b085761f201",
       "posted_at": "2026-10-28T14:40:05.982144+00:00"
-    },
-    {
-      "source_url": "curated://roommates/should-roommates-warn-before-bringing-guests-over",
-      "title": "Should roommates warn before bringing guests over?",
-      "buffer_post_id": "6ae2093500f35d308c80ae1d",
-      "posted_at": "2026-10-28T14:39:49.522656+00:00"
     }
   ]
 }
