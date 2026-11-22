@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/1072",
+      "title": "Is it weird to not answer calls immediately when you need rest?",
+      "buffer_post_id": "6b026959d5eabfb8cc7e9863",
+      "posted_at": "2026-11-22T04:02:33.417852+00:00"
+    },
+    {
       "source_url": "procedural://roommates/1071",
       "title": "Should people be able to complain about dishes when guests stay late?",
       "buffer_post_id": "6b024d84846b0ee907523f6b",
@@ -1193,12 +1199,6 @@
       "title": "Is double texting desperate or normal?",
       "buffer_post_id": "6ae146b5f6d6782c599f38e6",
       "posted_at": "2026-10-28T00:49:57.172216+00:00"
-    },
-    {
-      "source_url": "fallback://group-chat-annoying",
-      "title": "What makes a group chat instantly annoying?",
-      "buffer_post_id": "6ae146998bc396ba2f157221",
-      "posted_at": "2026-10-28T00:49:29.723934+00:00"
     }
   ]
 }
