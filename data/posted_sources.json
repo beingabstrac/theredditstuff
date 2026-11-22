@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://lend-money-friend-owes",
+      "title": "Would you lend money to a friend who still owes other people?",
+      "buffer_post_id": "6b034a53d864a01105efff63",
+      "posted_at": "2026-11-22T20:02:27.882310+00:00"
+    },
+    {
       "source_url": "curated://friendship/should-friends-ask-before-venting",
       "title": "Should friends ask before venting?",
       "buffer_post_id": "6b031229c72676f5e93fa827",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to not answer family calls immediately?",
       "buffer_post_id": "6ae25da73e779512a88643e6",
       "posted_at": "2026-10-28T20:40:07.313383+00:00"
-    },
-    {
-      "source_url": "curated://roommates/is-it-rude-to-take-long-showers-when-you-share-a-bathroom",
-      "title": "Is it rude to take long showers when you share a bathroom?",
-      "buffer_post_id": "6ae20945fe2b5b085761f201",
-      "posted_at": "2026-10-28T14:40:05.982144+00:00"
     }
   ]
 }
