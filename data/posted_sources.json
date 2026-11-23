@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-normal-to-not-offer-guests-a-drink",
+      "title": "Is it normal to not offer guests a drink?",
+      "buffer_post_id": "6b03f3684d584ce2682fa349",
+      "posted_at": "2026-11-23T08:03:52.558631+00:00"
+    },
+    {
       "source_url": "curated://family/is-it-rude-to-not-answer-family-calls-immediately",
       "title": "Is it rude to not answer family calls immediately?",
       "buffer_post_id": "6b03bafad864a011051c6e4a",
@@ -1193,12 +1199,6 @@
       "title": "What is rude but people pretend is just being honest?",
       "buffer_post_id": "6ae2f9a935657f219b340584",
       "posted_at": "2026-10-29T07:45:46.088237+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-rude-to-cancel-a-date-because-you-are-tired",
-      "title": "Is it rude to cancel a date because you are tired?",
-      "buffer_post_id": "6ae29fb8411377cb91ad50f4",
-      "posted_at": "2026-10-29T01:22:00.999285+00:00"
     }
   ]
 }
