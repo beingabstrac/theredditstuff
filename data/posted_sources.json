@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/1089",
+      "title": "Should people be able to leave a cart behind when the line is long?",
+      "buffer_post_id": "6b04477adddd745fc6d7bab7",
+      "posted_at": "2026-11-23T14:02:35.156107+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/1087",
       "title": "Is it normal to notice constant interrupting after it happens twice?",
       "buffer_post_id": "6b040f28a76f4118d372950c",
@@ -1193,12 +1199,6 @@
       "title": "What habit makes someone look inconsiderate?",
       "buffer_post_id": "6ae35bd7a87e7858ef1330bf",
       "posted_at": "2026-10-29T14:44:39.436532+00:00"
-    },
-    {
-      "source_url": "fallback://small-lie-everyone-tells",
-      "title": "What small lie does everyone tell?",
-      "buffer_post_id": "6ae2f9d3b8abb6631d15338e",
-      "posted_at": "2026-10-29T07:46:27.698272+00:00"
     }
   ]
 }
