@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://group-chat-annoying",
+      "title": "What makes a group chat instantly annoying?",
+      "buffer_post_id": "6b04ba0f58d65b8ef8d17449",
+      "posted_at": "2026-11-23T22:11:27.746733+00:00"
+    },
+    {
       "source_url": "procedural://money/1092",
       "title": "Is it rude to skip plans because of cost after it happened twice?",
       "buffer_post_id": "6b049bd1f813b76df1dcccdc",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather get honest advice or quiet support with no explanation?",
       "buffer_post_id": "6ae3b0264611042f0359473e",
       "posted_at": "2026-10-29T20:44:22.210744+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-never-wait-in-lines-or-never-sit-in-traffic",
-      "title": "Would you rather never wait in lines or never sit in traffic?",
-      "buffer_post_id": "6ae3b00d0987bc6b11746910",
-      "posted_at": "2026-10-29T20:43:57.540135+00:00"
     }
   ]
 }
