@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/1090",
+      "title": "Is it weird to tell a friend they are draining when plans are small?",
+      "buffer_post_id": "6b0468063fd047e5749d2a60",
+      "posted_at": "2026-11-23T16:21:26.348367+00:00"
+    },
+    {
       "source_url": "procedural://shopping/1089",
       "title": "Should people be able to leave a cart behind when the line is long?",
       "buffer_post_id": "6b04477adddd745fc6d7bab7",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to trust your first impression in a friendship?",
       "buffer_post_id": "6ae35bf6f3a8aff3f351fd13",
       "posted_at": "2026-10-29T14:45:10.731061+00:00"
-    },
-    {
-      "source_url": "curated://red_flags/what-habit-makes-someone-look-inconsiderate",
-      "title": "What habit makes someone look inconsiderate?",
-      "buffer_post_id": "6ae35bd7a87e7858ef1330bf",
-      "posted_at": "2026-10-29T14:44:39.436532+00:00"
     }
   ]
 }
