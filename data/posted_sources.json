@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/is-it-rude-to-take-long-showers-when-you-share-a-bathroom",
+      "title": "Is it rude to take long showers when you share a bathroom?",
+      "buffer_post_id": "6b039f0d846b0ee907d58c86",
+      "posted_at": "2026-11-23T02:03:57.266473+00:00"
+    },
+    {
       "source_url": "curated://texting/is-double-texting-desperate-or-normal",
       "title": "Is double texting desperate or normal?",
       "buffer_post_id": "6b036652c72676f5e9636154",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to ask about money early in dating?",
       "buffer_post_id": "6ae29faecc91be5434be9fcb",
       "posted_at": "2026-10-29T01:21:50.148246+00:00"
-    },
-    {
-      "source_url": "curated://family/would-you-tell-family-to-stop-commenting-on-your-life",
-      "title": "Would you tell family to stop commenting on your life?",
-      "buffer_post_id": "6ae25db33e779512a88646b2",
-      "posted_at": "2026-10-28T20:40:19.378103+00:00"
     }
   ]
 }
