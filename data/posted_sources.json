@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://red_flags/1087",
+      "title": "Is it normal to notice constant interrupting after it happens twice?",
+      "buffer_post_id": "6b040f28a76f4118d372950c",
+      "posted_at": "2026-11-23T10:02:16.538356+00:00"
+    },
+    {
       "source_url": "curated://etiquette/is-it-normal-to-not-offer-guests-a-drink",
       "title": "Is it normal to not offer guests a drink?",
       "buffer_post_id": "6b03f3684d584ce2682fa349",
@@ -1193,12 +1199,6 @@
       "title": "What small lie does everyone tell?",
       "buffer_post_id": "6ae2f9d3b8abb6631d15338e",
       "posted_at": "2026-10-29T07:46:27.698272+00:00"
-    },
-    {
-      "source_url": "fallback://rude-pretend-honest",
-      "title": "What is rude but people pretend is just being honest?",
-      "buffer_post_id": "6ae2f9a935657f219b340584",
-      "posted_at": "2026-10-29T07:45:46.088237+00:00"
     }
   ]
 }
