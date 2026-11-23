@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/is-it-rude-to-not-answer-family-calls-immediately",
+      "title": "Is it rude to not answer family calls immediately?",
+      "buffer_post_id": "6b03bafad864a011051c6e4a",
+      "posted_at": "2026-11-23T04:03:06.994037+00:00"
+    },
+    {
       "source_url": "curated://roommates/is-it-rude-to-take-long-showers-when-you-share-a-bathroom",
       "title": "Is it rude to take long showers when you share a bathroom?",
       "buffer_post_id": "6b039f0d846b0ee907d58c86",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to cancel a date because you are tired?",
       "buffer_post_id": "6ae29fb8411377cb91ad50f4",
       "posted_at": "2026-10-29T01:22:00.999285+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-it-weird-to-ask-about-money-early-in-dating",
-      "title": "Is it weird to ask about money early in dating?",
-      "buffer_post_id": "6ae29faecc91be5434be9fcb",
-      "posted_at": "2026-10-29T01:21:50.148246+00:00"
     }
   ]
 }
