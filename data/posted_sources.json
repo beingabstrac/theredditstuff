@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://money/1104",
+      "title": "Is it rude to ask the price without making it awkward?",
+      "buffer_post_id": "6b05ed4f3fa14bcb90bf233f",
+      "posted_at": "2026-11-24T20:02:23.474088+00:00"
+    },
+    {
       "source_url": "curated://friendship/is-it-rude-to-not-include-every-friend-in-every-hangout",
       "title": "Is it rude to not include every friend in every hangout?",
       "buffer_post_id": "6b05b52d4181e8048fa667db",
@@ -1193,12 +1199,6 @@
       "title": "Would you stop inviting a friend who never pays on time?",
       "buffer_post_id": "6ae4fabc189147209396279b",
       "posted_at": "2026-10-30T20:14:52.706632+00:00"
-    },
-    {
-      "source_url": "procedural://restaurant/911",
-      "title": "Would you say something if someone wanted to share food without asking when the table is full?",
-      "buffer_post_id": "6ae4ac98e266b27191ef3f5c",
-      "posted_at": "2026-10-30T14:41:28.517806+00:00"
     }
   ]
 }
