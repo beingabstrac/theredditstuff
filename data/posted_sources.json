@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/should-roommates-warn-before-bringing-guests-over",
+      "title": "Should roommates warn before bringing guests over?",
+      "buffer_post_id": "6b04f07fbc151fa8ad15ac80",
+      "posted_at": "2026-11-24T02:03:43.486851+00:00"
+    },
+    {
       "source_url": "fallback://group-chat-annoying",
       "title": "What makes a group chat instantly annoying?",
       "buffer_post_id": "6b04ba0f58d65b8ef8d17449",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to take forever at self checkout?",
       "buffer_post_id": "6ae3f208ba1ca51fd3eb7158",
       "posted_at": "2026-10-30T01:25:28.713167+00:00"
-    },
-    {
-      "source_url": "procedural://would_you_rather/908",
-      "title": "Would you rather get honest advice or quiet support with no explanation?",
-      "buffer_post_id": "6ae3b0264611042f0359473e",
-      "posted_at": "2026-10-29T20:44:22.210744+00:00"
     }
   ]
 }
