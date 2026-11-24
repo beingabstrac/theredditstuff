@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/is-it-rude-to-not-include-every-friend-in-every-hangout",
+      "title": "Is it rude to not include every friend in every hangout?",
+      "buffer_post_id": "6b05b52d4181e8048fa667db",
+      "posted_at": "2026-11-24T16:02:54.145566+00:00"
+    },
+    {
       "source_url": "curated://shopping/is-it-rude-to-take-forever-at-self-checkout",
       "title": "Is it rude to take forever at self checkout?",
       "buffer_post_id": "6b0598ec6f38a5917eebea58",
@@ -1193,12 +1199,6 @@
       "title": "Would you say something if someone wanted to share food without asking when the table is full?",
       "buffer_post_id": "6ae4ac98e266b27191ef3f5c",
       "posted_at": "2026-10-30T14:41:28.517806+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/is-it-normal-to-share-food-without-asking",
-      "title": "Is it normal to share food without asking?",
-      "buffer_post_id": "6ae4ac81e266b27191ef3733",
-      "posted_at": "2026-10-30T14:41:05.282679+00:00"
     }
   ]
 }
