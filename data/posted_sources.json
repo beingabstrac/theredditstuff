@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/is-it-rude-to-take-forever-at-self-checkout",
+      "title": "Is it rude to take forever at self checkout?",
+      "buffer_post_id": "6b0598ec6f38a5917eebea58",
+      "posted_at": "2026-11-24T14:02:20.391369+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-habit-makes-someone-look-inconsiderate",
       "title": "What habit makes someone look inconsiderate?",
       "buffer_post_id": "6b0560a6637ab97445e0fb78",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to share food without asking?",
       "buffer_post_id": "6ae4ac81e266b27191ef3733",
       "posted_at": "2026-10-30T14:41:05.282679+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/910",
-      "title": "Is it weird to expect friends to remember details without starting drama?",
-      "buffer_post_id": "6ae44ccb56e01b9763930c26",
-      "posted_at": "2026-10-30T07:52:43.981290+00:00"
     }
   ]
 }
