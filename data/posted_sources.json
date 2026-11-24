@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://texting/1105",
+      "title": "Is it normal to reply late when nothing is urgent?",
+      "buffer_post_id": "6b06099d917199a4e168553d",
+      "posted_at": "2026-11-24T22:03:10.057294+00:00"
+    },
+    {
       "source_url": "procedural://money/1104",
       "title": "Is it rude to ask the price without making it awkward?",
       "buffer_post_id": "6b05ed4f3fa14bcb90bf233f",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to ask the price before agreeing to plans?",
       "buffer_post_id": "6ae4fad4eaa24d6f9a38db7a",
       "posted_at": "2026-10-30T20:15:16.160401+00:00"
-    },
-    {
-      "source_url": "curated://money/would-you-stop-inviting-a-friend-who-never-pays-on-time",
-      "title": "Would you stop inviting a friend who never pays on time?",
-      "buffer_post_id": "6ae4fabc189147209396279b",
-      "posted_at": "2026-10-30T20:14:52.706632+00:00"
     }
   ]
 }
