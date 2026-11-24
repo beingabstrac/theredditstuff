@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://red_flags/what-habit-makes-someone-look-inconsiderate",
+      "title": "What habit makes someone look inconsiderate?",
+      "buffer_post_id": "6b0560a6637ab97445e0fb78",
+      "posted_at": "2026-11-24T10:02:15.068795+00:00"
+    },
+    {
       "source_url": "fallback://small-lie-everyone-tells",
       "title": "What small lie does everyone tell?",
       "buffer_post_id": "6b0544e331056e7b6e85c38d",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to expect friends to remember details without starting drama?",
       "buffer_post_id": "6ae44ccb56e01b9763930c26",
       "posted_at": "2026-10-30T07:52:43.981290+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-rude-to-not-include-every-friend-in-every-hangout",
-      "title": "Is it rude to not include every friend in every hangout?",
-      "buffer_post_id": "6ae44cb74b8768bfb2e7e685",
-      "posted_at": "2026-10-30T07:52:24.106471+00:00"
     }
   ]
 }
