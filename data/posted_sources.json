@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/would-you-say-something-to-someone-cutting-a-line",
+      "title": "Would you say something to someone cutting a line?",
+      "buffer_post_id": "6b06ea67232e485be0c8e4b6",
+      "posted_at": "2026-11-25T14:02:15.339559+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/1111",
       "title": "Is it normal to notice how someone treats staff without overthinking it?",
       "buffer_post_id": "6b06b24659ee21d01df732f3",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to wear headphones at home when someone is talking nearby?",
       "buffer_post_id": "6ae5f45a1ee172cd6da4e2bb",
       "posted_at": "2026-10-31T13:59:54.823875+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-rude-to-wear-headphones-at-work-all-day",
-      "title": "Is it rude to wear headphones at work all day?",
-      "buffer_post_id": "6ae59bad1891472093bd9940",
-      "posted_at": "2026-10-31T07:41:33.405635+00:00"
     }
   ]
 }
