@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/1114",
+      "title": "Is it weird to ask before venting if it feels one-sided?",
+      "buffer_post_id": "6b0706a17aa90f117d3f9703",
+      "posted_at": "2026-11-25T16:02:42.247129+00:00"
+    },
+    {
       "source_url": "curated://shopping/would-you-say-something-to-someone-cutting-a-line",
       "title": "Would you say something to someone cutting a line?",
       "buffer_post_id": "6b06ea67232e485be0c8e4b6",
@@ -1193,12 +1199,6 @@
       "title": "Should quiet hours exist in shared apartments?",
       "buffer_post_id": "6ae5f474cf3a3112f3a63e63",
       "posted_at": "2026-10-31T14:00:20.340905+00:00"
-    },
-    {
-      "source_url": "fallback://headphones-at-home-rude",
-      "title": "Is it rude to wear headphones at home when someone is talking nearby?",
-      "buffer_post_id": "6ae5f45a1ee172cd6da4e2bb",
-      "posted_at": "2026-10-31T13:59:54.823875+00:00"
     }
   ]
 }
