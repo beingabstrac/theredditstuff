@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://red_flags/1111",
+      "title": "Is it normal to notice how someone treats staff without overthinking it?",
+      "buffer_post_id": "6b06b24659ee21d01df732f3",
+      "posted_at": "2026-11-25T10:02:47.119577+00:00"
+    },
+    {
       "source_url": "fallback://rude-pretend-honest",
       "title": "What is rude but people pretend is just being honest?",
       "buffer_post_id": "6b069646c68d7845a492f1b6",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to wear headphones at work all day?",
       "buffer_post_id": "6ae59bad1891472093bd9940",
       "posted_at": "2026-10-31T07:41:33.405635+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-fair-to-ignore-messages-during-vacation",
-      "title": "Is it fair to ignore messages during vacation?",
-      "buffer_post_id": "6ae59b9a1891472093bd968c",
-      "posted_at": "2026-10-31T07:41:15.032836+00:00"
     }
   ]
 }
