@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/1108",
+      "title": "Is it weird to set boundaries if they get offended?",
+      "buffer_post_id": "6b065dfd22dfb7833a7a7c3a",
+      "posted_at": "2026-11-25T04:03:09.201922+00:00"
+    },
+    {
       "source_url": "procedural://roommates/1107",
       "title": "Should people be able to label your food if nobody else cleans?",
       "buffer_post_id": "6b064206a8becebb7751a1fe",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to not reply to texts for hours?",
       "buffer_post_id": "6ae540a0eaa24d6f9a4b93e1",
       "posted_at": "2026-10-31T01:13:04.113713+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-normal-to-take-a-day-to-reply-to-casual-messages",
-      "title": "Is it normal to take a day to reply to casual messages?",
-      "buffer_post_id": "6ae5406e406ab8a01890e9b4",
-      "posted_at": "2026-10-31T01:12:14.746643+00:00"
     }
   ]
 }
