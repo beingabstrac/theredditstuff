@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://roommates/1107",
+      "title": "Should people be able to label your food if nobody else cleans?",
+      "buffer_post_id": "6b064206a8becebb7751a1fe",
+      "posted_at": "2026-11-25T02:03:50.286238+00:00"
+    },
+    {
       "source_url": "procedural://texting/1105",
       "title": "Is it normal to reply late when nothing is urgent?",
       "buffer_post_id": "6b06099d917199a4e168553d",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to take a day to reply to casual messages?",
       "buffer_post_id": "6ae5406e406ab8a01890e9b4",
       "posted_at": "2026-10-31T01:12:14.746643+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-rude-to-ask-the-price-before-agreeing-to-plans",
-      "title": "Is it rude to ask the price before agreeing to plans?",
-      "buffer_post_id": "6ae4fad4eaa24d6f9a38db7a",
-      "posted_at": "2026-10-30T20:15:16.160401+00:00"
     }
   ]
 }
