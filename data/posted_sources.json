@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://texting/is-it-normal-to-take-a-day-to-reply-to-casual-messages",
+      "title": "Is it normal to take a day to reply to casual messages?",
+      "buffer_post_id": "6b075af9b8e2338b8567f916",
+      "posted_at": "2026-11-25T22:02:33.469152+00:00"
+    },
+    {
       "source_url": "curated://money/is-it-rude-to-ask-the-price-before-agreeing-to-plans",
       "title": "Is it rude to ask the price before agreeing to plans?",
       "buffer_post_id": "6b073ecda7531375d6051202",
@@ -1193,12 +1199,6 @@
       "title": "Is checking your phone on a date a dealbreaker?",
       "buffer_post_id": "6ae671e737c1acd2a0d622f5",
       "posted_at": "2026-10-31T22:55:35.789176+00:00"
-    },
-    {
-      "source_url": "curated://family/should-parents-call-before-visiting-adult-children",
-      "title": "Should parents call before visiting adult children?",
-      "buffer_post_id": "6ae62fd721c807e9d57aaf56",
-      "posted_at": "2026-10-31T18:13:44.039819+00:00"
     }
   ]
 }
