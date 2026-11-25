@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://rude-pretend-honest",
+      "title": "What is rude but people pretend is just being honest?",
+      "buffer_post_id": "6b069646c68d7845a492f1b6",
+      "posted_at": "2026-11-25T08:03:18.671223+00:00"
+    },
+    {
       "source_url": "procedural://family/1108",
       "title": "Is it weird to set boundaries if they get offended?",
       "buffer_post_id": "6b065dfd22dfb7833a7a7c3a",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to ignore messages during vacation?",
       "buffer_post_id": "6ae59b9a1891472093bd968c",
       "posted_at": "2026-10-31T07:41:15.032836+00:00"
-    },
-    {
-      "source_url": "fallback://reply-to-texts-hours",
-      "title": "Is it normal to not reply to texts for hours?",
-      "buffer_post_id": "6ae540a0eaa24d6f9a4b93e1",
-      "posted_at": "2026-10-31T01:13:04.113713+00:00"
     }
   ]
 }
