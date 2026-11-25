@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/is-it-rude-to-ask-the-price-before-agreeing-to-plans",
+      "title": "Is it rude to ask the price before agreeing to plans?",
+      "buffer_post_id": "6b073ecda7531375d6051202",
+      "posted_at": "2026-11-25T20:02:21.619504+00:00"
+    },
+    {
       "source_url": "procedural://friendship/1114",
       "title": "Is it weird to ask before venting if it feels one-sided?",
       "buffer_post_id": "6b0706a17aa90f117d3f9703",
@@ -1193,12 +1199,6 @@
       "title": "Should parents call before visiting adult children?",
       "buffer_post_id": "6ae62fd721c807e9d57aaf56",
       "posted_at": "2026-10-31T18:13:44.039819+00:00"
-    },
-    {
-      "source_url": "curated://roommates/should-quiet-hours-exist-in-shared-apartments",
-      "title": "Should quiet hours exist in shared apartments?",
-      "buffer_post_id": "6ae5f474cf3a3112f3a63e63",
-      "posted_at": "2026-10-31T14:00:20.340905+00:00"
     }
   ]
 }
