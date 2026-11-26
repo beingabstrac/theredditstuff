@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/1125",
+      "title": "Should people be able to argue over a return after changing your mind?",
+      "buffer_post_id": "6b083bd9e1a214b89bdcdee6",
+      "posted_at": "2026-11-26T14:02:01.816423+00:00"
+    },
+    {
       "source_url": "procedural://red_flags/1123",
       "title": "Is it normal to pull back after one weird moment without overthinking it?",
       "buffer_post_id": "6b080588b56cc066e5ba99d9",
@@ -1193,12 +1199,6 @@
       "title": "Is it normal to notice how someone treats staff before anything serious happens?",
       "buffer_post_id": "6ae71a29cf3a3112f3f164f5",
       "posted_at": "2026-11-01T10:53:29.531780+00:00"
-    },
-    {
-      "source_url": "fallback://shopping-habit-annoys",
-      "title": "What shopping habit instantly annoys you?",
-      "buffer_post_id": "6ae71a17ab019b9087545294",
-      "posted_at": "2026-11-01T10:53:11.378519+00:00"
     }
   ]
 }
