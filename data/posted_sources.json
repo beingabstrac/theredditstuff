@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/1126",
+      "title": "Is it weird to keep score of favors if it feels one-sided?",
+      "buffer_post_id": "6b0858179f3ae7d1657cbd73",
+      "posted_at": "2026-11-26T16:02:31.315144+00:00"
+    },
+    {
       "source_url": "procedural://shopping/1125",
       "title": "Should people be able to argue over a return after changing your mind?",
       "buffer_post_id": "6b083bd9e1a214b89bdcdee6",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather have a quiet neighbor or a helpful neighbor?",
       "buffer_post_id": "6ae77547142f545151f05ee1",
       "posted_at": "2026-11-01T17:22:15.746528+00:00"
-    },
-    {
-      "source_url": "procedural://red_flags/919",
-      "title": "Is it normal to notice how someone treats staff before anything serious happens?",
-      "buffer_post_id": "6ae71a29cf3a3112f3f164f5",
-      "posted_at": "2026-11-01T10:53:29.531780+00:00"
     }
   ]
 }
