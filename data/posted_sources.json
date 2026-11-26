@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://reply-to-texts-hours",
+      "title": "Is it normal to not reply to texts for hours?",
+      "buffer_post_id": "6b08ac772b711838a8bc8171",
+      "posted_at": "2026-11-26T22:02:31.932066+00:00"
+    },
+    {
       "source_url": "curated://money/would-you-stop-inviting-a-friend-who-never-pays-on-time",
       "title": "Would you stop inviting a friend who never pays on time?",
       "buffer_post_id": "6b0890571fa409158294853f",
@@ -1193,12 +1199,6 @@
       "title": "Is it annoying when people test products and do not buy them?",
       "buffer_post_id": "6ae7aeff48ce42a6b42993d5",
       "posted_at": "2026-11-01T21:28:32.133976+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-free-groceries-or-free-takeout",
-      "title": "Would you rather have free groceries or free takeout?",
-      "buffer_post_id": "6ae775614c17af1b87123ae6",
-      "posted_at": "2026-11-01T17:22:41.500604+00:00"
     }
   ]
 }
