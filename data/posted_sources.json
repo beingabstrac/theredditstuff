@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/would-you-stop-inviting-a-friend-who-never-pays-on-time",
+      "title": "Would you stop inviting a friend who never pays on time?",
+      "buffer_post_id": "6b0890571fa409158294853f",
+      "posted_at": "2026-11-26T20:02:32.166576+00:00"
+    },
+    {
       "source_url": "procedural://friendship/1126",
       "title": "Is it weird to keep score of favors if it feels one-sided?",
       "buffer_post_id": "6b0858179f3ae7d1657cbd73",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather have free groceries or free takeout?",
       "buffer_post_id": "6ae775614c17af1b87123ae6",
       "posted_at": "2026-11-01T17:22:41.500604+00:00"
-    },
-    {
-      "source_url": "curated://would_you_rather/would-you-rather-have-a-quiet-neighbor-or-a-helpful-neighbor",
-      "title": "Would you rather have a quiet neighbor or a helpful neighbor?",
-      "buffer_post_id": "6ae77547142f545151f05ee1",
-      "posted_at": "2026-11-01T17:22:15.746528+00:00"
     }
   ]
 }
