@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://roommates/should-quiet-hours-exist-in-shared-apartments",
+      "title": "Should quiet hours exist in shared apartments?",
+      "buffer_post_id": "6b079396b96dd8d3517e025d",
+      "posted_at": "2026-11-26T02:04:06.695984+00:00"
+    },
+    {
       "source_url": "curated://texting/is-it-normal-to-take-a-day-to-reply-to-casual-messages",
       "title": "Is it normal to take a day to reply to casual messages?",
       "buffer_post_id": "6b075af9b8e2338b8567f916",
@@ -1193,12 +1199,6 @@
       "title": "Should partners have access to each other social media?",
       "buffer_post_id": "6ae671f837c1acd2a0d62425",
       "posted_at": "2026-10-31T22:55:52.091312+00:00"
-    },
-    {
-      "source_url": "curated://dating/is-checking-your-phone-on-a-date-a-dealbreaker",
-      "title": "Is checking your phone on a date a dealbreaker?",
-      "buffer_post_id": "6ae671e737c1acd2a0d622f5",
-      "posted_at": "2026-10-31T22:55:35.789176+00:00"
     }
   ]
 }
