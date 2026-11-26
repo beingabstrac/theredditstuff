@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://etiquette/1122",
+      "title": "Is it rude to play videos out loud if everyone else is comfortable?",
+      "buffer_post_id": "6b07e7bad96a331f4a703ca9",
+      "posted_at": "2026-11-26T08:03:06.243307+00:00"
+    },
+    {
       "source_url": "curated://family/should-parents-call-before-visiting-adult-children",
       "title": "Should parents call before visiting adult children?",
       "buffer_post_id": "6b07af5507071a606751944e",
@@ -1193,12 +1199,6 @@
       "title": "What is a quiet red flag in a friendship?",
       "buffer_post_id": "6ae71a00ab019b9087544e9c",
       "posted_at": "2026-11-01T10:52:48.766961+00:00"
-    },
-    {
-      "source_url": "curated://etiquette/is-it-rude-to-cancel-plans-by-text",
-      "title": "Is it rude to cancel plans by text?",
-      "buffer_post_id": "6ae6ab401ee172cd6dd6a01c",
-      "posted_at": "2026-11-01T03:00:17.057449+00:00"
     }
   ]
 }
