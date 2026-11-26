@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://family/should-parents-call-before-visiting-adult-children",
+      "title": "Should parents call before visiting adult children?",
+      "buffer_post_id": "6b07af5507071a606751944e",
+      "posted_at": "2026-11-26T04:02:29.567242+00:00"
+    },
+    {
       "source_url": "curated://roommates/should-quiet-hours-exist-in-shared-apartments",
       "title": "Should quiet hours exist in shared apartments?",
       "buffer_post_id": "6b079396b96dd8d3517e025d",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to cancel plans by text?",
       "buffer_post_id": "6ae6ab401ee172cd6dd6a01c",
       "posted_at": "2026-11-01T03:00:17.057449+00:00"
-    },
-    {
-      "source_url": "curated://dating/should-partners-have-access-to-each-other-social-media",
-      "title": "Should partners have access to each other social media?",
-      "buffer_post_id": "6ae671f837c1acd2a0d62425",
-      "posted_at": "2026-10-31T22:55:52.091312+00:00"
     }
   ]
 }
