@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://texting/1141",
+      "title": "Is it normal to send dry replies when nothing is urgent?",
+      "buffer_post_id": "6b09fdf170e80ae8f1abdc43",
+      "posted_at": "2026-11-27T22:02:25.531048+00:00"
+    },
+    {
       "source_url": "curated://money/would-you-charge-a-friend-for-gas-on-a-short-ride",
       "title": "Would you charge a friend for gas on a short ride?",
       "buffer_post_id": "6b09e1bc2ea34800c28e2dfd",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to skip a birthday dinner because it costs too much?",
       "buffer_post_id": "6ae8ea68ff93b610bb965cff",
       "posted_at": "2026-11-02T19:54:16.973697+00:00"
-    },
-    {
-      "source_url": "curated://money/is-splitting-every-bill-exactly-fair-or-annoying",
-      "title": "Is splitting every bill exactly fair or annoying?",
-      "buffer_post_id": "6ae8ea4e02371b91fa50cdb0",
-      "posted_at": "2026-11-02T19:53:51.040546+00:00"
     }
   ]
 }
