@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "fallback://headphones-at-home-rude",
+      "title": "Is it rude to wear headphones at home when someone is talking nearby?",
+      "buffer_post_id": "6b08e50170e2a88e2ceb624b",
+      "posted_at": "2026-11-27T02:03:45.376339+00:00"
+    },
+    {
       "source_url": "fallback://reply-to-texts-hours",
       "title": "Is it normal to not reply to texts for hours?",
       "buffer_post_id": "6b08ac772b711838a8bc8171",
@@ -1193,12 +1199,6 @@
       "title": "Is it fair to cancel on friends for alone time?",
       "buffer_post_id": "6ae7e235d016796999fe5ec5",
       "posted_at": "2026-11-02T01:07:01.252482+00:00"
-    },
-    {
-      "source_url": "curated://shopping/is-it-annoying-when-people-test-products-and-do-not-buy-them",
-      "title": "Is it annoying when people test products and do not buy them?",
-      "buffer_post_id": "6ae7aeff48ce42a6b42993d5",
-      "posted_at": "2026-11-01T21:28:32.133976+00:00"
     }
   ]
 }
