@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://etiquette/is-it-rude-to-cancel-plans-by-text",
+      "title": "Is it rude to cancel plans by text?",
+      "buffer_post_id": "6b09394f062ed764a8f6f0d0",
+      "posted_at": "2026-11-27T08:03:27.563959+00:00"
+    },
+    {
       "source_url": "procedural://family/1132",
       "title": "Is it weird to refuse a family favor if they get offended?",
       "buffer_post_id": "6b0900cc062ed764a8e0097c",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to ask for substitutions at a busy restaurant?",
       "buffer_post_id": "6ae84b2664604db3144e13e2",
       "posted_at": "2026-11-02T08:34:46.396199+00:00"
-    },
-    {
-      "source_url": "procedural://friendship/922",
-      "title": "Is it weird to ask before venting when everyone is busy?",
-      "buffer_post_id": "6ae7e24d902c3fb1dec91b46",
-      "posted_at": "2026-11-02T01:07:25.641054+00:00"
     }
   ]
 }
