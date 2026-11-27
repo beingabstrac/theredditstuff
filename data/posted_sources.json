@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://friendship/is-it-fair-to-cancel-on-friends-for-alone-time",
+      "title": "Is it fair to cancel on friends for alone time?",
+      "buffer_post_id": "6b09a9c532c212878fe3ffc8",
+      "posted_at": "2026-11-27T16:03:17.870687+00:00"
+    },
+    {
       "source_url": "curated://shopping/is-it-annoying-when-people-test-products-and-do-not-buy-them",
       "title": "Is it annoying when people test products and do not buy them?",
       "buffer_post_id": "6b098d6434d224b14a8a7fe2",
@@ -1193,12 +1199,6 @@
       "title": "Would you rather receive a thoughtful cheap gift or an expensive lazy one?",
       "buffer_post_id": "6ae8ea3ffb05897d9d38eb88",
       "posted_at": "2026-11-02T19:53:35.921986+00:00"
-    },
-    {
-      "source_url": "curated://money/would-you-charge-a-friend-for-gas-on-a-short-ride",
-      "title": "Would you charge a friend for gas on a short ride?",
-      "buffer_post_id": "6ae8ea199299fa2e5005b5d4",
-      "posted_at": "2026-11-02T19:52:57.999719+00:00"
     }
   ]
 }
