@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://shopping/is-it-annoying-when-people-test-products-and-do-not-buy-them",
+      "title": "Is it annoying when people test products and do not buy them?",
+      "buffer_post_id": "6b098d6434d224b14a8a7fe2",
+      "posted_at": "2026-11-27T14:02:12.573489+00:00"
+    },
+    {
       "source_url": "curated://red_flags/what-is-a-quiet-red-flag-in-a-friendship",
       "title": "What is a quiet red flag in a friendship?",
       "buffer_post_id": "6b095530e94385a8fd935779",
@@ -1193,12 +1199,6 @@
       "title": "Would you charge a friend for gas on a short ride?",
       "buffer_post_id": "6ae8ea199299fa2e5005b5d4",
       "posted_at": "2026-11-02T19:52:57.999719+00:00"
-    },
-    {
-      "source_url": "curated://restaurant/would-you-split-appetizers-if-you-did-not-eat-them",
-      "title": "Would you split appetizers if you did not eat them?",
-      "buffer_post_id": "6ae84b3376279ec7eba13ffc",
-      "posted_at": "2026-11-02T08:34:59.706517+00:00"
     }
   ]
 }
