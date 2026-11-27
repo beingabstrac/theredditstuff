@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/1132",
+      "title": "Is it weird to refuse a family favor if they get offended?",
+      "buffer_post_id": "6b0900cc062ed764a8e0097c",
+      "posted_at": "2026-11-27T04:02:20.376724+00:00"
+    },
+    {
       "source_url": "fallback://headphones-at-home-rude",
       "title": "Is it rude to wear headphones at home when someone is talking nearby?",
       "buffer_post_id": "6b08e50170e2a88e2ceb624b",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to ask before venting when everyone is busy?",
       "buffer_post_id": "6ae7e24d902c3fb1dec91b46",
       "posted_at": "2026-11-02T01:07:25.641054+00:00"
-    },
-    {
-      "source_url": "curated://friendship/is-it-fair-to-cancel-on-friends-for-alone-time",
-      "title": "Is it fair to cancel on friends for alone time?",
-      "buffer_post_id": "6ae7e235d016796999fe5ec5",
-      "posted_at": "2026-11-02T01:07:01.252482+00:00"
     }
   ]
 }
