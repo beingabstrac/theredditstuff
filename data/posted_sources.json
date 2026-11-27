@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "curated://money/would-you-charge-a-friend-for-gas-on-a-short-ride",
+      "title": "Would you charge a friend for gas on a short ride?",
+      "buffer_post_id": "6b09e1bc2ea34800c28e2dfd",
+      "posted_at": "2026-11-27T20:02:04.725511+00:00"
+    },
+    {
       "source_url": "curated://friendship/is-it-fair-to-cancel-on-friends-for-alone-time",
       "title": "Is it fair to cancel on friends for alone time?",
       "buffer_post_id": "6b09a9c532c212878fe3ffc8",
@@ -1193,12 +1199,6 @@
       "title": "Is splitting every bill exactly fair or annoying?",
       "buffer_post_id": "6ae8ea4e02371b91fa50cdb0",
       "posted_at": "2026-11-02T19:53:51.040546+00:00"
-    },
-    {
-      "source_url": "fallback://thoughtful-cheap-vs-expensive-lazy",
-      "title": "Would you rather receive a thoughtful cheap gift or an expensive lazy one?",
-      "buffer_post_id": "6ae8ea3ffb05897d9d38eb88",
-      "posted_at": "2026-11-02T19:53:35.921986+00:00"
     }
   ]
 }
