@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://family/1144",
+      "title": "Is it weird to stop explaining every plan if they get offended?",
+      "buffer_post_id": "6b0a524970e80ae8f1ce2ccb",
+      "posted_at": "2026-11-28T04:02:17.938979+00:00"
+    },
+    {
       "source_url": "procedural://roommates/1143",
       "title": "Should people be able to split chores exactly if nobody else cleans?",
       "buffer_post_id": "6b0a367eeada83daa6b863a8",
@@ -1193,12 +1199,6 @@
       "title": "Is it rude to mute a group chat without telling anyone?",
       "buffer_post_id": "6ae93f48186a5afbce7a0034",
       "posted_at": "2026-11-03T01:56:24.377453+00:00"
-    },
-    {
-      "source_url": "curated://texting/is-it-weird-to-text-someone-only-when-you-need-something",
-      "title": "Is it weird to text someone only when you need something?",
-      "buffer_post_id": "6ae93f2d7996caf141c57722",
-      "posted_at": "2026-11-03T01:55:57.498577+00:00"
     }
   ]
 }
