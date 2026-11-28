@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://friendship/1150",
+      "title": "Is it weird to expect friends to remember details if it feels one-sided?",
+      "buffer_post_id": "6b0afb0ec2294c5dfcdacdd6",
+      "posted_at": "2026-11-28T16:02:23.147865+00:00"
+    },
+    {
       "source_url": "procedural://shopping/1149",
       "title": "Should people be able to take a call in line after changing your mind?",
       "buffer_post_id": "6b0adecec6d7f1e722499a31",
@@ -1193,12 +1199,6 @@
       "title": "What is normal in your house but weird everywhere else?",
       "buffer_post_id": "6aea1948be501cd7c1bae0ef",
       "posted_at": "2026-11-03T17:26:32.799408+00:00"
-    },
-    {
-      "source_url": "curated://roommates/would-you-move-out-over-a-roommate-who-never-cleans",
-      "title": "Would you move out over a roommate who never cleans?",
-      "buffer_post_id": "6aea19142ea34807059ce1f1",
-      "posted_at": "2026-11-03T17:25:40.234198+00:00"
     }
   ]
 }
