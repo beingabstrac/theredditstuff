@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://shopping/1149",
+      "title": "Should people be able to take a call in line after changing your mind?",
+      "buffer_post_id": "6b0adecec6d7f1e722499a31",
+      "posted_at": "2026-11-28T14:01:50.604743+00:00"
+    },
+    {
       "source_url": "fallback://shopping-habit-annoys",
       "title": "What shopping habit instantly annoys you?",
       "buffer_post_id": "6b0aa691568c51d1b945ec9d",
@@ -1193,12 +1199,6 @@
       "title": "Would you move out over a roommate who never cleans?",
       "buffer_post_id": "6aea19142ea34807059ce1f1",
       "posted_at": "2026-11-03T17:25:40.234198+00:00"
-    },
-    {
-      "source_url": "curated://work/is-it-annoying-when-coworkers-ask-questions-they-could-search",
-      "title": "Is it annoying when coworkers ask questions they could search?",
-      "buffer_post_id": "6ae99fc4c54a95d99b1fb792",
-      "posted_at": "2026-11-03T08:48:04.993714+00:00"
     }
   ]
 }
