@@ -1,6 +1,12 @@
 {
   "posted": [
     {
+      "source_url": "procedural://roommates/1143",
+      "title": "Should people be able to split chores exactly if nobody else cleans?",
+      "buffer_post_id": "6b0a367eeada83daa6b863a8",
+      "posted_at": "2026-11-28T02:03:42.387080+00:00"
+    },
+    {
       "source_url": "procedural://texting/1141",
       "title": "Is it normal to send dry replies when nothing is urgent?",
       "buffer_post_id": "6b09fdf170e80ae8f1abdc43",
@@ -1193,12 +1199,6 @@
       "title": "Is it weird to text someone only when you need something?",
       "buffer_post_id": "6ae93f2d7996caf141c57722",
       "posted_at": "2026-11-03T01:55:57.498577+00:00"
-    },
-    {
-      "source_url": "curated://money/is-it-fair-to-skip-a-birthday-dinner-because-it-costs-too-much",
-      "title": "Is it fair to skip a birthday dinner because it costs too much?",
-      "buffer_post_id": "6ae8ea68ff93b610bb965cff",
-      "posted_at": "2026-11-02T19:54:16.973697+00:00"
     }
   ]
 }
